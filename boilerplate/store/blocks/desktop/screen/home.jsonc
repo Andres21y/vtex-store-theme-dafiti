@@ -1,0 +1,24 @@
+{
+  "store.home": { 
+    "blocks": [
+      "flex-layout.row#home_main-banner",
+      "flex-layout.row#home_main-block",
+      "flex-layout.row#home_brand",
+      "slider-layout#home_brand-carousel",
+      "flex-layout.row#home_section-info",
+      "flex-layout.row#home_news-sections",
+      "flex-layout.row#home_newsletter"
+    ],
+    "props":{
+      "blockClass": "home_container-apps"
+    }
+  },
+  "rich-text": { 
+    "props": { 
+      "text": "home-desktop andres// cordoba",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-heading-2"
+    }
+  }
+}

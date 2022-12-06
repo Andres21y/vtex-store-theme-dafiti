@@ -1,0 +1,10 @@
+{
+    "newsletter#home_desktop": {
+        "props": {
+            "placeholder": "Escribe tu email aquí",
+            "hideLabel": true,
+            "width": 4,
+            "blockClass": "home_newsletter-desktop"
+        }
+    }
+}

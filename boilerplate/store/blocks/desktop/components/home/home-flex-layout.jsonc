@@ -1,0 +1,184 @@
+{
+    "flex-layout.row#home_main-banner": {
+        "title": "home_main-banner",
+        "children": [
+            "image#home_banner"
+        ],
+        "props": {
+            "blockClass": "home_main-banner"
+        }
+    },
+        "flex-layout.row#home_brand": {
+            "children": [
+                "flex-layout.col#home_brand"
+            ]
+        },
+        "flex-layout.col#home_brand": {
+            "children": [
+                "rich-text#home_brand"
+            //    aqui estaba  "slider-layout#home_brand-carousel"
+            ],
+            "props": {
+                "blockClass": "home_brand"
+                //"perserveLayoutOnMobile"
+            }
+        },
+        //=============================
+
+        "flex-layout.row#home_section-info":{
+            "title":"_section-info",
+            "children":[
+                "image#home_dudasDevoluciones",
+                "image#home_conoceServicios"
+            ],
+            "props":{
+                "blockClass":"_section-info"
+            }
+        },
+
+
+        //============================================
+        "flex-layout.row#home_main-block": {
+            "children": [
+                "flex-layout.col#home_main-block"
+            ]
+        },
+        "flex-layout.col#home_main-block": {
+            "children": [
+                "flex-layout.row#home_main-blockTitle",
+                "flex-layout.row#home_main-block--container",
+                "flex-layout.row#home_main-blockVarieties"
+            ],
+            "props": {
+                "blockClass": "home_main-blockContainer"
+            }
+        },
+        "flex-layout.row#home_main-blockTitle": {
+            "children": [
+                "rich-text#home_main-block"
+            ],
+            "props": {
+                "blockClass": "home_main-blockContainer"
+            }
+        },
+        //********************************************************
+        "flex-layout.row#home_main-block--container": {
+            "children": [
+                "flex-layout.col#home_main-block--first",
+                "flex-layout.col#home_main-block--second"
+            ],
+            "props": {
+                "blockClass": "home_block-container"
+            }
+        },
+        //---------------------------------------------------------------//
+        "flex-layout.col#home_main-block--first": {
+            "children": [
+                //"flex-layout.col#home_main-block--firstChild",
+                "rich-text#firstChildt_mujer"
+                //flta el botom
+            ],
+            "props": {
+                "blockClass": "home_section-woman"
+            }
+        },
+        "flex-layout.col#home_main-block--firstChild": {},
+        //---------------------------------------------------------------//
+        "flex-layout.col#home_main-block--second": {
+            "children": [
+                //"flex-layout.col#home_main-block--secondChild",
+                "rich-text#secondChildt_hombre"
+            ],
+            "props": {
+                "blockClass": "home_section-man"
+            }
+        },
+        "flex-layout.col#home_main-block--secondChild": {},
+        //************************
+
+
+
+        
+        "flex-layout.row#home_main-blockVarieties": {
+            "children": [
+                "rich-text#home_snaker",
+                "rich-text#home_kids",
+                "rich-text#home_premiun"
+            ],
+            "props": {
+                "blockClass": "home_blockVarieties"
+            }
+        },
+        //======================= news sections
+        "flex-layout.row#home_news-sections": {
+            "title": "news-sections",
+            "children": [
+                "flex-layout.col#home_news-sections"
+            ],
+            "props": {
+                "blockClass": "row_news-sections"
+            }
+        },
+        "flex-layout.col#home_news-sections": {
+            "title": "news_sections-container",
+            "children": [
+                "rich-text#info_number-one",
+                "rich-text#info_number-two",
+                "rich-text#info_number-three"
+            ],
+            "props": {
+                "blockClass": "news_sections-container"
+            }
+        },
+        //======================================== newsletter
+        "flex-layout.row#home_newsletter": { //home__newsletter
+            "title": "home_newsletter",
+            "children": [
+                "flex-layout.col#col_home-newsletter"
+            ],
+            "props": {
+                "blockClass": "home_newsletter"
+            }
+        },
+        "flex-layout.col#col_home-newsletter": { //newsletter__section
+            "title": "home_newsletter-container",
+            "children": [
+                "flex-layout.row#home-newsletterOne", //newsletter__section--one
+                "flex-layout.row#home-newsletterTwo" //newsletter__section--two
+            ],
+            "props": {
+                "blockClass": "home_newsletter-container"
+            }
+        },
+        "flex-layout.row#home-newsletterOne": { //newsletter__section--one
+            "title": "home_newsletter-continersletter",
+            "children": [
+                "newsletter#home_desktop",
+                "flex-layout.col#home_descriptions" //section__one--text
+            ],
+            "props": {
+                "blockClass": "home_newsletter-continersletter"
+            }
+        },
+        "flex-layout.col#home_descriptions": { //section__one--text
+            "title": "home_newsletter-descriptions",
+            "children": [
+                "rich-text#home_col-descriptionOne", //newsletter__section1--one
+                "rich-text#home_col-descriptionTwo" //newsletter__section1--two
+            ],
+            "props": {
+                "verticalAlign": "middle",
+                "width": "40%",
+                "blockClass": "home_newsletter-descriptions"
+            }
+        },
+        "flex-layout.row#home-newsletterTwo": { //newsletter__section--two
+            "children": [
+                "rich-text#newsletterTwo_one",
+                "rich-text#newsletterTwo_two"
+            ],
+            "props": {
+                "blockClass": "home-newsletterTwo"
+            }
+        }
+    }
