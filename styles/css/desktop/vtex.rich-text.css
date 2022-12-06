@@ -99,17 +99,69 @@
     /* background-color: aqua; */
     position: relative;
     top: 85%;
-    color:#fff;
+    color: #fff;
     font-size: 40px;
     font-weight: bold;
     font-family: 'Poppins', sans-serif;
 }
+
 .container--home_premiun-hombre {
     /* background-color: aqua; */
     position: relative;
     top: 85%;
-    color:#fff;
+    color: #fff;
     font-size: 40px;
     font-weight: bold;
     font-family: 'Poppins', sans-serif;
+}
+
+/* feacture */
+
+.paragraph--home_snaker {
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    color: #ffffff;
+    margin: auto;
+    display: block;
+    position: relative;
+    text-transform: uppercase;
+    text-align: left;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.paragraph--home_kids {
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    color: #ffffff;
+    margin: auto;
+    display: block;
+    position: relative;
+    text-transform: uppercase;
+    text-align: left;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.paragraph--home_premiun {
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    color: #ffffff;
+    margin: auto;
+    display: block;
+    position: relative;
+    text-transform: uppercase;
+    text-align: left;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.wrapper--info_number-two{
+    background-color: light;
 }

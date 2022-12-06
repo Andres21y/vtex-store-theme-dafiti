@@ -102,8 +102,8 @@
         "flex-layout.row#home_main-blockVarieties": {
             "children": [
                 "rich-text#home_snaker",
-                "rich-text#home_kids",
-                "rich-text#home_premiun"
+                "rich-text#home_premiun",
+                "rich-text#home_kids"
             ],
             "props": {
                 "blockClass": "home_blockVarieties"
