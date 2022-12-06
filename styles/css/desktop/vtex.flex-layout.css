@@ -71,6 +71,7 @@
     align-items: center;
     height: 280px;
 }
+
 .flexColChild--home_section-woman{
     display: flex;
     flex-direction: column;
