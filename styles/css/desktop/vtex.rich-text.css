@@ -165,3 +165,20 @@
 .wrapper--info_number-two{
     background-color: light;
 }
+/* --------------------------newsletter--------------------------------------- */
+
+.container--home_col-descriptionOne{
+    font-size: 21px;
+    margin: 0 0 15px 0;
+    font-family: 'Poppins', sans-serif;
+    /* background-color: yellow; */
+}
+.paragraph--home_col-descriptionTwo{
+    font-family: Fabriga,-apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif;
+    font-weight: 200;
+    font-size: 11px;
+    line-height: 1.6rem;
+    text-transform: none;
+    letter-spacing: 0;
+    /* background-color: steelblue;  */
+}

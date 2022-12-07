@@ -7,7 +7,8 @@
       "slider-layout#home_brand-carousel",
       "flex-layout.row#home_section-info",
       "flex-layout.row#home_news-sections",
-      "flex-layout.row#home_newsletter"
+      "flex-layout.row#home_newsletter-main",
+      "rich-text"
     ],
     "props":{
       "blockClass": "home_container-apps"
@@ -15,10 +16,10 @@
   },
   "rich-text": { 
     "props": { 
-      "text": "home-desktop andres// cordoba",
+      "text": "home-desktop andres // cordoba",
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
-      "font": "t-heading-2"
+      "font": "t-heading-6"
     }
   }
 }

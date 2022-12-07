@@ -76,3 +76,30 @@
     display: flex;
     flex-direction: column;
 }
+
+
+/* --------------------------newsletter--------------------------------------- */
+.flexRowContent--home_newsletter{
+    display: block;
+    position: relative;
+    margin: auto;
+    padding: 20px;
+    background: #f8f8f8;
+  
+}
+
+.flexCol--home_newsletter-descriptions{
+    display: block;
+    position: relative;
+    float: left;
+    width: 380px;
+    padding: 0 20px;
+     /* background-color: greenyellow;  */
+    height: 80%;
+}
+.flexColChild--home_newsletter-descriptions{
+    font-family: Fabriga,-apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif;
+    height: 70%;
+
+}
+
