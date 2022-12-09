@@ -8,177 +8,354 @@
             "blockClass": "home_main-banner"
         }
     },
-        "flex-layout.row#home_brand": {
-            "children": [
-                "flex-layout.col#home_brand"
-            ]
-        },
-        "flex-layout.col#home_brand": {
-            "children": [
-                "rich-text#home_brand"
+    "flex-layout.row#home_brand": {
+        "title": "home_section-brand",
+        "children": [
+            "flex-layout.col#home_brand"
+        ]
+    },
+    "flex-layout.col#home_brand": {
+        "title": "section_brand-col",
+        "children": [
+            "rich-text#home_brand"
             //    aqui estaba  "slider-layout#home_brand-carousel"
-            ],
-            "props": {
-                "blockClass": "home_brand"
-                //"perserveLayoutOnMobile"
-            }
-        },
-        //=============================
+        ],
+        "props": {
+            "blockClass": "home_brand"
+            //"perserveLayoutOnMobile"
+        }
+    },
+    //=============================
+    "flex-layout.row#home_section-info": {
+        "title": "section_info",
+        "children": [
+            "image#home_dudasDevoluciones",
+            "image#home_conoceServicios"
+        ],
+        "props": {
+            "blockClass": "_section-info"
+        }
+    },
+    //============================================
+    "flex-layout.row#home_main-block": {
+        "title": "home_main-blockContainer",
+        "children": [
+            "flex-layout.col#home_main-block"
+        ]
+    },
+    "flex-layout.col#home_main-block": {
+        "title": "home_main-blockContainerChild",
+        "children": [
+            "flex-layout.row#home_main-blockTitle",
+            "flex-layout.row#home_main-block--container",
+            "flex-layout.row#home_main-blockVarieties"
+        ],
+        "props": {
+            "blockClass": "home_main-blockContainer"
+        }
+    },
+    "flex-layout.row#home_main-blockTitle": {
+        "title": "home_main-blockTitle",
+        "children": [
+            "rich-text#home_main-block"
+        ],
+        "props": {
+            "blockClass": "home_main-blockContainer"
+        }
+    },
 
-        "flex-layout.row#home_section-info":{
-            "title":"_section-info",
-            "children":[
-                "image#home_dudasDevoluciones",
-                "image#home_conoceServicios"
-            ],
-            "props":{
-                "blockClass":"_section-info"
-            }
-        },
+    //--------------------------------------------------------- hombre mujer seccion
+    "flex-layout.row#home_main-block--container": {
+        "title": "home_main-block--container",
+        "children": [
+            "flex-layout.col#home_main-block--mujer",
+            "flex-layout.col#home_main-block--hombre"
+        ],
+        "props": {
+            "blockClass": "home_block-container"
+        }
+    },
+
+    //--------------------------------------------------mujer
+    "flex-layout.col#home_main-block--mujer": {
+        "title": "home_main-block--mujer",
+        "children": [
+            "flex-layout.row#subcategories_woman",
+            "flex-layout.row#wbtn_ver--mas",
+            "flex-layout.row#text_mujer"
+        ],
+        "props": {
+            "blockClass": "home_main-block--mujer"
+        }
+    },
+    "flex-layout.row#subcategories_woman":{
+        "title": "subcategories_woman",
+        "children": [
+           "flex-layout.col#containerW_list"
+        ],
+        "props": {
+            "blockClass": "subcategories_woman"
+        }
+    },
+    "flex-layout.col#containerW_list": {
+        "title": "containerW_list",
+        "children": [
+            "link#woman_zapatos",
+            "link#woman_Jeans",
+            "link#woman_Blusas",
+            "link#woman_Sneakers",
+            "link#woman_Vestidos",
+            "link#woman_Pantalones",
+            "link#woman_Botas",
+            "link#woman_Deportes"
+        ],
+        "props": {
+            "blockClass": "containerWoman_list"
+        }
+    },
+    "flex-layout.row#wbtn_ver--mas":{
+        "title": "btn_ver--mas",
+        "children": [
+            "link#woman_ver--mas"
+        ],
+        "props": {
+            "blockClass": "btn_ver--mas"
+        }
+    },
+    "flex-layout.row#text_mujer":{
+        "title": "text_mujer",
+        "children": [
+            "rich-text#firstChildt_mujer"
+        ],
+        "props": {
+            "blockClass": "text_mujer"
+        }
+    },
+
+    //--------------------------------------------------hombre
+    "flex-layout.col#home_main-block--hombre": {
+        "title": "home_main-block--hombre",
+        "children": [
+            "flex-layout.row#subcategories_hombre",
+            "flex-layout.row#mbtn_ver--mas",
+            "flex-layout.row#text_hombre"
+        ],
+        "props": {
+            "blockClass": "home_main-block--hombre"
+        }
+    },
+    "flex-layout.row#subcategories_hombre":{
+        "title": "subcategories_hombre",
+        "children": [
+           "flex-layout.col#containerM_list"
+        ],
+        "props": {
+            "blockClass": "subcategories_man"
+        }
+    },
+    "flex-layout.col#containerM_list": {
+        "title": "containerM_list",
+        "children": [
+            "link#man_Tenis",
+            "link#man_Camisas",
+            "link#man_Jeans",
+            "link#man_Pantalones",
+            "link#man_Sneakers",
+            "link#man_Zapatos",
+            "link#man_Polos",
+            "link#man_Deportes"
+        ],
+        "props": {
+            "blockClass": "containerMan_list"
+        }
+    },
+    "flex-layout.row#mbtn_ver--mas":{
+        "title": "btn_ver--mas",
+        "children": [
+            "link#woman_ver--mas"
+        ],
+        "props": {
+            "blockClass": "btn_ver--mas"
+        }
+    },
+    "flex-layout.row#text_hombre":{
+        "title": "text_hombre",
+        "children": [
+            "rich-text#secondChildt_hombre"
+        ],
+        "props": {
+            "blockClass": "text_hombre"
+        }
+    },
 
 
-        //============================================
-        "flex-layout.row#home_main-block": {
-            "children": [
-                "flex-layout.col#home_main-block"
-            ]
-        },
-        "flex-layout.col#home_main-block": {
-            "children": [
-                "flex-layout.row#home_main-blockTitle",
-                "flex-layout.row#home_main-block--container",
-                "flex-layout.row#home_main-blockVarieties"
-            ],
-            "props": {
-                "blockClass": "home_main-blockContainer"
-            }
-        },
-        "flex-layout.row#home_main-blockTitle": {
-            "children": [
-                "rich-text#home_main-block"
-            ],
-            "props": {
-                "blockClass": "home_main-blockContainer"
-            }
-        },
-        //********************************************************
-        "flex-layout.row#home_main-block--container": {
-            "children": [
-                "flex-layout.col#home_main-block--first",
-                "flex-layout.col#home_main-block--second"
-            ],
-            "props": {
-                "blockClass": "home_block-container"
-            }
-        },
-        //---------------------------------------------------------------//
-        "flex-layout.col#home_main-block--first": {
-            "children": [
-                //"flex-layout.col#home_main-block--firstChild",
-                "rich-text#firstChildt_mujer"
-                //flta el botom
-            ],
-            "props": {
-                "blockClass": "home_section-woman"
-            }
-        },
-        "flex-layout.col#home_main-block--firstChild": {},
-        //---------------------------------------------------------------//
-        "flex-layout.col#home_main-block--second": {
-            "children": [
-                //"flex-layout.col#home_main-block--secondChild",
-                "rich-text#secondChildt_hombre"
-            ],
-            "props": {
-                "blockClass": "home_section-man"
-            }
-        },
-        "flex-layout.col#home_main-block--secondChild": {},
-        //************************
 
 
 
-        
-        "flex-layout.row#home_main-blockVarieties": {
-            "children": [
-                "rich-text#home_snaker",
-                "rich-text#home_premiun",
-                "rich-text#home_kids"
-            ],
-            "props": {
-                "blockClass": "home_blockVarieties"
-            }
-        },
-        //======================= news sections
-        "flex-layout.row#home_news-sections": {
-            "title": "news-sections",
-            "children": [
-                "flex-layout.col#home_news-sections"
-            ],
-            "props": {
-                "blockClass": "row_news-sections"
-            }
-        },
-        "flex-layout.col#home_news-sections": {
-            "title": "news_sections-container",
-            "children": [
-                "rich-text#info_number-one",
-                "rich-text#info_number-two",
-                "rich-text#info_number-three"
-            ],
-            "props": {
-                "blockClass": "news_sections-container"
-            }
-        },
-        //======================================== newsletter
-        "flex-layout.row#home_newsletter": { //home__newsletter
-            "title": "home_newsletter",
-            "children": [
-                "flex-layout.col#col_home-newsletter"
-            ],
-            "props": {
-                "blockClass": "home_newsletter"
-            }
-        },
-        "flex-layout.col#col_home-newsletter": { //newsletter__section
-            "title": "home_newsletter-container",
-            "children": [
-                "flex-layout.row#home-newsletterOne", //newsletter__section--one
-                "flex-layout.row#home-newsletterTwo" //newsletter__section--two
-            ],
-            "props": {
-                "blockClass": "home_newsletter-container"
-            }
-        },
-        "flex-layout.row#home-newsletterOne": { //newsletter__section--one
-            "title": "home_newsletter-continersletter",
-            "children": [
-                "newsletter#home_desktop",
-                "flex-layout.col#home_descriptions" //section__one--text
-            ],
-            "props": {
-                "blockClass": "home_newsletter-continersletter"
-            }
-        },
-        "flex-layout.col#home_descriptions": { //section__one--text
-            "title": "home_newsletter-descriptions",
-            "children": [
-                "rich-text#home_col-descriptionOne", //newsletter__section1--one
-                "rich-text#home_col-descriptionTwo" //newsletter__section1--two
-            ],
-            "props": {
-                "verticalAlign": "middle",
-                "width": "40%",
-                "blockClass": "home_newsletter-descriptions"
-            }
-        },
-        "flex-layout.row#home-newsletterTwo": { //newsletter__section--two
-            "children": [
-                "rich-text#newsletterTwo_one",
-                "rich-text#newsletterTwo_two"
-            ],
-            "props": {
-                "blockClass": "home-newsletterTwo"
-            }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    // "flex-layout.row#containerW_list": {
+    //     "title": "rowcontainerW_list",
+    //     "children": [
+    //         "flex-layout.col#containerW_list"
+    //     ],
+    //     "props":{
+    //         "blockClass": "rowcontainerW_list"
+    //     }
+    // },
+    "flex-layout.col#home_main-block--firstChild": {},
+    //---------------------------------------------------------------//
+    "flex-layout.col#home_main-block--second": {
+        "title": "home_main-block--second",
+        "children": [
+            //"flex-layout.col#home_main-block--secondChild",
+            // "flex-layout.col#containerM_list",
+            "rich-text#secondChildt_hombre"
+        ],
+        "props": {
+            "blockClass": "home_section-man"
+        }
+    },
+    "flex-layout.col#home_main-block--secondChild": {},
+
+
+
+    //************************
+    "flex-layout.row#home_main-blockVarieties": {
+        "title": "home_main-blockVarieties",
+        "children": [
+            "rich-text#home_snaker",
+            "rich-text#home_premiun",
+            "rich-text#home_kids"
+        ],
+        "props": {
+            "blockClass": "home_blockVarieties"
+        }
+    },
+    //===============================================carrusel
+    "flex-layout.row#home_brand-carousel": {
+        "title": "home_brand-carousel",
+        "children": [
+            "slider-layout#home_brand-carousel"
+        ],
+        "props": {
+            "blockClass": "home_brand-carousel"
+        }
+    },
+    //======================= news sections
+    "flex-layout.row#home_news-sections": {
+        "title": "home_news-sections",
+        "children": [
+            "flex-layout.col#home_news-sections"
+        ],
+        "props": {
+            "blockClass": "row_news-sections"
+        }
+    },
+    "flex-layout.col#home_news-sections": {
+        "title": "news_sections-container",
+        "children": [
+            "rich-text#info_number-one",
+            "rich-text#info_number-two",
+            "rich-text#info_number-three"
+        ],
+        "props": {
+            "blockClass": "news_sections-container"
+        }
+    },
+    //================================================ newsletter
+    "flex-layout.row#home_newsletter-main": {
+        "title": "home_newsletter-main",
+        "children": [
+            "flex-layout.col#home_newsletter"
+        ],
+        "props": {
+            "blockClass": "home_newsletter-main"
+        }
+    },
+    "flex-layout.col#home_newsletter": {
+        "title": "home_newsletter",
+        "children": [
+            "flex-layout.col#col_home-newsletter"
+        ],
+        "props": {
+            "blockClass": "home_newsletter"
+        }
+    },
+    "flex-layout.col#col_home-newsletter": { //newsletter__section
+        "title": "home_newsletter-container",
+        "children": [
+            "flex-layout.row#home-newsletterOne", //newsletter__section--one
+            "flex-layout.row#home-newsletterTwo" //newsletter__section--two
+        ],
+        "props": {
+            "blockClass": "home_newsletter-container"
+        }
+    },
+    "flex-layout.row#home-newsletterOne": { //newsletter__section--one
+        "title": "home_newsletter-sectionOne",
+        "children": [
+            "flex-layout.row#_newsletter-container",
+            "flex-layout.col#_newsletter-subscribe"
+        ],
+        "props": {
+            "blockClass": "home_newsletter-one"
+        }
+    },
+    "flex-layout.row#home-newsletterTwo": { //newsletter__section--two
+        "title": "home_newsletter-sectionTwo",
+        "children": [
+            "rich-text#newsletterTwo_one",
+            "rich-text#newsletterTwo_two"
+        ],
+        "props": {
+            "blockClass": "home_newsletter-two"
+        }
+    },
+    "flex-layout.row#_newsletter-container": {
+        "title": "_newsletter-container",
+        "children": [
+            "newsletter#home_desktop"
+        ],
+        "props": {
+            "blockClass": "_newsletter-container"
+        }
+    },
+    "flex-layout.col#_newsletter-subscribe": {
+        "title": "_newsletter-subscribe",
+        "children": [
+            "rich-text#home_col-descriptionOne",
+            "rich-text#home_col-descriptionTwo"
+        ],
+        "props": {
+            "blockClass": "_newsletter-subscribe"
         }
     }
+}

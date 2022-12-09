@@ -43,7 +43,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%;
-    width: 90%;
+    width: 100%;
 }
 
 .wrapper--home_kids {
@@ -51,7 +51,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%;
-    width: 90%;
+    width: 100%;
 }
 
 .wrapper--home_premiun {
@@ -59,7 +59,11 @@
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%;
-    width: 90%;
+    width: 100%;
+}
+
+.container--home_kids {
+    background-color: transparent;
 }
 
 /*========================================================Tus marcas favoritas  */
@@ -96,23 +100,23 @@
 
 /*----------------------------------- section women name -------------------------------- */
 .container--home_premiun-mujer {
-    /* background-color: aqua; */
-    position: relative;
-    top: 85%;
-    color: #fff;
-    font-size: 40px;
-    font-weight: bold;
+     /* background-color: aqua; */
+    color: rgb(255, 255, 255);
+    font-size: 80px;
+    font-weight: 750;
     font-family: 'Poppins', sans-serif;
+    height: 100px;
+    margin-top: 5rem;
 }
 
 .container--home_premiun-hombre {
     /* background-color: aqua; */
-    position: relative;
-    top: 85%;
     color: #fff;
-    font-size: 40px;
-    font-weight: bold;
+    font-size: 80px;
+    font-weight: 750;
     font-family: 'Poppins', sans-serif;
+    height: 100px;
+    margin-top: 5rem;
 }
 
 /* feacture */
@@ -162,6 +166,28 @@
     margin-top: 10px;
 }
 
-.wrapper--info_number-two{
+.wrapper--info_number-two {
     background-color: light;
 }
+
+/* --------------------------newsletter--------------------------------------- */
+
+.container--home_col-descriptionOne {
+    font-size: 21px;
+    margin: 0 0 15px 0;
+    font-family: 'Poppins', sans-serif;
+    /* background-color: yellow; */
+}
+
+.paragraph--home_col-descriptionTwo {
+    font-family: Fabriga, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif;
+    font-weight: 200;
+    font-size: 11px;
+    line-height: 1.6rem;
+    text-transform: none;
+    letter-spacing: 0;
+    /* background-color: steelblue;  */
+}
+
+
+

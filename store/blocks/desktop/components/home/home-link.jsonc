@@ -1,0 +1,106 @@
+{
+    "link#woman_zapatos": {
+        "props": {
+            "href": "/login?returnUrl={queryString.returnUrl}",
+            "label": "Zapatos"
+        }
+    },
+    "link#woman_Jeans": {
+        "props": {
+            "href": "/login?returnUrl={queryString.returnUrl}",
+            "label": "Jeans"
+        }
+    },
+    "link#woman_Blusas": {
+        "props": {
+            "href": "/login?returnUrl={queryString.returnUrl}",
+            "label": "Blusas"
+        }
+    },
+    "link#woman_Sneakers": {
+        "props": {
+            "href": "/login?returnUrl={queryString.returnUrl}",
+            "label": "Sneakers"
+        }
+    },
+    "link#woman_Vestidos": {
+        "props": {
+            "href": "/login?returnUrl={queryString.returnUrl}",
+            "label": "Vestidos"
+        }
+    },
+    "link#woman_Pantalones": {
+        "props": {
+            "href": "/login?returnUrl={queryString.returnUrl}",
+            "label": "Pantalones"
+        }
+    },
+    "link#woman_Botas": {
+        "props": {
+            "href": "/login?returnUrl={queryString.returnUrl}",
+            "label": "Botas"
+        }
+    },
+    "link#woman_Deportes": {
+        "props": {
+            "href": "/login?returnUrl={queryString.returnUrl}",
+            "label": "Deportes"
+        }
+    },
+    "link#man_Tenis": {
+        "props": {
+            "href": "/login?returnUrl={queryString.returnUrl}",
+            "label": "Tenis"
+        }
+    },
+    "link#man_Camisas": {
+        "props": {
+            "href": "/login?returnUrl={queryString.returnUrl}",
+            "label": "Camisas"
+        }
+    },
+    "link#man_Jeans": {
+        "props": {
+            "href": "/login?returnUrl={queryString.returnUrl}",
+            "label": "Jeans"
+        }
+    },
+    "link#man_Sneakers": {
+        "props": {
+            "href": "/login?returnUrl={queryString.returnUrl}",
+            "label": "Sneakers"
+        }
+    },
+    "link#man_Zapatos": {
+        "props": {
+            "href": "/login?returnUrl={queryString.returnUrl}",
+            "label": "Zapatos"
+        }
+    },
+    "link#man_Pantalones": {
+        "props": {
+            "href": "/login?returnUrl={queryString.returnUrl}",
+            "label": "Pantalones"
+        }
+    },
+    "link#man_Polos": {
+        "props": {
+            "href": "/login?returnUrl={queryString.returnUrl}",
+            "label": "Botas"
+        }
+    },
+    "link#man_Deportes": {
+        "props": {
+            "href": "/login?returnUrl={queryString.returnUrl}",
+            "label": "Deportes"
+        }
+    },
+    
+    "link#woman_ver--mas": {
+        "props": {
+            "href": "/login?returnUrl={queryString.returnUrl}",
+            "label": "Ver más"
+        }
+    }
+    
+}
