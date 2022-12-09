@@ -1,25 +1,46 @@
 {
-  "store.home": { 
+  "store.home": {
     "blocks": [
       "flex-layout.row#home_main-banner",
       "flex-layout.row#home_main-block",
       "flex-layout.row#home_brand",
-      "slider-layout#home_brand-carousel",
+      "flex-layout.row#home_brand-carousel",
       "flex-layout.row#home_section-info",
       "flex-layout.row#home_news-sections",
       "flex-layout.row#home_newsletter-main",
-      "rich-text"
+      "responsive-layout.desktop",
+      "responsive-layout.phone"
     ],
-    "props":{
+    "props": {
       "blockClass": "home_container-apps"
     }
   },
-  "rich-text": { 
-    "props": { 
-      "text": "home-desktop andres // cordoba",
+  "responsive-layout.desktop": {
+    "title":"component desktop",
+    "children": [
+      "rich-text#desktop"
+    ]
+  },
+  "responsive-layout.phone": {
+    "title":"component mobile",
+    "children": [
+      "rich-text#mobile"
+    ]
+  },
+  "rich-text#desktop": {
+    "props": {
+      "text": "desktop",
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
-      "font": "t-heading-6"
+      "font": "t-heading-1"
+    }
+  },
+  "rich-text#mobile": {
+    "props": {
+      "text": "mobile",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-heading-1"
     }
   }
 }

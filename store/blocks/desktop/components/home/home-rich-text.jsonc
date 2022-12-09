@@ -47,7 +47,6 @@
       "blockClass": "home_premiun"
     }
   },
-
   //====================================================================
   "rich-text#firstChildt_mujer": {
     "title": "home_premiun-mujer",
@@ -69,7 +68,6 @@
       "blockClass": "home_premiun-hombre"
     }
   },
-
   //======================= news sections
   "rich-text#info_number-one": {
     "title": "info_number-one",
@@ -101,7 +99,7 @@
       "blockClass": "info_number-three"
     }
   },
-  //=========== newsletter
+  //=====================================================  newsletter
   "rich-text#home_col-descriptionOne": {
     "title": "home_col-descriptionOne",
     "props": {
