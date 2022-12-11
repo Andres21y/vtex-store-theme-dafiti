@@ -1,0 +1,87 @@
+{
+    "flex-layout.row#home_brand": {
+        "title": "home_section-brand",
+        "children": [
+            "flex-layout.col#home_brand"
+        ]
+    },
+    "flex-layout.col#home_brand": {
+        "title": "section_brand-col",
+        "children": [
+            "rich-text#home_brand",
+           "slider-layout#home_brand-carousel"
+        ],
+        "props": {
+            "blockClass": "home_brand"
+            //"perserveLayoutOnMobile"
+        }
+    },
+    "rich-text#home_brand": {
+        "title": "brands_title",
+        "props": {
+          "text": "Tus marcas favoritas",
+          "blockClass": "brands_title"
+        }
+      },
+      "slider-layout#home_brand-carousel": {
+        "title": "home_brand-carousel",
+        "props": {
+            "itemsPerPage": {
+                "desktop": 6,
+                "mobile": 6,
+                "tablet": 6
+            },
+            "infinite": true,
+            "centerMode":"center",
+            "navigationStep": 1,
+            "showPaginationDots": "never",
+            "fullWidth": false,
+            "blockClass": "home_brands-carousel"
+        },
+        "children": [
+            "image#home_brands-addidas",
+            "image#home_brands-royal",
+            "image#home_brands-lewis",
+            "image#home_brands-skechers",
+            "image#home_brands-reebook",
+            "image#home_brands-nike",
+            "image"
+        ]
+    },
+    "image#home_brands-addidas": {
+        "props": {
+            "src": "assets/image/marcas/dft-addidas.png",
+            "maxHeight": 100
+        }
+    },
+    "image#home_brands-skechers": {
+        "props": {
+            "src": "assets/image/marcas/dft-skechers.png",
+            "maxHeight": 90
+        }
+    },
+    "image#home_brands-nike": {
+        "props": {
+            "src": "assets/image/marcas/dft-nike.png",
+            "maxHeight": 84
+        }
+    },
+    "image#home_brands-royal": {
+        "props": {
+            "src": "assets/image/marcas/dft-royalcounty.png",
+            "maxHeight": 84
+        }
+    },
+    "image#home_brands-lewis": {
+        "props": {
+            "src": "assets/image/marcas/dft-levis.png",
+            "maxHeight": 84
+        }
+    },
+    "image#home_brands-reebook": {
+        "props": {
+            "src": "assets/image/marcas/dft-reebok.png",
+            "maxHeight": 84
+        }
+    }
+}
