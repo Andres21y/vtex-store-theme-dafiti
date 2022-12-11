@@ -8,12 +8,9 @@
             "blockClass": "banner_top"
         }
     },
-    "header-row#info_section": {},
-    "header-row#main_section": {},
-    "header-row#departments": {},
     "image#banner_top": {
         "props": {
             "src": "assets/image/header/dft-header-banner.gif"
         }
-    }  
+    }
 }
