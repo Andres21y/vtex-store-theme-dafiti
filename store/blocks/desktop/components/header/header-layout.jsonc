@@ -1,0 +1,19 @@
+{
+    "header-row#gif_banner": {
+        "title": "banner_top",
+        "children": [
+            "image#banner_top"
+        ],
+        "props": {
+            "blockClass": "banner_top"
+        }
+    },
+    "header-row#info_section": {},
+    "header-row#main_section": {},
+    "header-row#departments": {},
+    "image#banner_top": {
+        "props": {
+            "src": "assets/image/header/dft-header-banner.gif"
+        }
+    }  
+}
