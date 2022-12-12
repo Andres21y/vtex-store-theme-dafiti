@@ -1,0 +1,71 @@
+{
+    "header-row#main_section": {
+        "title": "header_mai-seccion",
+        "children": [
+            "header-row#main_logo",
+            "header-row#main_search",
+            "header-row#main_login",
+            "header-row#main_heart"
+           
+        ]
+    },
+    "header-row#main_logo": {
+        "title": "main_logo",
+        "children": [
+            "image#logo_header"
+        ],
+        "props": {
+            "blockClass": "main_logo"
+        }
+    },
+    "image#logo_header": {
+        "props": {
+            "src": "assets/image/dafiti-logo.webp",
+            "maxHeight": 90
+        }
+    },
+    "header-row#main_search": {
+        "title": "main_search",
+        "children": [
+            "search-bar#serch_bar"
+        ],
+        "props": {
+            "blockClass": "main_search"
+        }
+    },
+    "search-bar#serch_bar": {
+        "title": "search",
+        "props": {
+            "placeholder": "Busca por producto, marca, categoria ...",
+            "blockClass": "search"
+        }
+    },
+    "header-row#main_login": {
+        "title": "main_login",
+        "children": [
+            "login",
+            "icon#heart",
+            "minicart.v2"
+        ],
+        "props": {
+            "blockClass": "main_login"
+        }
+    },
+    "login": {
+        "props": {
+            "optionsTitle":"Registrarme",
+            "emailAndPasswordTitle": "LOG-IN",
+            "accessCodeTitle": "Acess Code LOG-IN",
+            "emailPlaceholder": "e-mail",
+            "passwordPlaceholder": "password",
+            "showPasswordVerificationIntoTooltip": true
+        }
+    },
+    "icon#heart": {
+        "props": {
+          "id": "mpa-heart",
+          "size": 21,
+          "activeClassName": "icon__heart"
+        }
+      }  
+}

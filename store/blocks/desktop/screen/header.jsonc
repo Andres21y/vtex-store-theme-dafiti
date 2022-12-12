@@ -17,15 +17,14 @@
     "title": "header_desk-container",
     "children": [
       "header-row#gif_banner",
-     "header-row#info_section"
-    //  "header-row#main_section",
-    //  "header-row#departments"
+      "header-row#info_section",
+      "header-row#main_section"
+      //  "header-row#departments"
     ],
     "props": {
       "blockClass": "header_desk-container"
-  }
+    }
   },
-
   "header-layout.mobile": {
     "children": [
       "header-row"
