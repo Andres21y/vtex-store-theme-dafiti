@@ -87,91 +87,142 @@
 }
 
 
-/* --------------------------newsletter--------------------------------------- */
-.flexRowContent--home_newsletter {
-    display: block;
-    position: relative;
-    margin: auto;
-    padding: 20px;
-    background: #f8f8f8;
-
-}
-
-.flexCol--home_newsletter-descriptions {
-    display: block;
-    position: relative;
-    float: left;
-    width: 380px;
-    padding: 0 20px;
-    /* background-color: greenyellow;  */
-    height: 80%;
-}
-
-.flexColChild--home_newsletter-descriptions {
-    font-family: Fabriga, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif;
-    height: 70%;
-}
 
 /*--------------------------------------------------- lista de link de mujer */
 
 .flexRowContent--subcategories_woman {
-/* background-color: greenyellow; */
-color: white;
-height: 40%;
+    /* background-color: greenyellow; */
+    color: white;
+    height: 40%;
 }
 
 .flexCol--containerWoman_list {
-/* background-color: yellow; */
-color: white;
-margin-top: 9rem;
+    /* background-color: yellow; */
+    color: white;
+    margin-top: 9rem;
 }
 
 .flexColChild--containerWoman_list {
-/* background-color: orange; */
-text-decoration: none;
-color: white;
-display: flex;
-justify-content: flex-start;
-margin-left: 50px;
-} 
+    /* background-color: orange; */
+    text-decoration: none;
+    color: white;
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 50px;
+}
 
 .flexRowContent--subcategories_man {
-/* background-color: greenyellow; */
-color: white;
-height: 40%;
+    /* background-color: greenyellow; */
+    color: white;
+    height: 40%;
 }
 
 .flexCol--containerMan_list {
-/* background-color: yellow; */
-color: white;
-margin-top: 9rem;
+    /* background-color: yellow; */
+    color: white;
+    margin-top: 9rem;
 }
 
 .flexColChild--containerMan_list {
-/* background-color: orange; */
-text-decoration: none;
-color: white;
-display: flex;
-justify-content: flex-end;
-margin-right: 50px;
+    /* background-color: orange; */
+    text-decoration: none;
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 50px;
 }
+
 /* .flexColChild--home_main-block--hombre{
 
 } */
 
 /* ---------------------------------------------ver más */
-.flexRow--btn_ver--mas{
- /* background-color: aqua;  */
-height: 200px;
-display: flex;
-justify-content: center;
-margin-top: 6rem;
+.flexRow--btn_ver--mas {
+    /* background-color: aqua;  */
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    margin-top: 6rem;
 }
 
-.flexRowContent--btn_ver--mas{
-background-color: white;
-margin-top: 12rem;
-width: 200px;
-height: 45px;
+.flexRowContent--btn_ver--mas {
+    background-color: white;
+    margin-top: 12rem;
+    width: 200px;
+    height: 45px;
 }
+
 /* -----------------------------------------------mujer */
+
+.flexRowContent--home_brand-carousel {
+    height: 300px;
+}
+
+/* ------------------------------------------------------------------------ section info */
+/* .flexRow--_section-info{
+    background-color: green;
+} */
+.flexRowContent--_section-info{
+    width: 100%;
+    height: 210px;
+}
+
+
+/* ------------------------------------------------------------------------------news sections */
+
+.flexRow--row_news-sections{
+    margin-top: 4rem;
+    height: 600px;
+    margin-bottom: 4rem;
+}
+
+
+/* .flexRowContent--row_news-sections{
+    background-color: yellow;
+   
+} */
+
+.flexCol--news_sections-container{
+height: 600px;
+}
+
+/*-------------------------------------------------------------------------------- newsletter */
+.flexRow--_newsletter-container{
+    background-color: pink;
+    height: 500px;
+    width: 70%;
+}
+
+.flexColChild--home_newsletter-container{ 
+    padding: 20px;
+    background: #f8f8f8;
+    height: 200px;
+}
+
+.flexRow--home_newsletter{
+background-color: greenyellow;
+width: 80%;
+} 
+
+/* .flexRow--home_newsletter-one{
+    height: 150px;
+     background-color: aqua; 
+     width: 100%;
+} */
+
+.flexRowContent--_newsletter-container{
+    background-color: rgb(0, 252, 118);
+    width: 100%;
+} 
+
+
+
+
+/* .flexCol--_newsletter-subscribe{
+    background-color: yellow;
+    width:200px;
+} */
+
+
+
+
