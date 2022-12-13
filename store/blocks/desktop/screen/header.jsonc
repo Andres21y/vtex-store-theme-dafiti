@@ -18,8 +18,8 @@
     "children": [
       "header-row#gif_banner",
       "header-row#info_section",
-      "header-row#main_section"
-      //  "header-row#departments"
+      "header-row#main_section",
+      "header-row#mega-menu"
     ],
     "props": {
       "blockClass": "header_desk-container"

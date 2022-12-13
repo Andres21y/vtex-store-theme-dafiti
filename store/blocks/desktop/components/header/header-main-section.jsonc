@@ -4,8 +4,8 @@
         "children": [
             "header-row#main_logo",
             "header-row#main_search",
-            "header-row#main_login",
-            "header-row#main_heart"
+            "header-row#main_login"
+            // "header-row#main_heart"
            
         ]
     },

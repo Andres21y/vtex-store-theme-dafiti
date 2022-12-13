@@ -1,0 +1,322 @@
+{
+    /*-----------------------------------------------------------departamentos Zapatos*/
+    "link#sub_category-wTenis": {
+        "props": {
+            "href": "#",
+            "label": "Tenis"
+        }
+    },
+    "link#sub_category-wBotas": {
+        "props": {
+            "href": "#",
+            "label": "Botas"
+        }
+    },
+    "link#sub_category-wSandalias": {
+        "props": {
+            "href": "#",
+            "label": "Sandalias"
+        }
+    },
+    "link#sub_category-wTacones": {
+        "props": {
+            "href": "#",
+            "label": "Tacones"
+        }
+    },
+    "link#sub_category-wZapatos Casuales": {
+        "props": {
+            "href": "#",
+            "label": "Zapatos Casuales"
+        }
+    },
+    "link#sub_category-wBaletas": {
+        "props": {
+            "href": "#",
+            "label": "Baletas"
+        }
+    },
+    "link#sub_category-wMocasines": {
+        "props": {
+            "href": "#",
+            "label": "Mocasines"
+        }
+    },
+    "link#sub_category-wVer todos": {
+        "props": {
+            "href": "#",
+            "label": "Ver todos"
+        }
+    },
+    "link#sub_category-wNovadades": {
+        "props": {
+            "href": "#",
+            "label": "Novadades"
+        }
+    },
+    "link#sub_category-wOfertas": {
+        "props": {
+            "href": "#",
+            "label": "Ofertas"
+        }
+    },
+    /*---------------------------------------------------departamentos ropa*/
+    "link#sub_category-wBlusasyCamisas": {
+        "props": {
+            "href": "#",
+            "label": "Blusas y camisas"
+        }
+    },
+    "link#sub_category-wSacoBuzosyCardigans": {
+        "props": {
+            "href": "#",
+            "label": "Saco, buzos y cardigans"
+        }
+    },
+    "link#sub_category-wCamisetas": {
+        "props": {
+            "href": "#",
+            "label": "Camisetas"
+        }
+    },
+    "link#sub_category-wChaquetas": {
+        "props": {
+            "href": "#",
+            "label": "Chaquetas"
+        }
+    },
+    "link#sub_category-wVestidos": {
+        "props": {
+            "href": "#",
+            "label": "Vestidos"
+        }
+    },
+    "link#sub_category-wJeans": {
+        "props": {
+            "href": "#",
+            "label": "Jeans"
+        }
+    },
+    "link#sub_category-wRopaInterior": {
+        "props": {
+            "href": "#",
+            "label": "Ropa interior"
+        }
+    },
+    "link#sub_category-wPantalones": {
+        "props": {
+            "href": "#",
+            "label": "Pantalones"
+        }
+    },
+    "link#sub_category-wRopadeDormir": {
+        "props": {
+            "href": "#",
+            "label": "Ropa de Dormir"
+        }
+    },
+    "link#sub_category-wPacksyConjuntos": {
+        "props": {
+            "href": "#",
+            "label": "Packs y conjuntos"
+        }
+    },
+    "link#sub_category-wVerTodosRopa": {
+        "props": {
+            "href": "#",
+            "label": "Ver todos"
+        }
+    },
+    "link#sub_category-wNovedadesRopa": {
+        "props": {
+            "href": "#",
+            "label": "Novadades"
+        }
+    },
+    "link#sub_category-wOfertasRopa": {
+        "props": {
+            "href": "#",
+            "label": "Ofertas"
+        }
+    },
+    /*---------------------------------------------------departamentos accesorios*/
+    "link#sub_category-wBolsosyCarteras": {
+        "props": {
+            "href": "#",
+            "label": "Bolsos y carteras"
+        }
+    },
+    "link#sub_category-wRelojes": {
+        "props": {
+            "href": "#",
+            "label": "Relojes"
+        }
+    },
+    "link#sub_category-wMaletasymorrales": {
+        "props": {
+            "href": "#",
+            "label": "Maletas y morrales"
+        }
+    },
+    "link#sub_category-wjoyeriayBisuteria": {
+        "props": {
+            "href": "#",
+            "label": "joyeria y Bisuteria"
+        }
+    },
+    "link#sub_category-wBilleteras": {
+        "props": {
+            "href": "#",
+            "label": "Billeteras"
+        }
+    },
+    "link#sub_category-wGafas": {
+        "props": {
+            "href": "#",
+            "label": "Gafas"
+        }
+    },
+    "link#sub_category-wCinturones": {
+        "props": {
+            "href": "#",
+            "label": "Cinturones"
+        }
+    },
+    "link#sub_category-wCosmetiqerasyEstuches": {
+        "props": {
+            "href": "#",
+            "label": "Cosmetiqeras y Estuches"
+        }
+    },
+    "link#sub_category-wVertodoAccesorios": {
+        "props": {
+            "href": "#",
+            "label": "Ver todos"
+        }
+    },
+    "link#sub_category-wNovedadesAccesorios": {
+        "props": {
+            "href": "#",
+            "label": "Novadades"
+        }
+    },
+    "link#sub_category-wOfertasAccesorios": {
+        "props": {
+            "href": "#",
+            "label": "Ofertas"
+        }
+    },
+
+    /*---------------------------------------------------departamentos deportes*/
+
+    "link#sub_category-wTenisyZapatosDeportes": {
+        "props": {
+            "href": "#",
+            "label": "Tenis y Zapatos"
+        }
+    },
+    "link#sub_category-wVestuarioDeportes": {
+        "props": {
+            "href": "#",
+            "label": "Vestuario"
+        }
+    },
+    "link#sub_category-wAccesoriosDeportes": {
+        "props": {
+            "href": "#",
+            "label": "Accesorios"
+        }
+    },
+    "link#sub_category-wEquipamientoDeportes": {
+        "props": {
+            "href": "#",
+            "label": "Equipamiento"
+        }
+    },
+    "link#sub_category-wVerTodosDeportes": {
+        "props": {
+            "href": "#",
+            "label": "Ver todos"
+        }
+    },
+    "link#sub_category-wNovadadesDeportes": {
+        "props": {
+            "href": "#",
+            "label": "Novadades"
+        }
+    },
+    "link#sub_category-wOfertasDeportes": {
+        "props": {
+            "href": "#",
+            "label": "Ofertas"
+        }
+    },
+    /*---------------------------------------------------departamentos marcas*/
+
+    "link#sub_category-wRoyalCounty": {
+        "props": {
+            "href": "#",
+            "label": "Royal County"
+        }
+    },
+    "link#sub_category-wDesigual": {
+        "props": {
+            "href": "#",
+            "label": "Desigual"
+        }
+    },
+    "link#sub_category-wTommyHilfiger": {
+        "props": {
+            "href": "#",
+            "label": "Tommy Hilfiger"
+        }
+    },
+    "link#sub_category-wMP": {
+        "props": {
+            "href": "#",
+            "label": "MP"
+        }
+    },
+    "link#sub_category-wLevi's": {
+        "props": {
+            "href": "#",
+            "label": "Levi's"
+        }
+    },
+    "link#sub_category-wGAP": {
+        "props": {
+            "href": "#",
+            "label": "GAP"
+        }
+    },
+    "link#sub_category-wTellenzi": {
+        "props": {
+            "href": "#",
+            "label": "Tellenzi"
+        }
+    },
+    "link#sub_category-wGEF": {
+        "props": {
+            "href": "#",
+            "label": "GEF"
+        }
+    },
+    "link#sub_category-wCalvinKlein": {
+        "props": {
+            "href": "#",
+            "label": "Calvin Klein"
+        }
+    },
+    "link#sub_category-wUSPoloAssn": {
+        "props": {
+            "href": "#",
+            "label": "US Polo Assn"
+        }
+    },
+    "link#sub_category-wMattelsa": {
+        "props": {
+            "href": "#",
+            "label": "Mattelsa"
+        }
+    }
+}
