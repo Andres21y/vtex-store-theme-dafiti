@@ -1,0 +1,26 @@
+{
+    "flex-layout.row#home_section-info": {
+        "title": "section_info",
+        "children": [
+            "image#home_dudasDevoluciones",
+            "image#home_conoceServicios"
+        ],
+        "props": {
+            "blockClass": "_section-info"
+        }
+    },
+    "image#home_dudasDevoluciones": {
+        "props": {
+            "src": "assets/image/section-info/dft-dudas o devoluciones.png",
+            "link":"https://www.youtube.com/", 
+            "blockClass": "_dudasDevoluciones"
+        }
+    },
+    "image#home_conoceServicios": {
+        "props": {
+            "src": "assets/image/section-info/dft-conoce servicios.png",
+            "link":"https://www.youtube.com/", 
+            "blockClass": "_conoceServicios"
+        }
+    }
+}

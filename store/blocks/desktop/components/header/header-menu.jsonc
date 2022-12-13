@@ -1,0 +1,13 @@
+{
+    "header-row#mega-menu": {
+        "title": "mega_menu",
+        "children": [
+            "vtex.menu@2.x:menu#main_menu"
+        ]
+    },
+    "vtex.menu@2.x:menu#main_menu": {
+        "children": [
+            "menu-item#departamento_mujer"
+        ]
+    }
+}

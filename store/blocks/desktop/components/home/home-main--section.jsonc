@@ -1,0 +1,330 @@
+{
+    "flex-layout.row#home_main-block": {
+        "title": "home_main-blockContainer",
+        "children": [
+            "flex-layout.col#home_main-block"
+        ],
+        "props": {
+            "blockClass": "home_main-blockContainer"
+        }
+    },
+    "flex-layout.col#home_main-block": {
+        "title": "home_main-blockContainerChild",
+        "children": [
+            "flex-layout.row#home_main-blockTitle",
+            "flex-layout.row#home_main-block--container",
+            "flex-layout.row#home_main-blockVarieties"
+        ],
+        "props": {
+            "blockClass": "home_main-blockContainer"
+        }
+    },
+    //------------------------------------------------------------------------------------------------------------>#1
+    "flex-layout.row#home_main-blockTitle": {
+        "title": "home_main-blockTitle",
+        "children": [
+            "rich-text#home_main-block"
+        ],
+        "props": {
+            "blockClass": "home_main-blockContainer"
+        }
+    },
+    "rich-text#home_main-block": {
+        "title": "home_main-block",
+        "props": {
+            "text": "ROPA DE MODA, ZAPATOS Y ACCESORIOS | DAFITI OFERTAS Y REBAJAS",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "font": "t-heading-6",
+            "blockClass": "home_main-block"
+        }
+    },
+    //---------------------------------------------------------------------------------------------------------->#2
+    "flex-layout.row#home_main-block--container": {
+        "title": "home_main-block--container",
+        "children": [
+            "flex-layout.col#home_main-block--mujer",
+            "flex-layout.col#home_main-block--hombre"
+        ],
+        "props": {
+            "blockClass": "home_block-container"
+        }
+    },
+    "flex-layout.col#home_main-block--mujer": {
+        "title": "home_main-block--mujer",
+        "children": [
+            "flex-layout.row#subcategories_woman",
+            "flex-layout.row#wbtn_ver--mas",
+            "flex-layout.row#text_mujer"
+        ],
+        "props": {
+            "blockClass": "home_main-block--mujer"
+        }
+    },
+    "flex-layout.row#subcategories_woman": {
+        "title": "subcategories_woman",
+        "children": [
+            "flex-layout.col#containerW_list"
+        ],
+        "props": {
+            "blockClass": "subcategories_woman"
+        }
+    },
+    "flex-layout.col#containerW_list": {
+        "title": "containerW_list",
+        "children": [
+            "link#woman_zapatos",
+            "link#woman_Jeans",
+            "link#woman_Blusas",
+            "link#woman_Sneakers",
+            "link#woman_Vestidos",
+            "link#woman_Pantalones",
+            "link#woman_Botas",
+            "link#woman_Deportes"
+        ],
+        "props": {
+            "blockClass": "containerWoman_list"
+        }
+    },
+    "link#woman_zapatos": {
+        "props": {
+            "href": "#",
+            "label": "Zapatos"
+        }
+    },
+    "link#woman_Jeans": {
+        "props": {
+            "href": "#",
+            "label": "Jeans"
+        }
+    },
+    "link#woman_Blusas": {
+        "props": {
+            "href": "#",
+            "label": "Blusas"
+        }
+    },
+    "link#woman_Sneakers": {
+        "props": {
+            "href": "#",
+            "label": "Sneakers"
+        }
+    },
+    "link#woman_Vestidos": {
+        "props": {
+            "href": "#",
+            "label": "Vestidos"
+        }
+    },
+    "link#woman_Pantalones": {
+        "props": {
+            "href": "#",
+            "label": "Pantalones"
+        }
+    },
+    "link#woman_Botas": {
+        "props": {
+            "href": "#",
+            "label": "Botas"
+        }
+    },
+    "link#woman_Deportes": {
+        "props": {
+            "href": "#",
+            "label": "Deportes"
+        }
+    },
+    "flex-layout.row#wbtn_ver--mas": {
+        "title": "btn_ver--mas",
+        "children": [
+            "rich-text#woman_ver--mas"
+        ],
+        "props": {
+            "blockClass": "btn_ver--mas"
+        }
+    },
+    "rich-text#woman_ver--mas": {
+        "title": "home_premiun-mujer",
+        "props": {
+          "text": "Ver más",
+          "textAlignment": "CENTER",
+          "textPosition": "CENTER",
+          "font": "t-heading-6",
+          "blockClass": "rich_premiun-mujer"
+        }
+      },
+    "flex-layout.row#text_mujer": {
+        "title": "text_mujer",
+        "children": [
+            "rich-text#firstChildt_mujer"
+        ],
+        "props": {
+            "blockClass": "text_mujer"
+        }
+    },
+    "rich-text#firstChildt_mujer": {
+        "title": "home_premiun-mujer",
+        "props": {
+          "text": "MUJER",
+          "textAlignment": "CENTER",
+          "textPosition": "CENTER",
+          "font": "t-heading-6",
+          "blockClass": "home_premiun-mujer"
+        }
+      },
+    "flex-layout.col#home_main-block--hombre": {
+        "title": "home_main-block--hombre",
+        "children": [
+            "flex-layout.row#subcategories_hombre",
+            "flex-layout.row#mbtn_ver--mas",
+            "flex-layout.row#text_hombre"
+        ],
+        "props": {
+            "blockClass": "home_main-block--hombre"
+        }
+    },
+    "flex-layout.row#subcategories_hombre": {
+        "title": "subcategories_hombre",
+        "children": [
+            "flex-layout.col#containerM_list"
+        ],
+        "props": {
+            "blockClass": "subcategories_man"
+        }
+    },
+    "flex-layout.col#containerM_list": {
+        "title": "containerM_list",
+        "children": [
+            "link#man_Tenis",
+            "link#man_Camisas",
+            "link#man_Jeans",
+            "link#man_Pantalones",
+            "link#man_Sneakers",
+            "link#man_Zapatos",
+            "link#man_Polos",
+            "link#man_Deportes"
+        ],
+        "props": {
+            "blockClass": "containerMan_list"
+        }
+    },
+    "link#man_Tenis": {
+        "props": {
+            "href": "#",
+            "label": "Tenis"
+        }
+    },
+    "link#man_Camisas": {
+        "props": {
+            "href": "#",
+            "label": "Camisas"
+        }
+    },
+    "link#man_Jeans": {
+        "props": {
+            "href": "#",
+            "label": "Jeans"
+        }
+    },
+    "link#man_Sneakers": {
+        "props": {
+            "href": "#",
+            "label": "Sneakers"
+        }
+    },
+    "link#man_Zapatos": {
+        "props": {
+            "href": "#",
+            "label": "Zapatos"
+        }
+    },
+    "link#man_Pantalones": {
+        "props": {
+            "href": "#",
+            "label": "Pantalones"
+        }
+    },
+    "link#man_Polos": {
+        "props": {
+            "href": "#",
+            "label": "Botas"
+        }
+    },
+    "link#man_Deportes": {
+        "props": {
+            "href": "#",
+            "label": "Deportes"
+        }
+    },
+    "flex-layout.row#mbtn_ver--mas": {
+        "title": "btn_ver--mas",
+        "children": [
+            "rich-text#woman_ver--mas"
+        ],
+        "props": {
+            "blockClass": "btn_ver--mas"
+        }
+    },
+    "flex-layout.row#text_hombre": {
+        "title": "text_hombre",
+        "children": [
+            "rich-text#secondChildt_hombre"
+        ],
+        "props": {
+            "blockClass": "text_hombre"
+        }
+    },
+    "rich-text#secondChildt_hombre": {
+        "title": "home_premiun-hombre",
+        "props": {
+          "text": "HOMBRE",
+          "textAlignment": "CENTER",
+          "textPosition": "CENTER",
+          "font": "t-heading-6",
+          "blockClass": "home_premiun-hombre"
+        }
+      },
+
+     //------------------------------------------------------------------------------------------->#3
+    "flex-layout.row#home_main-blockVarieties": {
+        "title": "home_main-blockVarieties",
+        "children": [
+            "rich-text#home_snaker",
+            "rich-text#home_premiun",
+            "rich-text#home_kids"
+        ],
+        "props": {
+            "blockClass": "home_blockVarieties"
+        }
+    },
+    "rich-text#home_snaker": {
+        "title": "home_snaker",
+        "props": {
+          "text": "snaker",
+          "textAlignment": "left",
+          "textPosition": "CENTER",
+          "font": "t-heading-6",
+          "blockClass": "home_snaker"
+        }
+      },
+      "rich-text#home_kids": {
+        "title": "home_kids",
+        "props": {
+          "text": "kids",
+          "textAlignment": "left",
+          "textPosition": "CENTER",
+          "font": "t-heading-6",
+          "blockClass": "home_kids"
+        }
+      },
+      "rich-text#home_premiun": {
+        "title": "home_premiun",
+        "props": {
+          "text": "premiun",
+          "textAlignment": "left",
+          "textPosition": "CENTER",
+          "font": "t-heading-6",
+          "blockClass": "home_premiun"
+        }
+      }
+}

@@ -1,0 +1,244 @@
+{
+    "menu-item#departamento_mujer": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "departamento_mujer",
+                "text": "Mujer"
+            }
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu#departamento_zapatos"
+        ]
+    },
+    "vtex.menu@2.x:submenu#departamento_zapatos": {
+        "children": [
+            "menu-item#categoria_zapatos",
+            "menu-item#categoria_ropa",
+            "menu-item#categoria_accesorios",
+            "menu-item#categoria_deportes",
+            "menu-item#categoria_marcas"
+        ]
+    },
+    "menu-item#categoria_zapatos": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "categoria_zapatos",
+                "text": "zapatos"
+            }
+        },
+        "children": [
+            "flex-layout.row#zapatosxx"
+        ]
+    },
+    "flex-layout.row#zapatosxx": {
+        "title": "zapatosxx",
+        "children": [
+            "flex-layout.col#zapatosy"
+        ],
+        "props": {
+            "blocClass": "zapatosxx"
+        }
+    },
+    "flex-layout.col#zapatosy": {
+        "title": "submenu_zaptos",
+        "children": [
+            "link#sub_category-wTenis",
+            "link#sub_category-wBotas",
+            "link#sub_category-wSandalias",
+            "link#sub_category-wTacones",
+            "link#sub_category-wZapatos Casuales",
+            "link#sub_category-wBaletas",
+            "link#sub_category-wMocasines",
+            "link#sub_category-wVer todos",
+            "link#sub_category-wNovadades",
+            "link#sub_category-wOfertas"
+        ],
+        "props": {
+            "blockClass": "submenu_zaptos"
+        }
+    },
+    "menu-item#categoria_ropa": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "categoria_ropa",
+                "text": "ropa"
+            }
+        },
+        "children": [
+            "flex-layout.row#categoria_ropa-mujer"
+        ]
+    },
+    "flex-layout.row#categoria_ropa-mujer": {
+        "title": "categoria_ropa-mujer",
+        "children": [
+            "flex-layout.col#categoria_ropa-mujer"
+        ],
+        "props": {
+            "blocClass": "zapatosxx"
+        }
+    },
+    "flex-layout.col#categoria_ropa-mujer": {
+        "title": "categoria_ropa-mujer",
+        "children": [
+            "link#sub_category-wBlusasyCamisas",
+            "link#sub_category-wSacoBuzosyCardigans",
+            "link#sub_category-wCamisetas",
+            "link#sub_category-wChaquetas",
+            "link#sub_category-wVestidos",
+            "link#sub_category-wJeans",
+            "link#sub_category-wRopaInterior",
+            "link#sub_category-wPantalones",
+            "link#sub_category-wRopadeDormir",
+            "link#sub_category-wPacksyConjuntos",
+            "link#sub_category-wVerTodosRopa",
+            "link#sub_category-wNovedadesRopa",
+            "link#sub_category-wOfertasRopa"
+        ],
+        "props": {
+            "blockClass": "submenu_ropa"
+        }
+    },
+    "menu-item#categoria_accesorios": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "categoria_accesorios",
+                "text": "accesorios"
+            }
+        },
+        "children": [
+            "flex-layout.row#categoria_ropa-mujer"
+        ]
+    },
+    "flex-layout.row#categoria_accesorios-mujer": {
+        "title": "categoria_accesorios-mujer",
+        "children": [
+            "flex-layout.col#categoria_accesorios-mujer"
+        ],
+        "props": {
+            "blocClass": "categoria_accesorios-mujer"
+        }
+    },
+    "flex-layout.col#categoria_accesorios-mujer": {
+        "title": "categoria_accesorios-mujer",
+        "children": [
+            "link#sub_category-wBolsosyCarteras",
+            "link#sub_category-wRelojes",
+            "link#sub_category-wMaletasymorrales",
+            "link#sub_category-wjoyeriayBisuteria",
+            "link#sub_category-wBilleteras",
+            "link#sub_category-wGafas",
+            "link#sub_category-wCinturones",
+            "link#sub_category-wCosmetiqerasyEstuches",
+            "link#sub_category-wVertodoAccesorios",
+            "link#sub_category-wNovedadesAccesorios",
+            "link#sub_category-wOfertasAccesorios"
+        ],
+        "props": {
+            "blockClass": "submenu_accesorios"
+        }
+    },
+    "menu-item#categoria_deportes": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "categoria_deportes",
+                "text": "deportes"
+            }
+        },
+        "children": [
+            "flex-layout.row#categoria_deportes-mujer"
+        ]
+    },
+    "flex-layout.row#categoria_deportes-mujer": {
+        "title": "categoria_deportes-mujer",
+        "children": [
+            "flex-layout.col#categoria_deportes-mujer"
+        ],
+        "props": {
+            "blocClass": "categoria_deportes-mujer"
+        }
+    },
+    "flex-layout.col#categoria_deportes-mujer": {
+        "title": "categoria_deportes-mujer",
+        "children": [
+            "link#sub_category-wTenisyZapatosDeportes",
+            "link#sub_category-wVestuarioDeportes",
+            "link#sub_category-wAccesoriosDeportes",
+            "link#sub_category-wEquipamientoDeportes",
+            "link#sub_category-wVerTodosDeportes",
+            "link#sub_category-wNovadadesDeportes",
+            "link#sub_category-wOfertasDeportes"
+        ],
+        "props": {
+            "blockClass": "submenu_deportes"
+        }
+    },
+    "menu-item#categoria_marcas": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "categoria_marcas",
+                "text": "marcas"
+            }
+        },
+        "children": [
+            "flex-layout.row#categoria_marcas-mujer"
+        ]
+    },
+    "flex-layout.row#categoria_marcas-mujer": {
+        "title": "categoria_marcas-mujer",
+        "children": [
+            "flex-layout.col#categoria_marcas-mujer"
+        ],
+        "props": {
+            "blocClass": "categoria_marcas-mujer"
+        }
+    },
+    "flex-layout.col#categoria_marcas-mujer": {
+        "title": "categoria_marcas-mujer",
+        "children": [
+            "link#sub_category-wRoyalCounty",
+            "link#sub_category-wDesigual",
+            "link#sub_category-wTommyHilfiger",
+            "link#sub_category-wMP",
+            "link#sub_category-wLevi's",
+            "link#sub_category-wGAP",
+            "link#sub_category-wTellenzi",
+            "link#sub_category-wGEF",
+            "link#sub_category-wCalvinKlein",
+            "link#sub_category-wUSPoloAssn",
+            "link#sub_category-wMattelsa"
+        ],
+        "props": {
+            "blockClass": "submenu_deportes"
+        }
+    }
+}

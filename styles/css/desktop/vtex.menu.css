@@ -1,0 +1,5 @@
+.menuItem--isOpen{
+    display: flex;
+    flex-direction: column;
+    background-color: greenyellow;
+}

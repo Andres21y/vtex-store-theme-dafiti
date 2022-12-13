@@ -1,0 +1,111 @@
+{
+    "header-row#info_section": {
+        "title": "header_info-section",
+        "children": [
+            "header-row#info_section-envio",
+            "header-row#info_section-cambio",
+            "header-row#info_section-pedido",
+            "header-row#info_section-nuevo",
+            "header-row#info_section-contacto",
+            "header-row#info_section-servicio"
+        ],
+        "props": {
+            "blockClass": "header_info-section"
+        }
+    },
+    "header-row#info_section-envio": {
+        "title": "_section-envio",
+        "children": [
+            "link#info_section-envio"
+        ],
+        "props": {
+            "blockClass": "_section-envio"
+        }
+    },
+    "link#info_section-envio": {
+        "props": {
+            "href": "/login?returnUrl={queryString.returnUrl}",
+            "label": "Envíos gratis desde $179.900*"
+        }
+    },
+    /*--------------------------------------------------*/
+    "header-row#info_section-cambio": {
+        "title": "_section-cambio",
+        "children": [
+            "link#info_section-cambio"
+        ],
+        "props": {
+            "blockClass": "_section-cambio"
+        }
+    },
+    "link#info_section-cambio": {
+        "props": {
+            "href": "/login?returnUrl={queryString.returnUrl}",
+            "label": "90 Días de cambios GRATIS"
+        }
+    },
+    /*--------------------------------------------------*/
+    "header-row#info_section-pedido": {
+        "title": "_section-pedido",
+        "children": [
+            "link#info_section-pedido"
+        ],
+        "props": {
+            "blockClass": "_section-pedido"
+        }
+    },
+    "link#info_section-pedido": {
+        "props": {
+            "href": "/login?returnUrl={queryString.returnUrl}",
+            "label": "Sigue tu pedido"
+        }
+    },
+    /*--------------------------------------------------*/
+    "header-row#info_section-nuevo": {
+        "title": "_section-nuevo",
+        "children": [
+            "link#info_section-nuevo"
+        ],
+        "props": {
+            "blockClass": "_section-nuevo"
+        }
+    },
+    "link#info_section-nuevo": {
+        "props": {
+            "href": "/login?returnUrl={queryString.returnUrl}",
+            "label": "¡NUEVO! Centros de Experiencia"
+        }
+    },
+    /*--------------------------------------------------*/
+    "header-row#info_section-contacto": {
+        "title": "_section-contacto",
+        "children": [
+            "link#info_section-contacto"
+        ],
+        "props": {
+            "blockClass": "_section-contacto"
+        }
+    },
+    "link#info_section-contacto": {
+        "props": {
+            "href": "/login?returnUrl={queryString.returnUrl}",
+            "label": "Conócenos"
+        }
+    },
+    /*--------------------------------------------------*/
+    "header-row#info_section-servicio": {
+        "title": "_section-servicio",
+        "children": [
+            "link#info_section-servicio"
+        ],
+        "props": {
+            "blockClass": "_section-servicio"
+        }
+    },
+    "link#info_section-servicio": {
+        "props": {
+            "href": "/login?returnUrl={queryString.returnUrl}",
+            "label": " Servicio al Cliente"
+        }
+    }
+}
