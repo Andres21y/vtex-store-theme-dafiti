@@ -43,7 +43,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%;
-    width: 90%;
+    width: 100%;
 }
 
 .wrapper--home_kids {
@@ -51,7 +51,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%;
-    width: 90%;
+    width: 100%;
 }
 
 .wrapper--home_premiun {
@@ -59,13 +59,18 @@
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%;
-    width: 90%;
+    width: 100%;
+}
+
+.container--home_kids {
+    background-color: transparent;
 }
 
 /*========================================================Tus marcas favoritas  */
-/* .container--brands_title{
-    background-color: greenyellow;
-} */
+.container--brands_title {
+    margin-top: 8rem;
+}
+
 .wrapper--brands_title {
     display: block;
     position: relative;
@@ -90,29 +95,29 @@
     white-space: nowrap;
     font-family: Poppins, sans-serif;
     color: #20281F;
-    font-size: 2rem;
+    font-size: 2.5rem;
     font-weight: 600;
 }
 
 /*----------------------------------- section women name -------------------------------- */
 .container--home_premiun-mujer {
     /* background-color: aqua; */
-    position: relative;
-    top: 85%;
-    color: #fff;
-    font-size: 40px;
-    font-weight: bold;
+    color: rgb(255, 255, 255);
+    font-size: 80px;
+    font-weight: 750;
     font-family: 'Poppins', sans-serif;
+    height: 100px;
+    margin-top: 5rem;
 }
 
 .container--home_premiun-hombre {
     /* background-color: aqua; */
-    position: relative;
-    top: 85%;
     color: #fff;
-    font-size: 40px;
-    font-weight: bold;
+    font-size: 80px;
+    font-weight: 750;
     font-family: 'Poppins', sans-serif;
+    height: 100px;
+    margin-top: 5rem;
 }
 
 /* feacture */
@@ -162,6 +167,73 @@
     margin-top: 10px;
 }
 
-.wrapper--info_number-two{
-    background-color: light;
+/* -------------------------------------------------------------------------------------news sections */
+
+.container--info_number-zero {
+    margin-top: 2rem;
+}
+
+.container--info_number-one {
+    height: 90px;
+    font-weight: 700;
+    font-size: 70px;
+    margin: 40px auto;
+    margin-top: 6rem;
+    color: #20281f;
+    font-family: "Poppins", sans-serif;
+}
+
+.wrapper--info_number-two {
+    height: 110px;
+}
+
+/* --------------------------newsletter--------------------------------------- */
+
+/* .container--home_col-descriptionOne {
+    font-size: 21px;
+    margin: 0 0 15px 0;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.paragraph--home_col-descriptionTwo {
+    font-family: Fabriga, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif;
+    font-weight: 200;
+    font-size: 11px;
+    line-height: 1.6rem;
+    text-transform: none;
+    letter-spacing: 0;
+
+      } */
+
+
+/* termino y condiciones */
+.container--rich_newsletterTwo-one{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 5px;
+}
+/* .wrapper--rich_newsletterTwo-one{
+    background-color: yellow;
+}
+.paragraph--rich_newsletterTwo-one{
+    
+} */
+.link--rich_newsletterTwo-one{
+    text-decoration: none;
+}
+
+/* tratamiento de datos*/
+.container--rich_newsletterTwo-two{
+    display: flex;
+    justify-content: flex-start;
+}
+/* .wrapper--rich_newsletterTwo-two{
+    
+}
+.paragraph--rich_newsletterTwo-two{
+    
+} */
+.link--rich_newsletterTwo-two{
+    text-decoration: none;
 }

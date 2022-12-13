@@ -1,0 +1,118 @@
+{
+    "flex-layout.row#home_newsletter-main": {
+        "title": "home_newsletter-main",
+        "children": [
+            "flex-layout.col#home_newsletter"
+        ],
+        "props": {
+            "blockClass": "home_newsletter-main"
+        }
+    },
+    "flex-layout.col#home_newsletter": {
+        "title": "home_newsletter",
+        "children": [
+            "flex-layout.col#col_home-newsletter"
+        ],
+        "props": {
+            "blockClass": "home_newsletter"
+        }
+    },
+    "flex-layout.col#col_home-newsletter": { //newsletter__section
+        "title": "home_newsletter-container",
+        "children": [
+            "flex-layout.row#home-newsletterOne", //newsletter__section--one
+            "flex-layout.row#home-newsletterTwo" //newsletter__section--two
+        ],
+        "props": {
+            "blockClass": "home_newsletter-container"
+        }
+    },
+    "flex-layout.row#home-newsletterOne": { //newsletter__section--one
+        "title": "home_newsletter-sectionOne",
+        "children": [
+            "flex-layout.row#_newsletter-container",
+            "flex-layout.col#_newsletter-subscribe"
+        ],
+        "props": {
+            "blockClass": "home_newsletter-one"
+        }
+    },
+    "flex-layout.row#home-newsletterTwo": { //newsletter__section--two
+        "title": "home_newsletter-sectionTwo",
+        "children": [
+            "rich-text#newsletterTwo_one",
+            "rich-text#newsletterTwo_two"
+        ],
+        "props": {
+            "blockClass": "home_newsletter-two"
+        }
+    },
+    "rich-text#newsletterTwo_one": {
+        "title": "rich_newsletterTwo-one",
+        "props": {
+            "text": "[terminos y condiciones](https://developers.vtex.com/vtex-developer-docs/docs/welcome)",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "font": "t-heading-6",
+            "blockClass": "rich_newsletterTwo-one"
+        }
+    },
+    "rich-text#newsletterTwo_two": {
+        "title": "rich_newsletterTwo-two",
+        "props": {
+            "text": "| [Política de Tratamiento de Datos](https://developers.vtex.com/vtex-developer-docs/docs/welcome)",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "font": "t-heading-6",
+            "blockClass": "rich_newsletterTwo-two"
+        }
+    },
+    "flex-layout.row#_newsletter-container": {
+        "title": "_newsletter-container",
+        "children": [
+            "newsletter#home_desktop"
+        ],
+        "props": {
+            "blockClass": "_newsletter-container2"
+        }
+    },
+    "newsletter#home_desktop": {
+        "props": {
+            "placeholder": "Escribe tu email aquí",
+            "hideLabel": true,
+            "width": 5,
+            "blockClass": "home_newsletter-desktop"
+        }
+    },
+    "flex-layout.col#_newsletter-subscribe": {
+        "title": "_newsletter-subscribe",
+        "children": [
+            "rich-text#home_col-descriptionOne",
+            "rich-text#home_col-descriptionTwo"
+        ],
+        "props": {
+            "blockClass": "_newsletter-subscribe"
+        }
+    },
+    "rich-text#home_col-descriptionOne": {
+        "title": "home_col-descriptionOne",
+        "props": {
+          "text": "¡Suscríbete!",
+          "textAlignment": "CENTER",
+          "textPosition": "CENTER",
+          "font": "t-heading-6",
+          "blockClass": "home_col-descriptionOne"
+        }
+      },
+      "rich-text#home_col-descriptionTwo": {
+        "title": "home_col-descriptionTwo",
+        "props": {
+          "text": "Se el primero en enterarte de las últimas tendencias y todas las novedades que traemos para ti. Adicional, te damos un 15 Extra OFF* en tu primera compra",
+          "textAlignment": "CENTER",
+          "textPosition": "CENTER",
+          "font": "t-heading-6",
+          "blockClass": "home_col-descriptionTwo"
+        }
+      }
+    
+}
