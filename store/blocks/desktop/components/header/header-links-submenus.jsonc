@@ -1,322 +1,619 @@
 {
     /*-----------------------------------------------------------departamentos Zapatos*/
-    "link#sub_category-wTenis": {
+    "link#subCategory__zapatos--mujerTenis": {
         "props": {
             "href": "#",
             "label": "Tenis"
         }
     },
-    "link#sub_category-wBotas": {
+    "link#subCategory__zapatos--mujerBotas": {
         "props": {
             "href": "#",
             "label": "Botas"
         }
     },
-    "link#sub_category-wSandalias": {
+    "link#subCategory__zapatos--mujerSandalias": {
         "props": {
             "href": "#",
             "label": "Sandalias"
         }
     },
-    "link#sub_category-wTacones": {
+    "link#subCategory__zapatos--mujerTacones": {
         "props": {
             "href": "#",
             "label": "Tacones"
         }
     },
-    "link#sub_category-wZapatos Casuales": {
+    "link#subCategory__zapatos--mujerZapatos Casuales": {
         "props": {
             "href": "#",
             "label": "Zapatos Casuales"
         }
     },
-    "link#sub_category-wBaletas": {
+    "link#subCategory__zapatos--mujerBaletas": {
         "props": {
             "href": "#",
             "label": "Baletas"
         }
     },
-    "link#sub_category-wMocasines": {
+    "link#subCategory__zapatos--mujerMocasines": {
         "props": {
             "href": "#",
             "label": "Mocasines"
         }
     },
-    "link#sub_category-wVer todos": {
+    "link#subCategory__zapatos--mujerVer todos": {
         "props": {
             "href": "#",
             "label": "Ver todos"
         }
     },
-    "link#sub_category-wNovadades": {
+    "link#subCategory__zapatos--mujerNovadades": {
         "props": {
             "href": "#",
             "label": "Novadades"
         }
     },
-    "link#sub_category-wOfertas": {
+    "link#subCategory__zapatos--mujerOfertas": {
         "props": {
             "href": "#",
             "label": "Ofertas"
         }
     },
     /*---------------------------------------------------departamentos ropa*/
-    "link#sub_category-wBlusasyCamisas": {
+    "link#subCategory__ropa--mujerBlusasyCamisas": {
         "props": {
             "href": "#",
             "label": "Blusas y camisas"
         }
     },
-    "link#sub_category-wSacoBuzosyCardigans": {
+    "link#subCategory__ropa--mujerSacoBuzosyCardigans": {
         "props": {
             "href": "#",
             "label": "Saco, buzos y cardigans"
         }
     },
-    "link#sub_category-wCamisetas": {
+    "link#subCategory__ropa--mujerCamisetas": {
         "props": {
             "href": "#",
             "label": "Camisetas"
         }
     },
-    "link#sub_category-wChaquetas": {
+    "link#subCategory__ropa--mujerChaquetas": {
         "props": {
             "href": "#",
             "label": "Chaquetas"
         }
     },
-    "link#sub_category-wVestidos": {
+    "link#subCategory__ropa--mujerVestidos": {
         "props": {
             "href": "#",
             "label": "Vestidos"
         }
     },
-    "link#sub_category-wJeans": {
+    "link#subCategory__ropa--mujerJeans": {
         "props": {
             "href": "#",
             "label": "Jeans"
         }
     },
-    "link#sub_category-wRopaInterior": {
+    "link#subCategory__ropa--mujerRopaInterior": {
         "props": {
             "href": "#",
             "label": "Ropa interior"
         }
     },
-    "link#sub_category-wPantalones": {
+    "link#subCategory__ropa--mujerPantalones": {
         "props": {
             "href": "#",
             "label": "Pantalones"
         }
     },
-    "link#sub_category-wRopadeDormir": {
+    "link#subCategory__ropa--mujerRopadeDormir": {
         "props": {
             "href": "#",
             "label": "Ropa de Dormir"
         }
     },
-    "link#sub_category-wPacksyConjuntos": {
+    "link#subCategory__ropa--mujerPacksyConjuntos": {
         "props": {
             "href": "#",
             "label": "Packs y conjuntos"
         }
     },
-    "link#sub_category-wVerTodosRopa": {
+    "link#subCategory__ropa--mujerVerTodosRopa": {
         "props": {
             "href": "#",
             "label": "Ver todos"
         }
     },
-    "link#sub_category-wNovedadesRopa": {
+    "link#subCategory__ropa--mujerNovedadesRopa": {
         "props": {
             "href": "#",
             "label": "Novadades"
         }
     },
-    "link#sub_category-wOfertasRopa": {
+    "link#subCategory__ropa--mujerOfertasRopa": {
         "props": {
             "href": "#",
             "label": "Ofertas"
         }
     },
     /*---------------------------------------------------departamentos accesorios*/
-    "link#sub_category-wBolsosyCarteras": {
+    "link#subCategory__accesorios--mujerBolsosyCarteras": {
         "props": {
             "href": "#",
             "label": "Bolsos y carteras"
         }
     },
-    "link#sub_category-wRelojes": {
+    "link#subCategory__accesorios--mujerRelojes": {
         "props": {
             "href": "#",
             "label": "Relojes"
         }
     },
-    "link#sub_category-wMaletasymorrales": {
+    "link#subCategory__accesorios--mujerMaletasymorrales": {
         "props": {
             "href": "#",
             "label": "Maletas y morrales"
         }
     },
-    "link#sub_category-wjoyeriayBisuteria": {
+    "link#subCategory__accesorios--mujerjoyeriayBisuteria": {
         "props": {
             "href": "#",
             "label": "joyeria y Bisuteria"
         }
     },
-    "link#sub_category-wBilleteras": {
+    "link#subCategory__accesorios--mujerBilleteras": {
         "props": {
             "href": "#",
             "label": "Billeteras"
         }
     },
-    "link#sub_category-wGafas": {
+    "link#subCategory__accesorios--mujerGafas": {
         "props": {
             "href": "#",
             "label": "Gafas"
         }
     },
-    "link#sub_category-wCinturones": {
+    "link#subCategory__accesorios--mujerCinturones": {
         "props": {
             "href": "#",
             "label": "Cinturones"
         }
     },
-    "link#sub_category-wCosmetiqerasyEstuches": {
+    "link#subCategory__accesorios--mujerCosmetiqerasyEstuches": {
         "props": {
             "href": "#",
             "label": "Cosmetiqeras y Estuches"
         }
     },
-    "link#sub_category-wVertodoAccesorios": {
+    "link#subCategory__accesorios--mujerVertodoAccesorios": {
         "props": {
             "href": "#",
             "label": "Ver todos"
         }
     },
-    "link#sub_category-wNovedadesAccesorios": {
+    "link#subCategory__accesorios--mujerNovedadesAccesorios": {
         "props": {
             "href": "#",
             "label": "Novadades"
         }
     },
-    "link#sub_category-wOfertasAccesorios": {
+    "link#subCategory__accesorios--mujerOfertasAccesorios": {
         "props": {
             "href": "#",
             "label": "Ofertas"
         }
     },
-
     /*---------------------------------------------------departamentos deportes*/
-
-    "link#sub_category-wTenisyZapatosDeportes": {
+    "link#subCategory__deportes--mujerTenisyZapatosDeportes": {
         "props": {
             "href": "#",
             "label": "Tenis y Zapatos"
         }
     },
-    "link#sub_category-wVestuarioDeportes": {
+    "link#subCategory__deportes--mujerVestuarioDeportes": {
         "props": {
             "href": "#",
             "label": "Vestuario"
         }
     },
-    "link#sub_category-wAccesoriosDeportes": {
+    "link#subCategory__deportes--mujerAccesoriosDeportes": {
         "props": {
             "href": "#",
             "label": "Accesorios"
         }
     },
-    "link#sub_category-wEquipamientoDeportes": {
+    "link#subCategory__deportes--mujerEquipamientoDeportes": {
         "props": {
             "href": "#",
             "label": "Equipamiento"
         }
     },
-    "link#sub_category-wVerTodosDeportes": {
+    "link#subCategory__deportes--mujerVerTodosDeportes": {
         "props": {
             "href": "#",
             "label": "Ver todos"
         }
     },
-    "link#sub_category-wNovadadesDeportes": {
+    "link#subCategory__deportes--mujerNovadadesDeportes": {
         "props": {
             "href": "#",
             "label": "Novadades"
         }
     },
-    "link#sub_category-wOfertasDeportes": {
+    "link#subCategory__deportes--mujerOfertasDeportes": {
         "props": {
             "href": "#",
             "label": "Ofertas"
         }
     },
     /*---------------------------------------------------departamentos marcas*/
-
-    "link#sub_category-wRoyalCounty": {
+    "link#subCategory__marcas--mujerRoyalCounty": {
         "props": {
             "href": "#",
             "label": "Royal County"
         }
     },
-    "link#sub_category-wDesigual": {
+    "link#subCategory__marcas--mujerDesigual": {
         "props": {
             "href": "#",
             "label": "Desigual"
         }
     },
-    "link#sub_category-wTommyHilfiger": {
+    "link#subCategory__marcas--mujerTommyHilfiger": {
         "props": {
             "href": "#",
             "label": "Tommy Hilfiger"
         }
     },
-    "link#sub_category-wMP": {
+    "link#subCategory__marcas--mujerMP": {
         "props": {
             "href": "#",
             "label": "MP"
         }
     },
-    "link#sub_category-wLevi's": {
+    "link#subCategory__marcas--mujerLevi's": {
         "props": {
             "href": "#",
             "label": "Levi's"
         }
     },
-    "link#sub_category-wGAP": {
+    "link#subCategory__marcas--mujerGAP": {
         "props": {
             "href": "#",
             "label": "GAP"
         }
     },
-    "link#sub_category-wTellenzi": {
+    "link#subCategory__marcas--mujerTellenzi": {
         "props": {
             "href": "#",
             "label": "Tellenzi"
         }
     },
-    "link#sub_category-wGEF": {
+    "link#subCategory__marcas--mujerGEF": {
         "props": {
             "href": "#",
             "label": "GEF"
         }
     },
-    "link#sub_category-wCalvinKlein": {
+    "link#subCategory__marcas--mujerCalvinKlein": {
         "props": {
             "href": "#",
             "label": "Calvin Klein"
         }
     },
-    "link#sub_category-wUSPoloAssn": {
+    "link#subCategory__marcas--mujerUSPoloAssn": {
         "props": {
             "href": "#",
             "label": "US Polo Assn"
         }
     },
-    "link#sub_category-wMattelsa": {
+    "link#subCategory__marcas--mujerMattelsa": {
         "props": {
             "href": "#",
             "label": "Mattelsa"
+        }
+    },
+    /*----------------------HOMBRE*/
+    /*-----------------------------------------------------------departamentos Zapatos*/
+    "link#subCategory__zapatos--hombreTenis": {
+        "props": {
+            "href": "#",
+            "label": "Tenis"
+        }
+    },
+    "link#subCategory__zapatos--hombreBotas": {
+        "props": {
+            "href": "#",
+            "label": "Botas"
+        }
+    },
+    "link#subCategory__zapatos--hombreMocasines": {
+        "props": {
+            "href": "#",
+            "label": "Mocasines"
+        }
+    },
+    "link#subCategory__zapatos--hombreZapatosCasuales": {
+        "props": {
+            "href": "#",
+            "label": "Zapatos Casuales"
+        }
+    },
+    "link#subCategory__zapatos--hombreZapatosFormales": {
+        "props": {
+            "href": "#",
+            "label": "Zapatos Formales"
+        }
+    },
+    "link#subCategory__zapatos--hombrePlayeras": {
+        "props": {
+            "href": "#",
+            "label": "Playeras"
+        }
+    },
+    "link#subCategory__zapatos--hombreVerTodo": {
+        "props": {
+            "href": "#",
+            "label": "Ver todos"
+        }
+    },
+    "link#subCategory__zapatos--hombreNovedades": {
+        "props": {
+            "href": "#",
+            "label": "Novadades"
+        }
+    },
+    "link#subCategory__zapatos--hombreOfertas": {
+        "props": {
+            "href": "#",
+            "label": "Ofertas"
+        }
+    },
+    /*---------------------------------------------------departamentos ropa*/
+    "link#subCategory__ropa--hombrePolos": {
+        "props": {
+            "href": "#",
+            "label": "Polos"
+        }
+    },
+    "link#subCategory__ropa--hombreCamisas": {
+        "props": {
+            "href": "#",
+            "label": "Camisas"
+        }
+    },
+    "link#subCategory__ropa--hombreCamisetas": {
+        "props": {
+            "href": "#",
+            "label": "Camisetas"
+        }
+    },
+    "link#subCategory__ropa--hombreJeans": {
+        "props": {
+            "href": "#",
+            "label": "Jeans"
+        }
+    },
+    "link#subCategory__ropa--hombreChaquetas": {
+        "props": {
+            "href": "#",
+            "label": "Chaquetas"
+        }
+    },
+    "link#subCategory__ropa--hombrePantalones": {
+        "props": {
+            "href": "#",
+            "label": "Pantalones"
+        }
+    },
+    "link#subCategory__ropa--hombreSacosyCardigans": {
+        "props": {
+            "href": "#",
+            "label": "Sacos y Cardigans"
+        }
+    },
+    "link#subCategory__ropa--hombreRopaInterior": {
+        "props": {
+            "href": "#",
+            "label": "Ropa Interior"
+        }
+    },
+    "link#subCategory__ropa--hombreBermudasyPantalonetas": {
+        "props": {
+            "href": "#",
+            "label": "Bermudas y Pantalonetas"
+        }
+    },
+    "link#subCategory__ropa--hombreVerTodo": {
+        "props": {
+            "href": "#",
+            "label": "Ver todos"
+        }
+    },
+    "link#subCategory__ropa--hombreNovedades": {
+        "props": {
+            "href": "#",
+            "label": "Novedades"
+        }
+    },
+    "link#subCategory__ropa--hombreOfertas": {
+        "props": {
+            "href": "#",
+            "label": "Ofertas"
+        }
+    },
+    /*---------------------------------------------------departamentos accesorios*/
+    "link#subCategory__accesorios--hombreRelojes": {
+        "props": {
+            "href": "#",
+            "label": "Relojes"
+        }
+    },
+    "link#subCategory__accesorios--hombreMorrales": {
+        "props": {
+            "href": "#",
+            "label": "Morrales"
+        }
+    },
+    "link#subCategory__accesorios--hombreGafas": {
+        "props": {
+            "href": "#",
+            "label": "Gafas"
+        }
+    },
+    "link#subCategory__accesorios--hombreBilleteras": {
+        "props": {
+            "href": "#",
+            "label": "Billeteras"
+        }
+    },
+    "link#subCategory__accesorios--hombreCinturones": {
+        "props": {
+            "href": "#",
+            "label": "Cinturones"
+        }
+    },
+    "link#subCategory__accesorios--hombreMaletinesyBolsos": {
+        "props": {
+            "href": "#",
+            "label": "Maltines y Bolsos"
+        }
+    },
+    "link#subCategory__accesorios--hombreVertodo": {
+        "props": {
+            "href": "#",
+            "label": "Ver todos"
+        }
+    },
+    "link#subCategory__accesorios--hombreNovedades": {
+        "props": {
+            "href": "#",
+            "label": "Novadades"
+        }
+    },
+    "link#subCategory__accesorios--hombreOfertas": {
+        "props": {
+            "href": "#",
+            "label": "Ofertas"
+        }
+    },
+    /*---------------------------------------------------departamentos deportes*/
+    "link#subCategory__deportes--hombreTenisyZapatos": {
+        "props": {
+            "href": "#",
+            "label": "Tenis y Zapatos"
+        }
+    },
+    "link#subCategory__deportes--hombreVestuario": {
+        "props": {
+            "href": "#",
+            "label": "Vestuario"
+        }
+    },
+    "link#subCategory__deportes--hombreAccesorios": {
+        "props": {
+            "href": "#",
+            "label": "Accesorios"
+        }
+    },
+    "link#subCategory__deportes--hombreEquipamiento": {
+        "props": {
+            "href": "#",
+            "label": "Equipamiento"
+        }
+    },
+    "link#subCategory__deportes--hombreVerTodo": {
+        "props": {
+            "href": "#",
+            "label": "Ver todos"
+        }
+    },
+    "link#subCategory__deportes--hombreNovadades": {
+        "props": {
+            "href": "#",
+            "label": "Novadades"
+        }
+    },
+    "link#subCategory__deportes--hombreOfertas": {
+        "props": {
+            "href": "#",
+            "label": "Ofertas"
+        }
+    },
+    /*---------------------------------------------------departamentos marcas*/
+    "link#subCategory__marcas--hombreRoyalCounty": {
+        "props": {
+            "href": "#",
+            "label": "Royal County"
+        }
+    },
+    "link#subCategory__marcas--hombreUSPoloAssn": {
+        "props": {
+            "href": "#",
+            "label": "US Polo Assn"
+        }
+    },
+    "link#subCategory__marcas--hombreTommyHilfiger": {
+        "props": {
+            "href": "#",
+            "label": "Tommy Hilfiger"
+        }
+    },
+    "link#subCategory__marcas--hombreColore": {
+        "props": {
+            "href": "#",
+            "label": "Colore"
+        }
+    },
+    "link#subCategory__marcas--hombreMP": {
+        "props": {
+            "href": "#",
+            "label": "MP"
+        }
+    },
+    "link#subCategory__marcas--hombreDiesel": {
+        "props": {
+            "href": "#",
+            "label": "Diesel"
+        }
+    },
+    "link#subCategory__marcas--hombreNaútica": {
+        "props": {
+            "href": "#",
+            "label": "Naútica"
+        }
+    },
+    "link#subCategory__marcas--hombreLevi's": {
+        "props": {
+            "href": "#",
+            "label": "Levi's"
+        }
+    },
+    "link#subCategory__marcas--hombreBeverlyHills": {
+        "props": {
+            "href": "#",
+            "label": "Beverly Hills"
+        }
+    },
+    "link#subCategory__marcas--hombreBrooksfield": {
+        "props": {
+            "href": "#",
+            "label": "Brooks field"
+        }
+    },
+    "link#subCategory__marcas--hombreArturoCalle": {
+        "props": {
+            "href": "#",
+            "label": "Arturo Calle"
+        }
+    },
+    "link#subCategory__marcas--hombreRayBan": {
+        "props": {
+            "href": "#",
+            "label": "Ray Ban"
         }
     }
 }

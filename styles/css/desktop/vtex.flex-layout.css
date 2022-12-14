@@ -91,21 +91,15 @@
 /*--------------------------------------------------- lista de link de mujer */
 
 .flexRowContent--subcategories_woman {
-    /* background-color: greenyellow; */
-    color: white;
     height: 40%;
 }
 
 .flexCol--containerWoman_list {
-    /* background-color: yellow; */
-    color: white;
     margin-top: 9rem;
+    text-decoration: none;
 }
 
 .flexColChild--containerWoman_list {
-    /* background-color: orange; */
-    text-decoration: none;
-    color: white;
     display: flex;
     justify-content: flex-start;
     margin-left: 50px;
@@ -133,7 +127,6 @@
 }
 
 /* .flexColChild--home_main-block--hombre{
-
 } */
 
 /* ---------------------------------------------ver más */
@@ -222,7 +215,3 @@ width: 80%;
     background-color: yellow;
     width:200px;
 } */
-
-
-
-

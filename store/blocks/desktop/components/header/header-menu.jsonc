@@ -1,13 +1,15 @@
 {
-    "header-row#mega-menu": {
-        "title": "mega_menu",
+    "header-row#menu_principal": {
+        "title": "menu_principal",
         "children": [
-            "vtex.menu@2.x:menu#main_menu"
+            "vtex.menu@2.x:menu#menu_principal--deptoMujer"
         ]
     },
-    "vtex.menu@2.x:menu#main_menu": {
+    "vtex.menu@2.x:menu#menu_principal--deptoMujer": {
+        "title": "menu_principal--departamentos",
         "children": [
-            "menu-item#departamento_mujer"
+            "menu-item#menu_principal--deptoMujer",
+            "menu-item#menu__principal--deptoHombre"
         ]
     }
 }
