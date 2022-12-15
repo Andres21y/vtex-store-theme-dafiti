@@ -2,14 +2,23 @@
     "header-row#menu_principal": {
         "title": "menu_principal",
         "children": [
-            "vtex.menu@2.x:menu#menu_principal--deptoMujer"
+            "vtex.menu@2.x:menu#menu__principal--departamentos"
         ]
     },
-    "vtex.menu@2.x:menu#menu_principal--deptoMujer": {
+    "vtex.menu@2.x:menu#menu__principal--departamentos": {
         "title": "menu_principal--departamentos",
         "children": [
-            "menu-item#menu_principal--deptoMujer",
-            "menu-item#menu__principal--deptoHombre"
+            "menu-item#menuPrincipal__deptoNavidad",
+            "menu-item#menuPrincipal__deptoFanático",
+            "menu-item#menuPrincipal__deptoMujer",
+            "menu-item#menuPrincipal__deptoHombre",
+            "menu-item#menuPrincipal__deptoDeportes",
+            "menu-item#menuPrincipal__deptoNiños",
+            "menu-item#menuPrincipal__deptoBelleza",
+            "menu-item#menuPrincipal__deptoMarcas",
+            "menu-item#menuPrincipal__deptoHogar",
+            "menu-item#menuPrincipal__deptoEco",
+            "menu-item#menuPrincipal__deptoOfertas"
         ]
     }
 }
