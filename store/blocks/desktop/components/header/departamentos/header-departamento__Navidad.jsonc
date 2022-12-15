@@ -1,0 +1,17 @@
+{
+    "menu-item#menuPrincipal__deptoNavidad": {
+        "title": "menuPrincipal__deptoNavidad",
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "departamento_Navidad",
+                "text": "navidad"
+            },
+            "blockClass": "menuPrincipal__deptoNavidad"
+        }
+    }
+}

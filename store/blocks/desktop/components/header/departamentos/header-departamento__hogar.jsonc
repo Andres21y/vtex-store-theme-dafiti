@@ -1,0 +1,316 @@
+{
+    "menu-item#menuPrincipal__deptoHogar": {
+        "title":"menuPrincipal__deptoHogar",
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "departamento_Hogar",
+                "text": "Hogar"
+            },
+            "blockClass":"menuPrincipal__deptoHogar"
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu#departamento__Hogar--categorias"
+        ]
+    },
+    "vtex.menu@2.x:submenu#departamento__Hogar--categorias": {
+        "title":"departamento__Hogar--categorias",
+        "children": [
+            "menu-item#dptoHogar__categoriaCocina",
+            "menu-item#dptoHogar__categoriaComedor",
+            "menu-item#dptoHogar__categoriaDormitorio",
+            "menu-item#dptoHogar__categoriaHomeOffice",
+            "menu-item#dptoHogar__categoriaDecoracion",
+            "menu-item#dptoHogar__categoriaAudio",
+            "menu-item#dptoHogar__categoriaLoMasVendido"
+        ],
+        "props":{
+            "blockClass":"departamento__Hogar--categorias"
+        }
+    },
+
+    /*--------------------------------------------------------------------------------------*/
+    
+    "menu-item#dptoHogar__categoriaCocina": {
+        "title": "dptoHogar__categoria--Cocina",
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "categoria_Cocina",
+                "text": "Cocina"
+            },
+            "blockClass": "dptoHogar__categoria--Cocina"
+        },
+        "children": [
+            "flex-layout.row#dptoHogar__categoriaCocina--container"
+        ]
+    },
+
+    "flex-layout.row#dptoHogar__categoriaCocina--container": {
+        "title": "dptoHogar__categoriaCocina--container",
+        "children": [
+            "flex-layout.col#deptoHogar__categoriaCocina--subcategories"
+        ],
+        "props": {
+            "blockClass": "dptoHogar__categoriaCocina--container"
+        }
+    },
+
+    "flex-layout.col#deptoHogar__categoriaCocina--subcategories": {
+        "title": "deptoHogar__categoriaCocina--subcategories",
+        "children": [
+            "link#deptoHogar__categoryCocina--subCategoryDespensa",
+            "link#deptoHogar__categoryCocina--subCategoryPaletero",
+            "link#deptoHogar__categoryCocina--subCategoryZonadeAseo",
+            "link#deptoHogar__categoryCocina--subCategoryEstufa",
+            "link#deptoHogar__categoryCocina--subCategoryUtencilios"
+        ],
+        "props": {
+            "blockClass": "deptoHogar__categoriaCocina--subcategories"
+        }
+    },
+    
+    
+    /*--------------------------------------------------------------------------------------*/
+    
+    "menu-item#dptoHogar__categoriaComedor": {
+        "title":"dptoHogar__categoria--Comedor",
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "categoria_Comedor",
+                "text": "comedor"
+            },
+            "blockClass": "dptoHogar__categoria--Comedor"
+        },
+        "children": [
+            "flex-layout.row#dptoHogar__categoriaComedor--container"
+        ]
+    },
+    "flex-layout.row#dptoHogar__categoriaComedor--container": {
+        "title": "dptoHogar__categoriaComedor--container",
+        "children": [
+            "flex-layout.col#deptoHogar__categoriaComedor--subcategories"
+        ],
+        "props": {
+            "blocClass": "dptoHogar__categoriaComedor--container"
+        }
+    },
+    "flex-layout.col#deptoHogar__categoriaComedor--subcategories": {
+        "title": "deptoHogar__categoriaComedor--subcategories",
+        "children": [
+            "link#deptoHogar__categoryComedor--subCategoryVajillas",
+            "link#deptoHogar__categoryComedor--subCategoryVasosyCopas"
+        ],
+        "props": {
+            "blockClass": "deptoHogar__categoriaComedor--subcategories"
+        }
+    },
+
+/*--------------------------------------------------------------------------------------*/
+
+
+"menu-item#dptoHogar__categoriaDormitorio": {
+        "title":"dptoHogar__categoria--Dormitorio",
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "categoria_Dormitorio",
+                "text": "Dormitorio"
+            },
+            "blockClass": "dptoHogar__categoria--Femenino"
+        },
+        "children": [
+            "flex-layout.row#dptoHogar__categoriaDormitorio--container"
+        ]
+    },
+    "flex-layout.row#dptoHogar__categoriaDormitorio--container": {
+        "title": "dptoHogar__categoriaDormitorio--container",
+        "children": [
+            "flex-layout.col#deptoHogar__categoriaDormitorio--subcategories"
+        ],
+        "props": {
+            "blocClass": "dptoHogar__categoriaDormitorio--container"
+        }
+    },
+    "flex-layout.col#deptoHogar__categoriaDormitorio--subcategories": {
+        "title": "deptoHogar__categoriaDormitorio--subcategories",
+        "children": [
+            "link#deptoHogar__categoryDormitorio--subCategoryOrganización"
+        ],
+        "props": {
+            "blockClass": "deptoHogar__categoriaDormitorio--subcategories"
+        }
+    },
+
+/*--------------------------------------------------------------------------------------*/
+
+"menu-item#dptoHogar__categoriaHomeOffice": {
+        "title":"dptoHogar__categoria--HomeOffice",
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "categoria_HomeOffice",
+                "text": "home office"
+            },
+            "blockClass": "dptoHogar__categoria--HomeOffice"
+        },
+        "children": [
+            "flex-layout.row#dptoHogar__categoriaHomeOffice--container"
+        ]
+    },
+    "flex-layout.row#dptoHogar__categoriaHomeOffice--container": {
+        "title": "dptoHogar__categoriaHomeOffice--container",
+        "children": [
+            "flex-layout.col#deptoHogar__categoriaHomeOffice--subcategories"
+        ],
+        "props": {
+            "blocClass": "dptoHogar__categoriaHomeOffice--container"
+        }
+    },
+    "flex-layout.col#deptoHogar__categoriaHomeOffice--subcategories": {
+        "title": "deptoHogar__categoriaHomeOffice--subcategories",
+        "children": [
+            "link#deptoHogar__categoryHomeOffice--subCategoryAlmacenamiento",
+            "link#deptoHogar__categoryHomeOffice--subCategoryEscritorios",
+            "link#deptoHogar__categoryHomeOffice--subCategorySillas"
+        ],
+        "props": {
+            "blockClass": "deptoHogar__categoriaHomeOffice--subcategories"
+        }
+    },
+
+/*--------------------------------------------------------------------------------------*/
+
+
+"menu-item#dptoHogar__categoriaDecoracion": {
+        "title":"dptoHogar__categoria--Decoracion",
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "categoria_Decoracion",
+                "text": "Decoracion"
+            },
+            "blockClass": "dptodeportes__categoria--Femenino"
+        },
+        "children": [
+            "flex-layout.row#dptoHogar__categoriaDecoracion--container"
+        ]
+    },
+    "flex-layout.row#dptoHogar__categoriaDecoracion--container": {
+        "title": "dptoHogar__categoriaDecoracion--container",
+        "children": [
+            "flex-layout.col#deptoHogar__categoriaDecoracion--subcategories"
+        ],
+        "props": {
+            "blocClass": "dptoHogar__categoriaDecoracion--container"
+        }
+    },
+    "flex-layout.col#deptoHogar__categoriaDecoracion--subcategories": {
+        "title": "deptoHogar__categoriaDecoracion--subcategories",
+        "children": [
+            "link#deptoHogar__categoryDecoracion--subCategoryAccesorios",
+            "link#deptoHogar__categoryDecoracion--subCategoryDiseño"
+        ],
+        "props": {
+            "blockClass": "deptoHogar__categoriaMarcas--subcategories"
+        }
+    },
+/*--------------------------------------------------------------------------------------*/
+
+
+"menu-item#dptoHogar__categoriaAudio": {
+        "title":"dptoHogar__categoria--Audio",
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "categoria_Audio",
+                "text": "Audio"
+            },
+            "blockClass": "dptodeportes__categoria--Femenino"
+        },
+        "children": [
+            "flex-layout.row#dptoHogar__categoriaAudio--container"
+        ]
+    },
+    "flex-layout.row#dptoHogar__categoriaAudio--container": {
+        "title": "dptoHogar__categoriaAudio--container",
+        "children": [
+            "flex-layout.col#deptoHogar__categoriaAudio--subcategories"
+        ],
+        "props": {
+            "blocClass": "dptoHogar__categoriaAudio--container"
+        }
+    },
+    "flex-layout.col#deptoHogar__categoriaAudio--subcategories": {
+        "title": "deptoHogar__categoriaAudio--subcategories",
+        "props": {
+            "blockClass": "deptoHogar__categoriaMarcas--subcategories"
+        }
+    },
+
+/*--------------------------------------------------------------------------------------*/
+
+
+"menu-item#dptoHogar__categoriaLoMasVendido": {
+        "title":"dptoHogar__categoria--LoMasVendido",
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "categoria_LoMasVendido",
+                "text": "lo más vendido"
+            },
+            "blockClass": "dptodeportes__categoria--Femenino"
+        },
+        "children": [
+            "flex-layout.row#dptoHogar__categoriaLoMasVendido--container"
+        ]
+    },
+    "flex-layout.row#dptoHogar__categoriaLoMasVendido--container": {
+        "title": "dptoHogar__categoriaLoMasVendido--container",
+        "children": [
+            "flex-layout.col#deptoHogar__categoriaLoMasVendido--subcategories"
+        ],
+        "props": {
+            "blocClass": "dptoHogar__categoriaLoMasVendido--container"
+        }
+    },
+    "flex-layout.col#deptoHogar__categoriaLoMasVendido--subcategories": {
+        "title": "deptoHogar__categoriaLoMasVendido--subcategories",
+        "props": {
+            "blockClass": "deptoHogar__categoriaMarcas--subcategories"
+        }
+    }
+}

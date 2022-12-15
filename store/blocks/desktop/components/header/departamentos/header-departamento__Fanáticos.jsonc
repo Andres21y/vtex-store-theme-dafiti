@@ -1,0 +1,17 @@
+{
+    "menu-item#menuPrincipal__deptoFanático": {
+        "title": "menuPrincipal__deptoFanático",
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "departamento_Fanático",
+                "text": "Fanático"
+            },
+            "blockClass": "menuPrincipal__deptoFanático"
+        }
+    }
+}
