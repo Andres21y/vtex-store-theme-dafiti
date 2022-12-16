@@ -1,33 +1,14 @@
 {
-  "header": {
-    "title": "header",
-    "blocks": [
-      "header-layout.desktop",
-      "header-layout.mobile"
-    ]
-  },
-  "header.full": {
-    "title": "header",
-    "blocks": [
-      "header-layout.desktop",
-      "header-layout.mobile"
-    ]
-  },
-  "header-layout.desktop": {
+   "header-layout.desktop": {
     "title": "header_desk-container",
     "children": [
       "header-row#gif_banner",
       "header-row#info_section",
-      "header-row#main_section",
+      "header-row#header__main--container",
       "header-row#menu_principal"
     ],
     "props": {
       "blockClass": "header_desk-container"
     }
-  },
-  "header-layout.mobile": {
-    "children": [
-      "header-row"
-    ]
   }
 }

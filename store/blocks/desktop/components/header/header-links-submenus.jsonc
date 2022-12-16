@@ -1,1631 +1,2169 @@
 {
     /*-----------------------------------------------------------departamentos Zapatos*/
     "link#deptomujer__categoryzapatos--subCategoryTenis": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Tenis"
+            "label": "Tenis",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#deptomujer__categoryzapatos--subCategoryBotas": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Botas"
+            "label": "Botas",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#deptomujer__categoryzapatos--subCategorySandalias": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Sandalias"
+            "label": "Sandalias",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#deptomujer__categoryzapatos--subCategoryTacones": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Tacones"
+            "label": "Tacones",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#deptomujer__categoryzapatos--subCategoryZapatosCasuales": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Zapatos Casuales"
+            "label": "Zapatos Casuales",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#deptomujer__categoryzapatos--subCategoryBaletas": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Baletas"
+            "label": "Baletas",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#deptomujer__categoryzapatos--subCategoryMocasines": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Mocasines"
+            "label": "Mocasines",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#deptomujer__categoryzapatos--subCategoryVerTodos": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Ver todos"
+            "label": "Ver todos",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#deptomujer__categoryzapatos--subCategoryNovadades": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Novadades"
+            "label": "Novadades",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#deptomujer__categoryzapatos--subCategoryOfertas": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Ofertas"
+            "label": "Ofertas",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     /*---------------------------------------------------departamentos ropa*/
     "link#deptomujer__categoryRopa--subCategoryBlusasyCamisas": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Blusas y camisas"
+            "label": "Blusas y camisas",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#deptomujer__categoryRopa--subCategorySacoBuzosyCardigans": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Saco, buzos y cardigans"
+            "label": "Saco, buzos y cardigans",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#deptomujer__categoryRopa--subCategoryCamisetas": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Camisetas"
+            "label": "Camisetas",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#deptomujer__categoryRopa--subCategoryChaquetas": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Chaquetas"
+            "label": "Chaquetas",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#deptomujer__categoryRopa--subCategoryVestidos": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Vestidos"
+            "label": "Vestidos",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#deptomujer__categoryRopa--subCategoryJeans": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Jeans"
+            "label": "Jeans",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#deptomujer__categoryRopa--subCategoryRopaInterior": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Ropa interior"
+            "label": "Ropa interior",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#deptomujer__categoryRopa--subCategoryPantalones": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Pantalones"
+            "label": "Pantalones",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#deptomujer__categoryRopa--subCategoryRopadeDormir": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Ropa de Dormir"
+            "label": "Ropa de Dormir",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#deptomujer__categoryRopa--subCategoryPacksyConjuntos": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Packs y conjuntos"
+            "label": "Packs y conjuntos",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#deptomujer__categoryRopa--subCategoryVerTodosRopa": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Ver todos"
+            "label": "Ver todos",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#deptomujer__categoryRopa--subCategoryNovedadesRopa": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Novadades"
+            "label": "Novadades",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#deptomujer__categoryRopa--subCategoryOfertasRopa": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Ofertas"
+            "label": "Ofertas",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     /*---------------------------------------------------departamentos accesorios*/
     "link#deptomujer__categoryAccesorios--subCategoryBolsosyCarteras": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Bolsos y carteras"
+            "label": "Bolsos y carteras",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#deptomujer__categoryAccesorios--subCategoryRelojes": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Relojes"
+            "label": "Relojes",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#deptomujer__categoryAccesorios--subCategoryMaletasymorrales": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Maletas y morrales"
+            "label": "Maletas y morrales",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#deptomujer__categoryAccesorios--subCategoryjoyeriayBisuteria": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "joyeria y Bisuteria"
+            "label": "joyeria y Bisuteria",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#deptomujer__categoryAccesorios--subCategoryBilleteras": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Billeteras"
+            "label": "Billeteras",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#deptomujer__categoryAccesorios--subCategoryGafas": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Gafas"
+            "label": "Gafas",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#deptomujer__categoryAccesorios--subCategoryCinturones": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Cinturones"
+            "label": "Cinturones",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#deptomujer__categoryAccesorios--subCategoryCosmetiqerasyEstuches": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Cosmetiqeras y Estuches"
+            "label": "Cosmetiqeras y Estuches",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#deptomujer__categoryAccesorios--subCategoryVertodoAccesorios": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Ver todos"
+            "label": "Ver todos",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#deptomujer__categoryAccesorios--subCategoryNovedadesAccesorios": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Novadades"
+            "label": "Novadades",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#deptomujer__categoryAccesorios--subCategoryOfertasAccesorios": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Ofertas"
+            "label": "Ofertas",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     /*---------------------------------------------------departamentos deportes*/
     "link#deptomujer__categoryDeportes--subCategoryTenisyZapatos": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Tenis y Zapatos"
+            "label": "Tenis y Zapatos",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#deptomujer__categoryDeportes--subCategoryVestuario": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Vestuario"
+            "label": "Vestuario",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#deptomujer__categoryDeportes--subCategoryAccesorios": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Accesorios"
+            "label": "Accesorios",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#deptomujer__categoryDeportes--subCategoryEquipamiento": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Equipamiento"
+            "label": "Equipamiento",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#deptomujer__categoryDeportes--subCategoryVerTodos": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Ver todos"
+            "label": "Ver todos",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#deptomujer__categoryDeportes--subCategoryNovadades": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Novadades"
+            "label": "Novadades",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#deptomujer__categoryDeportes--subCategoryOfertas": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Ofertas"
+            "label": "Ofertas",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     /*---------------------------------------------------departamentos marcas*/
     "link#deptomujer__categoryMarcas--subCategoryRoyalCounty": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Royal County"
+            "label": "Royal County",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#deptomujer__categoryMarcas--subCategoryDesigual": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Desigual"
+            "label": "Desigual",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#deptomujer__categoryMarcas--subCategoryTommyHilfiger": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Tommy Hilfiger"
+            "label": "Tommy Hilfiger",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#deptomujer__categoryMarcas--subCategoryMP": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "MP"
+            "label": "MP",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#deptomujer__categoryMarcas--subCategoryLevi's": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Levi's"
+            "label": "Levi's",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#deptomujer__categoryMarcas--subCategoryGAP": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "GAP"
+            "label": "GAP",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#deptomujer__categoryMarcas--subCategoryTellenzi": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Tellenzi"
+            "label": "Tellenzi",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#deptomujer__categoryMarcas--subCategoryGEF": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "GEF"
+            "label": "GEF",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#deptomujer__categoryMarcas--subCategoryCalvinKlein": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Calvin Klein"
+            "label": "Calvin Klein",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#deptomujer__categoryMarcas--subCategoryUSPoloAssn": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "US Polo Assn"
+            "label": "US Polo Assn",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#deptomujer__categoryMarcas--subCategoryMattelsa": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Mattelsa"
+            "label": "Mattelsa",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     /*----------------------HOMBRE*/
     /*-----------------------------------------------------------departamentos Zapatos*/
     "link#deptohombre__categoryzapatos--subCategoryTenis": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Tenis"
+            "label": "Tenis",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#deptohombre__categoryzapatos--subCategoryBotas": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Botas"
+            "label": "Botas",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#deptohombre__categoryzapatos--subCategoryMocasines": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Mocasines"
+            "label": "Mocasines",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#deptohombre__categoryzapatos--subCategoryZapatosCasuales": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Zapatos Casuales"
+            "label": "Zapatos Casuales",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#deptohombre__categoryzapatos--subCategoryZapatosFormales": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Zapatos Formales"
+            "label": "Zapatos Formales",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#deptohombre__categoryzapatos--subCategoryPlayeras": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Playeras"
+            "label": "Playeras",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#deptohombre__categoryzapatos--subCategoryVerTodo": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Ver todos"
+            "label": "Ver todos",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#deptohombre__categoryzapatos--subCategoryNovedades": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Novadades"
+            "label": "Novadades",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#deptohombre__categoryzapatos--subCategoryOfertas": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Ofertas"
+            "label": "Ofertas",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     /*---------------------------------------------------departamentos ropa*/
     "link#deptohombre__categoryRopa--subCategoryPolos": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Polos"
+            "label": "Polos",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#deptohombre__categoryRopa--subCategoryCamisas": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Camisas"
+            "label": "Camisas",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#deptohombre__categoryRopa--subCategoryCamisetas": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Camisetas"
+            "label": "Camisetas",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#deptohombre__categoryRopa--subCategoryJeans": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Jeans"
+            "label": "Jeans",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#deptohombre__categoryRopa--subCategoryChaquetas": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Chaquetas"
+            "label": "Chaquetas",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#deptohombre__categoryRopa--subCategoryPantalones": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Pantalones"
+            "label": "Pantalones",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#deptohombre__categoryRopa--subCategorySacosyCardigans": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Sacos y Cardigans"
+            "label": "Sacos y Cardigans",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#deptohombre__categoryRopa--subCategoryRopaInterior": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Ropa Interior"
+            "label": "Ropa Interior",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#deptohombre__categoryRopa--subCategoryBermudasyPantalonetas": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Bermudas y Pantalonetas"
+            "label": "Bermudas y Pantalonetas",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#deptohombre__categoryRopa--subCategoryVerTodo": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Ver todos"
+            "label": "Ver todos",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#deptohombre__categoryRopa--subCategoryNovedades": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Novedades"
+            "label": "Novedades",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#deptohombre__categoryRopa--subCategoryOfertas": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Ofertas"
+            "label": "Ofertas",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     /*---------------------------------------------------departamentos accesorios*/
     "link#deptohombre__categoryAccesorios--subCategoryRelojes": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Relojes"
+            "label": "Relojes",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#deptohombre__categoryAccesorios--subCategoryMorrales": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Morrales"
+            "label": "Morrales",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#deptohombre__categoryAccesorios--subCategoryGafas": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Gafas"
+            "label": "Gafas",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#deptohombre__categoryAccesorios--subCategoryBilleteras": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Billeteras"
+            "label": "Billeteras",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#deptohombre__categoryAccesorios--subCategoryCinturones": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Cinturones"
+            "label": "Cinturones",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#deptohombre__categoryAccesorios--subCategoryMaletinesyBolsos": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Maltines y Bolsos"
+            "label": "Maltines y Bolsos",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#deptohombre__categoryAccesorios--subCategoryVertodo": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Ver todos"
+            "label": "Ver todos",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#deptohombre__categoryAccesorios--subCategoryNovedades": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Novadades"
+            "label": "Novadades",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#deptohombre__categoryAccesorios--subCategoryOfertas": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Ofertas"
+            "label": "Ofertas",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     /*---------------------------------------------------departamentos deportes*/
     "link#deptohombre__categoryDeportes--subCategoryTenisyZapatos": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Tenis y Zapatos"
+            "label": "Tenis y Zapatos",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#deptohombre__categoryDeportes--subCategoryVestuario": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Vestuario"
+            "label": "Vestuario",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#deptohombre__categoryDeportes--subCategoryAccesorios": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Accesorios"
+            "label": "Accesorios",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#deptohombre__categoryDeportes--subCategoryEquipamiento": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Equipamiento"
+            "label": "Equipamiento",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#deptohombre__categoryDeportes--subCategoryVerTodo": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Ver todos"
+            "label": "Ver todos",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#deptohombre__categoryDeportes--subCategoryNovadades": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Novadades"
+            "label": "Novadades",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#deptohombre__categoryDeportes--subCategoryOfertas": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Ofertas"
+            "label": "Ofertas",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     /*---------------------------------------------------departamentos marcas*/
     "link#deptohombre__categoryMarcas--subCategoryRoyalCounty": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Royal County"
+            "label": "Royal County",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#deptohombre__categoryMarcas--subCategoryUSPoloAssn": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "US Polo Assn"
+            "label": "US Polo Assn",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#deptohombre__categoryMarcas--subCategoryTommyHilfiger": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Tommy Hilfiger"
+            "label": "Tommy Hilfiger",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#deptohombre__categoryMarcas--subCategoryColore": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Colore"
+            "label": "Colore",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#deptohombre__categoryMarcas--subCategoryMP": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "MP"
+            "label": "MP",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#deptohombre__categoryMarcas--subCategoryDiesel": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Diesel"
+            "label": "Diesel",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#deptohombre__categoryMarcas--subCategoryNaútica": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Naútica"
+            "label": "Naútica",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#deptohombre__categoryMarcas--subCategoryLevi's": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Levi's"
+            "label": "Levi's",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#deptohombre__categoryMarcas--subCategoryBeverlyHills": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Beverly Hills"
+            "label": "Beverly Hills",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#deptohombre__categoryMarcas--subCategoryBrooksfield": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Brooks field"
+            "label": "Brooks field",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#deptohombre__categoryMarcas--subCategoryArturoCalle": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Arturo Calle"
+            "label": "Arturo Calle",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#deptohombre__categoryMarcas--subCategoryRayBan": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Ray Ban"
+            "label": "Ray Ban",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     /*-------------------------------------------------------------- Deportes*/
     "link#deptodeportes__categoryfemenino--subCategoryTenisDeportivo": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Tenis Deportivos"
+            "label": "Tenis Deportivos",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#deptodeportes__categoryfemenino--subCategoryCamisetas": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Camisetas"
+            "label": "Camisetas",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#deptodeportes__categoryfemenino--subCategoryChaquetasyChalecos": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Chaquetas y Chalecos"
+            "label": "Chaquetas y Chalecos",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#deptodeportes__categoryfemenino--subCategoryLeggingsyCapris": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Leggings y Capris "
+            "label": "Leggings y Capris ",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#deptodeportes__categoryfemenino--subCategoryPantalones": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Pantalones"
+            "label": "Pantalones",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#deptodeportes__categoryfemenino--subCategoryBotas": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Botas"
+            "label": "Botas",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#deptodeportes__categoryfemenino--subCategoryEquipamiento": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Equipamiento"
+            "label": "Equipamiento",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#deptodeportes__categoryfemenino--subCategoryVerTodo": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Ver todo"
+            "label": "Ver todo",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#deptodeportes__categorymasculino--subCategoryTenisDeportivos": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Tenis deportivos"
+            "label": "Tenis deportivos",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#deptodeportes__categorymasculino--subCategoryGuayos": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Guayos"
+            "label": "Guayos",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#deptodeportes__categorymasculino--subCategoryCamisetas": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Camisetas"
+            "label": "Camisetas",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#deptodeportes__categorymasculino--subCategoryBuzoyHoodies": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Buzo y hoodies"
+            "label": "Buzo y hoodies",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#deptodeportes__categorymasculino--subCategoryPantalones": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Pantalones"
+            "label": "Pantalones",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#deptodeportes__categorymasculino--subCategoryBotas": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Botas"
+            "label": "Botas",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#deptodeportes__categorymasculino--subCategoryMorralesyBolsos": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Morrales y bolsos"
+            "label": "Morrales y bolsos",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#deptodeportes__categorymasculino--subCategoryEquipamiento": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Equipamiento"
+            "label": "Equipamiento",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#deptodeportes__categorymasculino--subCategoryVerTodo": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Ver todo"
+            "label": "Ver todo",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#deptodeportes__categorymarcas--subCategoryAdidasPerformance": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Adidas Performance"
+            "label": "Adidas Performance",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#deptodeportes__categorymarcas--subCategoryAddidasOriginales": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Adidas Originals"
+            "label": "Adidas Originals",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#deptodeportes__categorymarcas--subCategoryNike": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Nike"
+            "label": "Nike",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#deptodeportes__categorymarcas--subCategoryReebok": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Reebok"
+            "label": "Reebok",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#deptodeportes__categorymarcas--subCategoryAsics": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Asics"
+            "label": "Asics",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#deptodeportes__categorymarcas--subCategorySkechers": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Skechers"
+            "label": "Skechers",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#deptodeportes__categorymarcas--subCategoryFila": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Fila"
+            "label": "Fila",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#deptodeportes__categorymarcas--subCategoryPuma": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Puma"
+            "label": "Puma",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#deptodeportes__categorymarcas--subCategoryUnderArmour": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Under Armour"
+            "label": "Under Armour",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#deptodeportes__categorymarcas--subCategoryVerTodo": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Ver todo"
+            "label": "Ver todo",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#deptodeportes__categoryActividades--subCategoryTraining": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Training"
+            "label": "Training",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#deptodeportes__categoryActividades--subCategoryLifeStyle": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Lifestyle"
+            "label": "Lifestyle",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#deptodeportes__categoryActividades--subCategoryRunning": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Running"
+            "label": "Running",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#deptodeportes__categoryActividades--subCategoryFútbol": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Fútbol"
+            "label": "Fútbol",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#deptodeportes__categoryActividades--subCategoryCiclismo": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Ciclismo"
+            "label": "Ciclismo",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#deptodeportes__categoryActividades--subCategoryBasquetball": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Basquetball"
+            "label": "Basquetball",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#deptodeportes__categoryActividades--subCategoryOutdoor": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Outdoor"
+            "label": "Outdoor",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#deptodeportes__categoryActividades--subCategorySkate": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Skate"
+            "label": "Skate",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#deptodeportes__categoryActividades--subCategoryVerTodo": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Ver todo"
+            "label": "Ver todo",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#deptodeportes__categoriaPlus--subCategoryFitness": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Fitness"
+            "label": "Fitness",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#deptodeportes__categoriaPlus--subCategoryYoga": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Yoga"
+            "label": "Yoga",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#deptodeportes__categoriaPlus--subCategoryNatacion": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Natación"
+            "label": "Natación",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#deptodeportes__categoriaPlus--subCategoryTenis": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Tenis"
+            "label": "Tenis",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#deptodeportes__categoriaPlus--subCategoryGolf": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Golf"
+            "label": "Golf",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#deptodeportes__categoriaPlus--subCategoryMotos": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Motos"
+            "label": "Motos",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#deptodeportes__categoriaPlus--subCategoryVolleyball": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Volleyball"
+            "label": "Volleyball",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#deptodeportes__categoriaPlus--subCategoryBoxeo": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Boxeo"
+            "label": "Boxeo",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#deptodeportes__categoriaPlus--subCategoryVerTodo": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Ver todo"
+            "label": "Ver todo",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     //-----------------------------------------------------------------------------departamento Niños
     "link#deptoNiños__categoryBebe--subCategoryRopa": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Ropa"
+            "label": "Ropa",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#deptoNiños__categoryBebe--subCategoryZapatos": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Zapatos"
+            "label": "Zapatos",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#deptoNiños__categoryDosaSeiteAños--subCategoryRopaNiña": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Ropa Niña"
+            "label": "Ropa Niña",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#deptoNiños__categoryDosaSeiteAños--subCategoryZapatosNiña": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Zapatos Niña"
+            "label": "Zapatos Niña",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#deptoNiños__categoryDosaSeiteAños--subCategoryAccesorioNiña": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Accesorios Niña"
+            "label": "Accesorios Niña",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#deptoNiños__categoryDosaSeiteAños--subCategoryRopaNiño": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Ropa Niño"
+            "label": "Ropa Niño",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#deptoNiños__categoryDosaSeiteAños--subCategoryZapatosNiño": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Zapatos Niño"
+            "label": "Zapatos Niño",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#deptoNiños__categoryDosaSeiteAños--subCategoryAccesorioNiño": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Accesorios Niño"
+            "label": "Accesorios Niño",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#deptoNiños__categoryOchoaDesiseisAños--subCategoryRopaNiña": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Ropa Niña"
+            "label": "Ropa Niña",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#deptoNiños__categoryOchoaDesiseisAños--subCategoryZapatosNiña": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Zapatos Niña"
+            "label": "Zapatos Niña",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#deptoNiños__categoryOchoaDesiseisAños--subCategoryAccesorioNiña": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Accesorios Niña"
+            "label": "Accesorios Niña",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#deptoNiños__categoryOchoaDesiseisAños--subCategoryRopaNiño": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Ropa Niño"
+            "label": "Ropa Niño",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#deptoNiños__categoryOchoaDesiseisAños--subCategoryZapatosNiño": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Zapatos Niño"
+            "label": "Zapatos Niño",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#deptoNiños__categoryOchoaDesiseisAños--subCategoryAccesorioNiño": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Accesorios Niño"
+            "label": "Accesorios Niño",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#deptoNiños__categoryMarcas--subCategoryOffcorss": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Offcorss"
+            "label": "Offcorss",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#deptoNiños__categoryMarcas--subCategoryGapKids": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Gap Kids"
+            "label": "Gap Kids",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#deptoNiños__categoryMarcas--subCategoryEpeka": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "EPEKA"
+            "label": "EPEKA",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#deptoNiños__categoryMarcas--subCategoryTommyhilfigerKids": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Tommy Hilfinger Kids"
+            "label": "Tommy Hilfinger Kids",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#deptoNiños__categoryMarcas--subCategoryRoyalCountyKids": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Royal County Kids"
+            "label": "Royal County Kids",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#deptoNiños__categoryMarcas--subCategoryMP": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "MP"
+            "label": "MP",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#deptoNiños__categoryMarcas--subCategorylevisKids": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Levis kids"
+            "label": "Levis kids",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#deptoNiños__categoryMarcasDeportivas--subCategoryNewBalanceKids": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "New Balance Kids"
+            "label": "New Balance Kids",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#deptoNiños__categoryMarcasDeportivas--subCategoryFilaKids": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Fila kids"
+            "label": "Fila kids",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#deptoNiños__categoryMarcasDeportivas--subCategorySkechersKids": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Skechers kids"
+            "label": "Skechers kids",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#deptoNiños__categoryMarcasDeportivas--subCategoryUnderArmourKids": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Under Armour kids"
+            "label": "Under Armour kids",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#deptoNiños__categoryMarcasDeportivas--subCategoryAdidasKids": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Adidas kids"
+            "label": "Adidas kids",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#deptoNiños__categoryMarcasDeportivas--subCategoryOceanPacificKids": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Ocean Pacific Kids"
+            "label": "Ocean Pacific Kids",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#deptoNiños__categoryJugetes--subCategoryMattel": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Mattel"
+            "label": "Mattel",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#deptoNiños__categoryJugetes--subCategoryHotWheels": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Hot Wheels"
+            "label": "Hot Wheels",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#deptoNiños__categoryJugetes--subCategoryHasbro": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Hasbro"
+            "label": "Hasbro",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#deptoNiños__categoryJugetes--subCategoryFisherPrice": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Fisher price"
+            "label": "Fisher price",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#deptoNiños__categoryJugetes--subCategoryBarbie": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Barbie"
+            "label": "Barbie",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#deptoNiños__categoryJugetes--subCategoryLego": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Lego"
+            "label": "Lego",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#deptoNiños__categoryDisney--subCategoryJuguetesyAccesorios": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Jugetes y accesorios"
+            "label": "Jugetes y accesorios",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#deptoNiños__categoryDisney--subCategoryCalzado": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Calzado"
+            "label": "Calzado",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#deptoNiños__categoryDisney--subCategoryRopa": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Ropa"
+            "label": "Ropa",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     //-----------------------------------------------------------------------------departamento Belleza
     "link#dptoBelleza__categoryCuidadoFacial--subCategoryBloqueador": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Bloqueador para rostro"
+            "label": "Bloqueador para rostro",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#dptoBelleza__categoryCuidadoFacial--subCategoryHidratanteOne": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Hidratante facial"
+            "label": "Hidratante facial",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#dptoBelleza__categoryCuidadoFacial--subCategoryHidratanteTwo": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Hidratante facial"
+            "label": "Hidratante facial",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#dptoBelleza__categoryCuidadoFacial--subCategoryHidratantesThree": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Hidratante para labios"
+            "label": "Hidratante para labios",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#dptoBelleza__categoryCuidadoFacial--subCategoryKit": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Kit cuidado facial"
+            "label": "Kit cuidado facial",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#dptoBelleza__categoryCuidadoFacial--subCategoryLimpiadores": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Limpiadores y Desmaquillantes"
+            "label": "Limpiadores y Desmaquillantes",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#dptoBelleza__categoryCuidadoFacial--subCategoryTratamiento": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Tratamiento facial"
+            "label": "Tratamiento facial",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#dptoBelleza__categoryCuidadoCapilar--subCategoryAccesorios": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Accesorios para el cabello"
+            "label": "Accesorios para el cabello",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#dptoBelleza__categoryCuidadoCapilar--subCategoryTintes": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Tintes"
+            "label": "Tintes",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#dptoBelleza__categoryCuidadoCapilar--subCategoryShampoo": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Shampoo y acondicionador"
+            "label": "Shampoo y acondicionador",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#dptoBelleza__categoryCuidadoCapilar--subCategoryTratamientosCapilares": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Tratamientos Capilares"
+            "label": "Tratamientos Capilares",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#dptoBelleza__categoryCuidadoCapilar--subCategoryCuidadoBarba": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Cuidado de barba"
+            "label": "Cuidado de barba",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#dptoBelleza__categoryCuidadoCorporal--subCategoryHidratanteCorporal": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Hidratante corporal"
+            "label": "Hidratante corporal",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#dptoBelleza__categoryCuidadoCorporal--subCategoryKits": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Kits cuidado corporal"
+            "label": "Kits cuidado corporal",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#dptoBelleza__categoryCuidadoCorporal--subCategoryLimpieza": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Limpieza corporal"
+            "label": "Limpieza corporal",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#dptoBelleza__categoryCuidadoCorporal--subCategoryManosyPies": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Manos y pies"
+            "label": "Manos y pies",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#dptoBelleza__categoryCuidadoCorporal--subCategoryProteccion": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Proteccion"
+            "label": "Proteccion",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#dptoBelleza__categoryCuidadoCorporal--subCategoryTratamientoCorporal": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Tratamiento corporal"
+            "label": "Tratamiento corporal",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#dptoBelleza__categoryMaquillaje--subCategoryBrochas": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Brochas y Accesorios"
+            "label": "Brochas y Accesorios",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#dptoBelleza__categoryMaquillaje--subCategoryRostro": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Rostro"
+            "label": "Rostro",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#dptoBelleza__categoryMaquillaje--subCategoryCejas": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Cejas"
+            "label": "Cejas",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#dptoBelleza__categoryMaquillaje--subCategoryLabios": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Labios"
+            "label": "Labios",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#dptoBelleza__categoryMaquillaje--subCategoryOjos": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Ojos"
+            "label": "Ojos",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#dptoBelleza__categoryMaquillaje--subCategoryUñas": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Uñas"
+            "label": "Uñas",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#dptoBelleza__categoryPerfumes--subCategoryPerfumesHombre": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Perfumes Hombre"
+            "label": "Perfumes Hombre",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#dptoBelleza__categoryPerfumes--subCategoryPerfumesMujer": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Perfume Mujer"
+            "label": "Perfume Mujer",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#dptoBelleza__categoryDermoCosmetica--subCategoryAntiEdad": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Anti-edad"
+            "label": "Anti-edad",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#dptoBelleza__categoryDermoCosmetica--subCategoryCuidadoCapilar": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Cuidado Capilar Dermo"
+            "label": "Cuidado Capilar Dermo",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     //-----------------------------------------------------------------------------departamento Marca
     "link#deptoMarca__categoryzapatos--subCategoryRoyalCounty": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Royal County"
+            "label": "Royal County",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#deptoMarca__categoryzapatos--subCategoryTommyHilfiger": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Tommy Hilfiger"
+            "label": "Tommy Hilfiger",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#deptoMarca__categoryzapatos--subCategoryLevis": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Levi's"
+            "label": "Levi's",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#deptoMarca__categoryzapatos--subCategoryBeverly": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Beverly Hills Polo Club"
+            "label": "Beverly Hills Polo Club",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#deptoMarca__categoryzapatos--subCategoryUs": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Us Polo Assn"
+            "label": "Us Polo Assn",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#deptoMarca__categoryzapatos--subCategoryVizzano": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Vizzano"
+            "label": "Vizzano",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#deptoMarca__categoryzapatos--subCategoryTellenzi": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Tellenzi"
+            "label": "Tellenzi",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#deptoMarca__categoryzapatos--subCategoryCroydon": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Croydon"
+            "label": "Croydon",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#deptoMarca__categoryzapatos--subCategoryBosi": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Bosi"
+            "label": "Bosi",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
-    "link#deptoMarca__categoryzapatos--subCategoryMonserrate": {
+    "link#deptoMarca__categoryzapatos--subCategoryMonserrate": { 
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Monserrate"
+            "label": "Monserrate",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#deptoMarca__categoryzapatos--subCategoryVerTodos": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Ver Todos"
+            "label": "Ver Todos",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#deptoMarca__categoryRopa--subCategoryPolo": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Polo Ralph Lauren"
+            "label": "Polo Ralph Lauren",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#deptoMarca__categoryRopa--subCategoryUs": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Us Polo Assn"
+            "label": "Us Polo Assn",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#deptoMarca__categoryRopa--subCategoryTommy": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Tommy Hilfiger"
+            "label": "Tommy Hilfiger",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#deptoMarca__categoryRopa--subCategoryNautica": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Nautica"
+            "label": "Nautica",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#deptoMarca__categoryRopa--subCategoryArturo": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Arturo Calle"
+            "label": "Arturo Calle",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#deptoMarca__categoryRopa--subCategoryMP": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "MP"
+            "label": "MP",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#deptoMarca__categoryRopa--subCategoryDesigual": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Desigual"
+            "label": "Desigual",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#deptoMarca__categoryRopa--subCategoryLevis": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Levi's"
+            "label": "Levi's",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#deptoMarca__categoryRopa--subCategorykoaj": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Koaj"
+            "label": "Koaj",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#deptoMarca__categoryRopa--subCategoryParis": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Paris District"
+            "label": "Paris District",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#deptoMarca__categoryRopa--subCategoryVerTodos": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Ver Todo"
+            "label": "Ver Todo",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#deptoMarca__categoryAccesorios--subCategoryTommy": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Tommy Hilfiger"
+            "label": "Tommy Hilfiger",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#deptoMarca__categoryAccesorios--subCategoryfossil": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Fossil"
+            "label": "Fossil",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#deptoMarca__categoryAccesorios--subCategoryGuess": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Guess"
+            "label": "Guess",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#deptoMarca__categoryAccesorios--subCategoryUs": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Us Polo Assn"
+            "label": "Us Polo Assn",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#deptoMarca__categoryAccesorios--subCategoryRay": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Ray Ban"
+            "label": "Ray Ban",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#deptoMarca__categoryAccesorios--subCategoryInvicta": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Invita"
+            "label": "Invita",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#deptoMarca__categoryAccesorios--subCategoryTotto": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Totto"
+            "label": "Totto",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#deptoMarca__categoryAccesorios--subCategoryDesigual": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Desigual"
+            "label": "Desigual",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#deptoMarca__categoryAccesorios--subCategoryNine": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Nine West"
+            "label": "Nine West",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#deptoMarca__categoryAccesorios--subCategoryPrune": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Prune"
+            "label": "Prune",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#deptoMarca__categoryAccesorios--subCategoryVelez": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Velez"
+            "label": "Velez",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#deptoMarca__categoryAccesorios--subCategoryVerTodo": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Ver Todo"
+            "label": "Ver Todo",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#deptoMarca__categoryDeportes--subCategorySkechers": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Skechers"
+            "label": "Skechers",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#deptoMarca__categoryDeportes--subCategoryNike": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Nike"
+            "label": "Nike",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#deptoMarca__categoryDeportes--subCategoryAddidasPerformance": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Addidas Performance"
+            "label": "Addidas Performance",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#deptoMarca__categoryDeportes--subCategoryAddidasOriginals": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Addis Originales"
+            "label": "Addis Originales",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#deptoMarca__categoryDeportes--subCategoryUnder": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Under Armour"
+            "label": "Under Armour",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#deptoMarca__categoryDeportes--subCategoryReebok": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Reebok"
+            "label": "Reebok",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#deptoMarca__categoryDeportes--subCategoryNewBalance": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "New Balance"
+            "label": "New Balance",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#deptoMarca__categoryDeportes--subCategoryFila": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Fila"
+            "label": "Fila",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#deptoMarca__categoryDeportes--subCategoryAsics": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Asics"
+            "label": "Asics",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#deptoMarca__categoryDeportes--subCategoryLotto": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Lotto"
+            "label": "Lotto",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#deptoMarca__categoryDeportes--subCategoryPluma": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Puma"
+            "label": "Puma",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#deptoMarca__categoryDeportes--subCategoryVerTodo": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Ver Todos"
+            "label": "Ver Todos",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#deptoHogar__categoryCocina--subCategoryDespensa": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Despensa y Nevera"
+            "label": "Despensa y Nevera",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#deptoHogar__categoryCocina--subCategoryPaletero": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Platero"
+            "label": "Platero",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#deptoHogar__categoryCocina--subCategoryZonadeAseo": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Zona de Aseo"
+            "label": "Zona de Aseo",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#deptoHogar__categoryCocina--subCategoryEstufa": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Estufa y Horno"
+            "label": "Estufa y Horno",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#deptoHogar__categoryCocina--subCategoryUtencilios": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Utencilios para cocina"
+            "label": "Utencilios para cocina",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#deptoHogar__categoryComedor--subCategoryVajillas": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Vajillas"
+            "label": "Vajillas",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#deptoHogar__categoryComedor--subCategoryVasosyCopas": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Vasos y Copas"
+            "label": "Vasos y Copas",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#deptoHogar__categoryDormitorio--subCategoryOrganización": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Organización Closet"
+            "label": "Organización Closet",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#deptoHogar__categoryHomeOffice--subCategoryAlmacenamiento": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Almacenamiento"
+            "label": "Almacenamiento",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#deptoHogar__categoryHomeOffice--subCategoryEscritorios": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Escritorio"
+            "label": "Escritorio",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#deptoHogar__categoryHomeOffice--subCategorySillas": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Sillas"
+            "label": "Sillas",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#deptoHogar__categoryDecoracion--subCategoryAccesorios": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Accesorios"
+            "label": "Accesorios",
+            "blockClass":"categorias__subcatagorias--links"
         }
     },
     "link#deptoHogar__categoryDecoracion--subCategoryDiseño": {
+       "title":"categorias__subcategorias",
         "props": {
             "href": "#",
-            "label": "Diseño"
+            "label": "Diseño",
+            "blockClass":"categorias__subcatagorias--links"
         }
     }
 }

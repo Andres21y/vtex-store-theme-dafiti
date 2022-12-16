@@ -1,6 +1,6 @@
 {
     "menu-item#menuPrincipal__deptoBelleza": {
-        "title":"menuPrincipal__deptoBelleza",
+        "title": "menuPrincipal__deptoBelleza",
         "props": {
             "type": "custom",
             "highlight": false,
@@ -11,14 +11,14 @@
                 "tagTitle": "departamento_Belleza",
                 "text": "belleza"
             },
-            "blockClass":"menuPrincipal__deptoBelleza"
+            "blockClass": "menuPrincipal__deptoBelleza"
         },
         "blocks": [
             "vtex.menu@2.x:submenu#departamento__Belleza--categorias"
         ]
     },
     "vtex.menu@2.x:submenu#departamento__Belleza--categorias": {
-        "title":"departamento__Belleza--categorias",
+        "title": "departamento__Belleza--categorias",
         "children": [
             "menu-item#dptoBelleza__categoriaCuidadoFacial",
             "menu-item#dptoBelleza__categoriaCuidadoCapilar",
@@ -28,13 +28,10 @@
             "menu-item#dptoBelleza__categoriaPerfumes",
             "menu-item#dptoBelleza__categoriaDermoCosmetica"
         ],
-        "props":{
-            "blockClass":"departamento__Belleza--categorias"
+        "props": {
+            "blockClass": "departamento__Belleza--categorias"
         }
     },
-
-    /*--------------------------------------------------------------------------------------*/
-    
     "menu-item#dptoBelleza__categoriaCuidadoFacial": {
         "title": "dptoBelleza__categoria--CuidadoFacial",
         "props": {
@@ -53,7 +50,6 @@
             "flex-layout.row#dptoBelleza__categoriaCuidadoFacial--container"
         ]
     },
-
     "flex-layout.row#dptoBelleza__categoriaCuidadoFacial--container": {
         "title": "dptoBelleza__categoriaCuidadoFacial--container",
         "children": [
@@ -63,7 +59,6 @@
             "blockClass": "dptoBelleza__categoriaCuidadoFacial--container"
         }
     },
-
     "flex-layout.col#dptoBelleza__categoriaCuidadoFacial--subcategories": {
         "title": "dptoBelleza__categoriaCuidadoFacial--subcategories",
         "children": [
@@ -79,12 +74,8 @@
             "blockClass": "dptoBelleza__categoriaCuidadoFacial--subcategories"
         }
     },
-    
-    
-    /*--------------------------------------------------------------------------------------*/
-    
     "menu-item#dptoBelleza__categoriaCuidadoCapilar": {
-        "title":"dptoBelleza__categoria--CuidadoCapilar",
+        "title": "dptoBelleza__categoria--CuidadoCapilar",
         "props": {
             "type": "custom",
             "highlight": false,
@@ -123,12 +114,8 @@
             "blockClass": "dptoBelleza__categoriaCuidadoCapilar--subcategories"
         }
     },
-
-/*--------------------------------------------------------------------------------------*/
-
-
-"menu-item#dptoBelleza__categoriaCuidadoCorporal": {
-        "title":"dptoBelleza__categoria--CuidadoCorporal",
+    "menu-item#dptoBelleza__categoriaCuidadoCorporal": {
+        "title": "dptoBelleza__categoria--CuidadoCorporal",
         "props": {
             "type": "custom",
             "highlight": false,
@@ -168,12 +155,8 @@
             "blockClass": "dptoBelleza__categoriaCuidadoCorporal--subcategories"
         }
     },
-
-/*--------------------------------------------------------------------------------------*/
-
-
-"menu-item#dptoBelleza__categoriaMaquillaje": {
-        "title":"dptoBelleza__categoria--Maquillaje",
+    "menu-item#dptoBelleza__categoriaMaquillaje": {
+        "title": "dptoBelleza__categoria--Maquillaje",
         "props": {
             "type": "custom",
             "highlight": false,
@@ -213,10 +196,8 @@
             "blockClass": "dptoBelleza__categoriaMaquillaje--subcategories"
         }
     },
-
-/*--------------------------------------------------------------------------------------*/
-"menu-item#dptoBelleza__categoriaSaludyBienestar": {
-        "title":"dptoBelleza__categoria--SaludyBienestar",
+    "menu-item#dptoBelleza__categoriaSaludyBienestar": {
+        "title": "dptoBelleza__categoria--SaludyBienestar",
         "props": {
             "type": "custom",
             "highlight": false,
@@ -248,8 +229,8 @@
             "blockClass": "dptoBelleza__categoriaSaludyBienestar--subcategories"
         }
     },
- "menu-item#dptoBelleza__categoriaPerfumes": {
-        "title":"dptoBelleza__categoria--Perfumes",
+    "menu-item#dptoBelleza__categoriaPerfumes": {
+        "title": "dptoBelleza__categoria--Perfumes",
         "props": {
             "type": "custom",
             "highlight": false,
@@ -286,7 +267,7 @@
         }
     },
     "menu-item#dptoBelleza__categoriaDermoCosmetica": {
-        "title":"dptoBelleza__categoria--DermoCosmetica",
+        "title": "dptoBelleza__categoria--DermoCosmetica",
         "props": {
             "type": "custom",
             "highlight": false,

@@ -13,7 +13,7 @@
         "children": [
             "flex-layout.row#home__main--blockTitle",
             "flex-layout.row#home__main--container",
-            "flex-layout.row#home__main--blockVarieties"
+            "flex-layout.row#home_main--blockVarieties"
         ],
         "props": {
             "blockClass": "home__main--blockContainer"
@@ -43,14 +43,14 @@
     "flex-layout.row#home__main--container": {
         "title": "home__main--container",
         "children": [
-            "flex-layout.col#home__main--blockMujer",
+            "flex-layout.col#home__main--blockMujer ",
             "flex-layout.col#home__main--blockHombre"
         ],
         "props": {
             "blockClass": "home__block--container"
         }
     },
-    "flex-layout.col#home__main--blockMujer": {
+    "flex-layout.col#home__main--blockMujer ": {
         "title": "home_main-block--mujer",
         "children": [
             "flex-layout.row#subcategories__woman",
@@ -58,7 +58,7 @@
             "flex-layout.row#text_mujer"
         ],
         "props": {
-            "blockClass": "home__main-block--mujer"
+            "blockClass": "home_main-block--mujer"
         }
     },
     "flex-layout.row#subcategories__woman": {
@@ -91,7 +91,7 @@
         "props": {
             "href": "#",
             "label": "Zapatos",
-            "blockClass": "container__woman--itemZapatos"
+            "blockClass": "container__woman--itemAll"
         }
     },
     "link#container__mujer--itemJeans": {
@@ -99,7 +99,7 @@
         "props": {
             "href": "#",
             "label": "Jeans",
-            "blockClass": "container__woman--itemJeans"
+            "blockClass": "container__woman--itemAll"
         }
     },
     "link#container__mujer--itemBlusas": {
@@ -107,7 +107,7 @@
         "props": {
             "href": "#",
             "label": "Blusas",
-            "blockClass": "container__woman--itemBlusas"
+            "blockClass": "container__woman--itemAll"
         }
     },
     "link#container__mujer--itemSneakers": {
@@ -115,7 +115,7 @@
         "props": {
             "href": "#",
             "label": "Sneakers",
-            "blockClass": "container__woman--itemSneakers"
+            "blockClass": "container__woman--itemAll"
         }
     },
     "link#container__mujer--itemVestidos": {
@@ -123,7 +123,7 @@
         "props": {
             "href": "#",
             "label": "Vestidos",
-            "blockClass": "container__woman--itemVestidos"
+            "blockClass": "container__woman--itemAll"
         }
     },
     "link#container__mujer--itemPantalones": {
@@ -131,7 +131,7 @@
         "props": {
             "href": "#",
             "label": "Pantalones",
-            "blockClass": "container__woman--itemPantalones"
+            "blockClass": "container__woman--itemAll"
         }
     },
     "link#container__mujer--itemBotas": {
@@ -139,7 +139,7 @@
         "props": {
             "href": "#",
             "label": "Botas",
-            "blockClass": "container__woman--itemBotas"
+            "blockClass": "container__woman--itemAll"
         }
     },
     "link#container__mujer--itemDeportes": {
@@ -147,7 +147,7 @@
         "props": {
             "href": "#",
             "label": "Deportes",
-            "blockClass": "container__woman--itemDeportes"
+            "blockClass": "container__woman--itemAll"
         }
     },
     "flex-layout.row#wbtn__ver--mas": {
@@ -229,7 +229,7 @@
         "props": {
             "href": "#",
             "label": "Tenis",
-            "blockClass": "container__hombre--itemTenis"
+            "blockClass": "container__hombre--itemAll"
         }
     },
     "link#container__hombre--itemCamisas": {
@@ -237,7 +237,7 @@
         "props": {
             "href": "#",
             "label": "Camisas",
-            "blockClass": "container__hombre--itemCamisas"
+            "blockClass": "container__hombre--itemAll"
         }
     },
     "link#container__hombre--itemJeans": {
@@ -245,7 +245,7 @@
         "props": {
             "href": "#",
             "label": "Jeans",
-            "blockClass": "container__hombre--itemJeans"
+            "blockClass": "container__hombre--itemAll"
         }
     },
     "link#container__hombre--itemPantalones": {
@@ -253,7 +253,7 @@
         "props": {
             "href": "#",
             "label": "Pantalones",
-            "blockClass": "container__hombre--itemPantalones"
+            "blockClass": "container__hombre--itemAll"
         }
     },
     "link#container__hombre--itemSneakers": {
@@ -261,7 +261,7 @@
         "props": {
             "href": "#",
             "label": "Sneakers",
-            "blockClass": "container__hombre--itemSneakers"
+            "blockClass": "container__hombre--itemAll"
         }
     },
     "link#container__hombre--itemZapatos": {
@@ -269,7 +269,7 @@
         "props": {
             "href": "#",
             "label": "Zapatos",
-            "blockClass": "container__hombre--itemZapatos"
+            "blockClass": "container__hombre--itemAll"
         }
     },
     "link#container__hombre--itemPolos": {
@@ -277,7 +277,7 @@
         "props": {
             "href": "#",
             "label": "Polos",
-            "blockClass": "container__hombre--itemPolos"
+            "blockClass": "container__hombre--itemAll"
         }
     },
     "link#container__hombre--itemDeportes": {
@@ -285,7 +285,7 @@
         "props": {
             "href": "#",
             "label": "Deportes",
-            "blockClass": "container__hombre--itemDeportes"
+            "blockClass": "container__hombre--itemAll"
         }
     },
     "flex-layout.row#mbtn_ver--mas": {
@@ -318,7 +318,7 @@
       },
 
      //------------------------------------------------------------------------------------------->#3
-    "flex-layout.row#home__main--blockVarieties": {
+    "flex-layout.row#home_main--blockVarieties": {
         "title": "home_main-blockVarieties",
         "children": [
             "rich-text#home_snaker",
@@ -326,7 +326,7 @@
             "rich-text#home_kids"
         ],
         "props": {
-            "blockClass": "home__blockVarieties"
+            "blockClass": "home_blockVarieties"
         }
     },
     "rich-text#home_snaker": {

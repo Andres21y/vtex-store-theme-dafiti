@@ -1,6 +1,6 @@
 {
     "menu-item#menuPrincipal__deptoMujer": {
-        "title":"menuPrincipal__deptoMujer",
+        "title": "menuPrincipal__deptoMujer",
         "props": {
             "type": "custom",
             "highlight": false,
@@ -11,14 +11,14 @@
                 "tagTitle": "departamento_mujer",
                 "text": "Mujer"
             },
-            "blockClass":"menuPrincipal__deptoMujer"
+            "blockClass": "menuPrincipal__deptoMujer"
         },
         "blocks": [
             "vtex.menu@2.x:submenu#departamento__mujer--categorias"
         ]
     },
     "vtex.menu@2.x:submenu#departamento__mujer--categorias": {
-        "title":"departamento__mujer--categorias",
+        "title": "departamento__mujer--categorias",
         "children": [
             "menu-item#dptomujer__categoriaZapatos",
             "menu-item#dptomujer__categoriaRopa",
@@ -26,13 +26,10 @@
             "menu-item#dptomujer__categoriaDeportes",
             "menu-item#dptomujer__categoriaMarcas"
         ],
-        "props":{
-            "blockClass":"departamento__mujer--categorias"
+        "props": {
+            "blockClass": "departamento__mujer--categorias"
         }
     },
-
-    /*--------------------------------------------------------------------------------------*/
-    
     "menu-item#dptomujer__categoriaZapatos": {
         "title": "dptomujer__categoria--Zapatos",
         "props": {
@@ -48,10 +45,9 @@
             "blockClass": "dptomujer__categoria--Zapatos"
         },
         "children": [
-            "flex-layout.row#dptomujer__categoriaZapatos--container"
+             "flex-layout.row#dptomujer__categoriaZapatos--container"
         ]
     },
-
     "flex-layout.row#dptomujer__categoriaZapatos--container": {
         "title": "dptomujer__categoriaZapatos--container",
         "children": [
@@ -61,7 +57,6 @@
             "blockClass": "dptomujer__categoriaZapatos--container"
         }
     },
-
     "flex-layout.col#deptomujer__categoriaZapatos--subcategories": {
         "title": "deptomujer__categoriaZapatos--subcategories",
         "children": [
@@ -77,15 +72,12 @@
             "link#deptomujer__categoryzapatos--subCategoryOfertas"
         ],
         "props": {
+            "orientation":"vertical",
             "blockClass": "deptomujer__categoriaZapatos--subcategories"
         }
     },
-    
-    
-    /*--------------------------------------------------------------------------------------*/
-    
     "menu-item#dptomujer__categoriaRopa": {
-        "title":"dptomujer__categoria--Ropa",
+        "title": "dptomujer__categoria--Ropa",
         "props": {
             "type": "custom",
             "highlight": false,
@@ -132,12 +124,8 @@
             "blockClass": "deptomujer__categoriaRopa--subcategories"
         }
     },
-
-/*--------------------------------------------------------------------------------------*/
-
-
-"menu-item#dptomujer__categoriaAcessorios": {
-        "title":"dptomujer__categoria--Accesorios",
+    "menu-item#dptomujer__categoriaAcessorios": {
+        "title": "dptomujer__categoria--Accesorios",
         "props": {
             "type": "custom",
             "highlight": false,
@@ -182,12 +170,8 @@
             "blockClass": "deptomujer__categoriaAccesorios--subcategories"
         }
     },
-
-/*--------------------------------------------------------------------------------------*/
-
-
-"menu-item#dptomujer__categoriaDeportes": {
-        "title":"dptomujer__categoria--Deportes",
+    "menu-item#dptomujer__categoriaDeportes": {
+        "title": "dptomujer__categoria--Deportes",
         "props": {
             "type": "custom",
             "highlight": false,
@@ -228,15 +212,8 @@
             "blockClass": "deptomujer__categoriaDeportes--subcategories"
         }
     },
-
-/*--------------------------------------------------------------------------------------*/
-
-
-
-
-
     "menu-item#dptomujer__categoriaMarcas": {
-        "title":"dptomujer__categoria--Marcas",
+        "title": "dptomujer__categoria--Marcas",
         "props": {
             "type": "custom",
             "highlight": false,

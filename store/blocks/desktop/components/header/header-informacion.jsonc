@@ -1,111 +1,82 @@
 {
     "header-row#info_section": {
-        "title": "header_info-section",
+        "title": "header__info--section",
         "children": [
-            "header-row#info_section-envio",
-            "header-row#info_section-cambio",
-            "header-row#info_section-pedido",
-            "header-row#info_section-nuevo",
-            "header-row#info_section-contacto",
-            "header-row#info_section-servicio"
+            "header-row#info__containerOne",
+            "header-row#info__containerTwo"
         ],
         "props": {
-            "blockClass": "header_info-section"
+            "blockClass": "header__info--section"
         }
     },
-    "header-row#info_section-envio": {
-        "title": "_section-envio",
+    "header-row#info__containerOne": {
+        "title": "info__section--containerOne",
         "children": [
-            "link#info_section-envio"
+            "link#infoSection__containerOne--envio",
+            "link#infoSection__containerOne--cambio",
+            "link#infoSection__containerOne--pedido",
+            "link#infoSection__containerOne--nuevo"
         ],
         "props": {
-            "blockClass": "_section-envio"
+            "blockClass": "info__section--containerOne"
         }
     },
-    "link#info_section-envio": {
+    "header-row#info__containerTwo": {
+        "title": "info__section--containerTwo",
+        "children": [
+            "link#infoSection__containerTwo--contacto",
+            "link#infoSection__containerTwo--servicio"
+        ],
+        "props": {
+            "blockClass": "info__section--containerTwo"
+        }
+    },
+    "link#infoSection__containerOne--envio": {
+        "title": "infoSection__containerOne--envio",
         "props": {
             "href": "/login?returnUrl={queryString.returnUrl}",
-            "label": "Envíos gratis desde $179.900*"
+            "label": "Envíos gratis desde $179.900*",
+            "blockClass": "infoSection__containerOne--envio"
         }
     },
-    /*--------------------------------------------------*/
-    "header-row#info_section-cambio": {
-        "title": "_section-cambio",
-        "children": [
-            "link#info_section-cambio"
-        ],
-        "props": {
-            "blockClass": "_section-cambio"
-        }
-    },
-    "link#info_section-cambio": {
+    "link#infoSection__containerOne--cambio": {
+        "title": "infoSection__containerOne--cambio",
         "props": {
             "href": "/login?returnUrl={queryString.returnUrl}",
-            "label": "90 Días de cambios GRATIS"
+            "label": "90 Días de cambios GRATIS",
+            "blockClass": "infoSection__containerOne--cambio"
         }
     },
-    /*--------------------------------------------------*/
-    "header-row#info_section-pedido": {
-        "title": "_section-pedido",
-        "children": [
-            "link#info_section-pedido"
-        ],
-        "props": {
-            "blockClass": "_section-pedido"
-        }
-    },
-    "link#info_section-pedido": {
+    "link#infoSection__containerOne--pedido": {
+        "title": "infoSection__containerOne--pedido",
         "props": {
             "href": "/login?returnUrl={queryString.returnUrl}",
-            "label": "Sigue tu pedido"
+            "label": "Sigue tu pedido",
+            "blockClass": "infoSection__containerOne--pedido"
         }
     },
-    /*--------------------------------------------------*/
-    "header-row#info_section-nuevo": {
-        "title": "_section-nuevo",
-        "children": [
-            "link#info_section-nuevo"
-        ],
-        "props": {
-            "blockClass": "_section-nuevo"
-        }
-    },
-    "link#info_section-nuevo": {
+    "link#infoSection__containerOne--nuevo": {
+        "title": "infoSection__containerOne--nuevo",
         "props": {
             "href": "/login?returnUrl={queryString.returnUrl}",
-            "label": "¡NUEVO! Centros de Experiencia"
+            "label": "¡NUEVO! Centros de Experiencia",
+            "blockClass": "infoSection__containerOne--nuevo"
         }
     },
-    /*--------------------------------------------------*/
-    "header-row#info_section-contacto": {
-        "title": "_section-contacto",
-        "children": [
-            "link#info_section-contacto"
-        ],
-        "props": {
-            "blockClass": "_section-contacto"
-        }
-    },
-    "link#info_section-contacto": {
+    "link#infoSection__containerTwo--contacto": {
+        "title": "infoSection__containerTwo--contacto",
         "props": {
             "href": "/login?returnUrl={queryString.returnUrl}",
-            "label": "Conócenos"
+            "label": "Conócenos",
+            "blockClass": "infoSection__containerTwo--contacto"
         }
     },
-    /*--------------------------------------------------*/
-    "header-row#info_section-servicio": {
-        "title": "_section-servicio",
-        "children": [
-            "link#info_section-servicio"
-        ],
-        "props": {
-            "blockClass": "_section-servicio"
-        }
-    },
-    "link#info_section-servicio": {
+    "link#infoSection__containerTwo--servicio": {
+        "title": "infoSection__containerTwo--servicio",
         "props": {
             "href": "/login?returnUrl={queryString.returnUrl}",
-            "label": " Servicio al Cliente"
+            "label": " Servicio al Cliente",
+            "blockClass": "infoSection__containerTwo--servicio"
         }
     }
 }
