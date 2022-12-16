@@ -4,7 +4,6 @@
     width: 100%; */
 }
 
-
 .imageElement--_dudasDevoluciones {
     /* border: 2px solid greenyellow; */
     display: flex;
@@ -17,3 +16,4 @@
     justify-content: space-around;
     width: 95%;
 }
+
