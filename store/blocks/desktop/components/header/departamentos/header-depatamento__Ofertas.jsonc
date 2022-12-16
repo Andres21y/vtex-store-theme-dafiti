@@ -1,0 +1,17 @@
+{
+    "menu-item#menuPrincipal__deptoOfertas": {
+        "title": "menuPrincipal__deptoofertas",
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "departamento_ofertas",
+                "text": "ofertas"
+            },
+            "blockClass": "menuPrincipal__deptoofertas"
+        }
+    }
+}
