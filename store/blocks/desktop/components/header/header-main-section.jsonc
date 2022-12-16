@@ -1,71 +1,79 @@
 {
-    "header-row#main_section": {
-        "title": "header_mai-seccion",
+    "header-row#header__main--container": {
+        "title": "header__main--container",
         "children": [
-            "header-row#main_logo",
-            "header-row#main_search",
-            "header-row#main_login"
-            // "header-row#main_heart"
-           
-        ]
-    },
-    "header-row#main_logo": {
-        "title": "main_logo",
-        "children": [
-            "image#logo_header"
+            "header-row#header__main--logo",
+            "header-row#header__main--search",
+            "header-row#header__main--login"
         ],
         "props": {
-            "blockClass": "main_logo"
+            "blockClass": "header__main--container"
         }
     },
-    "image#logo_header": {
+    "header-row#header__main--logo": {
+        "title": "header__main--logo",
+        "children": [
+            "image#headerMain__logo--image"
+        ],
+        "props": {
+            "blockClass": "header__main--logo"
+        }
+    },
+    "image#headerMain__logo--image": {
+        "title": "headerMain__logo--image",
         "props": {
             "src": "assets/image/dafiti-logo.webp",
-            "maxHeight": 90
+            "maxHeight": 90,
+            "blockClass": "headerMain__logo--image"
         }
     },
-    "header-row#main_search": {
-        "title": "main_search",
+    "header-row#header__main--search": {
+        "title": "headerMain__logo--searchBar",
         "children": [
-            "search-bar#serch_bar"
+            "search-bar#home__main--serchBar"
         ],
         "props": {
-            "blockClass": "main_search"
+            "blockClass": "headerMain__logo--searchBar"
         }
     },
-    "search-bar#serch_bar": {
-        "title": "search",
+    "search-bar#home__main--serchBar": {
+        "title": "home__main--serchBar",
         "props": {
             "placeholder": "Busca por producto, marca, categoria ...",
-            "blockClass": "search"
+            "blockClass": "home__main--serchBar",
+           "openAutocompleteOnFocus":true
         }
     },
-    "header-row#main_login": {
-        "title": "main_login",
+    "header-row#header__main--login": {
+        "title": "header__main--login",
         "children": [
             "login",
             "icon#heart",
             "minicart.v2"
         ],
         "props": {
-            "blockClass": "main_login"
+            "blockClass": "header__main--login"
         }
     },
     "login": {
+        "title": "header__login",
         "props": {
             "optionsTitle":"Registrarme",
             "emailAndPasswordTitle": "LOG-IN",
             "accessCodeTitle": "Acess Code LOG-IN",
             "emailPlaceholder": "e-mail",
             "passwordPlaceholder": "password",
-            "showPasswordVerificationIntoTooltip": true
+            "showPasswordVerificationIntoTooltip": true,
+            "blockClass": "header__login"
         }
     },
     "icon#heart": {
+        "title": "header__icon--heart",
         "props": {
           "id": "mpa-heart",
           "size": 21,
-          "activeClassName": "icon__heart"
+          "activeClassName": "icon__heart",
+          "blockClass": "header__icon--heart"
         }
       }  
 }

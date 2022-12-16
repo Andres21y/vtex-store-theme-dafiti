@@ -1,0 +1,18 @@
+{
+    "menu-item#menuPrincipal__deptoEco": {
+        "title": "menuPrincipal__deptoEco",
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "departamento_Eco",
+                "text": "ECO ♻"
+                
+            },
+            "blockClass": "menuPrincipal__deptoEco"
+        }
+    }
+}
