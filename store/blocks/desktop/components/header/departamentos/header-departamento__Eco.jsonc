@@ -1,6 +1,6 @@
 {
-    "menu-item#menuPrincipal__deptoEco": {
-        "title": "menuPrincipal__deptoEco",
+    "menu-item#menu__departamento--Eco": {
+        "title": "menu__departamento--Eco",
         "props": {
             "type": "custom",
             "highlight": false,

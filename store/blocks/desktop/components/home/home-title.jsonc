@@ -1,0 +1,21 @@
+{
+    "flex-layout.row#desktop__home--title": {
+        "title": "desktop__home--Title",
+        "children": [
+            "rich-text#home__title--text"
+        ],
+        "props": {
+            "blockClass": "desktop__home--Title"
+        }
+    },
+    "rich-text#home__title--text": {
+        "title": "home__title--text",
+        "props": {
+            "text": "ROPA DE MODA, ZAPATOS Y ACCESORIOS | DAFITI OFERTAS Y REBAJAS",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "font": "t-heading-6",
+            "blockClass": "home__title--text"
+        }
+    }
+}

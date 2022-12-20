@@ -4,3 +4,23 @@
     /* background-color: greenyellow; */
 }
 
+
+
+    
+.menuItem--menuPrincipal__deptoNavidad--isClosed{
+    /* background-color: green; */
+    margin-right: 4px;
+}
+.styledLinkContent--menuPrincipal__deptoNavidad{
+    color: white;
+
+}
+    
+.menuItem--menuPrincipal__deptoFanatico--isClosed{
+    background-color: green;
+    margin-right: 4px;
+}
+.styledLinkContent--menuPrincipal__deptoFanatico{
+    color: white;
+
+}

@@ -1,5 +1,5 @@
 {
-    "header-row#info_section": {
+    "header-row#header__info--section": {
         "title": "header__info--section",
         "children": [
             "header-row#info__containerOne",

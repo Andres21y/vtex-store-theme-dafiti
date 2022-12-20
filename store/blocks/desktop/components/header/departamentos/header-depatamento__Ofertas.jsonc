@@ -1,6 +1,6 @@
 {
-    "menu-item#menuPrincipal__deptoOfertas": {
-        "title": "menuPrincipal__deptoofertas",
+    "menu-item#menu__departamento--Ofertas": {
+        "title": "menu__departamento--Ofertas",
         "props": {
             "type": "custom",
             "highlight": false,

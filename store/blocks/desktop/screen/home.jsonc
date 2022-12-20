@@ -1,17 +1,18 @@
 {
-  "store.home": {
-    "title":"home__container--apps",
-    "blocks": [
-      "flex-layout.row#home_main-banner",
-      "flex-layout.row#home_main-block",
-      "flex-layout.row#home_brand",
-      // "flex-layout.row#home_brand-carousel",
-      "flex-layout.row#home_section-info",
-      "flex-layout.row#home_news-sections",
-      "flex-layout.row#home_newsletter-main"
+  "responsive-layout.desktop#home": {
+    "title": "desktop__home--container",
+    "children": [
+      "flex-layout.row#desktop__home--preheader",
+      "flex-layout.row#desktop__home--title",
+      "flex-layout.row#desktop__home--Main",
+      "flex-layout.row#desktop__home--Brands",
+      "flex-layout.row#desktop__home--Trucking",
+      "flex-layout.row#desktop__home--Recommended",
+      "flex-layout.row#desktop__home--SEO",
+      "flex-layout.row#desktop__home--Form"
     ],
     "props": {
-      "blockClass": "home_container-apps"
+      "blockClass": "desktop__home--container"
     }
   }
 }

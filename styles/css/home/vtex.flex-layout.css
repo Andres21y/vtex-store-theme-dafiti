@@ -1,222 +1,144 @@
-.flexRow--home_main-banner {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    /* background-color: darkblue; */
-}
+ /* =================================== Desktop home Preheader */
 
-.flexRowContent--home_main-banner {
-    height: 70px;
-    /* border: 4px solid yellow; */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-}
+ .flexRow--desktop__home--Preheader {
+     max-width: 1170px;
+     margin: 0 auto;
+ }
 
-.flexRowContent {
-    display: flex;
-    justify-content: center;
-}
-
-.flexCol--home_main-blockContainer {
-    width: 60%;
-    /* background: rgb(128, 227, 240);  */
-}
-
-.flexColChild--home_main-blockContainer {
-    background-color: transparent;
-    /* display: flex;
-    justify-content: center; */
-
-}
-
-
-.flexRowContent--home__block--container {
-    width: 100%;
-    height: 900px;
-    /* line-height: 1.6rem; */
-    display: flex;
-    justify-content: center;
-    justify-content: space-evenly;
-    padding-top: 2rem;
-    gap: 35px;
-    /* background-color: greenyellow; */
-    margin-bottom: 1rem;
-    padding-bottom: 1rem;
-}
-
-.flexCol--home_main-block--mujer {
-    background-image: url("assets/image/home_block/section/dft-section-mujer.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100%;
-}
-
-.flexCol--home_main-block--hombre {
-    background-image: url("assets/image/home_block/section/dft-section-hombre.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100%;
-
-
-}
-.flexRowContent--home_blockVarieties {
-    height: 480px;
-    width: auto;
-    display: flex;
-    justify-content: space-between;
-    gap: 35px;
-    /* background-color: yellow; */
-}
-
-.flexRow--home_blockVarieties {
-    display: flex;
-    flex-direction: column;
-    /* background-color: lightgreen; */
-}
-
-.flexRow--_section-info {
-    /* background-color: aqua; */
-    display: flex;
-    align-items: center;
-    height: 280px;
-}
-
-.flexColChild--home_section-woman {
-    display: flex;
-    flex-direction: column;
-}
-
-
-
-/*--------------------------------------------------- lista de link de mujer */
-
-.flexRowContent--subcategories_woman {
-    height: 40%;
-}
-
-.flexCol--containerWoman_list {
-    margin-top: 9rem;
-    text-decoration: none;
-}
-
-.flexColChild--containerWoman_list {
-    display: flex;
-    justify-content: flex-start;
-    margin-left: 50px;
-}
-
-.flexRowContent--subcategories_man {
-    /* background-color: greenyellow; */
-    color: white;
-    height: 40%;
-}
-
-.flexCol--containerMan_list {
-    /* background-color: yellow; */
-    color: white;
-    margin-top: 9rem;
-}
-
-.flexColChild--containerMan_list {
-    /* background-color: orange; */
-    text-decoration: none;
-    color: white;
-    display: flex;
-    justify-content: flex-end;
-    margin-right: 50px;
-}
-
-/* .flexColChild--home_main-block--hombre{
-} */
-
-/* ---------------------------------------------ver más */
-.flexRow--btn_ver--mas {
-    /* background-color: aqua;  */
-    height: 200px;
-    display: flex;
-    justify-content: center;
-    margin-top: 6rem;
-}
-
-.flexRowContent--btn_ver--mas {
-    background-color: white;
-    margin-top: 12rem;
-    width: 200px;
-    height: 45px;
-}
-
-.flexColChild--home__main--blockContainer{
-    margin-top: 2rem;
-}
-/* -----------------------------------------------mujer */
-
-.flexRowContent--home_brand-carousel {
-    height: 300px;
-}
-
-/* ------------------------------------------------------------------------ section info */
-/* .flexRow--_section-info{
-    background-color: green;
-} */
-.flexRowContent--_section-info{
-    width: 100%;
-    height: 210px;
-}
-
-
-/* ------------------------------------------------------------------------------news sections */
-
-.flexRow--row_news-sections{
-    margin-top: 4rem;
-    height: 600px;
-    margin-bottom: 4rem;
-}
-
-
-/* .flexRowContent--row_news-sections{
-    background-color: yellow;
-   
-} */
-
-.flexCol--news_sections-container{
-height: 600px;
-}
-
-/*-------------------------------------------------------------------------------- newsletter */
-.flexRow--_newsletter-container{
-    background-color: pink;
-    height: 500px;
-    width: 70%;
-}
-
-.flexColChild--home_newsletter-container{ 
-    padding: 20px;
-    background: #f8f8f8;
-    height: 200px;
-}
-
-.flexRow--home_newsletter{
-background-color: greenyellow;
-width: 80%;
-} 
-
-/* .flexRow--home_newsletter-one{
-    height: 150px;
-     background-color: aqua; 
+ .flexRowContent--desktop__home--Preheader {
+     font-size: 11px;
+     line-height: 1.6rem;
      width: 100%;
+ }
+
+ /* =================================== Desktop home Title */
+
+ .flexRow--desktop__home--Title {
+     display: flex;
+     justify-content: center;
+     width: 100%;
+ }
+
+ .flexRowContent--desktop__home--Title {
+     font-size: 16px;
+     text-align: center;
+     color: #8a8a8a;
+     text-transform: uppercase;
+     padding: 0 0 30px 0;
+     letter-spacing: 1px;
+     line-height: 1;
+     font-weight: 500;
+     max-width: 1170px;
+     margin: 0px auto;
+ }
+
+ /* =================================== Desktop home Main */
+ .flexRow--desktop__home--Main {
+     display: flex;
+     justify-content: center;
+     margin-top: 1rem;
+ }
+
+ .flexRowContent--desktop__home--Main {
+     width: 1170px;
+ }
+
+ .flexRowContent--desktop__home--Main {
+     width: 1170px;
+ }
+
+ .flexCol--home__main--container {
+
+     display: flex;
+     gap: 10px;
+ }
+
+ /*-------------------------------------------one*/
+ .flexRow--home__main--one {
+     display: block;
+     position: relative;
+     width: 100%;
+     max-width: 1170px;
+     margin: auto;
+ }
+
+ /* mujer */
+ .flexCol--main__one--blockWoman {
+     background-image: url("assets/image/home_block/section/dft-section-mujer.png");
+     background-repeat: no-repeat;
+     background-size: cover;
+     height: 640px;
+     width: 100%;
+     max-width: 570px;
+ }
+
+ /* hombre */
+ .flexCol--home_main-block--hombre {
+     background-image: url("assets/image/home_block/section/dft-section-hombre.png");
+     background-repeat: no-repeat;
+     background-size: cover;
+     height: 640px;
+     width: 100%;
+     max-width: 570px;
+ }
+
+ /*-------------------------------------------two*/
+ .flexRow--home__main--two {
+     display: block;
+     position: relative;
+     width: 100%;
+     max-width: 1170px;
+     margin: auto;
+ }
+
+
+ /* ============================================================================================ */
+ .flexRowContent--blockWoman__categories {
+     display: block;
+     position: relative;
+     text-align: left;
+     padding: 50px;
+     font-size: 20px;
+     color: #fff;
+     line-height: 25px;
+     margin-top: 50px;
+     margin-left: 7px;
+ }
+
+ .flexCol--blockWoman__categories--container {
+     display: block;
+     position: relative;
+     bottom: 0;
+     left: 0;
+     right: 0;
+     top: 4rem;
+     height: 3rem;
+ }
+
+ /* =====================================================================Brands======================= */
+ .flexRow--desktop__home--brands {
+     height: 400px;
+     margin-top: 1rem;
+     display: flex;
+     justify-content: center;
+ }
+
+ .flexRowContent--desktop__home--brands {
+     height: 400px;
+     width: 70rem; 
+    }
+ /* 
+.flexCol--home__brands{
+    height: 400px;
 } */
 
-.flexRowContent--_newsletter-container{
-    background-color: rgb(0, 252, 118);
-    width: 100%;
-} 
+
+/*=========================================================== newsletter*/
 
 
 
-
-/* .flexCol--_newsletter-subscribe{
-    background-color: yellow;
-    width:200px;
-} */
+.flexRow--home_newsletter-main{}
+.flexRowContent--home_newsletter-main{}
+.flexCol--home_newsletter{}
+.flexColChild--home_newsletter{}
+.flexCol--home_newsletter-container{}

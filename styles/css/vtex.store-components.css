@@ -17,3 +17,14 @@
     width: 95%;
 }
 
+
+.imageElement--header__bannerTop--image {
+    width: 75%;
+}
+
+/* =================================== Desktop home Preheader */
+
+.imageElement--home__banner--Preheader {
+    display: block;
+    width: 100%;
+}

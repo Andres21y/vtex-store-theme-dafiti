@@ -1,6 +1,6 @@
 {
-    "header-row#menu_mobile--main": {
-        "title": "",
+   "header-row#mobile__menu--main": {
+        "title": "mobile__menu--main",
         "children": [
             "drawer"
         ],

@@ -1,0 +1,52 @@
+{
+    "flex-layout.row#desktop__home--SEO": {
+        "title": "desktop__home--SEO",
+        "children": [
+            "flex-layout.col#desktop__home--SEOcol"
+        ],
+        "props": {
+            "blockClass": "desktop__home--SEO"
+        }
+    },
+    "flex-layout.col#desktop__home--SEOcol": {
+        "title": "desktop__home--SEOcol",
+        "children": [
+            "rich-text#seo__number--one",
+            "rich-text#seo__number--two",
+            "rich-text#seo__number--three"
+        ],
+        "props": {
+            "blockClass": "desktop__home--SEOcol"
+        }
+    },
+    "rich-text#seo__number--one": {
+        "title": "seo__number--one",
+        "props": {
+            "text": "la moda __como tú quieres__ que sea.",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "font": "t-heading-1",
+            "blockClass": "seo__number--one"
+        }
+    },
+    "rich-text#seo__number--two": {
+        "title": "seo__number--two",
+        "props": {
+            "text": "Estamos revolucionando el mundo de la moda con inteligencia. Pide todo lo que quieras y necesitas para tu look ** perfecto **, encuéntralo en pocos clics  y las 24 horas del día, con servicio de entrega nacional. Dafiti #SmartFashion es el mayor e-commerce de moda y estilo de vida en Latinoamérica, contamos con mas de 100 mil productos divididos en 5 categorías: ropa, zapatos, accesorios, deportes y belleza.",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "font": "t-heading-5",
+            "blockClass": "seo__number--two"
+        }
+    },
+    "rich-text#seo__number--three": {
+        "title": "info__number--three",
+        "props": {
+            "text": "**¡Ahora es el momento de refrescar tu look! Regístrate y descubre el mundo de la moda con Dafiti.**",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "font": "t-heading-6",
+            "blockClass": "seo__number--three"
+        }
+    }
+}

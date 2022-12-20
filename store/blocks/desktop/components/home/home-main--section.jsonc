@@ -1,77 +1,54 @@
 {
-    "flex-layout.row#home_main-block": {
-        "title": "home_main-blockContainer",
+    "flex-layout.row#desktop__home--Main": {
+        "title": "desktop__home--Main",
         "children": [
-            "flex-layout.col#home__main--block"
+            "flex-layout.col#desktop__home--Main"
         ],
         "props": {
-            "blockClass": "home__main--blockContainer"
+            "blockClass": "desktop__home--Main"
         }
     },
-    "flex-layout.col#home__main--block": {
-        "title": "home__main--blockContainerChild",
-        "children": [
-            "flex-layout.row#home__main--blockTitle",
-            "flex-layout.row#home__main--container",
-            "flex-layout.row#home_main--blockVarieties"
-        ],
-        "props": {
-            "blockClass": "home__main--blockContainer"
-        }
-    },
-    //------------------------------------------------------------------------------------------------------------>#1
-    "flex-layout.row#home__main--blockTitle":{
-        "title": "home__main--blockTitle",
-        "children": [
-            "rich-text#home_main-block"
-        ],
-        "props": {
-            "blockClass": "home__main--blockContainer"
-        }
-    },
-    "rich-text#home_main-block": {
-        "title": "home_main-block",
-        "props": {
-            "text": "ROPA DE MODA, ZAPATOS Y ACCESORIOS | DAFITI OFERTAS Y REBAJAS",
-            "textAlignment": "CENTER",
-            "textPosition": "CENTER",
-            "font": "t-heading-6",
-            "blockClass": "home_main-block"
-        }
-    },
-    //---------------------------------------------------------------------------------------------------------->#2
-    "flex-layout.row#home__main--container": {
+    "flex-layout.col#desktop__home--Main": {
         "title": "home__main--container",
         "children": [
-            "flex-layout.col#home__main--blockMujer ",
-            "flex-layout.col#home__main--blockHombre"
+            "flex-layout.row#home__main--one",
+            "flex-layout.row#home__main--two"
         ],
         "props": {
-            "blockClass": "home__block--container"
+            "blockClass": "home__main--container"
         }
     },
-    "flex-layout.col#home__main--blockMujer ": {
-        "title": "home_main-block--mujer",
+    "flex-layout.row#home__main--one": {
+        "title": "home__main--one",
         "children": [
-            "flex-layout.row#subcategories__woman",
-            "flex-layout.row#wbtn__ver--mas",
-            "flex-layout.row#text_mujer"
+            "flex-layout.col#main__one--blockWoman",
+            "flex-layout.col#main__one--blockMan"
         ],
         "props": {
-            "blockClass": "home_main-block--mujer"
+            "blockClass": "home__main--one"
         }
     },
-    "flex-layout.row#subcategories__woman": {
-        "title": "subcategories__woman",
+    "flex-layout.col#main__one--blockWoman": {
+        "title": "main__one--blockWoman",
         "children": [
-            "flex-layout.col#containerW__list"
+            "flex-layout.row#blockWoman__categories",
+            "flex-layout.col#blockWoman__categories--container"
         ],
         "props": {
-            "blockClass": "subcategories__woman"
+            "blockClass": "main__one--blockWoman"
         }
     },
-    "flex-layout.col#containerW__list": {
-        "title": "containerW_list",
+    "flex-layout.row#blockWoman__categories": {
+        "title": "blockWoman__categories",
+        "children": [
+            "flex-layout.col#blockWoman__categories--list"
+        ],
+        "props": {
+            "blockClass": "blockWoman__categories"
+        }
+    },
+    "flex-layout.col#blockWoman__categories--list": {
+        "title": "blockWoman__categories--list",
         "children": [
             "link#container__mujer--itemZapatos",
             "link#container__mujer--itemJeans",
@@ -83,11 +60,11 @@
             "link#container__mujer--itemDeportes"
         ],
         "props": {
-            "blockClass": "containerWoman_list"
+            "blockClass": "blockWoman__categories--list"
         }
     },
     "link#container__mujer--itemZapatos": {
-        "title":"container__woman--itemZapatos",
+        "title": "container__woman--itemZapatos",
         "props": {
             "href": "#",
             "label": "Zapatos",
@@ -95,7 +72,7 @@
         }
     },
     "link#container__mujer--itemJeans": {
-        "title":"container__woman--itemJeans",
+        "title": "container__woman--itemJeans",
         "props": {
             "href": "#",
             "label": "Jeans",
@@ -103,7 +80,7 @@
         }
     },
     "link#container__mujer--itemBlusas": {
-        "title":"container__woman--itemBlusas",
+        "title": "container__woman--itemBlusas",
         "props": {
             "href": "#",
             "label": "Blusas",
@@ -111,7 +88,7 @@
         }
     },
     "link#container__mujer--itemSneakers": {
-        "title":"container__woman--itemSneakers",
+        "title": "container__woman--itemSneakers",
         "props": {
             "href": "#",
             "label": "Sneakers",
@@ -119,7 +96,7 @@
         }
     },
     "link#container__mujer--itemVestidos": {
-        "title":"container__woman--itemVestidos",
+        "title": "container__woman--itemVestidos",
         "props": {
             "href": "#",
             "label": "Vestidos",
@@ -127,7 +104,7 @@
         }
     },
     "link#container__mujer--itemPantalones": {
-        "title":"container__woman--itemPantalones",
+        "title": "container__woman--itemPantalones",
         "props": {
             "href": "#",
             "label": "Pantalones",
@@ -135,7 +112,7 @@
         }
     },
     "link#container__mujer--itemBotas": {
-        "title":"container__woman--itemBotas",
+        "title": "container__woman--itemBotas",
         "props": {
             "href": "#",
             "label": "Botas",
@@ -143,63 +120,54 @@
         }
     },
     "link#container__mujer--itemDeportes": {
-        "title":"container__woman--itemDeportes",
+        "title": "container__woman--itemDeportes",
         "props": {
             "href": "#",
             "label": "Deportes",
             "blockClass": "container__woman--itemAll"
         }
     },
-    "flex-layout.row#wbtn__ver--mas": {
-        "title": "btn_ver--mas",
+    "flex-layout.col#blockWoman__categories--container": {
+        "title": "blockWoman__categories--container",
         "children": [
-            "rich-text#woman_ver--mas"
+            "rich-text#blockWoman__seeMore--text",
+            "rich-text#blockWoman__text--letter"
         ],
         "props": {
-            "blockClass": "btn_ver--mas"
+            "blockClass": "blockWoman__categories--container"
         }
     },
-    "rich-text#woman_ver--mas": {
+    "rich-text#blockWoman__seeMore--text": {
         "title": "home_premiun-mujer",
         "props": {
-          "text": "Ver más",
-          "textAlignment": "CENTER",
-          "textPosition": "CENTER",
-          "font": "t-heading-6",
-          "blockClass": "rich_premiun-mujer"
-        }
-      },
-    "flex-layout.row#text_mujer": {
-        "title": "text_mujer",
-        "children": [
-            "rich-text#firstChildt_mujer"
-        ],
-        "props": {
-            "blockClass": "text_mujer"
+            "text": "Ver más",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "font": "t-heading-6",
+            "blockClass": "rich_premiun-mujer"
         }
     },
-    "rich-text#firstChildt_mujer": {
-        "title": "home_premiun-mujer",
+    "rich-text#blockWoman__text--letter": {
+        "title": "blockWoman__text--letter",
         "props": {
-          "text": "MUJER",
-          "textAlignment": "CENTER",
-          "textPosition": "CENTER",
-          "font": "t-heading-6",
-          "blockClass": "home_premiun-mujer"
+            "text": "MUJER",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "font": "t-heading-6",
+            "blockClass": "blockWoman__text--letter"
         }
-      },
-    "flex-layout.col#home__main--blockHombre": {
+    },
+    "flex-layout.col#main__one--blockMan": {
         "title": "home_main-block--hombre",
         "children": [
-            "flex-layout.row#subcategories_hombre",
-            "flex-layout.row#mbtn_ver--mas",
-            "flex-layout.row#text_hombre"
+            "flex-layout.row#blockMan__categories",
+            "flex-layout.col#blockMan__categories--container"
         ],
         "props": {
             "blockClass": "home_main-block--hombre"
         }
     },
-    "flex-layout.row#subcategories_hombre": {
+    "flex-layout.row#blockMan__categories": {
         "title": "subcategories_hombre",
         "children": [
             "flex-layout.col#containerM_list"
@@ -225,7 +193,7 @@
         }
     },
     "link#container__hombre--itemTenis": {
-        "title":"container__hombre--itemTenis",
+        "title": "container__hombre--itemTenis",
         "props": {
             "href": "#",
             "label": "Tenis",
@@ -233,7 +201,7 @@
         }
     },
     "link#container__hombre--itemCamisas": {
-        "title":"container__hombre--itemCamisas",
+        "title": "container__hombre--itemCamisas",
         "props": {
             "href": "#",
             "label": "Camisas",
@@ -241,7 +209,7 @@
         }
     },
     "link#container__hombre--itemJeans": {
-        "title":"container__hombre--itemJeans",
+        "title": "container__hombre--itemJeans",
         "props": {
             "href": "#",
             "label": "Jeans",
@@ -249,7 +217,7 @@
         }
     },
     "link#container__hombre--itemPantalones": {
-        "title":"container__hombre--itemPantalones",
+        "title": "container__hombre--itemPantalones",
         "props": {
             "href": "#",
             "label": "Pantalones",
@@ -257,7 +225,7 @@
         }
     },
     "link#container__hombre--itemSneakers": {
-        "title":"container__hombre--itemSneakers",
+        "title": "container__hombre--itemSneakers",
         "props": {
             "href": "#",
             "label": "Sneakers",
@@ -265,7 +233,7 @@
         }
     },
     "link#container__hombre--itemZapatos": {
-        "title":"container__hombre--itemZapatos",
+        "title": "container__hombre--itemZapatos",
         "props": {
             "href": "#",
             "label": "Zapatos",
@@ -273,7 +241,7 @@
         }
     },
     "link#container__hombre--itemPolos": {
-        "title":"container__hombre--itemPolos",
+        "title": "container__hombre--itemPolos",
         "props": {
             "href": "#",
             "label": "Polos",
@@ -281,82 +249,83 @@
         }
     },
     "link#container__hombre--itemDeportes": {
-        "title":"container__hombre--itemDeportes",
+        "title": "container__hombre--itemDeportes",
         "props": {
             "href": "#",
             "label": "Deportes",
             "blockClass": "container__hombre--itemAll"
         }
     },
-    "flex-layout.row#mbtn_ver--mas": {
-        "title": "btn_ver--mas",
+    "flex-layout.col#blockMan__categories--container": {
+        "title": "blockMan__categories--container",
         "children": [
-            "rich-text#woman_ver--mas"
+            "rich-text#blockMan__seeMore--text",
+            "rich-text#blockMan__text--letter"
         ],
         "props": {
-            "blockClass": "btn_ver--mas"
+            "blockClass": "blockMan__categories--container"
         }
     },
-    "flex-layout.row#text_hombre": {
-        "title": "text_hombre",
+    "rich-text#blockMan__seeMore--text": {
+        "title": "blockMan__seeMore--text",
+        "props": {
+            "text": "Ver más",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "font": "t-heading-6",
+            "blockClass": "blockMan__seeMore--text"
+        }
+    },
+    "rich-text#blockMan__text--letter": {
+        "title": "blockMan__text--letter",
+        "props": {
+            "text": "HOMBRE",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "font": "t-heading-6",
+            "blockClass": "blockMan__text--letter"
+        }
+    },
+        //------------------------------------------------------------------------------------------->#3
+   "flex-layout.row#home__main--two": {
+        "title": "home__main--two",
         "children": [
-            "rich-text#secondChildt_hombre"
+            "rich-text#main__two--snaker",
+            "rich-text#main__two--premiun",
+            "rich-text#main__two--kids"
         ],
         "props": {
-            "blockClass": "text_hombre"
+            "blockClass": "home__main--two"
         }
     },
-    "rich-text#secondChildt_hombre": {
-        "title": "home_premiun-hombre",
+    "rich-text#main__two--snaker": {
+        "title": "main__two--snaker",
         "props": {
-          "text": "HOMBRE",
-          "textAlignment": "CENTER",
-          "textPosition": "CENTER",
-          "font": "t-heading-6",
-          "blockClass": "home_premiun-hombre"
-        }
-      },
-
-     //------------------------------------------------------------------------------------------->#3
-    "flex-layout.row#home_main--blockVarieties": {
-        "title": "home_main-blockVarieties",
-        "children": [
-            "rich-text#home_snaker",
-            "rich-text#home_premiun",
-            "rich-text#home_kids"
-        ],
-        "props": {
-            "blockClass": "home_blockVarieties"
+            "text": "snaker",
+            "textAlignment": "left",
+            "textPosition": "CENTER",
+            "font": "t-heading-6",
+            "blockClass": "main__two--snaker"
         }
     },
-    "rich-text#home_snaker": {
-        "title": "home_snaker",
+    "rich-text#main__two--premiun": {
+        "title": "main__two--premiun",
         "props": {
-          "text": "snaker",
-          "textAlignment": "left",
-          "textPosition": "CENTER",
-          "font": "t-heading-6",
-          "blockClass": "home_snaker"
+            "text": "kids",
+            "textAlignment": "left",
+            "textPosition": "CENTER",
+            "font": "t-heading-6",
+            "blockClass": "main__two--premiun"
         }
-      },
-      "rich-text#home_kids": {
-        "title": "home_kids",
+    },
+    "rich-text#main__two--kids": {
+        "title": "main__two--kids",
         "props": {
-          "text": "kids",
-          "textAlignment": "left",
-          "textPosition": "CENTER",
-          "font": "t-heading-6",
-          "blockClass": "home_kids"
+            "text": "premiun",
+            "textAlignment": "left",
+            "textPosition": "CENTER",
+            "font": "t-heading-6",
+            "blockClass": "main__two--kids"
         }
-      },
-      "rich-text#home_premiun": {
-        "title": "home_premiun",
-        "props": {
-          "text": "premiun",
-          "textAlignment": "left",
-          "textPosition": "CENTER",
-          "font": "t-heading-6",
-          "blockClass": "home_premiun"
-        }
-      }
+    }
 }

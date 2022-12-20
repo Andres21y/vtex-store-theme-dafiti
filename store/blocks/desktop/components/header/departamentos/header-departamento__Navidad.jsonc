@@ -1,6 +1,6 @@
 {
-    "menu-item#menuPrincipal__deptoNavidad": {
-        "title": "menuPrincipal__deptoNavidad",
+    "menu-item#menu__departamento--Navidad": {
+        "title": "menu-item#menu__departamento--Navidad",
         "props": {
             "type": "custom",
             "highlight": false,

@@ -1,5 +1,5 @@
 {
-    "menu-item#menuPrincipal__deptoDeportes": {
+    "menu-item#menu__departamento--Deportes": {
         "title": "menuPrincipal__deptoDeportes",
         "props": {
             "type": "custom",
@@ -61,14 +61,14 @@
     "flex-layout.col#deptodeportes__categoriaFemenino--subcategories": {
         "title": "deptodeportes__categoriaFemenino--subcategories",
         "children": [
-            "link#deptodeportes__categoryfemenino--subCategoryTenisDeportivo",
-            "link#deptodeportes__categoryfemenino--subCategoryCamisetas",
-            "link#deptodeportes__categoryfemenino--subCategoryChaquetasyChalecos",
-            "link#deptodeportes__categoryfemenino--subCategoryLeggingsyCapris",
-            "link#deptodeportes__categoryfemenino--subCategoryPantalones",
-            "link#deptodeportes__categoryfemenino--subCategoryBotas",
-            "link#deptodeportes__categoryfemenino--subCategoryEquipamiento",
-            "link#deptodeportes__categoryfemenino--subCategoryVerTodo"
+            "link#deptodeportes__femenino--TenisDeportivo",
+            "link#deptodeportes__femenino--Camisetas",
+            "link#deptodeportes__femenino--ChaquetasyChalecos",
+            "link#deptodeportes__femenino--LeggingsyCapris",
+            "link#deptodeportes__femenino--Pantalones",
+            "link#deptodeportes__femenino--Botas",
+            "link#deptodeportes__femenino--Equipamiento",
+            "link#deptodeportes__femenino--VerTodo"
         ],
         "props": {
             "blockClass": "deptodeportes__categoriaFemenino--subcategories"
@@ -105,15 +105,15 @@
     "flex-layout.col#deptodeportes__categoriaMasculino--subcategories": {
         "title": "deptodeportes__categoriaMasculino--subcategories",
         "children": [
-            "link#deptodeportes__categorymasculino--subCategoryTenisDeportivos",
-            "link#deptodeportes__categorymasculino--subCategoryGuayos",
-            "link#deptodeportes__categorymasculino--subCategoryCamisetas",
-            "link#deptodeportes__categorymasculino--subCategoryBuzoyHoodies",
-            "link#deptodeportes__categorymasculino--subCategoryPantalones",
-            "link#deptodeportes__categorymasculino--subCategoryBotas",
-            "link#deptodeportes__categorymasculino--subCategoryMorralesyBolsos",
-            "link#deptodeportes__categorymasculino--subCategoryEquipamiento",
-            "link#deptodeportes__categorymasculino--subCategoryVerTodo"
+            "link#deptodeportes__masculino--TenisDeportivos",
+            "link#deptodeportes__masculino--Guayos",
+            "link#deptodeportes__masculino--Camisetas",
+            "link#deptodeportes__masculino--BuzoyHoodies",
+            "link#deptodeportes__masculino--Pantalones",
+            "link#deptodeportes__masculino--Botas",
+            "link#deptodeportes__masculino--MorralesyBolsos",
+            "link#deptodeportes__masculino--Equipamiento",
+            "link#deptodeportes__masculino--VerTodo"
         ],
         "props": {
             "blockClass": "deptodeportes__categoriaMasculino--subcategories"
@@ -149,16 +149,16 @@
     "flex-layout.col#deptodeportes__categoriaMarcas--subcategories": {
         "title": "dptodeportes__categoriaMarcas--container",
         "children": [
-            "link#deptodeportes__categorymarcas--subCategoryAdidasPerformance",
-            "link#deptodeportes__categorymarcas--subCategoryAddidasOriginales",
-            "link#deptodeportes__categorymarcas--subCategoryNike",
-            "link#deptodeportes__categorymarcas--subCategoryReebok",
-            "link#deptodeportes__categorymarcas--subCategoryAsics",
-            "link#deptodeportes__categorymarcas--subCategorySkechers",
-            "link#deptodeportes__categorymarcas--subCategoryFila",
-            "link#deptodeportes__categorymarcas--subCategoryPuma",
-            "link#deptodeportes__categorymarcas--subCategoryUnderArmour",
-            "link#deptodeportes__categorymarcas--subCategoryVerTodo"
+            "link#deptodeportes__marcas--AdidasPerformance",
+            "link#deptodeportes__marcas--AddidasOriginales",
+            "link#deptodeportes__marcas--Nike",
+            "link#deptodeportes__marcas--Reebok",
+            "link#deptodeportes__marcas--Asics",
+            "link#deptodeportes__marcas--Skechers",
+            "link#deptodeportes__marcas--Fila",
+            "link#deptodeportes__marcas--Puma",
+            "link#deptodeportes__marcas--UnderArmour",
+            "link#deptodeportes__marcas--VerTodo"
         ],
         "props": {
             "blockClass": "categoria__marcas--deportes"
@@ -194,15 +194,15 @@
     "flex-layout.col#deptodeportes__categoriaActividades--subcategories": {
         "title": "deptodeportes__categoriaActividades--subcategories",
         "children": [
-            "link#deptodeportes__categoryActividades--subCategoryTraining",
-            "link#deptodeportes__categoryActividades--subCategoryLifeStyle",
-            "link#deptodeportes__categoryActividades--subCategoryRunning",
-            "link#deptodeportes__categoryActividades--subCategoryFútbol",
-            "link#deptodeportes__categoryActividades--subCategoryCiclismo",
-            "link#deptodeportes__categoryActividades--subCategoryBasquetball",
-            "link#deptodeportes__categoryActividades--subCategoryOutdoor",
-            "link#deptodeportes__categoryActividades--subCategorySkate",
-            "link#deptodeportes__categoryActividades--subCategoryVerTodo"
+            "link#deptodeportes__Actividades--Training",
+            "link#deptodeportes__Actividades--LifeStyle",
+            "link#deptodeportes__Actividades--Running",
+            "link#deptodeportes__Actividades--Fútbol",
+            "link#deptodeportes__Actividades--Ciclismo",
+            "link#deptodeportes__Actividades--Basquetball",
+            "link#deptodeportes__Actividades--Outdoor",
+            "link#deptodeportes__Actividades--Skate",
+            "link#deptodeportes__Actividades--VerTodo"
         ],
         "props": {
             "blockClass": "deptodeportes__categoriaActividades--subcategories"
@@ -237,15 +237,15 @@
     "flex-layout.col#dptodeportes__categoriaPlus--subcategories": {
         "title": "dptodeportes__categoriaPlus--subcategories",
         "children": [
-            "link#deptodeportes__categoriaPlus--subCategoryFitness",
-            "link#deptodeportes__categoriaPlus--subCategoryYoga",
-            "link#deptodeportes__categoriaPlus--subCategoryNatacion",
-            "link#deptodeportes__categoriaPlus--subCategoryTenis",
-            "link#deptodeportes__categoriaPlus--subCategoryGolf",
-            "link#deptodeportes__categoriaPlus--subCategoryMotos",
-            "link#deptodeportes__categoriaPlus--subCategoryVolleyball",
-            "link#deptodeportes__categoriaPlus--subCategoryBoxeo",
-            "link#deptodeportes__categoriaPlus--subCategoryVerTodo"
+            "link#deptodeportes__Plus--Fitness",
+            "link#deptodeportes__Plus--Yoga",
+            "link#deptodeportes__Plus--Natacion",
+            "link#deptodeportes__Plus--Tenis",
+            "link#deptodeportes__Plus--Golf",
+            "link#deptodeportes__Plus--Motos",
+            "link#deptodeportes__Plus--Volleyball",
+            "link#deptodeportes__Plus--Boxeo",
+            "link#deptodeportes__Plus--VerTodo"
         ],
         "props": {
             "blockClass": "deptodeportes__categoriaPlus--subcategories"

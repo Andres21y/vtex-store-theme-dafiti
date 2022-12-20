@@ -1,3 +1,11 @@
 {
-    
+    "responsive-layout.mobile#home": {
+        "title": "mobile__home--container",
+        "children": [
+            "responsive-layout.desktop#home"
+        ],
+        "props": {
+            "blockClass": "mobile__home--container"
+        }
+    }
 }

@@ -1,5 +1,5 @@
 {
-    "header-row#menu__principal--container": {
+    "header-row#header__menuPrincipal--container": {
         "title": "menu__principal",
         "children": [
             "vtex.menu@2.x:menu#menu__principal--departamentos"
@@ -11,17 +11,17 @@
     "vtex.menu@2.x:menu#menu__principal--departamentos": {
         "title": "menu__principal--departamentos",
         "children": [
-            "menu-item#menuPrincipal__deptoNavidad",
-            "menu-item#menuPrincipal__deptoFanático",
-            "menu-item#menuPrincipal__deptoMujer",
-            "menu-item#menuPrincipal__deptoHombre",
-            "menu-item#menuPrincipal__deptoDeportes",
-            "menu-item#menuPrincipal__deptoNiños",
-            "menu-item#menuPrincipal__deptoBelleza",
-            "menu-item#menuPrincipal__deptoMarcas",
-            "menu-item#menuPrincipal__deptoHogar",
-            "menu-item#menuPrincipal__deptoEco",
-            "menu-item#menuPrincipal__deptoOfertas"
+            "menu-item#menu__departamento--Navidad",
+            "menu-item#menu__departamento--Fanático",
+            "menu-item#menu__departamento--Mujer",
+            "menu-item#menu__departamento--Hombre",
+            "menu-item#menu__departamento--Deportes",
+            "menu-item#menu__departamento--Niños",
+            "menu-item#menu__departamento--Belleza",
+            "menu-item#menu__departamento--Marcas",
+            "menu-item#menu__departamento--Hogar",
+            "menu-item#menu__departamento--Eco",
+            "menu-item#menu__departamento--Ofertas"
         ],
         "props":{
             "blockClass":"menu__principal--departamentos"

@@ -1,5 +1,5 @@
 {
-    "flex-layout.row#home_newsletter-main": {
+    "flex-layout.row#desktop__home--Form": {
         "title": "home_newsletter-main",
         "children": [
             "flex-layout.col#home_newsletter"

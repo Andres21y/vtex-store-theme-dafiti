@@ -1,6 +1,6 @@
 {
-    "menu-item#menuPrincipal__deptoFanático": {
-        "title": "menuPrincipal__deptoFanático",
+    "menu-item#menu__departamento--Fanático": {
+        "title": "menu__departamento--Fanático",
         "props": {
             "type": "custom",
             "highlight": false,

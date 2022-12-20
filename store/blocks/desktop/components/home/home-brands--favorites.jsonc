@@ -1,30 +1,32 @@
 {
-    "flex-layout.row#home_brand": {
-        "title": "home_section-brand",
+    "flex-layout.row#desktop__home--Brands": {
+        "title": "desktop__home--brands",
         "children": [
-            "flex-layout.col#home_brand"
-        ]
-    },
-    "flex-layout.col#home_brand": {
-        "title": "section_brand-col",
-        "children": [
-            "rich-text#home_brand",
-           "slider-layout#home_brand-carousel"
+            "flex-layout.col#home__brands"
         ],
         "props": {
-            "blockClass": "home_brand"
-            //"perserveLayoutOnMobile"
+            "blockClass": "desktop__home--brands"
         }
     },
-    "rich-text#home_brand": {
-        "title": "brands_title",
+    "flex-layout.col#home__brands": {
+        "title": "home__brands",
+        "children": [
+            "rich-text#home__brands",
+            "slider-layout#home__brands--carousel"
+        ],
         "props": {
-          "text": "Tus marcas favoritas",
-          "blockClass": "brands_title"
+            "blockClass": "home__brands"
         }
-      },
-      "slider-layout#home_brand-carousel": {
-        "title": "home_brand-carousel",
+    },
+    "rich-text#home__brands": {
+        "title": "home__brands--title",
+        "props": {
+            "text": "Tus marcas favoritas",
+            "blockClass": "home__brands--title"
+        }
+    },
+    "slider-layout#home__brands--carousel": {
+        "title": "home__brands--carousel",
         "props": {
             "itemsPerPage": {
                 "desktop": 6,
@@ -32,56 +34,68 @@
                 "tablet": 6
             },
             "infinite": true,
-            "centerMode":"center",
+            "centerMode": "center",
             "navigationStep": 1,
             "showPaginationDots": "never",
             "fullWidth": false,
-            "blockClass": "home_brands-carousel"
+            "blockClass": "home__brands--carousel"
         },
         "children": [
-            "image#home_brands-addidas",
-            "image#home_brands-royal",
-            "image#home_brands-lewis",
-            "image#home_brands-skechers",
-            "image#home_brands-reebook",
-            "image#home_brands-nike",
+            "image#home__brands--addidas",
+            "image#home__brands--royal",
+            "image#home__brands--lewis",
+            "image#home__brands--skechers",
+            "image#home__brands--reebook",
+            "image#home__brands--nike",
             "image"
         ]
     },
-    "image#home_brands-addidas": {
+    "image#home__brands--addidas": {
+        "title":"home__brands--addidas",
         "props": {
             "src": "assets/image/marcas/dft-addidas.png",
-            "maxHeight": 100
+            "maxHeight": 100,
+            "blockClass": "home__brands--addidas"
         }
     },
-    "image#home_brands-skechers": {
+    "image#home__brands--skechers": {
+        "title":"home_brands-skechers",
         "props": {
             "src": "assets/image/marcas/dft-skechers.png",
-            "maxHeight": 90
+            "maxHeight": 90,
+            "blockClass": "home__brands--skechers"
         }
     },
-    "image#home_brands-nike": {
+    "image#home__brands--nike": {
+        "title":"home__brands--nike",
         "props": {
             "src": "assets/image/marcas/dft-nike.png",
-            "maxHeight": 84
+            "maxHeight": 84,
+            "blockClass": "home__brands--nike"
         }
     },
-    "image#home_brands-royal": {
+    "image#home__brands--royal": {
+        "title":"home__brands--royal",
         "props": {
             "src": "assets/image/marcas/dft-royalcounty.png",
-            "maxHeight": 84
+            "maxHeight": 84,
+            "blockClass": "home__brands--royal"
         }
     },
-    "image#home_brands-lewis": {
+    "image#home__brands--lewis": {
+        "title":"home__brands--lewis",
         "props": {
             "src": "assets/image/marcas/dft-levis.png",
-            "maxHeight": 84
+            "maxHeight": 84,
+            "blockClass": "home__brands--lewis"
         }
     },
-    "image#home_brands-reebook": {
+    "image#home__brands--reebook": {
+        "title":"home__brands--reebook",
         "props": {
             "src": "assets/image/marcas/dft-reebok.png",
-            "maxHeight": 84
+            "maxHeight": 84,
+            "blockClass": "home__brands--reebook"
         }
     }
 }

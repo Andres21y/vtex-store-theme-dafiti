@@ -1,6 +1,6 @@
 {
-    "menu-item#menuPrincipal__deptoHogar": {
-        "title":"menuPrincipal__deptoHogar",
+    "menu-item#menu__departamento--Hogar": {
+        "title":"menu__departamento--Hogar",
         "props": {
             "type": "custom",
             "highlight": false,
@@ -67,11 +67,11 @@
     "flex-layout.col#deptoHogar__categoriaCocina--subcategories": {
         "title": "deptoHogar__categoriaCocina--subcategories",
         "children": [
-            "link#deptoHogar__categoryCocina--subCategoryDespensa",
-            "link#deptoHogar__categoryCocina--subCategoryPaletero",
-            "link#deptoHogar__categoryCocina--subCategoryZonadeAseo",
-            "link#deptoHogar__categoryCocina--subCategoryEstufa",
-            "link#deptoHogar__categoryCocina--subCategoryUtencilios"
+            "link#deptoHogar__Cocina--Despensa",
+            "link#deptoHogar__Cocina--Paletero",
+            "link#deptoHogar__Cocina--ZonadeAseo",
+            "link#deptoHogar__Cocina--Estufa",
+            "link#deptoHogar__Cocina--Utencilios"
         ],
         "props": {
             "blockClass": "deptoHogar__categoriaCocina--subcategories"
@@ -111,8 +111,8 @@
     "flex-layout.col#deptoHogar__categoriaComedor--subcategories": {
         "title": "deptoHogar__categoriaComedor--subcategories",
         "children": [
-            "link#deptoHogar__categoryComedor--subCategoryVajillas",
-            "link#deptoHogar__categoryComedor--subCategoryVasosyCopas"
+            "link#deptoHogar__Comedor--Vajillas",
+            "link#deptoHogar__Comedor--VasosyCopas"
         ],
         "props": {
             "blockClass": "deptoHogar__categoriaComedor--subcategories"
@@ -152,7 +152,7 @@
     "flex-layout.col#deptoHogar__categoriaDormitorio--subcategories": {
         "title": "deptoHogar__categoriaDormitorio--subcategories",
         "children": [
-            "link#deptoHogar__categoryDormitorio--subCategoryOrganización"
+            "link#deptoHogar__Dormitorio--Organización"
         ],
         "props": {
             "blockClass": "deptoHogar__categoriaDormitorio--subcategories"
@@ -191,9 +191,9 @@
     "flex-layout.col#deptoHogar__categoriaHomeOffice--subcategories": {
         "title": "deptoHogar__categoriaHomeOffice--subcategories",
         "children": [
-            "link#deptoHogar__categoryHomeOffice--subCategoryAlmacenamiento",
-            "link#deptoHogar__categoryHomeOffice--subCategoryEscritorios",
-            "link#deptoHogar__categoryHomeOffice--subCategorySillas"
+            "link#deptoHogar__HomeOffice--Almacenamiento",
+            "link#deptoHogar__HomeOffice--Escritorios",
+            "link#deptoHogar__HomeOffice--Sillas"
         ],
         "props": {
             "blockClass": "deptoHogar__categoriaHomeOffice--subcategories"
@@ -233,8 +233,8 @@
     "flex-layout.col#deptoHogar__categoriaDecoracion--subcategories": {
         "title": "deptoHogar__categoriaDecoracion--subcategories",
         "children": [
-            "link#deptoHogar__categoryDecoracion--subCategoryAccesorios",
-            "link#deptoHogar__categoryDecoracion--subCategoryDiseño"
+            "link#deptoHogar__Decoracion--Accesorios",
+            "link#deptoHogar__Decoracion--Diseño"
         ],
         "props": {
             "blockClass": "deptoHogar__categoriaMarcas--subcategories"

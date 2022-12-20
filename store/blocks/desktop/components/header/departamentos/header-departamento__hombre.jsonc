@@ -1,6 +1,6 @@
 {
-    "menu-item#menuPrincipal__deptoHombre": {
-        "title": "menuPrincipal__deptoHombre",
+    "menu-item#menu__departamento--Hombre": {
+        "title": "menu__departamento--Hombre",
         "props": {
             "type": "custom",
             "highlight": false,
@@ -62,15 +62,15 @@
     "flex-layout.col#deptohombre__categoriaZapatos--subcategories": {
         "title": "deptohombre__categoriaZapatos--subcategories",
         "children": [
-            "link#deptohombre__categoryzapatos--subCategoryTenis",
-            "link#deptohombre__categoryzapatos--subCategoryBotas",
-            "link#deptohombre__categoryzapatos--subCategoryMocasines",
-            "link#deptohombre__categoryzapatos--subCategoryZapatosCasuales",
-            "link#deptohombre__categoryzapatos--subCategoryZapatosFormales",
-            "link#deptohombre__categoryzapatos--subCategoryPlayeras",
-            "link#deptohombre__categoryzapatos--subCategoryVerTodo",
-            "link#deptohombre__categoryzapatos--subCategoryNovedades",
-            "link#deptohombre__categoryzapatos--subCategoryOfertas"
+            "link#deptohombre__zapatos--Tenis",
+            "link#deptohombre__zapatos--Botas",
+            "link#deptohombre__zapatos--Mocasines",
+            "link#deptohombre__zapatos--ZapatosCasuales",
+            "link#deptohombre__zapatos--ZapatosFormales",
+            "link#deptohombre__zapatos--Playeras",
+            "link#deptohombre__zapatos--VerTodo",
+            "link#deptohombre__zapatos--Novedades",
+            "link#deptohombre__zapatos--Ofertas"
         ],
         "props": {
             "blockClass": "deptohombre__categoriaZapatos--subcategories"
@@ -109,18 +109,18 @@
     "flex-layout.col#deptohombre__categoriaRopa--subcategories": {
         "title": "deptohombre__categoriaRopa--subcategories",
         "children": [
-            "link#deptohombre__categoryRopa--subCategoryPolos",
-            "link#deptohombre__categoryRopa--subCategoryCamisas",
-            "link#deptohombre__categoryRopa--subCategoryCamisetas",
-            "link#deptohombre__categoryRopa--subCategoryJeans",
-            "link#deptohombre__categoryRopa--subCategoryChaquetas",
-            "link#deptohombre__categoryRopa--subCategoryPantalones",
-            "link#deptohombre__categoryRopa--subCategorySacosyCardigans",
-            "link#deptohombre__categoryRopa--subCategoryRopaInterior",
-            "link#deptohombre__categoryRopa--subCategoryBermudasyPantalonetas",
-            "link#deptohombre__categoryRopa--subCategoryVerTodo",
-            "link#deptohombre__categoryRopa--subCategoryNovedades",
-            "link#deptohombre__categoryRopa--subCategoryOfertas"
+            "link#deptohombre__Ropa--Polos",
+            "link#deptohombre__Ropa--Camisas",
+            "link#deptohombre__Ropa--Camisetas",
+            "link#deptohombre__Ropa--Jeans",
+            "link#deptohombre__Ropa--Chaquetas",
+            "link#deptohombre__Ropa--Pantalones",
+            "link#deptohombre__Ropa--SacosyCardigans",
+            "link#deptohombre__Ropa--RopaInterior",
+            "link#deptohombre__Ropa--BermudasyPantalonetas",
+            "link#deptohombre__Ropa--VerTodo",
+            "link#deptohombre__Ropa--Novedades",
+            "link#deptohombre__Ropa--Ofertas"
         ],
         "props": {
             "blockClass": "deptohombre__categoriaRopa--subcategories"
@@ -160,15 +160,15 @@
     "flex-layout.col#deptohombre__categoriaAccesorios--subcategories": {
         "title": "deptohombre__categoriaAccesorios--subcategories",
         "children": [
-            "link#deptohombre__categoryAccesorios--subCategoryRelojes",
-            "link#deptohombre__categoryAccesorios--subCategoryMorrales",
-            "link#deptohombre__categoryAccesorios--subCategoryGafas",
-            "link#deptohombre__categoryAccesorios--subCategoryBilleteras",
-            "link#deptohombre__categoryAccesorios--subCategoryCinturones",
-            "link#deptohombre__categoryAccesorios--subCategoryMaletinesyBolsos",
-            "link#deptohombre__categoryAccesorios--subCategoryVertodo",
-            "link#deptohombre__categoryAccesorios--subCategoryNovedades",
-            "link#deptohombre__categoryAccesorios--subCategoryOfertas"
+            "link#deptohombre__Accesorios--Relojes",
+            "link#deptohombre__Accesorios--Morrales",
+            "link#deptohombre__Accesorios--Gafas",
+            "link#deptohombre__Accesorios--Billeteras",
+            "link#deptohombre__Accesorios--Cinturones",
+            "link#deptohombre__Accesorios--MaletinesyBolsos",
+            "link#deptohombre__Accesorios--Vertodo",
+            "link#deptohombre__Accesorios--Novedades",
+            "link#deptohombre__Accesorios--Ofertas"
         ],
         "props": {
             "blockClass": "deptohombre__categoriaAccesorios--subcategories"
@@ -209,13 +209,13 @@
     "flex-layout.col#deptohombre__categoriaDeportes--subcategories": {
         "title": "deptohombre__categoriaDeportes--subcategories",
         "children": [
-            "link#deptohombre__categoryDeportes--subCategoryTenisyZapatos",
-            "link#deptohombre__categoryDeportes--subCategoryVestuario",
-            "link#deptohombre__categoryDeportes--subCategoryAccesorios",
-            "link#deptohombre__categoryDeportes--subCategoryEquipamiento",
-            "link#deptohombre__categoryDeportes--subCategoryVerTodo",
-            "link#deptohombre__categoryDeportes--subCategoryNovadades",
-            "link#deptohombre__categoryDeportes--subCategoryOfertas"
+            "link#deptohombre__Deportes--TenisyZapatos",
+            "link#deptohombre__Deportes--Vestuario",
+            "link#deptohombre__Deportes--Accesorios",
+            "link#deptohombre__Deportes--Equipamiento",
+            "link#deptohombre__Deportes--VerTodo",
+            "link#deptohombre__Deportes--Novadades",
+            "link#deptohombre__Deportes--Ofertas"
         ],
         "props": {
             "blockClass": "deptohombre__categoriaDeportes--subcategories"
@@ -258,18 +258,18 @@
     "flex-layout.col#deptohombre__categoriaMarcas--subcategories": {
         "title": "deptohombre__categoriaMarcas--subcategories",
         "children": [
-            "link#deptohombre__categoryMarcas--subCategoryRoyalCounty",
-            "link#deptohombre__categoryMarcas--subCategoryUSPoloAssn",
-            "link#deptohombre__categoryMarcas--subCategoryTommyHilfiger",
-            "link#deptohombre__categoryMarcas--subCategoryColore",
-            "link#deptohombre__categoryMarcas--subCategoryMP",
-            "link#deptohombre__categoryMarcas--subCategoryDiesel",
-            "link#deptohombre__categoryMarcas--subCategoryNaútica",
-            "link#deptohombre__categoryMarcas--subCategoryLevi's",
-            "link#deptohombre__categoryMarcas--subCategoryBeverlyHills",
-            "link#deptohombre__categoryMarcas--subCategoryBrooksfield",
-            "link#deptohombre__categoryMarcas--subCategoryArturoCalle",
-            "link#deptohombre__categoryMarcas--subCategoryRayBan"
+            "link#deptohombre__Marcas--RoyalCounty",
+            "link#deptohombre__Marcas--USPoloAssn",
+            "link#deptohombre__Marcas--TommyHilfiger",
+            "link#deptohombre__Marcas--Colore",
+            "link#deptohombre__Marcas--MP",
+            "link#deptohombre__Marcas--Diesel",
+            "link#deptohombre__Marcas--Naútica",
+            "link#deptohombre__Marcas--Levi's",
+            "link#deptohombre__Marcas--BeverlyHills",
+            "link#deptohombre__Marcas--Brooksfield",
+            "link#deptohombre__Marcas--ArturoCalle",
+            "link#deptohombre__Marcas--RayBan"
         ],
         "props": {
             "blockClass": "deptohombre__categoriaMarcas--subcategories"

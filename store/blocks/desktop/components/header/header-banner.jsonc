@@ -1,0 +1,19 @@
+{
+    "header-row#header__banner--top": {
+        "title": "header__banner--top",
+        "children": [
+            "image#header__bannerTop--image"
+        ],
+        "props": {
+            "blockClass": "header__banner--top"
+        }
+    },
+    "image#header__bannerTop--image": {
+        "title": "header__bannerTop--image",
+        "props": {
+            "src": "assets/image/header/dft-header-banner.gif",
+            "blockClass": "header__bannerTop--image"
+        }
+    }
+    
+}
