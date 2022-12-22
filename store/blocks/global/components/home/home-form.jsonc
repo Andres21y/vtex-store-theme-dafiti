@@ -1,0 +1,119 @@
+{
+    "flex-layout.row#global__home--form": {
+        "title": "home___newsletter--main",
+        "children": [
+            "flex-layout.col#home__newsletter"
+        ],
+        "props": {
+            "blockClass": "home___newsletter--main"
+        }
+    },
+    "flex-layout.col#home__newsletter": {
+        "title": "home___newsletter",
+        "children": [
+            "flex-layout.col#home__newsletter--container"
+        ],
+        "props": {
+            "blockClass": "home__newsletter"
+        }
+    },
+    "flex-layout.col#home__newsletter--container": {
+        "title": "home__newsletter--container",
+        "children": [
+            "flex-layout.row#home__newsletter--one",
+            "flex-layout.row#home__newsletter--two"
+        ],
+        "props": {
+            "blockClass": "home__newsletter--container"
+        }
+    },
+    "flex-layout.row#home__newsletter--one": {
+        "title": "home__newsletter--one",
+        "children": [
+            "flex-layout.row#home__newsletter--description",
+            "flex-layout.col#home__newsletter--subscribe"
+        ],
+        "props": {
+            "blockClass": "home__newsletter--one"
+        }
+    },
+    "flex-layout.row#home__newsletter--two": {
+        "title": "home__newsletter--two",
+        "children": [
+            "rich-text#home__newsletter--terms",
+            "rich-text#home__newsletter--policy"
+        ],
+        "props": {
+            "blockClass": "home__newsletter--two"
+        }
+    },
+    "rich-text#home__newsletter--terms": {
+        "title": "home__newsletter--terms",
+        "props": {
+            "text": "[terminos y condiciones](https://developers.vtex.com/vtex-developer-docs/docs/welcome)",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "font": "t-heading-6",
+            "blockClass": "home__newsletter--terms"
+        }
+    },
+    "rich-text#home__newsletter--policy": {
+        "title": "home__newsletter--policy",
+        "props": {
+            "text": "| [Política de Tratamiento de Datos](https://developers.vtex.com/vtex-developer-docs/docs/welcome)",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "font": "t-heading-6",
+            "blockClass": "home__newsletter--policy"
+        }
+    },
+    "flex-layout.row#home__newsletter--description": {
+        "title": "home__newsletter--description",
+        "children": [
+            "newsletter#home__newsletter--main"
+        ],
+        "props": {
+            "blockClass": "home__newsletter--description"
+        }
+    },
+    "newsletter#home__newsletter--main": {
+        "title":"home__newsletter--main",
+        "props": {
+            "placeholder": "Escribe tu email aquí",
+            "hideLabel": true,
+            "width": 5,
+            "blockClass": "home__newsletter--main"
+        }
+    },
+    "flex-layout.col#home__newsletter--subscribe": {
+        "title": "home__newsletter--subscribe",
+        "children": [
+            "rich-text#newsletter__text--subscribe",
+            "rich-text#newsletter__text--descriptions"
+        ],
+        "props": {
+            "blockClass": "home__newsletter--subscribe"
+        }
+    },
+    "rich-text#newsletter__text--subscribe": {
+        "title": "newsletter__text--subscribe",
+        "props": {
+          "text": "¡Suscríbete!",
+          "textAlignment": "CENTER",
+          "textPosition": "CENTER",
+          "font": "t-heading-6",
+          "blockClass": "newsletter__text--subscribe"
+        }
+      },
+      "rich-text#newsletter__text--descriptions": {
+        "title": "newsletter__text--descriptions",
+        "props": {
+          "text": "Se el primero en enterarte de las últimas tendencias y todas las novedades que traemos para ti. Adicional, te damos un 15 Extra OFF* en tu primera compra",
+          "textAlignment": "CENTER",
+          "textPosition": "CENTER",
+          "font": "t-heading-6",
+          "blockClass": "newsletter__text--descriptions"
+        }
+      }
+    
+}

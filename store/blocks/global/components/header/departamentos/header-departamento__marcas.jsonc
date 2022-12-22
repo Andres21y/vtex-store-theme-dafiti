@@ -1,0 +1,216 @@
+{
+    "menu-item#menu__departamento--marcas": {
+        "title":"menu__departamento--marcas",
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "departamento_marca",
+                "text": "Marca"
+            },
+            "blockClass":"menu__departamento--marcas"
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu#departamento__marca--categorias"
+        ]
+    },
+    "vtex.menu@2.x:submenu#departamento__marca--categorias": {
+        "title":"departamento__marca--categorias",
+        "children": [
+            "menu-item#marca__zapatos",
+            "menu-item#marca__ropa",
+            "menu-item#marca__accesorios",
+            "menu-item#marca__deportes"
+        ],
+        "props":{
+            "blockClass":"departamento__marca--categorias"
+        }
+    },    
+    "menu-item#marca__zapatos": {
+        "title": "marca__zapatos",
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "categoria_zapatos",
+                "text": "zapatos"
+            },
+            "blockClass": "marca__zapatos"
+        },
+        "children": [
+            "flex-layout.row#marca__zapatos--container"
+        ]
+    },
+    "flex-layout.row#marca__zapatos--container": {
+        "title": "marca__zapatos--container",
+        "children": [
+            "flex-layout.col#marca__zapatos--subcategories"
+        ],
+        "props": {
+            "blockClass": "marca__zapatos--container"
+        }
+    },
+    "flex-layout.col#marca__zapatos--subcategories": {
+        "title": "marca__zapatos--subcategories",
+        "children": [
+            "link#marca__zapatos--royalcounty",
+            "link#marca__zapatos--tommyhilfiger",
+            "link#marca__zapatos--levis",
+            "link#marca__zapatos--beverly",
+            "link#marca__zapatos--us",
+            "link#marca__zapatos--vizzano",
+            "link#marca__zapatos--tellenzi",
+            "link#marca__zapatos--croydon",
+            "link#marca__zapatos--bosi",
+            "link#marca__zapatos--monserrate",
+            "link#marca__zapatos--vertodos"
+        ],
+        "props": {
+            "blockClass": "departamentos__subcategories"
+        }
+    },    
+    "menu-item#marca__ropa": {
+        "title":"marca__ropa",
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "categoria_ropa",
+                "text": "ropa"
+            },
+            "blockClass": "marca__ropa"
+        },
+        "children": [
+            "flex-layout.row#marca__ropa--container"
+        ]
+    },
+    "flex-layout.row#marca__ropa--container": {
+        "title": "marca__ropa--container",
+        "children": [
+            "flex-layout.col#marca__ropa--subcategories"
+        ],
+        "props": {
+            "blocClass": "marca__ropa--container"
+        }
+    },
+    "flex-layout.col#marca__ropa--subcategories": {
+        "title": "marca__ropa--subcategories",
+        "children": [
+            "link#marca__ropa--polo",
+            "link#marca__ropa--us",
+            "link#marca__ropa--tommy",
+            "link#marca__ropa--nautica",
+            "link#marca__ropa--arturo",
+            "link#marca__ropa--mp",
+            "link#marca__ropa--desigual",
+            "link#marca__ropa--levis",
+            "link#marca__ropa--koaj",
+            "link#marca__ropa--paris",
+            "link#marca__ropa--vertodos"
+        ],
+        "props": {
+            "blockClass": "departamentos__subcategories"
+        }
+    },    "menu-item#marca__accesorios": {
+        "title":"marca__accesorios",
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "categoria_accesorios",
+                "text": "Accesorios"
+            },
+            "blockClass": "marca__accesorios"
+        },
+        "children": [
+            "flex-layout.row#marca__accesorios--container"
+        ]
+    },
+    "flex-layout.row#marca__accesorios--container": {
+        "title": "marca__accesorios--container",
+        "children": [
+            "flex-layout.col#marca__accesorios--subcategories"
+        ],
+        "props": {
+            "blocClass": "marca__accesorios--container"
+        }
+    },
+    "flex-layout.col#marca__accesorios--subcategories": {
+        "title": "marca__accesorios--subcategories",
+        "children": [
+            "link#marca__accesorios--tommy",
+            "link#marca__accesorios--fossil",
+            "link#marca__accesorios--guess",
+            "link#marca__accesorios--us",
+            "link#marca__accesorios--ray",
+            "link#marca__accesorios--invicta",
+            "link#marca__accesorios--totto",
+            "link#marca__accesorios--desigual",
+            "link#marca__accesorios--nine",
+            "link#marca__accesorios--prune",
+            "link#marca__accesorios--velez",
+            "link#marca__accesorios--vertodo"
+        ],
+        "props": {
+            "blockClass": "departamentos__subcategories"
+        }
+    },    "menu-item#marca__deportes": {
+        "title":"marca__deportes",
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "categoria_deportes",
+                "text": "deportes"
+            },
+            "blockClass": "marca__deportes"
+        },
+        "children": [
+            "flex-layout.row#marca__deportes--container"
+        ]
+    },
+    "flex-layout.row#marca__deportes--container": {
+        "title": "marca__deportes--container",
+        "children": [
+            "flex-layout.col#marca__deportes--subcategories"
+        ],
+        "props": {
+            "blocClass": "marca__deportes--container"
+        }
+    },
+    "flex-layout.col#marca__deportes--subcategories": {
+        "title": "marca__deportes--subcategories",
+        "children": [
+            "link#marca__deportes--skechers",
+            "link#marca__deportes--nike",
+            "link#marca__deportes--addidasperformance",
+            "link#marca__deportes--addidasoriginals",
+            "link#marca__deportes--under",
+            "link#marca__deportes--reebok",
+            "link#marca__deportes--newbalance",
+            "link#marca__deportes--fila",
+            "link#marca__deportes--asics",
+            "link#marca__deportes--lotto",
+            "link#marca__deportes--pluma",
+            "link#marca__deportes--vertodo"
+        ],
+        "props": {
+            "blockClass": "departamentos__subcategories"
+        }
+    }
+}

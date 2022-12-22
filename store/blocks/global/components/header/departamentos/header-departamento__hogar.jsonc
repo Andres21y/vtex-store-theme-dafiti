@@ -1,0 +1,316 @@
+{
+    "menu-item#menu__departamento--hogar": {
+        "title":"menu__departamento--hogar",
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "departamento_hogar",
+                "text": "Hogar"
+            },
+            "blockClass":"menu__departamento--hogar"
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu#hogar__categorias"
+        ]
+    },
+    "vtex.menu@2.x:submenu#hogar__categorias": {
+        "title":"hogar__categorias",
+        "children": [
+            "menu-item#hogar__cocina",
+            "menu-item#hogar__comedor",
+            "menu-item#hogar__dormitorio",
+            "menu-item#hogar__homeoffice",
+            "menu-item#hogar__decoracion",
+            "menu-item#hogar__audio",
+            "menu-item#hogar__lomasvendido"
+        ],
+        "props":{
+            "blockClass":"departamento__hogar--categorias"
+        }
+    },
+
+    /*--------------------------------------------------------------------------------------*/
+    
+    "menu-item#hogar__cocina": {
+        "title": "hogar__cocina",
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "categoria_hocina",
+                "text": "cocina"
+            },
+            "blockClass": "hogar__cocina"
+        },
+        "children": [
+            "flex-layout.row#hogar__cocina--container"
+        ]
+    },
+
+    "flex-layout.row#hogar__cocina--container": {
+        "title": "hogar__cocina--container",
+        "children": [
+            "flex-layout.col#hogar__cocina--subcategories"
+        ],
+        "props": {
+            "blockClass": "hogar__cocina--container"
+        }
+    },
+
+    "flex-layout.col#hogar__cocina--subcategories": {
+        "title": "hogar__cocina--subcategories",
+        "children": [
+            // "link#hogar__cocina--despensa",
+            // "link#hogar__cocina--paletero",
+            // "link#hogar__cocina--zonadeAseo",
+            // "link#hogar__cocina--estufa",
+            // "link#hogar__cocina--utencilios"
+        ],
+        "props": {
+            "blockClass": "hogar__cocina--subcategories"
+        }
+    },
+    
+    
+    /*--------------------------------------------------------------------------------------*/
+    
+    "menu-item#hogar__comedor": {
+        "title":"hogar__comedor",
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "categoria_comedor",
+                "text": "comedor"
+            },
+            "blockClass": "hogar__comedor"
+        },
+        "children": [
+            "flex-layout.row#hogar__comedor--container"
+        ]
+    },
+    "flex-layout.row#hogar__comedor--container": {
+        "title": "hogar__comedor--container",
+        "children": [
+            "flex-layout.col#hogar__categoriacomedor--subcategories"
+        ],
+        "props": {
+            "blocClass": "hogar__comedor--container"
+        }
+    },
+    "flex-layout.col#hogar__categoriacomedor--subcategories": {
+        "title": "hogar__categoriacomedor--subcategories",
+        "children": [
+            // "link#hogar__comedor--vajillas",
+            // "link#hogar__comedor--vasosycopas"
+        ],
+        "props": {
+            "blockClass": "hogar__categoriacomedor--subcategories"
+        }
+    },
+
+/*--------------------------------------------------------------------------------------*/
+
+
+"menu-item#hogar__dormitorio": {
+        "title":"hogar__dormitorio",
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "categoria_dormitorio",
+                "text": "dormitorio"
+            },
+            "blockClass": "hogar__dormitorio"
+        },
+        "children": [
+            "flex-layout.row#hogar__dormitorio--container"
+        ]
+    },
+    "flex-layout.row#hogar__dormitorio--container": {
+        "title": "hogar__dormitorio--container",
+        "children": [
+            "flex-layout.col#hogar__dormitorio--subcategories"
+        ],
+        "props": {
+            "blocClass": "hogar__dormitorio--container"
+        }
+    },
+    "flex-layout.col#hogar__dormitorio--subcategories": {
+        "title": "hogar__dormitorio--subcategories",
+        "children": [
+            // "link#hogar__dormitorio--organizacion"
+        ],
+        "props": {
+            "blockClass": "hogar__dormitorio--subcategories"
+        }
+    },
+
+/*--------------------------------------------------------------------------------------*/
+
+"menu-item#hogar__homeoffice": {
+        "title":"hogar__homeoffice",
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "categoria_homeoffice",
+                "text": "home office"
+            },
+            "blockClass": "hogar__homeoffice"
+        },
+        "children": [
+            "flex-layout.row#hogar__homeoffice--container"
+        ]
+    },
+    "flex-layout.row#hogar__homeoffice--container": {
+        "title": "hogar__homeoffice--container",
+        "children": [
+            "flex-layout.col#hogar__homeoffice--subcategories"
+        ],
+        "props": {
+            "blocClass": "hogar__homeoffice--container"
+        }
+    },
+    "flex-layout.col#hogar__homeoffice--subcategories": {
+        "title": "hogar__homeoffice--subcategories",
+        "children": [
+            // "link#hogar__homeoffice--almacenamiento",
+            // "link#hogar__homeoffice--escritorios",
+            // "link#hogar__homeoffice--sillas"
+        ],
+        "props": {
+            "blockClass": "hogar__homeoffice--subcategories"
+        }
+    },
+
+/*--------------------------------------------------------------------------------------*/
+
+
+"menu-item#hogar__decoracion": {
+        "title":"hogar__decoracion",
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "categoria_decoracion",
+                "text": "decoracion"
+            },
+            "blockClass": "dptodeportes__categoria--Femenino"
+        },
+        "children": [
+            "flex-layout.row#hogar__decoracion--container"
+        ]
+    },
+    "flex-layout.row#hogar__decoracion--container": {
+        "title": "hogar__decoracion--container",
+        "children": [
+            "flex-layout.col#hogar__decoracion--subcategories"
+        ],
+        "props": {
+            "blocClass": "hogar__decoracion--container"
+        }
+    },
+    "flex-layout.col#hogar__decoracion--subcategories": {
+        "title": "hogar__decoracion--subcategories",
+        "children": [
+            // "link#hogar__decoracion--accesorios",
+            // "link#hogar__decoracion--diseño"
+        ],
+        "props": {
+            "blockClass": "hogar__lomasvendido--subcategories"
+        }
+    },
+/*--------------------------------------------------------------------------------------*/
+
+
+"menu-item#hogar__audio": {
+        "title":"hogar__audio",
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "categoria_audio",
+                "text": "audio"
+            },
+            "blockClass": "deportes__categoria--audio"
+        },
+        "children": [
+            "flex-layout.row#hogar__audio--container"
+        ]
+    },
+    "flex-layout.row#hogar__audio--container": {
+        "title": "hogar__audio--container",
+        "children": [
+            "flex-layout.col#hogar__audio--subcategories"
+        ],
+        "props": {
+            "blocClass": "hogar__audio--container"
+        }
+    },
+    "flex-layout.col#hogar__audio--subcategories": {
+        "title": "hogar__audio--subcategories",
+        "props": {
+            "blockClass": "hogar__audio--subcategories"
+        }
+    },
+
+/*--------------------------------------------------------------------------------------*/
+
+
+"menu-item#hogar__lomasvendido": {
+        "title":"hogar__lomasvendido",
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "categoria_lomasvendido",
+                "text": "lo más vendido"
+            },
+            "blockClass": "hogar__categoria--lomasvendido"
+        },
+        "children": [
+            "flex-layout.row#hogar__lomasvendido--container"
+        ]
+    },
+    "flex-layout.row#hogar__lomasvendido--container": {
+        "title": "hogar__lomasvendido--container",
+        "children": [
+            "flex-layout.col#hogar__lomasvendido--subcategories"
+        ],
+        "props": {
+            "blocClass": "hogar__lomasvendido--container"
+        }
+    },
+    "flex-layout.col#hogar__lomasvendido--subcategories": {
+        "title": "hogar__lomasvendido--subcategories",
+        "props": {
+            "blockClass": "hogar__lomasvendido--subcategories"
+        }
+    }
+}

@@ -1,7 +1,7 @@
 {
     "header-layout.mobile": {
         "children": [
-            "header-row#menu_mobile--main"
+            "header-row#mobile__menu--main"
         ]
     }
 }

@@ -1,0 +1,17 @@
+{
+    "menu-item#menu__departamento--fanático": {
+        "title": "menu__departamento--Fanático",
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "departamento_Fanático",
+                "text": "Fanático ⚽"
+            },
+            "blockClass": "menu__departamento--Fanático"
+        }
+    }
+}

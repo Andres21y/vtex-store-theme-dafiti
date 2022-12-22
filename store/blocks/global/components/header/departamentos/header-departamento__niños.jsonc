@@ -1,0 +1,340 @@
+{
+    "menu-item#menu__departamento--niños": {
+        "title": "menu__departamento--niños",
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "departamento_niños",
+                "text": "Niños"
+            },
+            "blockClass": "menu__departamento--niños"
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu#departamento__niños--categorias"
+        ]
+    },
+    "vtex.menu@2.x:submenu#departamento__niños--categorias": {
+        "title": "departamento__niños--categorias",
+        "children": [
+            "menu-item#niños__bebe",
+            "menu-item#niños__dosaseiteaños",
+            "menu-item#niños__ochoadesiseisaños",
+            "menu-item#niños__marcas",
+            "menu-item#niños__marcasdeportivas",
+            "menu-item#niños__jugetes",
+            "menu-item#niños__disney"
+        ],
+        "props": {
+            "blockClass": "departamento__niños--categorias"
+        }
+    },
+
+    /*--------------------------------------------------------------------------------------*/
+    "menu-item#niños__bebe": {
+        "title": "niños__bebe",
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "categoria_bebes",
+                "text": "bebé 0 a 24 meses"
+            },
+            "blockClass": "niños__bebe"
+        },
+        "children": [
+            "flex-layout.row#niños__bebe--container"
+        ]
+    },
+    "flex-layout.row#niños__bebe--container": {
+        "title": "niños__bebe--container",
+        "children": [
+            "flex-layout.col#niños__bebe--subcategories"
+        ],
+        "props": {
+            "blockClass": "niños__bebe--container"
+        }
+    },
+    "flex-layout.col#niños__bebe--subcategories": {
+        "title": "niños__bebe--subcategories",
+        "children": [
+            "link#niños__bebe--ropa",
+            "link#niños__bebe--zapatos"
+        ],
+        "props": {
+            "blockClass": "departamentos__subcategories"
+        }
+    },
+
+
+    /*--------------------------------------------------------------------------------------*/
+    "menu-item#niños__dosaseiteaños": {
+        "title": "niños__categoria--dosasieteaños",
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "categoria_dosasieteaños",
+                "text": "2 a 7 años"
+            },
+            "blockClass": "niños__categoria--dosasieteaños"
+        },
+        "children": [
+            "flex-layout.row#niños__dosasieteaños--container"
+        ]
+    },
+    "flex-layout.row#niños__dosasieteaños--container": {
+        "title": "niños__categoriaRopa--container",
+        "children": [
+            "flex-layout.col#niños__dosasieteaños--subcategories"
+        ],
+        "props": {
+            "blocClass": "niños__dosasieteaños--container"
+        }
+    },
+    "flex-layout.col#niños__dosasieteaños--subcategories": {
+        "title": "niños__dosasieteaños--subcategories",
+        "children": [
+            "link#niños__dosasieteaños--ropaniña",
+            "link#niños__dosasieteaños--zapatosniña",
+            "link#niños__dosasieteaños--accesorioniña",
+            "link#niños__dosasieteaños--ropaniño",
+            "link#niños__dosasieteaños--zapatosniño",
+            "link#niños__dosasieteaños--accesorioniño"
+        ],
+        "props": {
+            "blockClass": "departamentos__subcategories"
+        }
+    },
+
+
+
+    /*--------------------------------------------------------------------------------------*/
+    "menu-item#niños__ochoadesiseisaños": {
+        "title": "niños__categoria--Accesorios",
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "categoria_ochoadiesiseisaños",
+                "text": "8 a 16 años"
+            },
+            "blockClass": "niños__categoria--ochoadiesiseisaños"
+        },
+        "children": [
+            "flex-layout.row#niños__ochoadiesiseisaños--container"
+        ]
+    },
+    "flex-layout.row#niños__ochoadiesiseisaños--container": {
+        "title": "niños__ochoadiesiseisaños--container",
+        "children": [
+            "flex-layout.col#niños__ochoadiesiseisaños--subcategories"
+        ],
+        "props": {
+            "blocClass": "niños__ochoadiesiseisaños--container"
+        }
+    },
+    "flex-layout.col#niños__ochoadiesiseisaños--subcategories": {
+        "title": "niños__ochoadiesiseisaños--subcategories",
+        "children": [
+            "link#niños__ochoadiesiseisaños--ropaniña",
+            "link#niños__ochoadiesiseisaños--zapatosniña",
+            "link#niños__ochoadiesiseisaños--accesorioniña",
+            "link#niños__ochoadiesiseisaños--ropaniño",
+            "link#niños__ochoadiesiseisaños--zapatosniño",
+            "link#niños__ochoadiesiseisaños--accesorioniño"
+        ],
+        "props": {
+            "blockClass": "departamentos__subcategories"
+        }
+    },
+
+
+    /*--------------------------------------------------------------------------------------*/
+    "menu-item#niños__marcas": {
+        "title": "niños__categoria--marcas",
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "categoria_marcas",
+                "text": "marcas"
+            },
+            "blockClass": "niños__categoria--marcas"
+        },
+        "children": [
+            "flex-layout.row#niños__marcas--container"
+        ]
+    },
+    "flex-layout.row#niños__marcas--container": {
+        "title": "niños__marcas--container",
+        "children": [
+            "flex-layout.col#niños__marcas--subcategories"
+        ],
+        "props": {
+            "blocClass": "niños__marcas--container"
+        }
+    },
+    "flex-layout.col#niños__marcas--subcategories": {
+        "title": "niños__marcas--subcategories",
+        "children": [
+            "link#niños__marcas--offcorss",
+            "link#niños__marcas--gapkids",
+            "link#niños__marcas--epeka",
+            "link#niños__marcas--tommyhilfigerkids",
+            "link#niños__marcas--royalcountykids",
+            "link#niños__marcas--mp",
+            "link#niños__marcas--leviskids"
+        ],
+        "props": {
+            "blockClass": "departamentos__subcategories"
+        }
+    },
+
+
+    /*--------------------------------------------------------------------------------------*/
+    "menu-item#niños__marcasdeportivas": {
+        "title": "niños__categoria--marcasdeportivas",
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "categoria_marcasdeportivas",
+                "text": "marcas deportivas"
+            },
+            "blockClass": "niños__categoria--marcasdeportivas"
+        },
+        "children": [
+            "flex-layout.row#niños__marcasdeportivas--container"
+        ]
+    },
+    "flex-layout.row#niños__marcasdeportivas--container": {
+        "title": "niños__marcasdeportivas--container",
+        "children": [
+            "flex-layout.col#niños__marcasdeportivas--subcategories"
+        ],
+        "props": {
+            "blocClass": "niños__marcasdeportivas--container"
+        }
+    },
+    "flex-layout.col#niños__marcasdeportivas--subcategories": {
+        "title": "niños__marcasdeportivas--subcategories",
+        "children": [
+            "link#niños__marcasdeportivas--newbalancekids",
+            "link#niños__marcasdeportivas--filakids",
+            "link#niños__marcasdeportivas--skecherskids",
+            "link#niños__marcasdeportivas--underarmourkids",
+            "link#niños__marcasdeportivas--adidaskids",
+            "link#niños__marcasdeportivas--oceanpacifickids"
+        ],
+        "props": {
+            "blockClass": "departamentos__subcategories"
+        }
+    },
+
+
+    /*--------------------------------------------------------------------------------------*/
+    "menu-item#niños__jugetes": {
+        "title": "niños__categoria--jugetes",
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "categoria_jugetes",
+                "text": "jugetes"
+            },
+            "blockClass": "niños__categoria--jugetes"
+        },
+        "children": [
+            "flex-layout.row#niños__jugetes--container"
+        ]
+    },
+    "flex-layout.row#niños__jugetes--container": {
+        "title": "niños__jugetes--container",
+        "children": [
+            "flex-layout.col#niños__jugetes--subcategories"
+        ],
+        "props": {
+            "blocClass": "niños__jugetes--container"
+        }
+    },
+    "flex-layout.col#niños__jugetes--subcategories": {
+        "title": "niños__jugetes--subcategories",
+        "children": [
+            "link#niños__jugetes--mattel",
+            "link#niños__jugetes--hotwheels",
+            "link#niños__jugetes--hasbro",
+            "link#niños__jugetes--fisherprice",
+            "link#niños__jugetes--barbie",
+            "link#niños__jugetes--lego"
+        ],
+        "props": {
+            "blockClass": "departamentos__subcategories"
+        }
+    },
+
+
+
+    /*--------------------------------------------------------------------------------------*/
+
+
+    "menu-item#niños__disney": {
+        "title": "niños__categoria--disney",
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "categoria_disney",
+                "text": "disney"
+            },
+            "blockClass": "niños__categoria--disney"
+        },
+        "children": [
+            "flex-layout.row#niños__disney--container"
+        ]
+    },
+    "flex-layout.row#niños__disney--container": {
+        "title": "niños__disney--container",
+        "children": [
+            "flex-layout.col#niños__disney--subcategories"
+        ],
+        "props": {
+            "blocClass": "niños__disney--container"
+        }
+    },
+    "flex-layout.col#niños__disney--subcategories": {
+        "title": "niños__disney--subcategories",
+        "children": [
+            "link#niños__disney--juguetesyaccesorios",
+            "link#niños__disney--calzado",
+            "link#niños__disney--ropa"
+        ],
+        "props": {
+            "blockClass": "departamentos__subcategories"
+        }
+    }
+}

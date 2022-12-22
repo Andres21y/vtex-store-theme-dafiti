@@ -1,17 +1,18 @@
 {
-  "store.home": {
-    "title":"home__container--apps",
-    "blocks": [
-      "flex-layout.row#home_main-banner",
-      "flex-layout.row#home_main-block",
-      "flex-layout.row#home_brand",
-      // "flex-layout.row#home_brand-carousel",
-      "flex-layout.row#home_section-info",
-      "flex-layout.row#home_news-sections",
-      "flex-layout.row#home_newsletter-main"
+  "responsive-layout.desktop#desktop__home--apps": {
+    "title": "desktop__home--apps",
+    "children": [
+      "flex-layout.row#global__home--preheader",
+      "flex-layout.row#global__home--title",
+      "flex-layout.row#global__home--main",
+      "flex-layout.row#global__home--brands",
+      "flex-layout.row#global__home--trucking",
+      "flex-layout.row#global__home--recommended",
+      "flex-layout.row#global__home--seo",
+      "flex-layout.row#global__home--form"
     ],
     "props": {
-      "blockClass": "home_container-apps"
+      "blockClass": "desktop__home--apps"
     }
   }
 }

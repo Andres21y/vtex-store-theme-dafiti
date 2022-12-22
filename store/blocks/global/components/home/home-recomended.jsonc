@@ -1,0 +1,21 @@
+{
+  "flex-layout.row#global__home--recommended": {
+        "title": "global__home--recommended",
+        "children": [
+          "rich-text#home__recomended"
+        ],
+        "props": {
+            "blockClass": "global__home--recommended"
+        }
+    },
+    "rich-text#home__recomended": {
+        "title": "home__recomended",
+        "props": {
+          "text": "Los favoritos de la semana",
+          "textAlignment": "CENTER",
+          "textPosition": "CENTER",
+          "font": "t-heading-1",
+          "blockClass": "home__recomended"
+        }
+      }
+}
