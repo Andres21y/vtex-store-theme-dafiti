@@ -1,11 +1,11 @@
 {
-    "flex-layout.row#desktop__home--Brands": {
-        "title": "desktop__home--brands",
+    "flex-layout.row#global__home--brands": {
+        "title": "global__home--brands",
         "children": [
             "flex-layout.col#home__brands"
         ],
         "props": {
-            "blockClass": "desktop__home--brands"
+            "blockClass": "global__home--brands"
         }
     },
     "flex-layout.col#home__brands": {

@@ -1,18 +1,18 @@
 {
-  "responsive-layout.desktop#home": {
-    "title": "desktop__home--container",
+  "responsive-layout.desktop#desktop__home--apps": {
+    "title": "desktop__home--apps",
     "children": [
-      "flex-layout.row#desktop__home--preheader",
-      "flex-layout.row#desktop__home--title",
-      "flex-layout.row#desktop__home--Main",
-      "flex-layout.row#desktop__home--Brands",
-      "flex-layout.row#desktop__home--Trucking",
-      "flex-layout.row#desktop__home--Recommended",
-      "flex-layout.row#desktop__home--SEO",
-      "flex-layout.row#desktop__home--Form"
+      "flex-layout.row#global__home--preheader",
+      "flex-layout.row#global__home--title",
+      "flex-layout.row#global__home--main",
+      "flex-layout.row#global__home--brands",
+      "flex-layout.row#global__home--trucking",
+      "flex-layout.row#global__home--recommended",
+      "flex-layout.row#global__home--seo",
+      "flex-layout.row#global__home--form"
     ],
     "props": {
-      "blockClass": "desktop__home--container"
+      "blockClass": "desktop__home--apps"
     }
   }
 }

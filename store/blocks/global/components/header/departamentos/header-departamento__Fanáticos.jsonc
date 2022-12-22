@@ -1,5 +1,5 @@
 {
-    "menu-item#menu__departamento--Fanático": {
+    "menu-item#menu__departamento--fanático": {
         "title": "menu__departamento--Fanático",
         "props": {
             "type": "custom",
@@ -11,7 +11,7 @@
                 "tagTitle": "departamento_Fanático",
                 "text": "Fanático ⚽"
             },
-            "blockClass": "menuPrincipal__deptoFanático"
+            "blockClass": "menu__departamento--Fanático"
         }
     }
 }

@@ -1,0 +1,254 @@
+{
+    "menu-item#menu__departamento--deportes": {
+        "title": "menu__departamento--deportes",
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "departamento_deportes",
+                "text": "Deportes"
+            },
+            "blockClass": "menu__departamento--deportes"
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu#deportes__categorias"
+        ]
+    },
+    "vtex.menu@2.x:submenu#deportes__categorias": {
+        "title": "deportes__categorias",
+        "children": [
+            "menu-item#deportes__femenino",
+            "menu-item#deportes__masculino",
+            "menu-item#deportes__marcas",
+            "menu-item#deportes__actividades",
+            "menu-item#deportes__plus"
+        ],
+        "props": {
+            "blockClass": "departamento__deportes--categorias"
+        }
+    },
+    /*--------------------------------------------------------------------------------------0*/
+    "menu-item#deportes__femenino": {
+        "title": "deportes__femenino",
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "categoria_femenino",
+                "text": "femenino"
+            },
+            "blockClass": "deportes__femenino"
+        },
+        "children": [
+            "flex-layout.row#deportes__femenino--container"
+        ]
+    },
+    "flex-layout.row#deportes__femenino--container": {
+        "title": "deportes__femenino--container",
+        "children": [
+            "flex-layout.col#deportes__femenino--subcategories"
+        ],
+        "props": {
+            "blockClass": "deportes__femenino--container"
+        }
+    },
+    "flex-layout.col#deportes__femenino--subcategories": {
+        "title": "deportes__femenino--subcategories",
+        "children": [
+            "link#deportes__femenino--tenisdeportivo",
+            "link#deportes__femenino--camisetas",
+            "link#deportes__femenino--chaquetasychalecos",
+            "link#deportes__femenino--leggingsycapris",
+            "link#deportes__femenino--pantalones",
+            "link#deportes__femenino--botas",
+            "link#deportes__femenino--equipamiento",
+            "link#deportes__femenino--vertodo"
+        ],
+        "props": {
+            "blockClass": "departamentos__subcategories"
+        }
+    },
+    /*--------------------------------------------------------------------------------------0*/
+    "menu-item#deportes__masculino": {
+        "title": "deportes__masculino",
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "categoria_masculino",
+                "text": "masculino"
+            },
+            "blockClass": "deportes__masculino"
+        },
+        "children": [
+            "flex-layout.row#deportes__masculino--container"
+        ]
+    },
+    "flex-layout.row#deportes__masculino--container": {
+        "title": "deportes__masculino--container",
+        "children": [
+            "flex-layout.col#deportes__masculino--subcategories"
+        ],
+        "props": {
+            "blockClass": "deportes__masculino--container"
+        }
+    },
+    "flex-layout.col#deportes__masculino--subcategories": {
+        "title": "deportes__masculino--subcategories",
+        "children": [
+            "link#deportes__masculino--tenisdeportivos",
+            "link#deportes__masculino--guayos",
+            "link#deportes__masculino--camisetas",
+            "link#deportes__masculino--buzoyhoodies",
+            "link#deportes__masculino--pantalones",
+            "link#deportes__masculino--botas",
+            "link#deportes__masculino--morralesybolsos",
+            "link#deportes__masculino--equipamiento",
+            "link#deportes__masculino--vertodo"
+        ],
+        "props": {
+            "blockClass":"departamentos__subcategories"
+        }
+    },
+    "menu-item#deportes__marcas": {
+        "title": "deportes__marcas",
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "categoria_marcas",
+                "text": "marcas"
+            },
+            "blockClass": "deportes__marcas"
+        },
+        "children": [
+            "flex-layout.row#deportes__marcas--container"
+        ]
+    },
+    "flex-layout.row#deportes__marcas--container": {
+        "title": "deportes__marcas--container",
+        "children": [
+            "flex-layout.col#deportes__marcas--subcategories"
+        ],
+        "props": {
+            "blockClass": "deportes__marcas--container"
+        }
+    },
+    "flex-layout.col#deportes__marcas--subcategories": {
+        "title": "deportes__marcas--container",
+        "children": [
+            "link#deportes__marcas--adidasperformance",
+            "link#deportes__marcas--addidasoriginales",
+            "link#deportes__marcas--nike",
+            "link#deportes__marcas--reebok",
+            "link#deportes__marcas--asics",
+            "link#deportes__marcas--skechers",
+            "link#deportes__marcas--fila",
+            "link#deportes__marcas--puma",
+            "link#deportes__marcas--underarmour",
+            "link#deportes__marcas--vertodo"
+        ],
+        "props": {
+            "blockClass": "departamentos__subcategories"
+        }
+    },
+    "menu-item#deportes__actividades": {
+        "title": "deportes__actividades",
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "categoria_actividades",
+                "text": "actividades deportivas"
+            },
+            "blockClass": "deportes__actividades"
+        },
+        "children": [
+            "flex-layout.row#deportes__actividades--container"
+        ]
+    },
+    "flex-layout.row#deportes__actividades--container": {
+        "title": "deportes__actividades--container",
+        "children": [
+            "flex-layout.col#deportes__actividades--subcategories"
+        ],
+        "props": {
+            "blockClass": "deportes__actividades--container"
+        }
+    },
+    "flex-layout.col#deportes__actividades--subcategories": {
+        "title": "deportes__actividades--subcategories",
+        "children": [
+            "link#deportes__actividades--training",
+            "link#deportes__actividades--lifestyle",
+            "link#deportes__actividades--running",
+            "link#deportes__actividades--fútbol",
+            "link#deportes__actividades--ciclismo",
+            "link#deportes__actividades--basquetball",
+            "link#deportes__actividades--outdoor",
+            "link#deportes__actividades--skate",
+            "link#deportes__actividades--vertodo"
+        ],
+        "props": {
+            "blockClass": "departamentos__subcategories"
+        }
+    },
+    "menu-item#deportes__plus": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "categoria_plus",
+                "text": "+"
+            },
+            "blockClass": "deportes__plus"
+        },
+        "children": [
+            "flex-layout.row#deportes__plus--container"
+        ]
+    },
+    "flex-layout.row#deportes__plus--container": {
+        "title": "deportes__plus--container",
+        "children": [
+            "flex-layout.col#deportes__plus--subcategories"
+        ],
+        "props": {
+            "blocClass": "deportes__plus--container"
+        }
+    },
+    "flex-layout.col#deportes__plus--subcategories": {
+        "title": "deportes__plus--subcategories",
+        "children": [
+            "link#deportes__plus--fitness",
+            "link#deportes__plus--yoga",
+            "link#deportes__plus--natacion",
+            "link#deportes__plus--tenis",
+            "link#deportes__plus--golf",
+            "link#deportes__plus--motos",
+            "link#deportes__plus--volleyball",
+            "link#deportes__plus--boxeo",
+            "link#deportes__plus--vertodo"
+        ],
+        "props": {
+            "blockClass":"departamentos__subcategories"
+        }
+    }
+}

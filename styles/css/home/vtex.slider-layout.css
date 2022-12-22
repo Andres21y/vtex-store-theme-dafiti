@@ -1,9 +1,5 @@
- /* .sliderLayoutContainer--home_brands-carousel{
-    background-color:transparent;
-    
+ .sliderLayoutContainer--home__brands--carousel{
+    height: 17rem;
 }
 
-.sliderTrack--home_brands-carousel{
-     background-color: greenyellow; 
-    height: 300px;
-}  */
+

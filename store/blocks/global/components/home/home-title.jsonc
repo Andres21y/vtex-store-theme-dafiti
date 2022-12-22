@@ -1,11 +1,11 @@
 {
-    "flex-layout.row#desktop__home--title": {
-        "title": "desktop__home--Title",
+    "flex-layout.row#global__home--title": {
+        "title": "global__home--title",
         "children": [
             "rich-text#home__title--text"
         ],
         "props": {
-            "blockClass": "desktop__home--Title"
+            "blockClass": "global__home--title"
         }
     },
     "rich-text#home__title--text": {

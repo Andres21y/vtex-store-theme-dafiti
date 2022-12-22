@@ -1,52 +1,52 @@
 {
-    "flex-layout.row#desktop__home--SEO": {
-        "title": "desktop__home--SEO",
+    "flex-layout.row#global__home--seo": {
+        "title": "global__home--seo",
         "children": [
-            "flex-layout.col#desktop__home--SEOcol"
+            "flex-layout.col#home__seo--container"
         ],
         "props": {
-            "blockClass": "desktop__home--SEO"
+            "blockClass": "global__home--seo"
         }
     },
-    "flex-layout.col#desktop__home--SEOcol": {
-        "title": "desktop__home--SEOcol",
+    "flex-layout.col#home__seo--container": {
+        "title": "home__seo--container",
         "children": [
-            "rich-text#seo__number--one",
-            "rich-text#seo__number--two",
-            "rich-text#seo__number--three"
+            "rich-text#home__seo--one",
+            "rich-text#home__seo--two",
+            "rich-text#home__seo--three"
         ],
         "props": {
-            "blockClass": "desktop__home--SEOcol"
+            "blockClass": "home__seo--container"
         }
     },
-    "rich-text#seo__number--one": {
-        "title": "seo__number--one",
+    "rich-text#home__seo--one": {
+        "title": "home__seo--one",
         "props": {
             "text": "la moda __como tú quieres__ que sea.",
             "textAlignment": "CENTER",
             "textPosition": "CENTER",
             "font": "t-heading-1",
-            "blockClass": "seo__number--one"
+            "blockClass": "home__seo--one"
         }
     },
-    "rich-text#seo__number--two": {
-        "title": "seo__number--two",
+    "rich-text#home__seo--two": {
+        "title": "home__seo--two",
         "props": {
             "text": "Estamos revolucionando el mundo de la moda con inteligencia. Pide todo lo que quieras y necesitas para tu look ** perfecto **, encuéntralo en pocos clics  y las 24 horas del día, con servicio de entrega nacional. Dafiti #SmartFashion es el mayor e-commerce de moda y estilo de vida en Latinoamérica, contamos con mas de 100 mil productos divididos en 5 categorías: ropa, zapatos, accesorios, deportes y belleza.",
             "textAlignment": "CENTER",
             "textPosition": "CENTER",
             "font": "t-heading-5",
-            "blockClass": "seo__number--two"
+            "blockClass": "home__seo--two"
         }
     },
-    "rich-text#seo__number--three": {
-        "title": "info__number--three",
+    "rich-text#home__seo--three": {
+        "title": "home__seo--three",
         "props": {
             "text": "**¡Ahora es el momento de refrescar tu look! Regístrate y descubre el mundo de la moda con Dafiti.**",
             "textAlignment": "CENTER",
             "textPosition": "CENTER",
             "font": "t-heading-6",
-            "blockClass": "seo__number--three"
+            "blockClass": "home__seo--three"
         }
     }
 }

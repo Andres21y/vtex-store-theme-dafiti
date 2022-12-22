@@ -1,6 +1,6 @@
 {
-    "menu-item#menu__departamento--Eco": {
-        "title": "menu__departamento--Eco",
+    "menu-item#menu__departamento--ofertas": {
+        "title": "menu__departamento--ofertas",
         "props": {
             "type": "custom",
             "highlight": false,
@@ -8,11 +8,10 @@
                 "type": "internal",
                 "href": "#",
                 "noFollow": false,
-                "tagTitle": "departamento_Eco",
-                "text": "ECO ♻"
-                
+                "tagTitle": "departamento_ofertas",
+                "text": "Ofertas"
             },
-            "blockClass": "menuPrincipal__deptoEco"
+            "blockClass": "menu__departamento--ofertas"
         }
     }
 }

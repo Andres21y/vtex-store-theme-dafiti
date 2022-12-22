@@ -1,25 +1,28 @@
- /* =================================== Desktop home Preheader */
+ /* =================================== global home preheader */
 
- .flexRow--desktop__home--Preheader {
-     max-width: 1170px;
+ .flexRow--global__home--preheader {
      margin: 0 auto;
+     max-width: 100%;
+     display: flex;
+     justify-content: center;
  }
 
- .flexRowContent--desktop__home--Preheader {
+ .flexRowContent--global__home--preheader {
+     /* max-width: 1170px; */
+     max-width: 100%;
      font-size: 11px;
      line-height: 1.6rem;
-     width: 100%;
  }
 
- /* =================================== Desktop home Title */
-
- .flexRow--desktop__home--Title {
+ /* =================================== global home title */
+ .flexRow--global__home--title {
      display: flex;
      justify-content: center;
      width: 100%;
+     margin-bottom: 5rem;
  }
 
- .flexRowContent--desktop__home--Title {
+ .flexRowContent--global__home--title {
      font-size: 16px;
      text-align: center;
      color: #8a8a8a;
@@ -28,42 +31,30 @@
      letter-spacing: 1px;
      line-height: 1;
      font-weight: 500;
-     max-width: 1170px;
+     width: 95rem;
      margin: 0px auto;
  }
 
  /* =================================== Desktop home Main */
- .flexRow--desktop__home--Main {
-     display: flex;
-     justify-content: center;
-     margin-top: 1rem;
+ .flexRow--global__home--main {
+     width: 100%;
+     margin-bottom: 1rem;
  }
 
- .flexRowContent--desktop__home--Main {
-     width: 1170px;
- }
-
- .flexRowContent--desktop__home--Main {
-     width: 1170px;
+ .flexRowContent--global__home--main {
+     width: 100%;
  }
 
  .flexCol--home__main--container {
-
+     /* background-color: salmon; */
      display: flex;
      gap: 10px;
  }
 
  /*-------------------------------------------one*/
- .flexRow--home__main--one {
-     display: block;
-     position: relative;
-     width: 100%;
-     max-width: 1170px;
-     margin: auto;
- }
-
  /* mujer */
- .flexCol--main__one--blockWoman {
+
+ .flexCol--home__main--woman {
      background-image: url("assets/image/home_block/section/dft-section-mujer.png");
      background-repeat: no-repeat;
      background-size: cover;
@@ -72,8 +63,7 @@
      max-width: 570px;
  }
 
- /* hombre */
- .flexCol--home_main-block--hombre {
+ .flexCol--home__main--man {
      background-image: url("assets/image/home_block/section/dft-section-hombre.png");
      background-repeat: no-repeat;
      background-size: cover;
@@ -82,18 +72,12 @@
      max-width: 570px;
  }
 
- /*-------------------------------------------two*/
- .flexRow--home__main--two {
-     display: block;
-     position: relative;
+ /* categotegories */
+ .flexRow--home__man--categories {
      width: 100%;
-     max-width: 1170px;
-     margin: auto;
  }
 
-
- /* ============================================================================================ */
- .flexRowContent--blockWoman__categories {
+ .flexRowContent--home__woman--categories {
      display: block;
      position: relative;
      text-align: left;
@@ -105,40 +89,86 @@
      margin-left: 7px;
  }
 
- .flexCol--blockWoman__categories--container {
+ .flexRowContent--home__man--categories {
      display: block;
      position: relative;
-     bottom: 0;
-     left: 0;
-     right: 0;
-     top: 4rem;
-     height: 3rem;
+     text-align: right;
+     padding: 50px;
+     font-size: 20px;
+     color: #fff;
+     line-height: 25px;
+     margin-top: 50px;
+     margin-left: 7px;
  }
 
- /* =====================================================================Brands======================= */
- .flexRow--desktop__home--brands {
-     height: 400px;
-     margin-top: 1rem;
+ /* ver mas */
+
+ .flexColChild--home__unix--container {
+     height: 40%;
+ }
+
+ .flexCol--home__unix--container {
+     height: 10rem;
+ }
+
+ .flexColChild--home__main--man {
+     height: 80%;
      display: flex;
-     justify-content: center;
+     align-items: flex-end;
  }
 
- .flexRowContent--desktop__home--brands {
-     height: 400px;
-     width: 70rem; 
-    }
- /* 
-.flexCol--home__brands{
-    height: 400px;
-} */
+ .flexColChild--home__main--woman {
+     height: 80%;
+     display: flex;
+     align-items: flex-end;
+ }
 
 
-/*=========================================================== newsletter*/
+ /* sneaker premuin  kids */
+ .flexRowContent--home__main--two {
+     display: flex;
+     justify-content: space-between;
+     width: 100%;
+ }
+
+
+ /* brands */
+ .flexColChild--home__brands {
+     width: 95rem;
+ }
 
 
 
-.flexRow--home_newsletter-main{}
-.flexRowContent--home_newsletter-main{}
-.flexCol--home_newsletter{}
-.flexColChild--home_newsletter{}
-.flexCol--home_newsletter-container{}
+
+
+ /* seo */
+
+ .flexColChild--home__seo--container {
+     height: 2rem;
+ }
+
+ .flexColChild--home__seo--container {
+     height: 100%;
+     width: 100%;
+     margin-bottom: 70px;
+ }
+
+
+
+
+ /* formulario */
+ .flexRowContent--home___newsletter--main {
+     display: block;
+     position: relative;
+     margin: auto;
+     margin-top: auto;
+     margin-right: auto;
+     margin-bottom: auto;
+     margin-left: auto;
+     padding: 20px;
+     padding-top: 20px;
+     padding-right: 20px;
+     padding-bottom: 20px;
+     padding-left: 20px;
+     background: #f8f8f8;
+ }

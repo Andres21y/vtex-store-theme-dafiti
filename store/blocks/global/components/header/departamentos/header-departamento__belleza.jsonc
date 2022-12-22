@@ -1,0 +1,306 @@
+{
+    "menu-item#menu__departamento--belleza": {
+        "title": "menu__departamento--belleza",
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "departamento_belleza",
+                "text": "Belleza"
+            },
+            "blockClass": "menuPrincipal__deptoBelleza"
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu#belleza__categorias"
+        ]
+    },
+    "vtex.menu@2.x:submenu#belleza__categorias": {
+        "title": "belleza__categorias",
+        "children": [
+            "menu-item#belleza__cuidadofacial",
+            "menu-item#belleza__cuidadocapilar",
+            "menu-item#belleza__cuidadocorporal",
+            "menu-item#belleza__maquillaje",
+            "menu-item#belleza__saludybienestar",
+            "menu-item#belleza__perfumes",
+            "menu-item#belleza__dermocosmetica"
+        ],
+        "props": {
+            "blockClass": "departamento__belleza--categorias"
+        }
+    },
+    "menu-item#belleza__cuidadofacial": {
+        "title": "belleza__cuidadofacial",
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "categoria_cuidadofacial",
+                "text": "Cuidado Facial"
+            },
+            "blockClass": "dptoBelleza__categoria--CuidadoFacial"
+        },
+        "children": [
+            "flex-layout.row#belleza__cuidadofacial--container"
+        ]
+    },
+    "flex-layout.row#belleza__cuidadofacial--container": {
+        "title": "belleza__cuidadofacial--container",
+        "children": [
+            "flex-layout.col#belleza__cuidadofacial--subcategories"
+        ],
+        "props": {
+            "blockClass": "dptoBelleza__categoriaCuidadoFacial--container"
+        }
+    },
+    "flex-layout.col#belleza__cuidadofacial--subcategories": {
+        "title": "belleza__cuidadofacial--subcategories",
+        "children": [
+            "link#belleza__cuidadofacial--bloqueador",
+            "link#belleza__cuidadofacial--hidratanteOne",
+            "link#belleza__cuidadofacial--hidratanteTwo",
+            "link#belleza__cuidadofacial--hidratantesThree",
+            "link#belleza__cuidadofacial--kit",
+            "link#belleza__cuidadofacial--limpiadores",
+            "link#belleza__cuidadofacial--tratamiento"
+        ],
+        "props": {
+            "blockClass": "departamentos__subcategories"
+        }
+    },
+    "menu-item#belleza__cuidadocapilar": {
+        "title": "belleza__cuidadocapilar",
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "categoria_CuidadoCapilar",
+                "text": "Cuidado Capilar"
+            },
+            "blockClass": "dptoBelleza__categoria--CuidadoCapilar"
+        },
+        "children": [
+            "flex-layout.row#belleza__cuidadocapilar--container"
+        ]
+    },
+    "flex-layout.row#belleza__cuidadocapilar--container": {
+        "title": "belleza__cuidadocapilar--container",
+        "children": [
+            "flex-layout.col#belleza__cuidadocapilar--subcategories"
+        ],
+        "props": {
+            "blocClass": "dptoBelleza__categoriaCuidadoCapilar--container"
+        }
+    },
+    "flex-layout.col#belleza__cuidadocapilar--subcategories": {
+        "title": "belleza__cuidadocapilar--subcategories",
+        "children": [
+            "link#belleza__capilar--accesorios",
+            "link#belleza__capilar--tintes",
+            "link#belleza__capilar--shampoo",
+            "link#belleza__capilar--tratamientoscapilares",
+            "link#belleza__capilar--cuidadobarba"
+        ],
+        "props": {
+            "blockClass": "departamentos__subcategories"
+        }
+    },
+    "menu-item#belleza__cuidadocorporal": {
+        "title": "belleza__cuidadocorporal",
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "categoria_cuidadocorporal",
+                "text": "Cuidado Corporal"
+            },
+            "blockClass": "dptoBelleza__categoria--CuidadoCorporal"
+        },
+        "children": [
+            "flex-layout.row#belleza__cuidadocorporal--container"
+        ]
+    },
+    "flex-layout.row#belleza__cuidadocorporal--container": {
+        "title": "belleza__cuidadocorporal--container",
+        "children": [
+            "flex-layout.col#belleza__cuidadocorporal--subcategories"
+        ],
+        "props": {
+            "blocClass": "dptoBelleza__categoriaCuidadoCorporal--container"
+        }
+    },
+    "flex-layout.col#belleza__cuidadocorporal--subcategories": {
+        "title": "belleza__cuidadocorporal--subcategories",
+        "children": [
+            "link#belleza__corporal--hidratantecorporal",
+            "link#belleza__corporal--kits",
+            "link#belleza__corporal--limpieza",
+            "link#belleza__corporal--manosypies",
+            "link#belleza__corporal--proteccion",
+            "link#belleza__corporal--tratamientocorporal"
+        ],
+        "props": {
+            "blockClass": "departamentos__subcategories"
+        }
+    },
+    "menu-item#belleza__maquillaje": {
+        "title": "belleza__maquillaje",
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "categoria_maquillaje",
+                "text": "Maquillaje"
+            },
+            "blockClass": "dptoBelleza__categoria--Maquillaje"
+        },
+        "children": [
+            "flex-layout.row#belleza__maquillaje--container"
+        ]
+    },
+    "flex-layout.row#belleza__maquillaje--container": {
+        "title": "belleza__maquillaje--container",
+        "children": [
+            "flex-layout.col#belleza__maquillaje--subcategories"
+        ],
+        "props": {
+            "blocClass": "dptoBelleza__categoriaMaquillaje--container"
+        }
+    },
+    "flex-layout.col#belleza__maquillaje--subcategories": {
+        "title": "belleza__maquillaje--subcategories",
+        "children": [
+            "link#belleza__maquillaje--brochas",
+            "link#belleza__maquillaje--rostro",
+            "link#belleza__maquillaje--cejas",
+            "link#belleza__maquillaje--labios",
+            "link#belleza__maquillaje--ojos",
+            "link#belleza__maquillaje--uñas"
+        ],
+        "props": {
+            "blockClass":"departamentos__subcategories"
+        }
+    },
+    "menu-item#belleza__saludybienestar": {
+        "title": "belleza__saludybienestar",
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "categoria_saludybienestar",
+                "text": "Salud y Bienestar"
+            },
+            "blockClass": "dptodeportes__categoria--Femenino"
+        },
+        "children": [
+            "flex-layout.row#belleza__saludybienestar--container"
+        ]
+    },
+    "flex-layout.row#belleza__saludybienestar--container": {
+        "title": "belleza__saludybienestar--container",
+        "children": [
+            "flex-layout.col#belleza__saludybienestar--subcategories"
+        ],
+        "props": {
+            "blocClass": "dptoBelleza__categoriaSaludyBienestar--container"
+        }
+    },
+    "flex-layout.col#belleza__saludybienestar--subcategories": {
+        "title": "belleza__saludybienestar--subcategories",
+        "props": {
+            "blockClass": "dptoBelleza__categoriaSaludyBienestar--subcategories"
+        }
+    },
+    "menu-item#belleza__perfumes": {
+        "title": "belleza__perfumes",
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "categoria_Perfumes",
+                "text": "Perfumes"
+            },
+            "blockClass": "dptodeportes__categoria--Perfumes"
+        },
+        "children": [
+            "flex-layout.row#belleza__perfumes--container"
+        ]
+    },
+    "flex-layout.row#belleza__perfumes--container": {
+        "title": "belleza__perfumes--container",
+        "children": [
+            "flex-layout.col#belleza__perfumes--subcategories"
+        ],
+        "props": {
+            "blocClass": "dptoBelleza__categoriaPerfumes--container"
+        }
+    },
+    "flex-layout.col#belleza__perfumes--subcategories": {
+        "title": "belleza__perfumes--subcategories",
+        "children": [
+            "link#belleza__perfumes--hombre",
+            "link#belleza__perfumes--mujer"
+        ],
+        "props": {
+            "blockClass": "departamentos__subcategories"
+        }
+    },
+    "menu-item#belleza__dermocosmetica": {
+        "title": "belleza__dermocosmetica",
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "categoria_dermocosmetica",
+                "text": "dermocosmética"
+            },
+            "blockClass": "dptoBelleza__categoria--DermoCosmetica"
+        },
+        "children": [
+            "flex-layout.row#belleza__dermocosmetica--container"
+        ]
+    },
+    "flex-layout.row#belleza__dermocosmetica--container": {
+        "title": "belleza__dermocosmetica--container",
+        "children": [
+            "flex-layout.col#belleza__dermocosmetica--subcategories"
+        ],
+        "props": {
+            "blocClass": "dptoBelleza__categoriaDermoCosmetica--container"
+        }
+    },
+    "flex-layout.col#belleza__dermocosmetica--subcategories": {
+        "title": "belleza__dermocosmetica--subcategories",
+        "children": [
+            "link#belleza__dermocosmetica--antiedad",
+            "link#belleza__dermocosmetica--cuidadocapilar"
+        ],
+        "props": {
+            "blockClass": "departamentos__subcategories"
+        }
+    }
+}

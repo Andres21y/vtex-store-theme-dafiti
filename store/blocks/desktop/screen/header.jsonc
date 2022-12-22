@@ -5,10 +5,10 @@
       "header-row#header__banner--top",
       "header-row#header__info--section",
       "header-row#header__main--container",
-      "header-row#header__menuPrincipal--container"
+      "header-row#header__menu--main"
     ],
     "props": {
-      "blockClass": "header_desk-container"
+      "blockClass": "header__desk--container"
     }
   }
 }
