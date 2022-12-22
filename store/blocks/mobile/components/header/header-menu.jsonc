@@ -11,7 +11,7 @@
             "mega-menu#mobile"
         ],
         "blocks": [
-            "drawer-header#my-drawer"
+            "drawer-header#drawer__main"
         ]
     },
     "mega-menu#mobile": {
@@ -21,7 +21,7 @@
             "openOnly": "vertical"
         }
     },
-    "drawer-header#my-drawer": {
+    "drawer-header#drawer__main": {
         "children": [
             "flex-layout.row#drawer-header"
         ]
