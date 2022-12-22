@@ -1,0 +1,18 @@
+{
+    "flex-layout.row#global__home--preheader": {
+        "title": "global__home--preheader",
+        "children": [
+            "image#home__preheader--image"
+        ],
+        "props": {
+            "blockClass": "global__home--preheader"
+        }
+    },
+    "image#home__preheader--image": {
+        "title":"home__preheader--image",
+        "props": {
+            "src": "assets/image/dft-tommy-banner.jpg",
+            "blockClass": "home__preheader--image"
+        }
+    }
+}

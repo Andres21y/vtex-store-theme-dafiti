@@ -1,0 +1,17 @@
+{
+    "menu-item#menu__departamento--ofertas": {
+        "title": "menu__departamento--ofertas",
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "departamento_ofertas",
+                "text": "Ofertas"
+            },
+            "blockClass": "menu__departamento--ofertas"
+        }
+    }
+}

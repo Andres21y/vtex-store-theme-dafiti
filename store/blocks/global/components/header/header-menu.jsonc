@@ -1,0 +1,30 @@
+{
+    "header-row#header__menu--main": {
+        "title": "header__menu--main",
+        "children": [
+            "vtex.menu@2.x:menu#menu__principal--departamentos"
+        ],
+        "props":{
+            "blockClass":"menu__principal--container"
+        }
+    },
+    "vtex.menu@2.x:menu#menu__principal--departamentos": {
+        "title": "menu__principal--departamentos",
+        "children": [
+            "menu-item#menu__departamento--navidad",
+            "menu-item#menu__departamento--fanático",
+            "menu-item#menu__departamento--mujer",
+            "menu-item#menu__departamento--hombre",
+            "menu-item#menu__departamento--deportes",
+            "menu-item#menu__departamento--niños",
+            "menu-item#menu__departamento--belleza",
+            "menu-item#menu__departamento--marcas",
+            "menu-item#menu__departamento--hogar",
+            "menu-item#menu__departamento--eco",
+            "menu-item#menu__departamento--ofertas"
+        ],
+        "props":{
+            "blockClass":"menu__principal--departamentos"
+        }
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "flex-layout.row#global__home--trucking": {
+        "title": "global__home--trucking",
+        "children": [
+            "image#home__trucking--dudas",
+            "image#home__trucking--conoce"
+        ],
+        "props": {
+            "blockClass": "_section-info"
+        }
+    },
+    "image#home__trucking--dudas": {
+        "title":"home__trucking--dudas",
+        "props": {
+            "src": "assets/image/section-info/dft-dudas o devoluciones.png",
+            "link":"https://www.youtube.com/", 
+            "blockClass": "home__trucking--dudas"
+        }
+    },
+    "image#home__trucking--conoce": {
+        "title":"home__trucking--conoce",
+        "props": {
+            "src": "assets/image/section-info/dft-conoce servicios.png",
+            "link":"https://www.youtube.com/", 
+            "blockClass": "home__trucking--conoce"
+        }
+    }
+}

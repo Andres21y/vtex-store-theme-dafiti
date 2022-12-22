@@ -1,0 +1,101 @@
+{
+    "flex-layout.row#global__home--brands": {
+        "title": "global__home--brands",
+        "children": [
+            "flex-layout.col#home__brands"
+        ],
+        "props": {
+            "blockClass": "global__home--brands"
+        }
+    },
+    "flex-layout.col#home__brands": {
+        "title": "home__brands",
+        "children": [
+            "rich-text#home__brands",
+            "slider-layout#home__brands--carousel"
+        ],
+        "props": {
+            "blockClass": "home__brands"
+        }
+    },
+    "rich-text#home__brands": {
+        "title": "home__brands--title",
+        "props": {
+            "text": "Tus marcas favoritas",
+            "blockClass": "home__brands--title"
+        }
+    },
+    "slider-layout#home__brands--carousel": {
+        "title": "home__brands--carousel",
+        "props": {
+            "itemsPerPage": {
+                "desktop": 6,
+                "mobile": 6,
+                "tablet": 6
+            },
+            "infinite": true,
+            "centerMode": "center",
+            "navigationStep": 1,
+            "showPaginationDots": "never",
+            "fullWidth": false,
+            "blockClass": "home__brands--carousel"
+        },
+        "children": [
+            "image#home__brands--addidas",
+            "image#home__brands--royal",
+            "image#home__brands--lewis",
+            "image#home__brands--skechers",
+            "image#home__brands--reebook",
+            "image#home__brands--nike",
+            "image"
+        ]
+    },
+    "image#home__brands--addidas": {
+        "title":"home__brands--addidas",
+        "props": {
+            "src": "assets/image/marcas/dft-addidas.png",
+            "maxHeight": 100,
+            "blockClass": "home__brands--addidas"
+        }
+    },
+    "image#home__brands--skechers": {
+        "title":"home_brands-skechers",
+        "props": {
+            "src": "assets/image/marcas/dft-skechers.png",
+            "maxHeight": 90,
+            "blockClass": "home__brands--skechers"
+        }
+    },
+    "image#home__brands--nike": {
+        "title":"home__brands--nike",
+        "props": {
+            "src": "assets/image/marcas/dft-nike.png",
+            "maxHeight": 84,
+            "blockClass": "home__brands--nike"
+        }
+    },
+    "image#home__brands--royal": {
+        "title":"home__brands--royal",
+        "props": {
+            "src": "assets/image/marcas/dft-royalcounty.png",
+            "maxHeight": 84,
+            "blockClass": "home__brands--royal"
+        }
+    },
+    "image#home__brands--lewis": {
+        "title":"home__brands--lewis",
+        "props": {
+            "src": "assets/image/marcas/dft-levis.png",
+            "maxHeight": 84,
+            "blockClass": "home__brands--lewis"
+        }
+    },
+    "image#home__brands--reebook": {
+        "title":"home__brands--reebook",
+        "props": {
+            "src": "assets/image/marcas/dft-reebok.png",
+            "maxHeight": 84,
+            "blockClass": "home__brands--reebook"
+        }
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "store.home": {
+        "title": "store__home--container",
+        "blocks": [
+            "responsive-layout.desktop#desktop__home--apps",
+            "responsive-layout.tablet#table__home--apps",
+            "responsive-layout.phone#phone__home--apps"
+        ],
+        "props": {
+            "blockClass":"store__home--container"
+        }
+    }
+}

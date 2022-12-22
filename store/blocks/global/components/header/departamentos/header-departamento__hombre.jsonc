@@ -1,0 +1,270 @@
+{
+    "menu-item#menu__departamento--hombre": {
+        "title": "menu__departamento--hombre",
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "departamento_hombre",
+                "text": "Hombre"
+            },
+            "blockClass": "menu__departamento--hombre"
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu#departamento__hombre--categorias"
+        ]
+    },
+    "vtex.menu@2.x:submenu#departamento__hombre--categorias": {
+        "title": "departamento__hombre--categorias",
+        "children": [
+            "menu-item#hombre__zapatos",
+            "menu-item#hombre__ropa",
+            "menu-item#hombre__accesorios",
+            "menu-item#hombre__deportes",
+            "menu-item#hombre__marcas"
+        ],
+        "props": {
+            "blockClass": "departamento__hombre--categorias"
+        }
+    },
+    /*--------------------------------------------------------------------------------------*/
+
+    "menu-item#hombre__zapatos": {
+        "title": "hombre__--zapatos",
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "categoria_zapatos",
+                "text": "zapatos"
+            },
+            "blockClass": "hombre__--zapatos"
+        },
+        "children": [
+            "flex-layout.row#hombre__zapatos--container"
+        ]
+    },
+    "flex-layout.row#hombre__zapatos--container": {
+        "title": "hombre__zapatos--container",
+        "children": [
+            "flex-layout.col#hombre__zapatos--subcategories"
+        ],
+        "props": {
+            "blockClass":  "hombre__zapatos--container"
+        }
+    },
+    "flex-layout.col#hombre__zapatos--subcategories": {
+        "title": "hombre__zapatos--subcategories",
+        "children": [
+            "link#hombre__zapatos--tenis",
+            "link#hombre__zapatos--botas",
+            "link#hombre__zapatos--mocasines",
+            "link#hombre__zapatos--zapatoscasuales",
+            "link#hombre__zapatos--zapatosformales",
+            "link#hombre__zapatos--playeras",
+            "link#hombre__zapatos--vertodo",
+            "link#hombre__zapatos--novedades",
+            "link#hombre__zapatos--ofertas"
+        ],
+        "props": {
+            "blockClass": "departamentos__subcategories"
+        }
+    },
+
+    /*--------------------------------------------------------------------------------------0*/
+
+    "menu-item#hombre__ropa": {
+        "title":"hombre__ropa",
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "categoria_ropa",
+                "text": "ropa"
+            },
+            "blockClass": "hombre__ropa"
+        },
+        "children": [
+            "flex-layout.row#hombre__ropa--container"
+        ]
+    },
+    "flex-layout.row#hombre__ropa--container": {
+        "title": "hombre__ropa--container",
+        "children": [
+            "flex-layout.col#hombre__ropa--subcategories"
+        ],
+        "props": {
+            "blocClass": "hombre__ropa--container"
+        }
+    },
+    "flex-layout.col#hombre__ropa--subcategories": {
+        "title": "hombre__ropa--subcategories",
+        "children": [
+            "link#hombre__ropa--polos",
+            "link#hombre__ropa--camisas",
+            "link#hombre__ropa--camisetas",
+            "link#hombre__ropa--jeans",
+            "link#hombre__ropa--chaquetas",
+            "link#hombre__ropa--pantalones",
+            "link#hombre__ropa--sacos",
+            "link#hombre__ropa--interior",
+            "link#hombre__ropa--bermudas",
+            "link#hombre__ropa--vertodo",
+            "link#hombre__ropa--novedades",
+            "link#hombre__ropa--ofertas"
+        ],
+        "props": {
+            "blockClass": "departamentos__subcategories"
+        }
+    },
+
+/*--------------------------------------------------------------------------------------*/
+
+
+"menu-item#hombre__accesorios": {
+        "title":"hombre__accesorios",
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "categoria_accesorios",
+                "text": "Accesorios"
+            },
+            "blockClass": "hombre__accesorios"
+        },
+        "children": [
+            "flex-layout.row#hombre__accesorios--container"
+        ]
+    },
+    "flex-layout.row#hombre__accesorios--container": {
+        "title": "hombre__accesorios--container",
+        "children": [
+            "flex-layout.col#hombre__accesorios--subcategories"
+        ],
+        "props": {
+            "blocClass": "hombre__accesorios--container"
+        }
+    },
+    "flex-layout.col#hombre__accesorios--subcategories": {
+        "title": "hombre__accesorios--subcategories",
+        "children": [
+            "link#hombre__accesorios--relojes",
+            "link#hombre__accesorios--morrales",
+            "link#hombre__accesorios--gafas",
+            "link#hombre__accesorios--billeteras",
+            "link#hombre__accesorios--cinturones",
+            "link#hombre__accesorios--maletines",
+            "link#hombre__accesorios--vertodo",
+            "link#hombre__accesorios--novedades",
+            "link#hombre__accesorios--ofertas"
+        ],
+        "props": {
+            "blockClass": "departamentos__subcategories"
+        }
+    },
+
+
+/*--------------------------------------------------------------------------------------*/
+
+
+    "menu-item#hombre__deportes": {
+        "title":"hombre__deportes",
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "categoria_deportes",
+                "text": "Deportes"
+            },
+            "blockClass": "hombre__deportes"
+        },
+        "children": [
+            "flex-layout.row#hombre__deportes--container"
+        ]
+    },
+    "flex-layout.row#hombre__deportes--container": {
+        "title": "hombre__deportes--container",
+        "children": [
+            "flex-layout.col#hombre__deportes--subcategories"
+        ],
+        "props": {
+            "blocClass": "hombre__deportes--container"
+        }
+    },
+    "flex-layout.col#hombre__deportes--subcategories": {
+        "title": "hombre__deportes--subcategories",
+        "children": [
+            "link#hombre__deportes--tenisyzapatos",
+            "link#hombre__deportes--vestuario",
+            "link#hombre__deportes--accesorios",
+            "link#hombre__deportes--equipamiento",
+            "link#hombre__deportes--vertodo",
+            "link#hombre__deportes--novadades",
+            "link#hombre__deportes--ofertas"
+        ],
+        "props": {
+            "blockClass": "departamentos__subcategories"
+        }
+    },"menu-item#hombre__marcas": {
+        "title":"hombre__marcas",
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "categoria_marcas",
+                "text": "Marcas"
+            },
+            "blockClass": "dptodeportes__categoria--Femenino"
+        },
+        "children": [
+            "flex-layout.row#hombre__marcas--container"
+        ]
+    },
+    "flex-layout.row#hombre__marcas--container": {
+        "title": "hombre__marcas--container",
+        "children": [
+            "flex-layout.col#hombre__marcas--subcategories"
+        ],
+        "props": {
+            "blocClass": "hombre__marcas--container"
+        }
+    },
+    "flex-layout.col#hombre__marcas--subcategories": {
+        "title": "hombre__marcas--subcategories",
+        "children": [
+            "link#hombre__marcas--royalcounty",
+            "link#hombre__marcas--uspoloassn",
+            "link#hombre__marcas--tommyhilfiger",
+            "link#hombre__marcas--colore",
+            "link#hombre__marcas--mp",
+            "link#hombre__marcas--diesel",
+            "link#hombre__marcas--naútica",
+            "link#hombre__marcas--levi's",
+            "link#hombre__marcas--beverlyhills",
+            "link#hombre__marcas--brooksfield",
+            "link#hombre__marcas--arturocalle",
+            "link#hombre__marcas--rayban"
+        ],
+        "props": {
+            "blockClass": "departamentos__subcategories"
+        }
+    }
+}

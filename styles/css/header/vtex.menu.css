@@ -1,6 +1,148 @@
-.menuItem--isOpen{
+
+
+.submenuContainer--departamento__mujer--categorias {
+    top: 15rem;
+    left: 0;
+    z-index: 700;
+    background: #fff;
+    position: absolute;
+    width: 100%;
     display: flex;
-    flex-direction: column;
-    /* background-color: greenyellow; */
+    justify-content: center;
 }
+
+.submenuWrapper--departamento__mujer--categorias--isOpen {
+    width: 100%;
+    display: flex;
+    padding-bottom: 5rem;
+}
+
+.submenu--departamento__mujer--categorias {
+    display: flex;
+    gap: 3rem;
+    max-width: 95rem;
+}
+
+
+/*------------------------------------------------------------------------------ */
+.submenuContainer--departamento__hombre--categorias {
+    top: 15rem;
+    left: 0;
+    z-index: 700;
+    background: #fff;
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.submenuWrapper--departamento__hombre--categorias--isOpen {
+    width: 100%;
+    display: flex;
+}
+
+.submenu--departamento__hombre--categorias {
+    display: flex;
+    gap: 3rem;
+    max-width: 95rem;
+}
+
+/*------------------------------------------------------------------------------ */
+.submenuContainer--departamento__deportes--categorias {
+    top: 15rem;
+    left: 0;
+    z-index: 700;
+    background: #fff;
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.submenuWrapper--departamento__deportes--categorias--isOpen {
+    width: 100%;
+    display: flex;
+}
+
+.submenu--departamento__deportes--categorias {
+    display: flex;
+    gap: 3rem;
+
+    max-width: 95rem;
+}
+
+/*------------------------------------------------------------------------------ */
+.submenuContainer {
+    top: 15rem;
+    left: 0;
+    z-index: 700;
+    background: #fff;
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.submenuWrapper--isOpen {
+    width: 100%;
+    display: flex;
+}
+
+.submenu {
+    display: flex;
+    gap: 3rem;
+    max-width: 95rem;
+}
+
+/*------------------------------------------------------------------------------ */
+.submenuContainer--departamento__belleza--categorias {
+    top: 15rem;
+    left: 0;
+    z-index: 700;
+    background: #fff;
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.submenuWrapper--departamento__belleza--categorias--isOpen {
+    width: 100%;
+    display: flex;
+}
+
+.submenu--departamento__belleza--categorias {
+    display: flex;
+    gap: 3rem;
+    max-width: 95rem;
+}
+
+/*------------------------------------------------------------------------------ */
+.submenuContainer--departamento__marca--categorias {
+    top: 15rem;
+    left: 0;
+    z-index: 700;
+    background: #fff;
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.submenuWrapper--departamento__marca--categorias--isOpen {
+    width: 100%;
+    display: flex;
+}
+
+.submenu--departamento__marca--categorias {
+    display: flex;
+    gap: 3rem;
+    max-width: 95rem;
+}
+
+
+
+
+
+
 
