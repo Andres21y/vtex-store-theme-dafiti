@@ -48,9 +48,42 @@
 
 
 
-.container{
+.container {
     max-width: 95rem;
     /* background: rebeccapurple; */
     display: flex;
     justify-content: center;
+}
+
+.imageElement--home__newsletter--message {
+    background-color: black;
+    height: 79px;
+    border-radius: 12px;
+} 
+
+.container--home__newsletter--main {
+    width: 220px;
+    /* background-color: yellow; */
+    /* height: 8px; */
+}
+
+.form--home__newsletter--main {
+    width: 700px;
+    display: flex;
+    align-items: center;
+    border: none;
+}
+
+.inputGroup--home__newsletter--main {
+    width: 100%;
+
+}
+
+.newsletter--home__newsletter--main{
+    width: 20rem;
+}
+
+.vtex-input-prefix__group{
+    background-color: red;
+    border: none;
 }

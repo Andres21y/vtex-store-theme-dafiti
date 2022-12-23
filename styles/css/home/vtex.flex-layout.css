@@ -5,11 +5,9 @@
      max-width: 100%;
      display: flex;
      justify-content: center;
-     background-color: greenyellow;
  }
 
  .flexRowContent--global__home--preheader {
-     /* max-width: 1170px; */
      max-width: 100%;
      font-size: 11px;
      line-height: 1.6rem;
@@ -54,17 +52,14 @@
  .flexRowContent--home__main--one {
      display: flex;
      justify-content: center;
-     /* background: rgb(115, 115, 115); */
      gap: 2rem;
  }
 
  .flexRowContent--global__home--main {
      width: 100%;
-     /* background-color: greenyellow; */
  }
 
  .flexCol--home__main--container {
-     /* background-color: salmon; */
      display: flex;
      gap: 2rem;
  }
@@ -92,9 +87,6 @@
      width: 100%;
  }
 
-
-
-
  .flexRowContent--home__woman--categories {
      display: block;
      position: relative;
@@ -120,7 +112,6 @@
  }
 
  /* ver mas */
-
  .flexColChild--home__unix--container {
      height: 40%;
  }
@@ -152,7 +143,6 @@
 
  /* brands */
  .flexRowContent--global__home--brands {
-     /* background: yellow; */
      max-width: 100%;
  }
 
@@ -167,11 +157,7 @@
  }
 
 
-
-
-
  /* seo */
-
  .flexColChild--home__seo--container {
      height: 2rem;
  }
@@ -181,9 +167,6 @@
      width: 100%;
      margin-bottom: 70px;
  }
-
-
-
 
  /* formulario */
  .flexRowContent--home___newsletter--main {
@@ -200,4 +183,38 @@
      padding-bottom: 20px;
      padding-left: 20px;
      background: #f8f8f8;
+ }
+
+ .flexRow--home__newsletter--description {
+     width: 100%;
+     height: 90px;
+ }
+
+ .flexRowContent--home__newsletter--description {
+     display: flex;
+     align-items: center;
+     height: 6rem;
+     border: solid 1px #e6ebf1;
+     background: white;
+ }
+
+ .flexRowContent--home__newsletter--two {
+     display: flex;
+ }
+
+ .container--home__newsletter--terms {
+     display: flex;
+     justify-self: flex-end;
+ }
+
+ .flexCol--home__newsletter--subscribe {
+     width: 100%;
+ }
+
+ .flexColChild--home__newsletter--subscribe{
+    height: 100%;
+    width: 450px;
+    /* background: red; */
+    display: flex;
+    margin-left: 4rem;
  }

@@ -238,9 +238,33 @@
  .container--home__newsletter--terms {
      display: flex;
      justify-content: flex-end;
+     width: 100%;
  }
 
  .container--home__newsletter--policy {
      display: flex;
      justify-content: flex-start;
  }
+ .container--newsletter__text--man{
+    width: 7rem;
+ }
+ .container--newsletter__text--woman{
+    width: 7rem;
+ }
+ .container--newsletter__text--subcribe{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 19px;
+    font-weight: bold;
+ }
+ .wrapper--newsletter__text--descriptions{
+    width: 670px;
+ }
+.wrapper--newsletter__text--woman{
+    color: #9aa9b9;
+    background-color: #e6ebf1;
+}
+.wrapper--newsletter__text--man{
+    color: #9aa9b9;
+    background-color: #e6ebf1;
+}
