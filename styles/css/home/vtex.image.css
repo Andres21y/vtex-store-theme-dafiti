@@ -1,4 +1,5 @@
-/* .imageElement{
+ .imageElement{
     height: 30px;
-    color: yellow;
-} */
+    background-color: rgb(255, 0, 0);
+    width: 100%;
+} 

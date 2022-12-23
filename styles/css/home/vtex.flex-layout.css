@@ -8,7 +8,6 @@
  }
 
  .flexRowContent--global__home--preheader {
-     /* max-width: 1170px; */
      max-width: 100%;
      font-size: 11px;
      line-height: 1.6rem;
@@ -19,7 +18,8 @@
      display: flex;
      justify-content: center;
      width: 100%;
-     margin-bottom: 5rem;
+     margin-top: 2rem;
+     margin-bottom: 1rem;
  }
 
  .flexRowContent--global__home--title {
@@ -33,12 +33,26 @@
      font-weight: 500;
      width: 95rem;
      margin: 0px auto;
+     border-bottom: 1px solid #d8d8d8;
+     height: 3rem;
+     margin-bottom: 1rem;
  }
 
  /* =================================== Desktop home Main */
  .flexRow--global__home--main {
+     display: block;
+     position: relative;
      width: 100%;
-     margin-bottom: 1rem;
+     overflow: auto;
+     overflow-x: auto;
+     overflow-y: auto;
+     margin-bottom: 70px;
+ }
+
+ .flexRowContent--home__main--one {
+     display: flex;
+     justify-content: center;
+     gap: 2rem;
  }
 
  .flexRowContent--global__home--main {
@@ -46,9 +60,8 @@
  }
 
  .flexCol--home__main--container {
-     /* background-color: salmon; */
      display: flex;
-     gap: 10px;
+     gap: 2rem;
  }
 
  /*-------------------------------------------one*/
@@ -58,18 +71,15 @@
      background-image: url("assets/image/home_block/section/dft-section-mujer.png");
      background-repeat: no-repeat;
      background-size: cover;
-     height: 640px;
-     width: 100%;
-     max-width: 570px;
+     width: 570px;
  }
 
  .flexCol--home__main--man {
      background-image: url("assets/image/home_block/section/dft-section-hombre.png");
      background-repeat: no-repeat;
      background-size: cover;
-     height: 640px;
-     width: 100%;
-     max-width: 570px;
+     height: 800px;
+     width: 570px;
  }
 
  /* categotegories */
@@ -102,7 +112,6 @@
  }
 
  /* ver mas */
-
  .flexColChild--home__unix--container {
      height: 40%;
  }
@@ -127,22 +136,28 @@
  /* sneaker premuin  kids */
  .flexRowContent--home__main--two {
      display: flex;
-     justify-content: space-between;
+     gap: 2rem;
      width: 100%;
  }
 
 
  /* brands */
+ .flexRowContent--global__home--brands {
+     max-width: 100%;
+ }
+
  .flexColChild--home__brands {
-     width: 95rem;
+     width: 100%;
+     height: 100%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     max-height: 15rem;
+     position: relative;
  }
 
 
-
-
-
  /* seo */
-
  .flexColChild--home__seo--container {
      height: 2rem;
  }
@@ -152,9 +167,6 @@
      width: 100%;
      margin-bottom: 70px;
  }
-
-
-
 
  /* formulario */
  .flexRowContent--home___newsletter--main {
@@ -171,4 +183,38 @@
      padding-bottom: 20px;
      padding-left: 20px;
      background: #f8f8f8;
+ }
+
+ .flexRow--home__newsletter--description {
+     width: 100%;
+     height: 90px;
+ }
+
+ .flexRowContent--home__newsletter--description {
+     display: flex;
+     align-items: center;
+     height: 6rem;
+     border: solid 1px #e6ebf1;
+     background: white;
+ }
+
+ .flexRowContent--home__newsletter--two {
+     display: flex;
+ }
+
+ .container--home__newsletter--terms {
+     display: flex;
+     justify-self: flex-end;
+ }
+
+ .flexCol--home__newsletter--subscribe {
+     width: 100%;
+ }
+
+ .flexColChild--home__newsletter--subscribe{
+    height: 100%;
+    width: 450px;
+    /* background: red; */
+    display: flex;
+    margin-left: 4rem;
  }

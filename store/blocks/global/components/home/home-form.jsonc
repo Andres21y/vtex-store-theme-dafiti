@@ -70,19 +70,49 @@
     "flex-layout.row#home__newsletter--description": {
         "title": "home__newsletter--description",
         "children": [
-            "newsletter#home__newsletter--main"
+            "image#home__newsletter--message",
+            "newsletter#home__newsletter--main",
+            "rich-text#home__newsletter--woman",
+            "rich-text#home__newsletter--man"
         ],
         "props": {
             "blockClass": "home__newsletter--description"
         }
     },
+    "image#home__newsletter--message":{
+        "props": {
+            "src": "assets/image/home_block/form/dafiti-mesagge.webp",
+            "maxHeight": 24,
+            "blockClass":"home__newsletter--message"
+        }
+    },
     "newsletter#home__newsletter--main": {
-        "title":"home__newsletter--main",
+        "title": "home__newsletter--main",
         "props": {
             "placeholder": "Escribe tu email aquí",
             "hideLabel": true,
             "width": 5,
             "blockClass": "home__newsletter--main"
+        }
+    },
+    "rich-text#home__newsletter--woman": {
+        "title": "newsletter__text--woman",
+        "props": {
+            "text": "soy mujer",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "font": "t-heading-6",
+            "blockClass": "newsletter__text--woman"
+        }
+    },
+    "rich-text#home__newsletter--man": {
+        "title": "newsletter__text--man",
+        "props": {
+            "text": "soy hombre",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "font": "t-heading-6",
+            "blockClass": "newsletter__text--man"
         }
     },
     "flex-layout.col#home__newsletter--subscribe": {
@@ -98,22 +128,21 @@
     "rich-text#newsletter__text--subscribe": {
         "title": "newsletter__text--subscribe",
         "props": {
-          "text": "¡Suscríbete!",
-          "textAlignment": "CENTER",
-          "textPosition": "CENTER",
-          "font": "t-heading-6",
-          "blockClass": "newsletter__text--subscribe"
+            "text": "¡Suscríbete!",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "font": "t-heading-6",
+            "blockClass": "newsletter__text--subscribe"
         }
-      },
-      "rich-text#newsletter__text--descriptions": {
+    },
+    "rich-text#newsletter__text--descriptions": {
         "title": "newsletter__text--descriptions",
         "props": {
-          "text": "Se el primero en enterarte de las últimas tendencias y todas las novedades que traemos para ti. Adicional, te damos un 15 Extra OFF* en tu primera compra",
-          "textAlignment": "CENTER",
-          "textPosition": "CENTER",
-          "font": "t-heading-6",
-          "blockClass": "newsletter__text--descriptions"
+            "text": "Se el primero en enterarte de las últimas tendencias y todas las novedades que traemos para ti. Adicional, te damos un 15 Extra OFF* en tu primera compra",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "font": "t-heading-6",
+            "blockClass": "newsletter__text--descriptions"
         }
-      }
-    
+    }
 }

@@ -8,7 +8,7 @@
 .headerRowContentContainer--header__banner--top {
     display: flex;
     justify-content: center;
-    width: 96rem;
+    max-width: 960px;
 }
 
 .headerRowContainer--header__banner--top {
