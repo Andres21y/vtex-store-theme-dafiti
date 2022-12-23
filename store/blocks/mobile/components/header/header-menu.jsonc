@@ -1,20 +1,21 @@
 {
-   "header-row#mobile__menu--main": {
+    "header-row#mobile__menu--main": {
         "title": "mobile__menu--main",
         "children": [
-            "drawer"
+            "drawer#mobile__menu--main",
+            "search-bar#mobile__menu--search"
         ],
         "props": {}
     },
-    "drawer": {
+    "drawer#mobile__menu--main": {
         "children": [
-            "mega-menu#mobile"
+            "mega-menu#mobile__mega--menu"
         ],
         "blocks": [
             "drawer-header#drawer__main"
         ]
     },
-    "mega-menu#mobile": {
+    "mega-menu#mobile__mega--menu": {
         "props": {
             "defaultDepartmentActive": "...",
             "orientation": "vertical",
@@ -57,6 +58,14 @@
             "verticalAlign": "middle",
             "horizontalAlign": "left",
             "paddingLeft": 4
+        }
+    },
+    "search-bar#mobile__menu--search": {
+        // "blocks": [
+        //     "autocomplete-result-list.v2"
+        // ],
+        "props":{
+            "openAutocompleteOnFocus":true
         }
     }
 }

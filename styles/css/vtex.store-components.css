@@ -23,12 +23,12 @@
 }
 
 /* =================================== global home Preheader */
-.imageElement--home__preheader--image{
-    width: 100%;
+.imageElement--home__preheader--image {
+    width: 96rem;
 }
 
 /* form */
-.form--home__newsletter--main{
+.form--home__newsletter--main {
     display: block;
     position: relative;
     width: 700px;
@@ -36,11 +36,54 @@
     border: solid 1px #e6ebf1;
     height: 6rem;
 }
-.buttonContainer--home__newsletter--main{
+
+.buttonContainer--home__newsletter--main {
     display: none;
 }
 
-.inputGroup--home__newsletter--main{
+.inputGroup--home__newsletter--main {
     width: 100%;
     height: 80px;
+}
+
+
+
+.container {
+    max-width: 95rem;
+    /* background: rebeccapurple; */
+    display: flex;
+    justify-content: center;
+}
+
+.imageElement--home__newsletter--message {
+    background-color: black;
+    height: 79px;
+    border-radius: 12px;
+} 
+
+.container--home__newsletter--main {
+    width: 220px;
+    /* background-color: yellow; */
+    /* height: 8px; */
+}
+
+.form--home__newsletter--main {
+    width: 700px;
+    display: flex;
+    align-items: center;
+    border: none;
+}
+
+.inputGroup--home__newsletter--main {
+    width: 100%;
+
+}
+
+.newsletter--home__newsletter--main{
+    width: 20rem;
+}
+
+.vtex-input-prefix__group{
+    background-color: red;
+    border: none;
 }
