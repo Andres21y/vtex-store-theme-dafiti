@@ -20,7 +20,7 @@
      display: flex;
      justify-content: center;
      width: 100%;
-     margin-top: 5rem;
+     margin-top: 2rem;
      margin-bottom: 1rem;
  }
 
@@ -42,50 +42,59 @@
 
  /* =================================== Desktop home Main */
  .flexRow--global__home--main {
-    display: block;
-    position: relative;
-    width: 100%;
-    overflow: auto;
-    overflow-x: auto;
-    overflow-y: auto;
-    margin-bottom: 70px;
+     display: block;
+     position: relative;
+     width: 100%;
+     overflow: auto;
+     overflow-x: auto;
+     overflow-y: auto;
+     margin-bottom: 70px;
+ }
+
+ .flexRowContent--home__main--one {
+     display: flex;
+     justify-content: center;
+     /* background: rgb(115, 115, 115); */
+     gap: 2rem;
  }
 
  .flexRowContent--global__home--main {
      width: 100%;
-     background-color: greenyellow;
+     /* background-color: greenyellow; */
  }
 
  .flexCol--home__main--container {
      /* background-color: salmon; */
      display: flex;
-     gap: 1rem;
+     gap: 2rem;
  }
 
  /*-------------------------------------------one*/
  /* mujer */
- 
+
  .flexCol--home__main--woman {
      background-image: url("assets/image/home_block/section/dft-section-mujer.png");
      background-repeat: no-repeat;
      background-size: cover;
-     height: 100%;
-     max-width: 570px;
+     width: 570px;
  }
 
  .flexCol--home__main--man {
      background-image: url("assets/image/home_block/section/dft-section-hombre.png");
      background-repeat: no-repeat;
      background-size: cover;
-     height: 740px;
-     max-width: 570px;
-    }
-    
-    /* categotegories */
-    .flexRow--home__man--categories {
+     height: 800px;
+     width: 570px;
+ }
+
+ /* categotegories */
+ .flexRow--home__man--categories {
      width: 100%;
  }
- 
+
+
+
+
  .flexRowContent--home__woman--categories {
      display: block;
      position: relative;
@@ -96,76 +105,77 @@
      line-height: 25px;
      margin-top: 50px;
      margin-left: 7px;
-    }
-    
-    .flexRowContent--home__man--categories {
-        display: block;
-        position: relative;
-        text-align: right;
-        padding: 50px;
-        font-size: 20px;
-        color: #fff;
-        line-height: 25px;
-        margin-top: 50px;
-        margin-left: 7px;
-    }
-    
-    /* ver mas */
-    
-    .flexColChild--home__unix--container {
-        height: 40%;
-    }
-    
-    .flexCol--home__unix--container {
-        height: 10rem;
-    }
-    
-    .flexColChild--home__main--man {
-        height: 80%;
-        display: flex;
-        align-items: flex-end;
-    }
-    
-    .flexColChild--home__main--woman {
-        height: 80%;
-        display: flex;
-        align-items: flex-end;
-    }
-    
-    
-    /* sneaker premuin  kids */
-    .flexRowContent--home__main--two {
-        display: flex;
-        justify-content: space-between;
-        width: 100%;
-    }
+ }
 
-    
-    /* brands */
-    .flexRowContent--global__home--brands{
-        /* background: yellow; */
-        max-width: 100%;
-    }
-    .flexColChild--home__brands {
-        width:100%;
-        height:100%;
+ .flexRowContent--home__man--categories {
+     display: block;
+     position: relative;
+     text-align: right;
+     padding: 50px;
+     font-size: 20px;
+     color: #fff;
+     line-height: 25px;
+     margin-top: 50px;
+     margin-left: 7px;
+ }
+
+ /* ver mas */
+
+ .flexColChild--home__unix--container {
+     height: 40%;
+ }
+
+ .flexCol--home__unix--container {
+     height: 10rem;
+ }
+
+ .flexColChild--home__main--man {
+     height: 80%;
+     display: flex;
+     align-items: flex-end;
+ }
+
+ .flexColChild--home__main--woman {
+     height: 80%;
+     display: flex;
+     align-items: flex-end;
+ }
+
+
+ /* sneaker premuin  kids */
+ .flexRowContent--home__main--two {
+     display: flex;
+     gap: 2rem;
+     width: 100%;
+ }
+
+
+ /* brands */
+ .flexRowContent--global__home--brands {
+     /* background: yellow; */
+     max-width: 100%;
+ }
+
+ .flexColChild--home__brands {
+     width: 100%;
+     height: 100%;
      display: flex;
      justify-content: center;
      align-items: center;
      max-height: 15rem;
      position: relative;
-    }
-    
-    
-    
-    
-    
-    /* seo */
-    
-    .flexColChild--home__seo--container {
-        height: 2rem;
-    }
-    
+ }
+
+
+
+
+
+ /* seo */
+
+ .flexColChild--home__seo--container {
+     height: 2rem;
+ }
+
  .flexColChild--home__seo--container {
      height: 100%;
      width: 100%;
