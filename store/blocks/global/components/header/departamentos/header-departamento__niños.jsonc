@@ -46,7 +46,7 @@
                 "tagTitle": "categoria_bebes",
                 "text": "bebé 0 a 24 meses"
             },
-            "blockClass": "niños__bebe"
+            "blockClass": "departamentos__categorias"
         },
         "children": [
             "flex-layout.row#niños__bebe--container"
@@ -86,7 +86,7 @@
                 "tagTitle": "categoria_dosasieteaños",
                 "text": "2 a 7 años"
             },
-            "blockClass": "niños__categoria--dosasieteaños"
+            "blockClass": "departamentos__categorias"
         },
         "children": [
             "flex-layout.row#niños__dosasieteaños--container"
@@ -131,7 +131,7 @@
                 "tagTitle": "categoria_ochoadiesiseisaños",
                 "text": "8 a 16 años"
             },
-            "blockClass": "niños__categoria--ochoadiesiseisaños"
+            "blockClass": "departamentos__categorias"
         },
         "children": [
             "flex-layout.row#niños__ochoadiesiseisaños--container"
@@ -175,7 +175,7 @@
                 "tagTitle": "categoria_marcas",
                 "text": "marcas"
             },
-            "blockClass": "niños__categoria--marcas"
+            "blockClass": "departamentos__categorias"
         },
         "children": [
             "flex-layout.row#niños__marcas--container"
@@ -220,7 +220,7 @@
                 "tagTitle": "categoria_marcasdeportivas",
                 "text": "marcas deportivas"
             },
-            "blockClass": "niños__categoria--marcasdeportivas"
+            "blockClass": "departamentos__categorias"
         },
         "children": [
             "flex-layout.row#niños__marcasdeportivas--container"
@@ -264,7 +264,7 @@
                 "tagTitle": "categoria_jugetes",
                 "text": "jugetes"
             },
-            "blockClass": "niños__categoria--jugetes"
+            "blockClass": "departamentos__categorias"
         },
         "children": [
             "flex-layout.row#niños__jugetes--container"
@@ -311,7 +311,7 @@
                 "tagTitle": "categoria_disney",
                 "text": "disney"
             },
-            "blockClass": "niños__categoria--disney"
+            "blockClass": "departamentos__categorias"
         },
         "children": [
             "flex-layout.row#niños__disney--container"

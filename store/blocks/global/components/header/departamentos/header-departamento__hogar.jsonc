@@ -47,7 +47,7 @@
                 "tagTitle": "categoria_hocina",
                 "text": "cocina"
             },
-            "blockClass": "hogar__cocina"
+            "blockClass": "departamentos__categorias"
         },
         "children": [
             "flex-layout.row#hogar__cocina--container"
@@ -93,7 +93,7 @@
                 "tagTitle": "categoria_comedor",
                 "text": "comedor"
             },
-            "blockClass": "hogar__comedor"
+            "blockClass": "departamentos__categorias"
         },
         "children": [
             "flex-layout.row#hogar__comedor--container"
@@ -134,7 +134,7 @@
                 "tagTitle": "categoria_dormitorio",
                 "text": "dormitorio"
             },
-            "blockClass": "hogar__dormitorio"
+            "blockClass": "departamentos__categorias"
         },
         "children": [
             "flex-layout.row#hogar__dormitorio--container"
@@ -173,7 +173,7 @@
                 "tagTitle": "categoria_homeoffice",
                 "text": "home office"
             },
-            "blockClass": "hogar__homeoffice"
+            "blockClass": "departamentos__categorias"
         },
         "children": [
             "flex-layout.row#hogar__homeoffice--container"
@@ -215,7 +215,7 @@
                 "tagTitle": "categoria_decoracion",
                 "text": "decoracion"
             },
-            "blockClass": "dptodeportes__categoria--Femenino"
+            "blockClass": "departamentos__categorias"
         },
         "children": [
             "flex-layout.row#hogar__decoracion--container"
@@ -255,7 +255,7 @@
                 "tagTitle": "categoria_audio",
                 "text": "audio"
             },
-            "blockClass": "deportes__categoria--audio"
+            "blockClass": "departamentos__categorias"
         },
         "children": [
             "flex-layout.row#hogar__audio--container"
@@ -292,7 +292,7 @@
                 "tagTitle": "categoria_lomasvendido",
                 "text": "lo más vendido"
             },
-            "blockClass": "hogar__categoria--lomasvendido"
+            "blockClass": "departamentos__categorias"
         },
         "children": [
             "flex-layout.row#hogar__lomasvendido--container"

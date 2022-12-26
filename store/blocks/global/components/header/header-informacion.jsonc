@@ -2,81 +2,81 @@
     "header-row#header__info--section": {
         "title": "header__info--section",
         "children": [
-            "header-row#info__containerOne",
-            "header-row#info__containerTwo"
+            "header-row#info__containerone",
+            "header-row#info__containertwo"
         ],
         "props": {
             "blockClass": "header__info--section"
         }
     },
-    "header-row#info__containerOne": {
-        "title": "info__section--containerOne",
+    "header-row#info__containerone": {
+        "title": "info__section--containerone",
         "children": [
-            "link#infoSection__containerOne--envio",
-            "link#infoSection__containerOne--cambio",
-            "link#infoSection__containerOne--pedido",
-            "link#infoSection__containerOne--nuevo"
+            "link#infosection__containerone--envio",
+            "link#infosection__containerone--cambio",
+            "link#infosection__containerone--pedido",
+            "link#infosection__containerone--nuevo"
         ],
         "props": {
-            "blockClass": "info__section--containerOne"
+            "blockClass": "info__section--containerone"
         }
     },
-    "header-row#info__containerTwo": {
-        "title": "info__section--containerTwo",
+    "header-row#info__containertwo": {
+        "title": "info__section--containertwo",
         "children": [
-            "link#infoSection__containerTwo--contacto",
-            "link#infoSection__containerTwo--servicio"
+            "link#infosection__containertwo--contacto",
+            "link#infosection__containertwo--servicio"
         ],
         "props": {
-            "blockClass": "info__section--containerTwo"
+            "blockClass": "info__section--containertwo"
         }
     },
-    "link#infoSection__containerOne--envio": {
-        "title": "infoSection__containerOne--envio",
+    "link#infosection__containerone--envio": {
+        "title": "infosection__containerone--envio",
         "props": {
             "href": "/login?returnUrl={queryString.returnUrl}",
             "label": "Envíos gratis desde $179.900*",
-            "blockClass": "infoSection__containerOne--envio"
+            "blockClass": "infosection__containerone--envio"
         }
     },
-    "link#infoSection__containerOne--cambio": {
-        "title": "infoSection__containerOne--cambio",
+    "link#infosection__containerone--cambio": {
+        "title": "infosection__containerone--cambio",
         "props": {
             "href": "/login?returnUrl={queryString.returnUrl}",
             "label": "90 Días de cambios GRATIS",
-            "blockClass": "infoSection__containerOne--cambio"
+            "blockClass": "infosection__containerone--cambio"
         }
     },
-    "link#infoSection__containerOne--pedido": {
-        "title": "infoSection__containerOne--pedido",
+    "link#infosection__containerone--pedido": {
+        "title": "infosection__containerone--pedido",
         "props": {
             "href": "/login?returnUrl={queryString.returnUrl}",
             "label": "Sigue tu pedido",
-            "blockClass": "infoSection__containerOne--pedido"
+            "blockClass": "infosection__containerone--pedido"
         }
     },
-    "link#infoSection__containerOne--nuevo": {
-        "title": "infoSection__containerOne--nuevo",
+    "link#infosection__containerone--nuevo": {
+        "title": "infosection__containerone--nuevo",
         "props": {
             "href": "/login?returnUrl={queryString.returnUrl}",
             "label": "¡NUEVO! Centros de Experiencia",
-            "blockClass": "infoSection__containerOne--nuevo"
+            "blockClass": "infosection__containerone--nuevo"
         }
     },
-    "link#infoSection__containerTwo--contacto": {
-        "title": "infoSection__containerTwo--contacto",
+    "link#infosection__containertwo--contacto": {
+        "title": "infosection__containertwo--contacto",
         "props": {
             "href": "/login?returnUrl={queryString.returnUrl}",
             "label": "Conócenos",
-            "blockClass": "infoSection__containerTwo--contacto"
+            "blockClass": "infosection__containertwo--contacto"
         }
     },
-    "link#infoSection__containerTwo--servicio": {
-        "title": "infoSection__containerTwo--servicio",
+    "link#infosection__containertwo--servicio": {
+        "title": "infosection__containertwo--servicio",
         "props": {
             "href": "/login?returnUrl={queryString.returnUrl}",
             "label": " Servicio al Cliente",
-            "blockClass": "infoSection__containerTwo--servicio"
+            "blockClass": "infosection__containertwo--servicio"
         }
     }
 }

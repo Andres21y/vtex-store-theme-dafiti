@@ -43,7 +43,7 @@
                 "tagTitle": "categoria_femenino",
                 "text": "femenino"
             },
-            "blockClass": "deportes__femenino"
+            "blockClass": "departamentos__categorias"
         },
         "children": [
             "flex-layout.row#deportes__femenino--container"
@@ -87,7 +87,7 @@
                 "tagTitle": "categoria_masculino",
                 "text": "masculino"
             },
-            "blockClass": "deportes__masculino"
+            "blockClass": "departamentos__categorias"
         },
         "children": [
             "flex-layout.row#deportes__masculino--container"
@@ -131,7 +131,7 @@
                 "tagTitle": "categoria_marcas",
                 "text": "marcas"
             },
-            "blockClass": "deportes__marcas"
+            "blockClass": "departamentos__categorias"
         },
         "children": [
             "flex-layout.row#deportes__marcas--container"
@@ -176,7 +176,7 @@
                 "tagTitle": "categoria_actividades",
                 "text": "actividades deportivas"
             },
-            "blockClass": "deportes__actividades"
+            "blockClass": "departamentos__categorias"
         },
         "children": [
             "flex-layout.row#deportes__actividades--container"
@@ -219,7 +219,7 @@
                 "tagTitle": "categoria_plus",
                 "text": "+"
             },
-            "blockClass": "deportes__plus"
+            "blockClass": "departamentos__categorias"
         },
         "children": [
             "flex-layout.row#deportes__plus--container"

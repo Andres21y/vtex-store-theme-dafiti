@@ -291,7 +291,7 @@
     "flex-layout.row#home__main--two": {
         "title": "home__main--two",
         "children": [
-            "rich-text#homemain__two--snaker",
+            "rich-text#homemain__two--sneakers",
             "rich-text#homemain__two--premiun",
             "rich-text#homemain__two--kids"
         ],
@@ -299,14 +299,14 @@
             "blockClass": "home__main--two"
         }
     },
-    "rich-text#homemain__two--snaker": {
-        "title": "homemain__two--snaker",
+    "rich-text#homemain__two--sneakers": {
+        "title": "homemain__two--sneakers",
         "props": {
-            "text": "snaker",
+            "text": "sneakers",
             "textAlignment": "left",
             "textPosition": "CENTER",
             "font": "t-heading-6",
-            "blockClass": "homemain__two--snaker"
+            "blockClass": "homemain__two--sneakers"
         }
     },
     "rich-text#homemain__two--premiun": {

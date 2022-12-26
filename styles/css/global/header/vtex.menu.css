@@ -1,4 +1,8 @@
-
+.menuContainerNav--menu__principal--departamentos{
+    max-width: 90%;
+    display: flex;
+    justify-content: center;
+}
 
 .submenuContainer--departamento__mujer--categorias {
     top: 15rem;
@@ -14,6 +18,8 @@
 .submenuWrapper--departamento__mujer--categorias--isOpen {
     width: 100%;
     display: flex;
+    justify-content: center;
+    min-height: 25rem;
     padding-bottom: 5rem;
 }
 
@@ -22,7 +28,6 @@
     gap: 3rem;
     max-width: 95rem;
 }
-
 
 /*------------------------------------------------------------------------------ */
 .submenuContainer--departamento__hombre--categorias {
@@ -39,6 +44,9 @@
 .submenuWrapper--departamento__hombre--categorias--isOpen {
     width: 100%;
     display: flex;
+    justify-content: center;
+    min-height: 25rem;
+    padding-bottom: 5rem;
 }
 
 .submenu--departamento__hombre--categorias {
@@ -62,6 +70,9 @@
 .submenuWrapper--departamento__deportes--categorias--isOpen {
     width: 100%;
     display: flex;
+    justify-content: center;
+    min-height: 25rem;
+    padding-bottom: 5rem;
 }
 
 .submenu--departamento__deportes--categorias {
@@ -86,6 +97,9 @@
 .submenuWrapper--isOpen {
     width: 100%;
     display: flex;
+    justify-content: center;
+    min-height: 25rem;
+    padding-bottom: 5rem;
 }
 
 .submenu {
@@ -109,6 +123,9 @@
 .submenuWrapper--departamento__belleza--categorias--isOpen {
     width: 100%;
     display: flex;
+    justify-content: center;
+    min-height: 25rem;
+    padding-bottom: 5rem;
 }
 
 .submenu--departamento__belleza--categorias {
@@ -132,6 +149,9 @@
 .submenuWrapper--departamento__marca--categorias--isOpen {
     width: 100%;
     display: flex;
+    justify-content: center;
+    min-height: 25rem;
+    padding-bottom: 5rem;
 }
 
 .submenu--departamento__marca--categorias {
@@ -144,5 +164,11 @@
 
 
 
-
+.styledLinkContainer--departamentos__categorias{
+    border-bottom: 1px solid #858585;
+    margin-bottom: 1rem;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+}
 
