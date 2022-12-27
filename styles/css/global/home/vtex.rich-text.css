@@ -69,7 +69,7 @@
      margin-top: 20px;
  }
 
- .container--homemain__two--snaker {
+ .container--homemain__two--sneakers {
      background-image: url("assets/image/snaker-kids-premiun/dft-snaker-red.png");
      background-repeat: no-repeat;
      background-size: cover;
@@ -77,7 +77,7 @@
      width: 440px;
  }
 
- .container--homemain__two--snaker {
+ .container--homemain__two--sneakers {
      display: block;
      position: relative;
      padding: 30px;
@@ -234,37 +234,28 @@
  }
 
  /* newsletter */
-
  .container--home__newsletter--terms {
      display: flex;
      justify-content: flex-end;
-     width: 100%;
  }
 
  .container--home__newsletter--policy {
      display: flex;
      justify-content: flex-start;
  }
- .container--newsletter__text--man{
-    width: 7rem;
+
+ .link--home__newsletter--terms {
+     text-decoration: none;
+     margin-right: .5rem;
+     color: #000;
  }
- .container--newsletter__text--woman{
-    width: 7rem;
+
+ .link--home__newsletter--policy {
+     text-decoration: none;
+     color: #000;
  }
- .container--newsletter__text--subcribe{
-    display: flex;
-    justify-content: flex-start;
-    margin-left: 19px;
-    font-weight: bold;
+
+ .container--newsletter__text--subscribe{
+     margin-left: 2rem;
+     font-weight: 700;
  }
- .wrapper--newsletter__text--descriptions{
-    width: 670px;
- }
-.wrapper--newsletter__text--woman{
-    color: #9aa9b9;
-    background-color: #e6ebf1;
-}
-.wrapper--newsletter__text--man{
-    color: #9aa9b9;
-    background-color: #e6ebf1;
-}

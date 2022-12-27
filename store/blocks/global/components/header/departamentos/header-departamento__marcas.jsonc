@@ -1,6 +1,6 @@
 {
     "menu-item#menu__departamento--marcas": {
-        "title":"menu__departamento--marcas",
+        "title": "menu__departamento--marcas",
         "props": {
             "type": "custom",
             "highlight": false,
@@ -11,24 +11,24 @@
                 "tagTitle": "departamento_marca",
                 "text": "Marca"
             },
-            "blockClass":"menu__departamento--marcas"
+            "blockClass": "menu__departamento--marcas"
         },
         "blocks": [
             "vtex.menu@2.x:submenu#departamento__marca--categorias"
         ]
     },
     "vtex.menu@2.x:submenu#departamento__marca--categorias": {
-        "title":"departamento__marca--categorias",
+        "title": "departamento__marca--categorias",
         "children": [
             "menu-item#marca__zapatos",
             "menu-item#marca__ropa",
             "menu-item#marca__accesorios",
             "menu-item#marca__deportes"
         ],
-        "props":{
-            "blockClass":"departamento__marca--categorias"
+        "props": {
+            "blockClass": "departamento__marca--categorias"
         }
-    },    
+    },
     "menu-item#marca__zapatos": {
         "title": "marca__zapatos",
         "props": {
@@ -41,7 +41,7 @@
                 "tagTitle": "categoria_zapatos",
                 "text": "zapatos"
             },
-            "blockClass": "marca__zapatos"
+            "blockClass": "departamentos__categorias"
         },
         "children": [
             "flex-layout.row#marca__zapatos--container"
@@ -74,9 +74,9 @@
         "props": {
             "blockClass": "departamentos__subcategories"
         }
-    },    
+    },
     "menu-item#marca__ropa": {
-        "title":"marca__ropa",
+        "title": "marca__ropa",
         "props": {
             "type": "custom",
             "highlight": false,
@@ -87,7 +87,7 @@
                 "tagTitle": "categoria_ropa",
                 "text": "ropa"
             },
-            "blockClass": "marca__ropa"
+            "blockClass": "departamentos__categorias"
         },
         "children": [
             "flex-layout.row#marca__ropa--container"
@@ -120,8 +120,9 @@
         "props": {
             "blockClass": "departamentos__subcategories"
         }
-    },    "menu-item#marca__accesorios": {
-        "title":"marca__accesorios",
+    },
+    "menu-item#marca__accesorios": {
+        "title": "marca__accesorios",
         "props": {
             "type": "custom",
             "highlight": false,
@@ -132,7 +133,7 @@
                 "tagTitle": "categoria_accesorios",
                 "text": "Accesorios"
             },
-            "blockClass": "marca__accesorios"
+            "blockClass": "departamentos__categorias"
         },
         "children": [
             "flex-layout.row#marca__accesorios--container"
@@ -166,8 +167,9 @@
         "props": {
             "blockClass": "departamentos__subcategories"
         }
-    },    "menu-item#marca__deportes": {
-        "title":"marca__deportes",
+    },
+    "menu-item#marca__deportes": {
+        "title": "marca__deportes",
         "props": {
             "type": "custom",
             "highlight": false,
@@ -178,7 +180,7 @@
                 "tagTitle": "categoria_deportes",
                 "text": "deportes"
             },
-            "blockClass": "marca__deportes"
+            "blockClass": "departamentos__categorias"
         },
         "children": [
             "flex-layout.row#marca__deportes--container"
