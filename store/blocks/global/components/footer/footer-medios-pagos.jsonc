@@ -1,0 +1,19 @@
+{
+    "flex-layout.row#desktop__footer--pagos": {
+        "title": "desktop__footer--pagos",
+        "children": [
+            "image#desktop__footer--pagos"
+        ],
+        "props": {
+            "blockClasss": "desktop__footer--apps"
+        }
+    },
+    "image#desktop__footer--pagos": {
+        "title": "footer__image--pagos",
+        "props": {
+            "src": "assets/image/footer/dafiti-mediosdepagos.webp",
+            // "maxHeight": 24
+            "blockClasss": "desktop__footer--apps"
+        }
+    }
+}

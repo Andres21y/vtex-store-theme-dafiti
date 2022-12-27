@@ -1,0 +1,100 @@
+{
+    "flex-layout.row#desktop__footer--departamentos": {
+        "title": "desktop__footer--departamentos",
+        "children": [
+            "flex-layout.col#footer__departamentos--marcas",
+            "flex-layout.col#footer__departamentos--mujer",
+            "flex-layout.col#footer__departamentos--hombre",
+            "flex-layout.col#footer__departamentos--niños"
+        ],
+        "props": {
+            "blockClass": "desktop__footer--departamentos"
+        }
+    },
+    "flex-layout.col#footer__departamentos--marcas": {
+        "title": "footer__departamentos--marcas",
+        "children": [
+            "rich-text#footerdepartamentos__marcas--title",
+            "flex-layout.row#footer__departamentos--conatiner"
+        ],
+        "props": {
+            "blockClass": "footer__departamentos--marcas"
+        }
+    },
+    "flex-layout.row#footer__departamentos--conatiner": {
+        "title": "footer__departamentos--marcas",
+        "children": [
+            "link#marca__deportes--nike",
+            "link#footer__marcas--adidas",
+            "link#marca__deportes--under",
+            "link#marca__deportes--asics",
+            "link#footer__marcas--brahma",
+            "link#footer__marcas--alpinestarts",
+            "link#marca__zapatos--levis",
+            "link#marca__ropa--nautica",
+            "link#footer__marcas--diesel",
+            "link#footer__marcas--rcbpc",
+            "link#footer__marcas--converse",
+            "link#footer__marcas--quiksilver",
+            "link#footer__marcas--timberland",
+            "link#marca__ropa--us",
+            "link#marca__zapatos--beverly",
+            "link#footer__marcas--invicta",
+            "link#footer__marcas--roxy",
+            "link#footer__marcas--mng",
+            "link#footer__marcas--moleca",
+            "link#footer__marcas--qupid",
+            "link#marca__ropa--koaj",
+            "link#marca__ropa--paris",
+            "link#footer__marcas--oakley",
+            "link#marca__ropa--mp",
+            "link#footer__marcas--mercedes",
+            "link#footer__marcas--campuzano",
+            "link#marca__zapatos--croydon",
+            "link#marca__accesorios--velez",
+            "link#footer__marcas--cross"
+        ],
+        "props": {
+            "blockClass": "footer__departamentos--marcas"
+        }
+    },
+    "flex-layout.col#footer__departamentos--mujer": {
+        "title": "footer__departamentos--mujer",
+        "children": [
+            "rich-text#footerdepartamentos__mujer--title",
+            "link#footerdepartamentos__mujer--tenis",
+            "link#footerdepartamentos__mujer--camisas",
+            "link#footerdepartamentos__mujer--belleza",
+            "link#footerdepartamentos__mujer--accesorios"
+        ],
+        "props": {
+            "blockClass": "footer__departamentos--mujer"
+        }
+    },
+    "flex-layout.col#footer__departamentos--hombre": {
+        "title": "footer__departamentos--hombre",
+        "children": [
+            "rich-text#footerdepartamentos__hombre--title",
+            "link#footerdepartamentos__hombre--tenis",
+            "link#footerdepartamentos__hombre--camisas",
+            "link#footerdepartamentos__hombre--belleza",
+            "link#footerdepartamentos__hombre--accesorios"
+        ],
+        "props": {
+            "blockClass": "footer__departamentos--hombre"
+        }
+    },
+    "flex-layout.col#footer__departamentos--niños": {
+        "title": "footer__departamentos--niños",
+        "children": [
+            "rich-text#footerdepartamentos__niños--title",
+            "link#footerdepartamentos__niños--bebe",
+            "link#footerdepartamentos__niños--child",
+            "link#footerdepartamentos__niños--boys",
+            "link#footerdepartamentos__niños--jugetes"
+        ],
+        "props": {
+            "blockClass": "footer__departamentos--niños"
+        }
+    }
+}
