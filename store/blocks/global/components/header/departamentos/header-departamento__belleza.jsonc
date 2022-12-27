@@ -44,7 +44,7 @@
                 "tagTitle": "categoria_cuidadofacial",
                 "text": "Cuidado Facial"
             },
-            "blockClass": "dptoBelleza__categoria--CuidadoFacial"
+            "blockClass": "departamentos__categorias"
         },
         "children": [
             "flex-layout.row#belleza__cuidadofacial--container"
@@ -83,10 +83,10 @@
                 "type": "internal",
                 "href": "#",
                 "noFollow": false,
-                "tagTitle": "categoria_CuidadoCapilar",
+                "tagTitle": "categoria_cuidadocapilar",
                 "text": "Cuidado Capilar"
             },
-            "blockClass": "dptoBelleza__categoria--CuidadoCapilar"
+            "blockClass": "departamentos__categorias"
         },
         "children": [
             "flex-layout.row#belleza__cuidadocapilar--container"
@@ -126,7 +126,7 @@
                 "tagTitle": "categoria_cuidadocorporal",
                 "text": "Cuidado Corporal"
             },
-            "blockClass": "dptoBelleza__categoria--CuidadoCorporal"
+            "blockClass": "departamentos__categorias"
         },
         "children": [
             "flex-layout.row#belleza__cuidadocorporal--container"
@@ -167,7 +167,7 @@
                 "tagTitle": "categoria_maquillaje",
                 "text": "Maquillaje"
             },
-            "blockClass": "dptoBelleza__categoria--Maquillaje"
+            "blockClass": "departamentos__categorias"
         },
         "children": [
             "flex-layout.row#belleza__maquillaje--container"
@@ -208,7 +208,7 @@
                 "tagTitle": "categoria_saludybienestar",
                 "text": "Salud y Bienestar"
             },
-            "blockClass": "dptodeportes__categoria--Femenino"
+            "blockClass": "departamentos__categorias"
         },
         "children": [
             "flex-layout.row#belleza__saludybienestar--container"
@@ -241,7 +241,7 @@
                 "tagTitle": "categoria_Perfumes",
                 "text": "Perfumes"
             },
-            "blockClass": "dptodeportes__categoria--Perfumes"
+            "blockClass": "departamentos__categorias"
         },
         "children": [
             "flex-layout.row#belleza__perfumes--container"
@@ -278,7 +278,7 @@
                 "tagTitle": "categoria_dermocosmetica",
                 "text": "dermocosmética"
             },
-            "blockClass": "dptoBelleza__categoria--DermoCosmetica"
+            "blockClass": "departamentos__categorias"
         },
         "children": [
             "flex-layout.row#belleza__dermocosmetica--container"

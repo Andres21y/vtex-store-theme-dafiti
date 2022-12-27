@@ -33,7 +33,7 @@
     /*--------------------------------------------------------------------------------------*/
 
     "menu-item#hombre__zapatos": {
-        "title": "hombre__--zapatos",
+        "title": "hombre__zapatos",
         "props": {
             "type": "custom",
             "highlight": false,
@@ -44,7 +44,7 @@
                 "tagTitle": "categoria_zapatos",
                 "text": "zapatos"
             },
-            "blockClass": "hombre__--zapatos"
+            "blockClass": "departamentos__categorias"
         },
         "children": [
             "flex-layout.row#hombre__zapatos--container"
@@ -91,7 +91,7 @@
                 "tagTitle": "categoria_ropa",
                 "text": "ropa"
             },
-            "blockClass": "hombre__ropa"
+            "blockClass": "departamentos__categorias"
         },
         "children": [
             "flex-layout.row#hombre__ropa--container"
@@ -142,7 +142,7 @@
                 "tagTitle": "categoria_accesorios",
                 "text": "Accesorios"
             },
-            "blockClass": "hombre__accesorios"
+            "blockClass": "departamentos__categorias"
         },
         "children": [
             "flex-layout.row#hombre__accesorios--container"
@@ -191,7 +191,7 @@
                 "tagTitle": "categoria_deportes",
                 "text": "Deportes"
             },
-            "blockClass": "hombre__deportes"
+            "blockClass": "departamentos__categorias"
         },
         "children": [
             "flex-layout.row#hombre__deportes--container"
@@ -232,7 +232,7 @@
                 "tagTitle": "categoria_marcas",
                 "text": "Marcas"
             },
-            "blockClass": "dptodeportes__categoria--Femenino"
+            "blockClass": "departamentos__categorias"
         },
         "children": [
             "flex-layout.row#hombre__marcas--container"

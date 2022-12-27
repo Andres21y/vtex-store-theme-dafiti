@@ -42,7 +42,7 @@
                 "tagTitle": "categoria_zapatos",
                 "text": "zapatos"
             },
-            "blockClass": "mujer__zapatos"
+            "blockClass": "departamentos__categorias"
         },
         "children": [
              "flex-layout.row#mujer__zapatos--container"
@@ -88,7 +88,7 @@
                 "tagTitle": "categoria_ropa",
                 "text": "ropa"
             },
-            "blockClass": "mujer__ropa"
+            "blockClass": "departamentos__categorias"
         },
         "children": [
             "flex-layout.row#mujer__ropa--container"
@@ -136,7 +136,7 @@
                 "tagTitle": "categoria_accesorios",
                 "text": "accesorios"
             },
-            "blockClass": "mujer__acessorios"
+            "blockClass": "departamentos__categorias"
         },
         "children": [
             "flex-layout.row#mujer__accesorios--container"
@@ -182,7 +182,7 @@
                 "tagTitle": "categoria_deportes",
                 "text": "deportes"
             },
-            "blockClass": "mujer__deportes"
+            "blockClass": "departamentos__categorias"
         },
         "children": [
             "flex-layout.row#mujer__deportes--container"
@@ -224,7 +224,7 @@
                 "tagTitle": "categoria_marcas",
                 "text": "marcas"
             },
-            "blockClass": "mujer__marcas"
+            "blockClass": "departamentos__categorias"
         },
         "children": [
             "flex-layout.row#mujer__marcas--container"

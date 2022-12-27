@@ -1,7 +1,12 @@
 /* ==========================================================================================desktop */
 /* -------------------------------------banner main */
+.headerRow--header__banner--top {
+    display: flex;
+    justify-content: center;
+}
+
 .headerRowBackground--header__banner--top {
-     background-color: red; 
+    background-color: red;
     width: 100%;
 }
 
@@ -17,59 +22,53 @@
     width: 100%;
 }
 
-/* --------------------------------------------------------  section information  */ 
+/* --------------------------------------------------------  section information  */
 .headerRowBackground--header__info--section {
     display: flex;
     justify-content: center;
     width: 100%;
-    font-size: 11px;
-    line-height: 4px;
-     background-color: #ececec; 
+    font-size: 10px;
+    background-color: #ececec;
 }
 
 .headerRowContentContainer--header__info--section {
     display: flex;
     justify-content: center;
-    width: 100%;
+    width: 80%;
     height: 2rem;
 }
+
 
 .headerRowContainer--header__info--section {
     display: flex;
     justify-content: center;
-    width: 90%;
+    width: 80%;
 }
 
-.headerRowBackground--info__section--containerOne {
-    width: 55rem;
+
+.headerStickyRow--info__section--containerone {
+    width: 65%;
+}
+
+.headerStickyRow--info__section--containertwo {
+    width: 35%;
+}
+
+
+.headerRowContainer--info__section--containerone {
+    display: flex;
+    justify-content: space-between;
     background-color: #ececec;
 }
 
-.headerRowContentContainer--info__section--containerOne {
-    max-width: 100%;
-}
-
-.headerRowContainer--info__section--containerOne {
+.headerRowContainer--info__section--containertwo {
     display: flex;
-    justify-content: space-evenly;
-    gap: 18px;
-}
-
-.headerRowBackground--info__section--containerTwo {
-    width: 40rem;
+    padding-left: 2rem;
+    gap: 2rem;
     background-color: #ececec;
 }
 
-.headerRowContentContainer--info__section--containerTwo {
-    max-width: 100%
-}
 
-.headerRowContainer--info__section--containerTwo {
-    width: 40%;
-    display: flex;
-    justify-content: space-evenly;
-    text-decoration: none;
-}
 
 /* ---------------------------------------------------------------------------------main sections */
 
@@ -131,10 +130,13 @@
 
 .headerRowContentContainer--menu__principal--container {
     height: 4rem;
-    width: 70rem;
-    align-items: center;
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
 
 .headerRowContainer--menu__principal--container {
     height: 4rem;
+    display: flex;
+    justify-content: center;
 }

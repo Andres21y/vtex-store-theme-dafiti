@@ -55,16 +55,15 @@
     justify-content: center;
 }
 
-.imageElement--home__newsletter--message {
+.imageElement--home__newsletter--image {
     background-color: black;
-    height: 79px;
+    max-height: 50px;
+    min-height: 30px;
     border-radius: 12px;
 } 
 
 .container--home__newsletter--main {
-    width: 220px;
-    /* background-color: yellow; */
-    /* height: 8px; */
+    width:100%;
 }
 
 .form--home__newsletter--main {
@@ -76,7 +75,7 @@
 
 .inputGroup--home__newsletter--main {
     width: 100%;
-
+    
 }
 
 .newsletter--home__newsletter--main{
@@ -86,4 +85,17 @@
 .vtex-input-prefix__group{
     background-color: red;
     border: none;
+}
+
+/* @media (max-width: 1024px) {
+    .imageElement--home__newsletter--image {
+        background-color: black;
+        max-height: 40px;
+        border-radius: 12px;
+    } 
+    
+} */
+
+.headerRowContentContainer--mobile__megamenu{
+    background-color: black;
 }
