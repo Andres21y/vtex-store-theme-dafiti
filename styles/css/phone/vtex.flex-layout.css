@@ -1,15 +1,23 @@
  /* =================================== global home preheader */
  @media (max-width: 660px) {
 
-.flexRow--global__home--title{
-       background-color: aqua;
-    width: 100%;
-}
+     .flexRow--global__home--title {
+         background-color: aqua;
+         width: 100%;
+     }
 
+     .flexRowContent--global__home--preheader {
+         margin-bottom: 2rem;
+     }
 
+     .flexRowContent--home__main--one {
+         display: flex;
+         flex-direction: column;
+     }
 
-
-
+     .flexRow--home__main--two {
+         display: none;
+     }
 
      .stretchChildrenWidth {
          width: 0px;
@@ -93,53 +101,4 @@
      }
 
 
-     /*
-
-
-     .flexRowContent--home__newsletter--description {
-         width: 44rem;
-         background-color: orange;
-     } */
-
-     /* 
-     .flexColChild--home__newsletter--subscribe {
-         height: 100%;
-         width: 30rem;
-     }
-
-
-
-     .container--home__newsletter--terms {
-         font-size: 15px;
-         text-decoration: none;
-
-     }
-
-     .wrapper--home__newsletter--terms {
-         font-size: 15px;
-         text-decoration: none;
-
-     }
-
-
-     .paragraph--home__newsletter--terms {
-         font-size: 15px;
-         text-decoration: none;
-
-     }
-
-     .paragraph--home__newsletter--policy {
-         text-decoration: none;
-         font-size: 15px;
-     }
-
-     .link--home__newsletter--terms {
-         text-decoration: none;
-         font-size: 15px;
-     }
-
-     .link--home__newsletter--policy {
-         font-size: 15px;
-         text-decoration: none;
-     } */
  }
