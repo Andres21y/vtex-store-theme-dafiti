@@ -2,11 +2,8 @@
     "responsive-layout.phone#phone__home--apps": {
         "title": "phone__home--apps",
         "children": [
-            //"flex-layout.row#global__home--preheader",
-            "flex-layout.row#global__home--title"
-                       // "flex-layout.row#global__home--main",
-     
-            // "flex-layout.row#global__home--form"
+            "flex-layout.row#global__home--preheader",
+            "flex-layout.row#global__home--main"
         ],
         "props": {
             "blockClass": "phone__home--apps"

@@ -118,9 +118,6 @@
     },
     "search-bar#mobile__menu--search": {
         "title":"mobile__menu--search",
-        // "blocks": [
-            //     "autocomplete-result-list.v2"
-        // ],
         "props": {
             "openAutocompleteOnFocus": true,
             "blockClass":"mobile__menu--search"

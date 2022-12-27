@@ -1,12 +1,10 @@
 
 @media (max-width: 1024px) {
-    .headerRowBackground--mobile__menu--main{
-        background-color: blue;
-    }
-    
     .headerRowBackground--mobile__megamenu{
-    background-color: black;
-    width: 50rem;
+    background-color: black;    
     }
-    
+
+    .headerRowContentContainer--mobile__megamenu{
+        width: 100%;
+    }
 }
