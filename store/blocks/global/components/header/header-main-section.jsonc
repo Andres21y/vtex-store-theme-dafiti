@@ -41,7 +41,7 @@
         "props": {
             "placeholder": "Busca por producto, marca, categoria ...",
             "blockClass": "home__main--serchBar",
-           "openAutocompleteOnFocus":true
+            "openAutocompleteOnFocus": true
         }
     },
     "header-row#header__main--login": {
@@ -58,7 +58,7 @@
     "login": {
         "title": "header__login",
         "props": {
-            "optionsTitle":"Registrarme",
+            "optionsTitle": "Registrarme",
             "emailAndPasswordTitle": "LOG-IN",
             "accessCodeTitle": "Acess Code LOG-IN",
             "emailPlaceholder": "e-mail",
@@ -70,10 +70,18 @@
     "icon#heart": {
         "title": "header__icon--heart",
         "props": {
-          "id": "mpa-heart",
-          "size": 21,
-          "activeClassName": "icon__heart",
-          "blockClass": "header__icon--heart"
+            "id": "mpa-heart",
+            "size": 21,
+            "activeClassName": "icon__heart",
+            "blockClass": "header__icon--heart"
         }
-      }  
+    },
+    "minicart.v2": {
+        "props": {
+            // "variation":"popup"
+            "MinicartIcon": "icon-cart",
+            "itemCountMode":"total",
+            "quantityDisplay":"always"
+        }
+    }
 }
