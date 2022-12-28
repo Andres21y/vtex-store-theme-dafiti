@@ -1,46 +1,13 @@
 {
     "footer-layout.desktop": {
-        "title":"desktop__footer--apps",
+        "title": "desktop__footer--apps",
         "children": [
             "flex-layout.row#desktop__footer--departamentos",
+            "flex-layout.row#desktop__footer--terminos",
             "flex-layout.row#desktop__footer--pagos"
         ],
-        "props":{
-            "blockClasss":"desktop__footer--apps"
+        "props": {
+            "blockClasss": "desktop__footer--apps"
         }
     }
-
-
-        // ,
-        //     "flex-layout.row#footer-mobile": {
-        //         "children": [
-        //             "social-networks",
-        //             "accepted-payment-methods",
-        //             "powered-by"
-        //         ]
-        //     },
-        //     "social-networks": {
-        //         "props": {
-        //             "socialNetworks": [
-        //                 {
-        //                     "url": "https://facebook.com/foo",
-        //                     "name": "Facebook"
-        //                 },
-        //                 {
-        //                     "url": "https://twitter.com/foo",
-        //                     "name": "Twitter"
-        //                 }
-        //             ]
-        //         }
-        //     },
-        //     "accepted-payment-methods": {
-        //         "props": {
-        //             "paymentMethods": [
-        //                 "mastercard",
-        //                 "visa",
-        //                 "diners club"
-        //             ]
-        //         }
-        //     }
-    
-}
+} 
