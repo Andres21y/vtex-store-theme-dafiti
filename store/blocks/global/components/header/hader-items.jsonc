@@ -4,7 +4,7 @@
             "text": "MARCAS PRINCIPALES",
             "textAlignment": "left",
             "textPosition": "left",
-            "font": "t-heading-3",
+            "font": "12px",
             "blockClass": "footer__unix--title"
         }
     },
@@ -14,7 +14,7 @@
             "text": "NIÑOS",
             "textAlignment": "left",
             "textPosition": "left",
-            "font": "t-heading-3",
+            "font": "12px",
             "blockClass": "footer__unix--title"
         }
     },
@@ -56,7 +56,7 @@
             "text": "MUJER",
             "textAlignment": "left",
             "textPosition": "left",
-            "font": "t-heading-3",
+            "font": "12px",
             "blockClass": "footer__unix--title"
         }
     },
@@ -98,7 +98,7 @@
             "text": "HOMBRE",
             "textAlignment": "left",
             "textPosition": "left",
-            "font": "t-heading-3",
+            "font": "12px",
             "blockClass": "footer__unix--title"
         }
     },

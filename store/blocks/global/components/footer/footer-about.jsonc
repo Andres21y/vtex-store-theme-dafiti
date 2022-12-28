@@ -1,5 +1,5 @@
 {
-    "flex-layout.row#desktop__footer--terminos": {
+    "flex-layout.row#desktop__footer--about": {
         "title": "desktop__footer--terminos",
         "children": [
             "flex-layout.col#desktop__footer--terminos",
@@ -22,7 +22,7 @@
             "text": "SIGUENOS EN",
             "textAlignment": "left",
             "textPosition": "left",
-            "font": "t-heading-3",
+            "font": "12px",
             "blockClass": "footer__terminos"
         }
     },
@@ -118,19 +118,19 @@
     "image#camara": {
         "props": {
             "src": "assets/image/footer/dafiti-camara.webp",
-            "maxHeight": 44
+            "maxHeight": 65
         }
     },
     "image#sic": {
         "props": {
             "src": "assets/image/footer/dafiti-sic.webp",
-            "maxHeight": 24
+            "maxHeight": 65
         }
     },
     "image#industria": {
         "props": {
             "src": "assets/image/footer/dafiti-industriaycomercio.webp",
-            "maxHeight": 24
+            "maxHeight": 65
         }
     }
 }

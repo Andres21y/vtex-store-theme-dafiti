@@ -2402,7 +2402,7 @@
             "text": "ALIADOS",
             "textAlignment": "CENTER",
             "textPosition": "CENTER",
-            "font": "t-heading-6",
+            "font": "12px",
             "blockClass": "footer__terminos"
         }
     },
@@ -2412,7 +2412,7 @@
             "text": "NOVEDADES Y EVENTOS",
             "textAlignment": "CENTER",
             "textPosition": "CENTER",
-            "font": "t-heading-6",
+            "font": "12px",
             "blockClass": "footer__terminos"
         }
     },
@@ -2422,7 +2422,7 @@
             "text": "SERVICIO AL CLIENTE",
             "textAlignment": "CENTER",
             "textPosition": "CENTER",
-            "font": "t-heading-6",
+            "font": "12px",
             "blockClass": "footer__terminos"
         }
     },
@@ -2432,7 +2432,7 @@
             "text": "ACERCA DE DAFITI",
             "textAlignment": "CENTER",
             "textPosition": "CENTER",
-            "font": "t-heading-6",
+            "font": "12px",
             "blockClass": "footer__terminos"
         }
     }

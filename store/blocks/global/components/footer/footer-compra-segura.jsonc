@@ -1,0 +1,74 @@
+{
+    "flex-layout.row#desktop__footer--comprasegura": {
+        "title": "desktop__footer--comprasegura",
+        "children": [
+            "header-row#footer__comprasegura--container"
+        ],
+        "props": {
+            "blockClass": "desktop__footer--comprasegura"
+        }
+    },
+    "header-row#footer__comprasegura--container":{
+        "title":"footer__comprasegura--container",
+        "children": [
+            "rich-text#comprasegura__description--one",
+            "image#comprasegura__image--blue",
+            "image#comprasegura__image--red",
+            "rich-text#comprasegura__description--two",
+            "image#comprasegura__image--blindado",
+            "rich-text#comprasegura__description--three"
+          ],
+          "props": {
+            "fullWidth": "true",
+            "blockClass": "footer__comprasegura--container"
+          }
+    },
+    "rich-text#comprasegura__description--one": {
+        "title": "comprasegura__description--one",
+        "props": {
+            "text": "Compra Segura",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "font": "t-heading-6",
+            "blockClass": "comprasegura__description--one"
+        }
+    },
+    "rich-text#comprasegura__description--two": {
+        "title": "comprasegura__description--two",
+        "props": {
+            "text": "Sitio seguro con criptografia (SSL) · Homologado por la USERTrust Network",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "font": "t-heading-6",
+            "blockClass": "comprasegura__description--two"
+        }
+    },
+    "rich-text#comprasegura__description--three": {
+        "title": "comprasegura__description--three",
+        "props": {
+            "text": "Blindado contra robo de información y clonación de tarjetas",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "font": "t-heading-6",
+            "blockClass": "comprasegura__description--three"
+        }
+    },
+    "image#comprasegura__image--blue": {
+        "props": {
+            "src": "assets/image/footer/dafiti-silver-e.png",
+            "maxHeight": 24
+        }
+    },
+    "image#comprasegura__image--red": {
+        "props": {
+            "src": "assets/image/footer/dafiti-logo-rojo.png",
+            "maxHeight": 24
+        }
+    },
+    "image#comprasegura__image--blindado": {
+        "props": {
+            "src": "assets/image/footer/dafiti-sitio-blindado.png",
+            "maxHeight": 24
+        }
+    }
+}
