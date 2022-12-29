@@ -81,7 +81,8 @@
             // "variation":"popup"
             "MinicartIcon": "icon-cart",
             "itemCountMode":"total",
-            "quantityDisplay":"always"
+            "quantityDisplay":"always",
+            "size":34
         }
     }
 }

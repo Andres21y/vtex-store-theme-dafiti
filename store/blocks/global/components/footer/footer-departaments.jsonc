@@ -1,0 +1,154 @@
+{
+    "flex-layout.row#desktop__footer--departamentos": {
+        "title": "desktop__footer--departamentos",
+        "children": [
+            "header-row#footer__departamentos--main"
+        ],
+        "props": {
+            "blockClass": "desktop__footer--departamentos"
+        }
+    },
+    "header-row#footer__departamentos--main": {
+        "title": "footer__departamentos--main",
+        "children": [
+            "flex-layout.col#footer__departamentos--marcas",
+            "flex-layout.col#footer__departamentos--mujer",
+            "flex-layout.col#footer__departamentos--hombre",
+            "flex-layout.col#footer__departamentos--niños"
+        ],
+        "props": {
+            "blockClass": "footer__departamentos--main"
+        }
+    },
+    "flex-layout.col#footer__departamentos--marcas": {
+        "title": "footer__departamentos--marcas",
+        "children": [
+            "rich-text#footerdepartamentos__marcas--title",
+            "header-row#footer__departamentos--container"
+        ],
+        "props": {
+            "blockClass": "footer__departamentos--marcas"
+        }
+    },
+    "header-row#footer__departamentos--container": {
+        "title": "footer__departamentos--marcas",
+        "children": [
+            "flex-layout.col#footer__marcas--one",
+            "flex-layout.col#footer__marcas--two",
+            "flex-layout.col#footer__marcas--three",
+            "flex-layout.col#footer__marcas--four",
+            "flex-layout.col#footer__marcas--five"
+        ],
+        "props": {
+            "blockClass": "footer__departamentos--marcas"
+        }
+    },
+    "flex-layout.col#footer__marcas--one": {
+        "title": "footer__marcas--one",
+        "children": [
+            "link#footer__marcas--nike",
+            "link#footer__marcas--adidas",
+            "link#footer__marcas--under",
+            "link#footer__marcas--asics",
+            "link#footer__marcas--brahma",
+            "link#footer__marcas--alpinestarts"
+        ],
+        "props": {
+            "blockClass": "footer__marcas--one"
+        }
+    },
+    "flex-layout.col#footer__marcas--two": {
+        "title": "footer__marcas--two",
+        "children": [
+            "link#footer__marcas--levis",
+            "link#footer__marcas--nautica",
+            "link#footer__marcas--diesel",
+            "link#footer__marcas--rcbpc",
+            "link#footer__marcas--converse",
+            "link#footer__marcas--quiksilver"
+        ],
+        "props": {
+            "blockClass": "footer__marcas--two"
+        }
+    },
+    "flex-layout.col#footer__marcas--three": {
+        "title": "footer__marcas--three",
+        "children": [
+            "link#footer__marcas--timberland",
+            "link#footer__marcas--us",
+            "link#footer__marcas--beverly",
+            "link#footer__marcas--invicta",
+            "link#footer__marcas--roxy"
+        ],
+        "props": {
+            "blockClass": "footer__marcas--three"
+        }
+    },
+    "flex-layout.col#footer__marcas--four": {
+        "title": "footer__marcas--four",
+        "children": [
+            "link#footer__marcas--mng",
+            "link#footer__marcas--moleca",
+            "link#footer__marcas--qupid",
+            "link#footer__marcas--koaj",
+            "link#footer__marcas--paris",
+            "link#footer__marcas--oakley"
+        ],
+        "props": {
+            "blockClass": "footer__marcas--four"
+        }
+    },
+    "flex-layout.col#footer__marcas--five": {
+        "title": "footer__marcas--five",
+        "children": [
+            "link#footer__marcas--mp",
+            "link#footer__marcas--mercedes",
+            "link#footer__marcas--campuzano",
+            "link#footer__marcas--croydon",
+            "link#footer__marcas--velez",
+            "link#footer__marcas--cross"
+        ],
+        "props": {
+            "blockClass": "footer__marcas--five"
+        }
+    },
+    "flex-layout.col#footer__departamentos--mujer": {
+        "title": "footer__departamentos--mujer",
+        "children": [
+            "rich-text#footerdepartamentos__mujer--title",
+            "link#footerdepartamentos__mujer--tenis",
+            "link#footerdepartamentos__mujer--camisas",
+            "link#footerdepartamentos__mujer--belleza",
+            "link#footerdepartamentos__mujer--accesorios"
+        ],
+        "props": {
+            "blockClass": "footer__departamentos--mujer"
+        }
+    },
+    "flex-layout.col#footer__departamentos--hombre": {
+        "title": "footer__departamentos--hombre",
+        "children": [
+            "rich-text#footerdepartamentos__hombre--title",
+            "link#footerdepartamentos__hombre--tenis",
+            "link#footerdepartamentos__hombre--camisas",
+            "link#footerdepartamentos__hombre--belleza",
+            "link#footerdepartamentos__hombre--accesorios"
+        ],
+        "props": {
+            "blockClass": "footer__departamentos--hombre"
+        }
+    },
+    "flex-layout.col#footer__departamentos--niños": {
+        "title": "footer__departamentos--niños",
+        "children": [
+            "rich-text#footerdepartamentos__niños--title",
+            "link#footerdepartamentos__niños--bebe",
+            "link#footerdepartamentos__niños--child",
+            "link#footerdepartamentos__niños--boys",
+            "link#footerdepartamentos__niños--jugetes"
+        ],
+        "props": {
+            "blockClass": "footer__departamentos--niños"
+        }
+    }
+}

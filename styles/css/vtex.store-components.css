@@ -87,3 +87,22 @@
 .headerRowContentContainer--mobile__megamenu{
     background-color: black;
 }
+
+.imageElement--desktop__footer--apps{
+    width: 100%;
+}
+
+.buttonContainer{
+    display: none;
+}
+
+.newsletter--desktop__footer--change{
+width: 30rem;
+}
+
+.newsletter--desktop__footer--newsletter{
+width: 30rem;
+}
+.imageElement--home__trucking--dudas{
+    width: 90%;
+}

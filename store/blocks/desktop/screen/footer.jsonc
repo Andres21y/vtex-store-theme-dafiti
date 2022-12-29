@@ -1,0 +1,17 @@
+{
+    "footer-layout.desktop": {
+        "title": "desktop__footer--apps",
+        "children": [
+            "header-row#footer__newsletter--content",
+            "flex-layout.row#desktop__footer--departamentos",
+            "flex-layout.row#desktop__footer--about",
+            "flex-layout.row#desktop__footer--pagos",
+            "flex-layout.row#desktop__footer--comprasegura",
+            "flex-layout.row#desktop__footer--copyright",
+            "flex-layout.row#desktop__footer--change"
+        ],
+        "props": {
+            "blockClasss": "desktop__footer--apps"
+        }
+    }
+} 

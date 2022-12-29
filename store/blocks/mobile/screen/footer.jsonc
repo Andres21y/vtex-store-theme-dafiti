@@ -1,0 +1,103 @@
+{
+    "footer-layout.mobile": {
+        "children": [
+            // "flex-layout.row#footer-mobile"
+            "disclosure-layout-group#mobile__footer--menu"
+        ]
+    },
+    "disclosure-layout-group#mobile__footer--menu": {
+        "children": [
+            "disclosure-layout#polit"
+            // "disclosure-layout#us",
+            // "disclosure-layout#departments"
+        ]
+    },
+    "disclosure-layout#polit": {
+        "children": [
+            "disclosure-trigger#polit",
+            "disclosure-content#polit"
+        ],
+        "props":{
+            "animated":true
+        }
+    },
+    "disclosure-trigger#polit": {
+        "children": [
+            "rich-text#eje"
+        ]
+    },
+    "rich-text#eje": {
+        "props": {
+            "text": "politicas jajaj"
+        }
+    },
+    "disclosure-content#polit": {
+        "children": [
+            "menu#polits"
+        ]
+    },
+    "menu#polits": {
+        "children": [
+            "menu-item#condition",
+            "menu-item#privacy"
+        ],
+        "props": {
+            "orirntation": "vertical"
+        }
+    },
+    "menu-item#condition": {
+        "props": {
+            "id": "menucondition",
+            "type": "custom",
+            "text":"condition",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "tagTitle": "condition"
+            }
+        }
+    },
+    "menu-item#privacy": {
+        "props": {
+            "id": "menu",
+            "type": "custom",
+            "text":"priva",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "tagTitle": "condition"
+            }
+        }
+    }
+    // ,
+    //     "flex-layout.row#footer-mobile": {
+    //         "children": [
+    //             "social-networks",
+    //             "accepted-payment-methods",
+    //             "powered-by"
+    //         ]
+    //     },
+    //     "social-networks": {
+    //         "props": {
+    //             "socialNetworks": [
+    //                 {
+    //                     "url": "https://facebook.com/foo",
+    //                     "name": "Facebook"
+    //                 },
+    //                 {
+    //                     "url": "https://twitter.com/foo",
+    //                     "name": "Twitter"
+    //                 }
+    //             ]
+    //         }
+    //     },
+    //     "accepted-payment-methods": {
+    //         "props": {
+    //             "paymentMethods": [
+    //                 "mastercard",
+    //                 "visa",
+    //                 "diners club"
+    //             ]
+    //         }
+    //     }
+}

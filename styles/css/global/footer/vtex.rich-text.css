@@ -1,0 +1,35 @@
+.container--desktop__footer--change {
+    border-top: 1px solid #d5d5d5;
+    height: 2rem;
+    margin-top: 1rem;
+}
+
+.container--desktop__footer--newsletter {
+    width: 100%;
+}
+
+.container--footer__newsletter--btn {
+    background-color: #4A4A4A;
+    color: #FFF;
+    width: 22%;
+    height: 38px;
+    margin: 0 0 0 8px;
+    border-radius: 2px;
+    display: inline-block;
+    border: 0;
+    font-size: 13px;
+    font-weight: 700;
+    text-align: center;
+}
+.container--footer__newsletter--description{
+    width: 100%;
+}
+
+.paragraph--comprasegura__description--one{
+font-weight: bold;
+}
+.paragraph--footer__unix--title{
+    color: black;
+   font-size: 12px;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}

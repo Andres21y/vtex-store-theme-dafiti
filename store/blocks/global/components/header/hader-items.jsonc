@@ -1,0 +1,273 @@
+{
+    "rich-text#footerdepartamentos__marcas--title":{ 
+        "props": {
+            "text": "MARCAS PRINCIPALES",
+            "textAlignment": "left",
+            "textPosition": "left",
+            "font": "12px",
+            "blockClass": "footer__unix--title"
+        }
+    },
+    "rich-text#footerdepartamentos__niños--title":{
+        "title": "departamentos__niños--title",
+        "props": {
+            "text": "NIÑOS",
+            "textAlignment": "left",
+            "textPosition": "left",
+            "font": "12px",
+            "blockClass": "footer__unix--title"
+        }
+    },
+    "link#footerdepartamentos__niños--bebe":{
+        "title":"departamentos__niños--bebe",
+        "props": {
+            "href": "#",
+            "label": "Ropa de Bebé",
+            "blockClass":"footer__mix--styles"
+        }
+    },
+    "link#footerdepartamentos__niños--child":{
+        "title":"departamentos__niños--child",
+        "props": {
+            "href": "#",
+            "label": "Ropa para Niños de 2 a 7",
+            "blockClass":"footer__mix--styles"
+        }
+    },
+    "link#footerdepartamentos__niños--boys":{
+        "title":"departamentos__niños--boys",
+        "props": {
+            "href": "#",
+            "label": "Ropa para Niños de 8 a 16",
+            "blockClass":"footer__mix--styles"
+        }
+    },
+    "link#footerdepartamentos__niños--jugetes":{
+        "title":"departamentos__niños--jugetes",
+        "props": {
+            "href": "#",
+            "label": "Juguetes",
+            "blockClass":"footer__mix--styles"
+        }
+    },
+    "rich-text#footerdepartamentos__mujer--title":{
+        "title": "departamentos__mujer--title",
+        "props": {
+            "text": "MUJER",
+            "textAlignment": "left",
+            "textPosition": "left",
+            "font": "12px",
+            "blockClass": "footer__unix--title"
+        }
+    },
+    "link#footerdepartamentos__mujer--tenis":{
+        "title":"departamentos__mujer--tenis",
+        "props": {
+            "href": "#",
+            "label": "Tenis",
+            "blockClass":"footer__mix--styles"
+        }
+    },
+    "link#footerdepartamentos__mujer--camisas":{
+        "title":"departamentos__mujer--camisas",
+        "props": {
+            "href": "#",
+            "label": "Camisas",
+            "blockClass":"footer__mix--styles"
+        }
+    },
+    "link#footerdepartamentos__mujer--belleza":{
+        "title":"departamentos__mujer--belleza",
+        "props": {
+            "href": "#",
+            "label": "Belleza",
+            "blockClass":"footer__mix--styles"
+        }
+    },
+    "link#footerdepartamentos__mujer--accesorios":{
+        "title":"departamentos__mujer--accesorios",
+        "props": {
+            "href": "#",
+            "label": "Accesorios Mujer",
+            "blockClass":"footer__mix--styles"
+        }
+    },
+    "rich-text#footerdepartamentos__hombre--title":{
+        "title": "departamentos__hombre--title",
+        "props": {
+            "text": "HOMBRE",
+            "textAlignment": "left",
+            "textPosition": "left",
+            "font": "12px",
+            "blockClass": "footer__unix--title"
+        }
+    },
+    "link#footerdepartamentos__hombre--tenis":{
+        "title":"departamentos__hombre--tenis",
+        "props": {
+            "href": "#",
+            "label": "Tenis",
+            "blockClass":"footer__mix--styles"
+        }
+    },
+    "link#footerdepartamentos__hombre--camisas":{
+        "title":"departamentos__hombre--camisas",
+        "props": {
+            "href": "#",
+            "label": "Camisas",
+            "blockClass":"footer__mix--styles"
+        }
+    },
+    "link#footerdepartamentos__hombre--belleza":{
+        "title":"departamentos__hombre--belleza",
+        "props": {
+            "href": "#",
+            "label": "Belleza",
+            "blockClass":"footer__mix--styles"
+        }
+    },
+    "link#footerdepartamentos__hombre--accesorios":{
+        "title":"departamentos__hombrer--accesorios",
+        "props": {
+            "href": "#",
+            "label": "Accesorios hombre",
+            "blockClass":"footer__mix--styles"
+        }
+    },
+    "link#footer__marcas--adidas":{
+        "title":"footer__marcas--adidas",
+        "props": {
+            "href": "#",
+            "label": "adidas",
+            "blockClass":"footer__mix--styles"
+        }
+    },
+    "link#footer__marcas--brahma":{
+        "title":"footer__marcas--brahma",
+        "props": {
+            "href": "#",
+            "label": "Brahma",
+            "blockClass":"footer__mix--styles"
+        }
+    },
+    "link#footer__marcas--alpinestarts":{
+        "title":"footer__marcas--alpinestarts",
+        "props": {
+            "href": "#",
+            "label": "Alpinestarts",
+            "blockClass":"footer__mix--styles"
+        }
+    },
+    "link#footer__marcas--diesel":{
+        "title":"footer__marcas--diesel",
+        "props": {
+            "href": "#",
+            "label": "Diesel",
+            "blockClass":"footer__mix--styles"
+        }
+    },
+    "link#footer__marcas--rcbpc":{
+        "title":"footer__marcas--rcbpc",
+        "props": {
+            "href": "#",
+            "label": "RCBPC",
+            "blockClass":"footer__mix--styles"
+        }
+    },
+    "link#footer__marcas--converse":{
+        "title":"footer__marcas--converse",
+        "props": {
+            "href": "#",
+            "label": "Converse",
+            "blockClass":"footer__mix--styles"
+        }
+    },
+    "link#footer__marcas--quiksilver":{
+        "title":"footer__marcas--quiksilver",
+        "props": {
+            "href": "#",
+            "label": "Quiksilver",
+            "blockClass":"footer__mix--styles"
+        }
+    },
+    "link#footer__marcas--timberland":{
+        "title":"footer__marcas--timberland",
+        "props": {
+            "href": "#",
+            "label": "Timberland",
+            "blockClass":"footer__mix--styles"
+        }
+    },
+    "link#footer__marcas--invicta":{
+        "title":"footer__marcas--invicta",
+        "props": {
+            "href": "#",
+            "label": "Invicta",
+            "blockClass":"footer__mix--styles"
+        }
+    },
+    "link#footer__marcas--roxy":{
+        "title":"footer__marcas--roxy",
+        "props": {
+            "href": "#",
+            "label": "Roxy",
+            "blockClass":"footer__mix--styles"
+        }
+    },
+    "link#footer__marcas--mng":{
+        "title":"footer__marcas--mng",
+        "props": {
+            "href": "#",
+            "label": "MNG",
+            "blockClass":"footer__mix--styles"
+        }
+    },
+    "link#footer__marcas--moleca":{
+        "title":"footer__marcas--moleca",
+        "props": {
+            "href": "#",
+            "label": "Moleca",
+            "blockClass":"footer__mix--styles"
+        }
+    },
+    "link#footer__marcas--qupid":{
+        "title":"footer__marcas--qupid",
+        "props": {
+            "href": "#",
+            "label": "Qupid",
+            "blockClass":"footer__mix--styles"
+        }
+    },
+    "link#footer__marcas--mercedes":{
+        "title":"footer__marcas--mercedes",
+        "props": {
+            "href": "#",
+            "label": "Mercedes",
+            "blockClass":"footer__mix--styles"
+        }
+    },
+    "link#footer__marcas--campuzano":{
+        "title":"footer__marcas--campuzano",
+        "props": {
+            "href": "#",
+            "label": "Campuzano",
+            "blockClass":"footer__mix--styles"
+        }
+    },
+    "link#footer__marcas--oakley":{
+        "title":"footer__marcas--oakley",
+        "props": {
+            "href": "#",
+            "label": "Oakley",
+            "blockClass":"footer__mix--styles"
+        }
+    },
+    "link#footer__marcas--cross":{
+        "title":"footer__marcas--cross",
+        "props": {
+            "href": "#",
+            "label": "cross",
+            "blockClass":"footer__mix--styles"
+        }
+    }
+}
