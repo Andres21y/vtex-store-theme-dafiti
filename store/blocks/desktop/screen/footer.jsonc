@@ -2,7 +2,7 @@
     "footer-layout.desktop": {
         "title": "desktop__footer--apps",
         "children": [
-            "flex-layout.row#desktop__footer--newsletter",
+            "header-row#footer__newsletter--content",
             "flex-layout.row#desktop__footer--departamentos",
             "flex-layout.row#desktop__footer--about",
             "flex-layout.row#desktop__footer--pagos",

@@ -39,7 +39,7 @@
             "text": "Sitio seguro con criptografia (SSL) · Homologado por la USERTrust Network",
             "textAlignment": "CENTER",
             "textPosition": "CENTER",
-            "font": "t-heading-6",
+            "font": "10px",
             "blockClass": "comprasegura__description--two"
         }
     },
@@ -49,7 +49,7 @@
             "text": "Blindado contra robo de información y clonación de tarjetas",
             "textAlignment": "CENTER",
             "textPosition": "CENTER",
-            "font": "t-heading-6",
+            "font": "10px",
             "blockClass": "comprasegura__description--three"
         }
     },

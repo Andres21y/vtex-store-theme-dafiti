@@ -1,34 +1,76 @@
 {
-    "flex-layout.row#desktop__footer--newsletter": {
-        "title": "desktop__footer--newsletter",
+    // "flex-layout.row#desktop__footer--newsletter": {
+    //     "title": "desktop__footer--newsletter",
+    //     "children": [
+    //         "header-row#footer__newsletter--content"
+    //     ],
+    //     "props": {
+    //         "blockClass": "desktop__footer--newsletter"
+    //     }
+    // },
+    "header-row#footer__newsletter--content": {
+        "title": "footer__newsletter--content",
         "children": [
-            "rich-text#desktop__footer--newsletter",
-            "newsletter"
+            "rich-text#footer__newsletter--description",
+            "newsletter#desktop__footer--newsletter",
+            "rich-text#footer__newsletter--mujer",
+            "rich-text#footer__newsletter--hombre"
         ],
         "props": {
+            "blockClass": "footer__newsletter--content"
+        }
+    },
+    "rich-text#footer__newsletter--description": {
+        "title": "footer__newsletter--description",
+        "props": {
+            "text": "¡Suscríbete al Newsletter! y gana **15% EXTRA OFF** en tu primera compra*",
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "font": "t-heading-6",
+            "blockClass": "footer__newsletter--description"
+        }
+    },
+    "newsletter#desktop__footer--newsletter": {
+        "title": "desktop__footer--newsletter",
+        "props": {
+            "hideLabel": "false",
+            "placeholder": "Tu correo electrónico",
             "blockClass": "desktop__footer--newsletter"
         }
     },
-    "rich-text#desktop__footer--newsletter": {
-        "title": "desktop__footer--newsletter",
+    "rich-text#footer__newsletter--mujer": {
+        "title": "footer__newsletter--mujer",
         "props": {
-            "text": "¡Suscríbete al Newsletter! y gana **15% EXTRA OFF** en tu primera compra*",
+            "text": "Soy Mujer",
             "textAlignment": "CENTER",
             "textPosition": "CENTER",
             "font": "t-heading-6",
-            "blockClass": "desktop__footer--newsletter"
+            "blockClass": "footer__newsletter--btn"
+        }
+    },
+    "rich-text#footer__newsletter--hombre": {
+        "title": "footer__newsletter--hombre",
+        "props": {
+            "text": "Soy Hombre",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "font": "t-heading-6",
+            "blockClass": "footer__newsletter--btn"
         }
     },
     "flex-layout.row#desktop__footer--change": {
         "title": "desktop__footer--change",
         "children": [
             "rich-text#desktop__footer--change"
-        ]
+        ],
+        "props": {
+            "blockClass": "desktop__footer--change"
+        }
     },
     "rich-text#desktop__footer--change": {
         "title": "desktop__footer--change",
         "props": {
-            "text": "Cambiar a la versión mobile o tablet",
+            "text": "Cambiar a la versión [mobile]() o [tablet]()",
             "textAlignment": "CENTER",
             "textPosition": "CENTER",
             "font": "t-heading-6",

@@ -2173,7 +2173,7 @@
         "props": {
             "href": "#",
             "label": "Nosotros",
-            "blockClass": "footer__x"
+            "blockClass": "footer__mix--styles"
         }
     },
     "link#footer__acerca--terminos": {
@@ -2181,7 +2181,7 @@
         "props": {
             "href": "#",
             "label": "Términos y Condiciones",
-            "blockClass": "footer_x"
+            "blockClass": "footer__mix--styles"
         }
     },
     "link#footer__acerca--cumplimiento": {
@@ -2189,7 +2189,7 @@
         "props": {
             "href": "#",
             "label": "Aviso de Cumplimiento",
-            "blockClass": "footer__x"
+            "blockClass": "footer__mix--styles"
         }
     },
     "link#footer__acerca--privacidad": {
@@ -2197,7 +2197,7 @@
         "props": {
             "href": "#",
             "label": "Política de Privacidad.",
-            "blockClass": "footer__x"
+            "blockClass": "footer__mix--styles"
         }
     },
     "link#footer__acerca--datos": {
@@ -2205,7 +2205,7 @@
         "props": {
             "href": "#",
             "label": "Política de Datos",
-            "blockClass": "footer__x"
+            "blockClass": "footer__mix--styles"
         }
     },
     "link#footer__acerca--trabajo": {
@@ -2213,7 +2213,7 @@
         "props": {
             "href": "#",
             "label": "Trabaja con Nosotros",
-            "blockClass": "footer__x"
+            "blockClass": "footer__mix--styles"
         }
     },
     "link#footer__acerca--registro": {
@@ -2221,7 +2221,7 @@
         "props": {
             "href": "#",
             "label": "Registro",
-            "blockClass": "footer__x"
+            "blockClass": "footer__mix--styles"
         }
     },
     "link#footer__acerca--app": {
@@ -2229,7 +2229,7 @@
         "props": {
             "href": "#",
             "label": "App Dafiti",
-            "blockClass": "footer__x"
+            "blockClass": "footer__mix--styles"
         }
     },
 
@@ -2239,7 +2239,7 @@
         "props": {
             "href": "#",
             "label": "NUEVOS Centros de Experiencia",
-            "blockClass": "footer__x"
+            "blockClass": "footer__mix--styles"
         }
     },
     "link#footer__servicio--membresia": {
@@ -2247,7 +2247,7 @@
         "props": {
             "href": "#",
             "label": "Membresia Dafiti PRIME",
-            "blockClass": "footer__x"
+            "blockClass": "footer__mix--styles"
         }
     },
     "link#footer__servicio--plazos": {
@@ -2255,7 +2255,7 @@
         "props": {
             "href": "#",
             "label": "Plazos y Costos de Envío",
-            "blockClass": "footer__x"
+            "blockClass": "footer__mix--styles"
         }
     },
     "link#footer__servicio--cambios": {
@@ -2263,7 +2263,7 @@
         "props": {
             "href": "#",
             "label": "Cambios o Devoluciones",
-            "blockClass": "footer__x"
+            "blockClass": "footer__mix--styles"
         }
     },
     "link#footer__servicio--cupones": {
@@ -2271,7 +2271,7 @@
         "props": {
             "href": "#",
             "label": "Uso de Cupones",
-            "blockClass": "footer__x"
+            "blockClass": "footer__mix--styles"
         }
     },
     "link#footer__servicio--pago": {
@@ -2279,7 +2279,7 @@
         "props": {
             "href": "#",
             "label": "Medios de Pago",
-            "blockClass": "footer__x"
+            "blockClass": "footer__mix--styles"
         }
     },
     "link#footer__servicio--garantias": {
@@ -2287,7 +2287,7 @@
         "props": {
             "href": "#",
             "label": "Garantías",
-            "blockClass": "footer__x"
+            "blockClass": "footer__mix--styles"
         }
     },
     "link#footer__servicio--seguimiento": {
@@ -2295,7 +2295,7 @@
         "props": {
             "href": "#",
             "label": "Seguimiento de tu Pedido",
-            "blockClass": "footer__x"
+            "blockClass": "footer__mix--styles"
         }
     },
     "link#footer__servicio--credito": {
@@ -2303,7 +2303,7 @@
         "props": {
             "href": "#",
             "label": "Crédito ADDI",
-            "blockClass": "footer__x"
+            "blockClass": "footer__mix--styles"
         }
     },
     "link#footer__servicio--contacto": {
@@ -2311,7 +2311,7 @@
         "props": {
             "href": "#",
             "label": "Contacto",
-            "blockClass": "footer__x"
+            "blockClass": "footer__mix--styles"
         }
     },
     "link#footer__servicio--radicar": {
@@ -2319,7 +2319,7 @@
         "props": {
             "href": "#",
             "label": "Radicar PQRS",
-            "blockClass": "footer__x"
+            "blockClass": "footer__mix--styles"
         }
     },
     "link#footer__servicio--eventos": {
@@ -2327,7 +2327,7 @@
         "props": {
             "href": "#",
             "label": "T&C Eventos",
-            "blockClass": "footer__x"
+            "blockClass": "footer__mix--styles"
         }
     },
     "link#footer__servicio--alianza": {
@@ -2335,7 +2335,7 @@
         "props": {
             "href": "#",
             "label": "T&C Alianzas",
-            "blockClass": "footer__x"
+            "blockClass": "footer__mix--styles"
         }
     },
 
@@ -2345,7 +2345,7 @@
         "props": {
             "href": "#",
             "label": "Black Friday",
-            "blockClass": "footer__x"
+            "blockClass": "footer__mix--styles"
         }
     },
     "link#footer__novedades--cyberlunes": {
@@ -2353,7 +2353,7 @@
         "props": {
             "href": "#",
             "label": "Cyberlunes",
-            "blockClass": "footer__x"
+            "blockClass": "footer__mix--styles"
         }
     },
     "link#footer__novedades--hotsale": {
@@ -2361,7 +2361,7 @@
         "props": {
             "href": "#",
             "label": "Hot Sale",
-            "blockClass": "footer__x"
+            "blockClass": "footer__mix--styles"
         }
     },
     "link#footer__novedades--diasiniva": {
@@ -2369,7 +2369,7 @@
         "props": {
             "href": "#",
             "label": "Día Sin IVA",
-            "blockClass": "footer__x"
+            "blockClass": "footer__mix--styles"
         }
     },
     "link#footer__novedades--sports": {
@@ -2377,7 +2377,7 @@
         "props": {
             "href": "#",
             "label": "Dafiti Sports",
-            "blockClass": "footer__x"
+            "blockClass": "footer__mix--styles"
         }
     },
     "link#footer__novedades--sneakers": {
@@ -2385,7 +2385,7 @@
         "props": {
             "href": "#",
             "label": "Sneakers",
-            "blockClass": "footer__x"
+            "blockClass": "footer__mix--styles"
         }
     },
     "link#footer__novedades--alianza": {
@@ -2393,15 +2393,112 @@
         "props": {
             "href": "#",
             "label": "Alianza Banco de Bogotá",
-            "blockClass": "footer__x"
+            "blockClass": "footer__mix--styles"
+        }
+    },
+/*=======================*/
+    "link#footer__marcas--nike": {
+        "title": "footer__marcas--nike",
+        "props": {
+            "href": "#",
+            "label": "Nike",
+            "blockClass": "footer__mix--styles"
+        }
+    },
+    "link#footer__marcas--under": {
+        "title": "footer__marcas--under",
+        "props": {
+            "href": "#",
+            "label": "Under Armour",
+            "blockClass": "footer__mix--styles"
+        }
+    },
+    "link#footer__marcas--asics": {
+        "title": "footer__marcas--asics",
+        "props": {
+            "href": "#",
+            "label": "Asics",
+            "blockClass": "footer__mix--styles"
+        }
+    },
+    "link#footer__marcas--levis": {
+        "title": "footer__marcas--levis",
+        "props": {
+            "href": "#",
+            "label": "Levi's",
+            "blockClass": "footer__mix--styles"
+        }
+    },
+    "link#footer__marcas--nautica": {
+        "title": "footer__marcas--nautica",
+        "props": {
+            "href": "#",
+            "label": "Nautica",
+            "blockClass": "footer__mix--styles"
+        }
+    },
+    "link#footer__marcas--us": {
+        "title": "footer__marcas--us",
+        "props": {
+            "href": "#",
+            "label": "Us Polo Assn",
+            "blockClass": "footer__mix--styles"
+        }
+    },
+    "link#footer__marcas--beverly": {
+        "title": "footer__marcas--beverly",
+        "props": {
+            "href": "#",
+            "label": "Beverly Hills Polo Club",
+            "blockClass": "footer__mix--styles"
+        }
+    },
+    "link#footer__marcas--koaj": {
+        "title": "footer__marcas--koaj",
+        "props": {
+            "href": "#",
+            "label": "Koaj",
+            "blockClass": "footer__mix--styles"
+        }
+    },
+    "link#footer__marcas--paris": {
+        "title": "footer__marcas--paris",
+        "props": {
+            "href": "#",
+            "label": "Paris District",
+            "blockClass": "footer__mix--styles"
+        }
+    },
+    "link#footer__marcas--mp": {
+        "title": "footer__marcas--mp",
+        "props": {
+            "href": "#",
+            "label": "MP",
+            "blockClass": "footer__mix--styles"
+        }
+    },
+    "link#footer__marcas--croydon": {
+        "title": "footer__marcas--croydon",
+        "props": {
+            "href": "#",
+            "label": "Croydon",
+            "blockClass": "footer__mix--styles"
+        }
+    },
+    "link#footer__marcas--velez": {
+        "title": "footer__marcas--velez",
+        "props": {
+            "href": "#",
+            "label": "Velez",
+            "blockClass": "footer__mix--styles"
         }
     },
     "rich-text#footer__ailados--title": {
-         "title": "footer__ailados--title",
+         "title": "footer__marcas--alianza",
         "props": {
             "text": "ALIADOS",
             "textAlignment": "CENTER",
-            "textPosition": "CENTER",
+            "textPosition": "LEFT",
             "font": "12px",
             "blockClass": "footer__terminos"
         }
@@ -2411,7 +2508,7 @@
         "props": {
             "text": "NOVEDADES Y EVENTOS",
             "textAlignment": "CENTER",
-            "textPosition": "CENTER",
+            "textPosition": "LEFT",
             "font": "12px",
             "blockClass": "footer__terminos"
         }
@@ -2421,7 +2518,7 @@
         "props": {
             "text": "SERVICIO AL CLIENTE",
             "textAlignment": "CENTER",
-            "textPosition": "CENTER",
+            "textPosition": "LEFT",
             "font": "12px",
             "blockClass": "footer__terminos"
         }
@@ -2431,7 +2528,7 @@
         "props": {
             "text": "ACERCA DE DAFITI",
             "textAlignment": "CENTER",
-            "textPosition": "CENTER",
+            "textPosition": "LEFT",
             "font": "12px",
             "blockClass": "footer__terminos"
         }

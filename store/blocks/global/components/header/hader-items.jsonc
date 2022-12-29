@@ -23,7 +23,7 @@
         "props": {
             "href": "#",
             "label": "Ropa de Bebé",
-            "blockClass":"departamentos__niños--bebe"
+            "blockClass":"footer__mix--styles"
         }
     },
     "link#footerdepartamentos__niños--child":{
@@ -31,7 +31,7 @@
         "props": {
             "href": "#",
             "label": "Ropa para Niños de 2 a 7",
-            "blockClass":"departamentos__niños--bebe"
+            "blockClass":"footer__mix--styles"
         }
     },
     "link#footerdepartamentos__niños--boys":{
@@ -39,7 +39,7 @@
         "props": {
             "href": "#",
             "label": "Ropa para Niños de 8 a 16",
-            "blockClass":"departamentos__niños--bebe"
+            "blockClass":"footer__mix--styles"
         }
     },
     "link#footerdepartamentos__niños--jugetes":{
@@ -47,7 +47,7 @@
         "props": {
             "href": "#",
             "label": "Juguetes",
-            "blockClass":"departamentos__niños--bebe"
+            "blockClass":"footer__mix--styles"
         }
     },
     "rich-text#footerdepartamentos__mujer--title":{
@@ -65,7 +65,7 @@
         "props": {
             "href": "#",
             "label": "Tenis",
-            "blockClass":"departamentos__niños--tenis"
+            "blockClass":"footer__mix--styles"
         }
     },
     "link#footerdepartamentos__mujer--camisas":{
@@ -73,7 +73,7 @@
         "props": {
             "href": "#",
             "label": "Camisas",
-            "blockClass":"departamentos__niños--camisas"
+            "blockClass":"footer__mix--styles"
         }
     },
     "link#footerdepartamentos__mujer--belleza":{
@@ -81,7 +81,7 @@
         "props": {
             "href": "#",
             "label": "Belleza",
-            "blockClass":"departamentos__niños--belleza"
+            "blockClass":"footer__mix--styles"
         }
     },
     "link#footerdepartamentos__mujer--accesorios":{
@@ -89,7 +89,7 @@
         "props": {
             "href": "#",
             "label": "Accesorios Mujer",
-            "blockClass":"departamentos__niños--accesorios"
+            "blockClass":"footer__mix--styles"
         }
     },
     "rich-text#footerdepartamentos__hombre--title":{
@@ -107,7 +107,7 @@
         "props": {
             "href": "#",
             "label": "Tenis",
-            "blockClass":"departamentos__hombre--tenis"
+            "blockClass":"footer__mix--styles"
         }
     },
     "link#footerdepartamentos__hombre--camisas":{
@@ -115,7 +115,7 @@
         "props": {
             "href": "#",
             "label": "Camisas",
-            "blockClass":"departamentos__hombre--camisas"
+            "blockClass":"footer__mix--styles"
         }
     },
     "link#footerdepartamentos__hombre--belleza":{
@@ -123,7 +123,7 @@
         "props": {
             "href": "#",
             "label": "Belleza",
-            "blockClass":"departamentos__hombre--belleza"
+            "blockClass":"footer__mix--styles"
         }
     },
     "link#footerdepartamentos__hombre--accesorios":{
@@ -131,7 +131,7 @@
         "props": {
             "href": "#",
             "label": "Accesorios hombre",
-            "blockClass":"departamentos__hombre--accesorios"
+            "blockClass":"footer__mix--styles"
         }
     },
     "link#footer__marcas--adidas":{
@@ -139,7 +139,7 @@
         "props": {
             "href": "#",
             "label": "adidas",
-            "blockClass":"footer__marcas--adidas"
+            "blockClass":"footer__mix--styles"
         }
     },
     "link#footer__marcas--brahma":{
@@ -147,7 +147,7 @@
         "props": {
             "href": "#",
             "label": "Brahma",
-            "blockClass":"footer__marcas--brahma"
+            "blockClass":"footer__mix--styles"
         }
     },
     "link#footer__marcas--alpinestarts":{
@@ -155,7 +155,7 @@
         "props": {
             "href": "#",
             "label": "Alpinestarts",
-            "blockClass":"footer__marcas--alpinestarts"
+            "blockClass":"footer__mix--styles"
         }
     },
     "link#footer__marcas--diesel":{
@@ -163,7 +163,7 @@
         "props": {
             "href": "#",
             "label": "Diesel",
-            "blockClass":"footer__marcas--diesel"
+            "blockClass":"footer__mix--styles"
         }
     },
     "link#footer__marcas--rcbpc":{
@@ -171,7 +171,7 @@
         "props": {
             "href": "#",
             "label": "RCBPC",
-            "blockClass":"footer__marcas--rcbpc"
+            "blockClass":"footer__mix--styles"
         }
     },
     "link#footer__marcas--converse":{
@@ -179,7 +179,7 @@
         "props": {
             "href": "#",
             "label": "Converse",
-            "blockClass":"footer__marcas--converse"
+            "blockClass":"footer__mix--styles"
         }
     },
     "link#footer__marcas--quiksilver":{
@@ -187,7 +187,7 @@
         "props": {
             "href": "#",
             "label": "Quiksilver",
-            "blockClass":"footer__marcas--quiksilver"
+            "blockClass":"footer__mix--styles"
         }
     },
     "link#footer__marcas--timberland":{
@@ -195,7 +195,7 @@
         "props": {
             "href": "#",
             "label": "Timberland",
-            "blockClass":"footer__marcas--timberland"
+            "blockClass":"footer__mix--styles"
         }
     },
     "link#footer__marcas--invicta":{
@@ -203,7 +203,7 @@
         "props": {
             "href": "#",
             "label": "Invicta",
-            "blockClass":"footer__marcas--invicta"
+            "blockClass":"footer__mix--styles"
         }
     },
     "link#footer__marcas--roxy":{
@@ -211,7 +211,7 @@
         "props": {
             "href": "#",
             "label": "Roxy",
-            "blockClass":"footer__marcas--roxy"
+            "blockClass":"footer__mix--styles"
         }
     },
     "link#footer__marcas--mng":{
@@ -219,7 +219,7 @@
         "props": {
             "href": "#",
             "label": "MNG",
-            "blockClass":"footer__marcas--mng"
+            "blockClass":"footer__mix--styles"
         }
     },
     "link#footer__marcas--moleca":{
@@ -227,7 +227,7 @@
         "props": {
             "href": "#",
             "label": "Moleca",
-            "blockClass":"footer__marcas--moleca"
+            "blockClass":"footer__mix--styles"
         }
     },
     "link#footer__marcas--qupid":{
@@ -235,7 +235,7 @@
         "props": {
             "href": "#",
             "label": "Qupid",
-            "blockClass":"footer__marcas--qupid"
+            "blockClass":"footer__mix--styles"
         }
     },
     "link#footer__marcas--mercedes":{
@@ -243,7 +243,7 @@
         "props": {
             "href": "#",
             "label": "Mercedes",
-            "blockClass":"footer__marcas--mercedes"
+            "blockClass":"footer__mix--styles"
         }
     },
     "link#footer__marcas--campuzano":{
@@ -251,7 +251,7 @@
         "props": {
             "href": "#",
             "label": "Campuzano",
-            "blockClass":"footer__marcas--campuzano"
+            "blockClass":"footer__mix--styles"
         }
     },
     "link#footer__marcas--oakley":{
@@ -259,7 +259,7 @@
         "props": {
             "href": "#",
             "label": "Oakley",
-            "blockClass":"footer__marcas--oakley"
+            "blockClass":"footer__mix--styles"
         }
     },
     "link#footer__marcas--cross":{
@@ -267,7 +267,7 @@
         "props": {
             "href": "#",
             "label": "cross",
-            "blockClass":"footer__marcas--cross"
+            "blockClass":"footer__mix--styles"
         }
     }
 }

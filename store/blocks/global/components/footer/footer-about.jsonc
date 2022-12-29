@@ -1,20 +1,26 @@
 {
     "flex-layout.row#desktop__footer--about": {
-        "title": "desktop__footer--terminos",
+        "title": "desktop__footer--about",
         "children": [
             "flex-layout.col#desktop__footer--terminos",
             "flex-layout.col#footer__departamentos--acerca-dafiti",
             "flex-layout.col#footer__departamentos--servicio-cliente",
             "flex-layout.col#footer__departamentos--novedades",
             "flex-layout.col#footer__departamentos--aliados"
-        ]
+        ],
+        "props":{
+            "blockClass":"desktop__footer--about"
+        }
     },
     "flex-layout.col#desktop__footer--terminos": {
         "title": "desktop__footer--terminos",
         "children": [
             "rich-text#footer__terminos--siguenos",
             "social-networks"
-        ]
+        ],
+        "props":{
+            "blockClass":"desktop__footer--terminos"
+        }
     },
     "rich-text#footer__terminos--siguenos": {
         "title": "footer__terminos--siguenos",
@@ -52,6 +58,15 @@
         "title": "footer__departamentos--acerca-dafiti",
         "children": [
             "rich-text#footerdepartamentos__acerca-dafiti--title",
+            "flex-layout.col#footer__departamentos--acerca-content"
+        ],
+        "props": {
+            "blockClass": "footer__departamentos--acerca-dafiti"
+        }
+    },
+    "flex-layout.col#footer__departamentos--acerca-content":{
+        "title": "footer__departamentos--acerca-content",
+        "children": [
             "link#footer__acerca--nosotros",
             "link#footer__acerca--terminos",
             "link#footer__acerca--cumplimiento",
@@ -62,7 +77,7 @@
             "link#footer__acerca--app"
         ],
         "props": {
-            "blockClass": "footer__departamentos--acerca-dafiti"
+            "blockClass": "footer__departamentos--acerca-content"
         }
     },
     "flex-layout.col#footer__departamentos--servicio-cliente": {
@@ -91,6 +106,15 @@
         "title": "footer__departamentos--novedades",
         "children": [
             "rich-text#footerdepartamentos__novedades--title",
+            "flex-layout.col#departamentos__novedades--content"
+        ],
+        "props": {
+            "blockClass": "footer__departamentos--novedades"
+        }
+    },
+    "flex-layout.col#departamentos__novedades--content":{
+        "title": "departamentos__novedades--content",
+        "children": [
             "link#footer__novedades--blackfriday",
             "link#footer__novedades--cyberlunes",
             "link#footer__novedades--hotsale",
@@ -100,9 +124,10 @@
             "link#footer__novedades--alianza"
         ],
         "props": {
-            "blockClass": "footer__departamentos--novedades"
+            "blockClass": "departamentos__novedades--content"
         }
     },
+
     "flex-layout.col#footer__departamentos--aliados": {
         "title": "footer__departamentos--aliados",
         "children": [

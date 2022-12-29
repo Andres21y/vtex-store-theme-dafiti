@@ -29,7 +29,7 @@
             "textAlignment": "CENTER",
             "textPosition": "CENTER",
             "font": "11px",
-            "blockClass": "footer__comprasegura--copyright"
+            "blockClass": "desktop__footer--mix"
         }
     },
     "rich-text#footer__comprasegura--address":{
@@ -39,7 +39,7 @@
             "textAlignment": "CENTER",
             "textPosition": "CENTER",
             "font": "11px",
-            "blockClass": "footer__comprasegura--address"
+            "blockClass": "desktop__footer--mix"
         }
     },
     "rich-text#footer__comprasegura--phone":{
@@ -49,7 +49,7 @@
             "textAlignment": "CENTER",
             "textPosition": "CENTER",
             "font": "11px",
-            "blockClass": "footer__comprasegura--phone"
+            "blockClass": "desktop__footer--mix"
         }
     },
     "rich-text#footer__comprasegura--email":{
@@ -59,7 +59,7 @@
             "textAlignment": "CENTER",
             "textPosition": "CENTER",
             "font": "11px",
-            "blockClass": "footer__comprasegura--email"
+            "blockClass": "desktop__footer--mix"
         }
     },
     "rich-text#footer__comprasegura--officehours":{
@@ -69,7 +69,7 @@
             "textAlignment": "CENTER",
             "textPosition": "CENTER",
             "font": "11px",
-            "blockClass": "footer__comprasegura--officehours"
+            "blockClass": "desktop__footer--mix"
         }
     }
 
