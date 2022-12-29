@@ -1,0 +1,18 @@
+{
+    "flex-layout.row#desktop__footer--pagos": {
+        "title": "desktop__footer--pagos",
+        "children": [
+            "image#desktop__footer--pagos"
+        ],
+        "props": {
+            "blockClass": "desktop__footer--apps"
+        }
+    },
+    "image#desktop__footer--pagos": {
+        "title": "footer__image--pagos",
+        "props": {
+            "src": "assets/image/footer/dafiti-mediosdepagos.webp",
+            "blockClass": "desktop__footer--apps"
+        }
+    }
+}

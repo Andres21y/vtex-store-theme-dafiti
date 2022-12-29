@@ -1,0 +1,77 @@
+{
+    "flex-layout.row#desktop__footer--copyright": {
+        "title": "desktop__footer--copyright",
+        "children": [
+            "flex-layout.col#desktop__footer--copyright"
+        ],
+        "props": {
+            "blockClass": "desktop__footer--copyright"
+        }
+    },
+    "flex-layout.col#desktop__footer--copyright": {
+        "title": "desktop__footer--copyright",
+        "children": [
+            "rich-text#footer__comprasegura--copyright",
+            "rich-text#footer__comprasegura--address",
+            "rich-text#footer__comprasegura--phone",
+            "rich-text#footer__comprasegura--email",
+            "rich-text#footer__comprasegura--officehours"
+         
+        ],
+        "props": {
+            "blockClass": "desktop__footer--copyright"
+        }
+    },
+    "rich-text#footer__comprasegura--copyright":{
+         "title": "footer__comprasegura--copyright",
+        "props": {
+            "text": "© Dafiti 2011 - 2022 . Todos los derechos reservados. [- Conoce nuestra Política de privacidad.](#) [- Política de Datos.](#)",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "font": "11px",
+            "blockClass": "desktop__footer--mix"
+        }
+    },
+    "rich-text#footer__comprasegura--address":{
+         "title": "footer__comprasegura--address",
+        "props": {
+            "text": "a Bigfoot Colombia SAS.- NIT: 900.469.230-6. Carrera 58 No. 128A-35, Bogotá, Colombia",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "font": "11px",
+            "blockClass": "desktop__footer--mix"
+        }
+    },
+    "rich-text#footer__comprasegura--phone":{
+         "title": "footer__comprasegura--phone",
+        "props": {
+            "text": "Teléfono: 01 8000 942 434 o en Bogotá (601) 508 2244",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "font": "11px",
+            "blockClass": "desktop__footer--mix"
+        }
+    },
+    "rich-text#footer__comprasegura--email":{
+         "title": "footer__comprasegura--email",
+        "props": {
+            "text": "E-mail: info@dafiti.com.co",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "font": "11px",
+            "blockClass": "desktop__footer--mix"
+        }
+    },
+    "rich-text#footer__comprasegura--officehours":{
+         "title": "footer__comprasegura--officehours",
+        "props": {
+            "text": "Horarios de atención: Lunes a sábado de 8:00 a.m. a 5:00 p.m. - Domingos y festivos estaremos recargando baterías",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "font": "11px",
+            "blockClass": "desktop__footer--mix"
+        }
+    }
+
+
+}
