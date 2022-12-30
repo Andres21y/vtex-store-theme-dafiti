@@ -5,14 +5,16 @@
             "image#desktop__footer--pagos"
         ],
         "props": {
-            "blockClass": "desktop__footer--apps"
+            "blockClass": "desktop__footer--medios-pagos"
         }
     },
     "image#desktop__footer--pagos": {
         "title": "footer__image--pagos",
         "props": {
             "src": "assets/image/footer/dafiti-mediosdepagos.webp",
-            "blockClass": "desktop__footer--apps"
+            "maxHeight": 40,
+            "maxWidth":960,
+            "blockClass": "desktop__footer--medios-pagos"
         }
     }
 }

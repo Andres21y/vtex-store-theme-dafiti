@@ -8,18 +8,18 @@
             "flex-layout.col#footer__departamentos--novedades",
             "flex-layout.col#footer__departamentos--aliados"
         ],
-        "props":{
-            "blockClass":"desktop__footer--about"
+        "props": {
+            "blockClass": "desktop__footer--about"
         }
     },
     "flex-layout.col#desktop__footer--terminos": {
         "title": "desktop__footer--terminos",
         "children": [
             "rich-text#footer__terminos--siguenos",
-            "social-networks"
+            "image#footer__redes--sociales"
         ],
-        "props":{
-            "blockClass":"desktop__footer--terminos"
+        "props": {
+            "blockClass": "desktop__footer--terminos"
         }
     },
     "rich-text#footer__terminos--siguenos": {
@@ -28,30 +28,17 @@
             "text": "SIGUENOS EN",
             "textAlignment": "left",
             "textPosition": "left",
-            "font": "12px",
+            "font": "t-heading-5",
             "blockClass": "footer__terminos"
         }
     },
-    "social-networks": {
+    "image#footer__redes--sociales": {
+        "title":"footer__redes--sociales",
         "props": {
-            "socialNetworks": [
-                {
-                    "url": "https://instagram.com/foo",
-                    "name": "Instagram"
-                },
-                {
-                    "url": "https://twitter.com/foo",
-                    "name": "Twitter"
-                },
-                {
-                    "url": "https://facebook.com/foo",
-                    "name": "Facebook"
-                },
-                {
-                    "url": "https://youtube.com/foo",
-                    "name": "Youtube"
-                }
-            ]
+            "src": "assets/image/footer/dafiti-redes-socialess.webp",
+            "maxHeight": 62,
+            "maxWidth": 62,
+            "alt": "redes sociales"
         }
     },
     "flex-layout.col#footer__departamentos--acerca-dafiti": {
@@ -64,7 +51,7 @@
             "blockClass": "footer__departamentos--acerca-dafiti"
         }
     },
-    "flex-layout.col#footer__departamentos--acerca-content":{
+    "flex-layout.col#footer__departamentos--acerca-content": {
         "title": "footer__departamentos--acerca-content",
         "children": [
             "link#footer__acerca--nosotros",
@@ -112,7 +99,7 @@
             "blockClass": "footer__departamentos--novedades"
         }
     },
-    "flex-layout.col#departamentos__novedades--content":{
+    "flex-layout.col#departamentos__novedades--content": {
         "title": "departamentos__novedades--content",
         "children": [
             "link#footer__novedades--blackfriday",
@@ -127,7 +114,6 @@
             "blockClass": "departamentos__novedades--content"
         }
     },
-
     "flex-layout.col#footer__departamentos--aliados": {
         "title": "footer__departamentos--aliados",
         "children": [
@@ -141,33 +127,28 @@
         }
     },
     "image#camara": {
+        "title":"footer__image--camara",
         "props": {
             "src": "assets/image/footer/dafiti-camara.webp",
-            "maxHeight": 65
+
+            "height": 65,
+            "maxWidth": 150
         }
     },
     "image#sic": {
+        "title":"footer__image--sic",
         "props": {
             "src": "assets/image/footer/dafiti-sic.webp",
-            "maxHeight": 65
+            "height": 65,
+            "maxWidth": 150
         }
     },
     "image#industria": {
+        "title":"footer__image--industria",
         "props": {
             "src": "assets/image/footer/dafiti-industriaycomercio.webp",
-            "maxHeight": 65
+            "height": 34,
+            "maxWidth": 150
         }
     }
 }
-// ,
-//"powered-by"
-//     },
-//     "accepted-payment-methods": {
-//         "props": {
-//             "paymentMethods": [
-//                 "mastercard",
-//                 "visa",
-//                 "diners club"
-//             ]
-//         }
-//     }
