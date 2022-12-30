@@ -145,14 +145,10 @@
 .headerRowContainer--footer__departamentos--marcas {
     display: flex;
     justify-content: space-between;
-    gap: 5rem;
-    margin-right: 2rem; 
+    gap: 1rem;
+    margin-right: 1rem;
 }
 
-.headerStickyRow--footer__newsletter--content {
-    height: 7rem;
-}
-
-.newsletter--desktop__footer--newsletter {
-    height: 1rem;
+.headerStickyRow--footer__newsletter--content{
+    width: 960px;
 }

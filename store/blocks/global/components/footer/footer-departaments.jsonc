@@ -116,32 +116,59 @@
         "title": "footer__departamentos--mujer",
         "children": [
             "rich-text#footerdepartamentos__mujer--title",
-            "link#footerdepartamentos__mujer--tenis",
-            "link#footerdepartamentos__mujer--camisas",
-            "link#footerdepartamentos__mujer--belleza",
-            "link#footerdepartamentos__mujer--accesorios"
+            "flex-layout.col#departamentos__mujer--content"
         ],
         "props": {
             "blockClass": "footer__departamentos--mujer"
         }
     },
-    "flex-layout.col#footer__departamentos--hombre": {
-        "title": "footer__departamentos--hombre",
+    "flex-layout.col#departamentos__mujer--content":{
+        "title": "departamentos__mujer--content",
         "children": [
-            "rich-text#footerdepartamentos__hombre--title",
             "link#footerdepartamentos__hombre--tenis",
             "link#footerdepartamentos__hombre--camisas",
             "link#footerdepartamentos__hombre--belleza",
             "link#footerdepartamentos__hombre--accesorios"
         ],
         "props": {
+            "blockClass": "departamentos__mujer--content"
+        }
+    },
+    "flex-layout.col#footer__departamentos--hombre": {
+        "title": "footer__departamentos--hombre",
+        "children": [
+            "rich-text#footerdepartamentos__hombre--title",
+            "flex-layout.col#departamentos__hombre--content"
+        ],
+        "props": {
             "blockClass": "footer__departamentos--hombre"
+        }
+    },
+    "flex-layout.col#departamentos__hombre--content":{
+        "title": "departamentos__hombre--content",
+        "children": [
+            "link#footerdepartamentos__hombre--tenis",
+            "link#footerdepartamentos__hombre--camisas",
+            "link#footerdepartamentos__hombre--belleza",
+            "link#footerdepartamentos__hombre--accesorios"
+        ],
+        "props": {
+            "blockClass": "departamentos__hombre--content"
         }
     },
     "flex-layout.col#footer__departamentos--niños": {
         "title": "footer__departamentos--niños",
         "children": [
             "rich-text#footerdepartamentos__niños--title",
+            "flex-layout.col#departamentos__niños--content"
+        ],
+        "props": {
+            "blockClass": "footer__departamentos--niños"
+        }
+    },
+    "flex-layout.col#departamentos__niños--content":{
+        "title": "footer__departamentos--niños",
+        "children": [
             "link#footerdepartamentos__niños--bebe",
             "link#footerdepartamentos__niños--child",
             "link#footerdepartamentos__niños--boys",

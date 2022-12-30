@@ -1,20 +1,11 @@
 {
-    // "flex-layout.row#desktop__footer--newsletter": {
-    //     "title": "desktop__footer--newsletter",
-    //     "children": [
-    //         "header-row#footer__newsletter--content"
-    //     ],
-    //     "props": {
-    //         "blockClass": "desktop__footer--newsletter"
-    //     }
-    // },
     "header-row#footer__newsletter--content": {
         "title": "footer__newsletter--content",
         "children": [
             "rich-text#footer__newsletter--description",
-            "newsletter#desktop__footer--newsletter",
-            "rich-text#footer__newsletter--mujer",
-            "rich-text#footer__newsletter--hombre"
+            "newsletter-form#desktop__footer--newsletter"
+            // "rich-text#footer__newsletter--mujer",
+            // "rich-text#footer__newsletter--hombre"
         ],
         "props": {
             "blockClass": "footer__newsletter--content"
@@ -30,13 +21,20 @@
             "blockClass": "footer__newsletter--description"
         }
     },
-    "newsletter#desktop__footer--newsletter": {
-        "title": "desktop__footer--newsletter",
-        "props": {
-            "hideLabel": "false",
-            "placeholder": "Tu correo electrónico",
-            "blockClass": "desktop__footer--newsletter"
-        }
+    // "newsletter#desktop__footer--newsletter": {
+    //     "title": "desktop__footer--newsletter",
+    //     "props": {
+    //         "placeholder": "Tu correo electrónico",
+    //         "hideLabel": true,
+    //         "submit": "Registrate",
+    //         "blockClass": "desktop__footer--newsletter"
+    //     }
+    // },
+    "newsletter-form#desktop__footer--newsletter": {
+        "children": [
+            "newsletter#footer__newsletter--main",
+            "newsletter-submit#desktop__footer--sumbit"
+        ]
     },
     "rich-text#footer__newsletter--mujer": {
         "title": "footer__newsletter--mujer",
@@ -75,6 +73,18 @@
             "textPosition": "CENTER",
             "font": "t-heading-6",
             "blockClass": "desktop__footer--change"
+        }
+    },
+    "newsletter#footer__newsletter--main": {
+        "props": {
+            "hideLabel":true,
+            "placeholder": "¡Suscríbete"
+        }
+    },
+    "newsletter-submit#desktop__footer--sumbit":{
+        "props":{
+            "submitButtonLabel":"suscribete",
+            "blockClass":"desktop__footer--sumbit"
         }
     }
 }

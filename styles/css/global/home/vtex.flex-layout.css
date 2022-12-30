@@ -8,6 +8,7 @@
  }
 
  .flexRowContent--global__home--preheader {
+     width: 1170px;
      max-width: 100%;
      font-size: 11px;
      line-height: 1.6rem;
@@ -31,7 +32,7 @@
      letter-spacing: 1px;
      line-height: 1;
      font-weight: 500;
-     width: 95rem;
+     width: 1170px;
      margin: 0px auto;
      border-bottom: 1px solid #d8d8d8;
      height: 3rem;
@@ -40,7 +41,7 @@
 
  /* =================================== Desktop home Main */
  .flexRow--global__home--main {
-     display: block;
+     display: flex;
      position: relative;
      width: 100%;
      margin-bottom: 70px;
@@ -54,6 +55,7 @@
 
  .flexRowContent--global__home--main {
      width: 100%;
+     width: 1170px;
  }
 
  .flexCol--home__main--container {
@@ -69,14 +71,14 @@
      background-repeat: no-repeat;
      background-size: cover;
      width: 570px;
-     height: 800px;
+     height: 640px;
  }
 
  .flexCol--home__main--man {
      background-image: url("assets/image/home_block/section/dft-section-hombre.png");
      background-repeat: no-repeat;
      background-size: cover;
-     height:800px;
+     height: 640px;
  }
 
  /* categotegories */
@@ -140,6 +142,7 @@
 
  /* brands */
  .flexRowContent--global__home--brands {
+     width: 1170px;
      max-width: 100%;
  }
 
@@ -154,13 +157,32 @@
  }
 
 
- /* seo */
- .flexColChild--home__seo--container {
-     height: 2rem;
+ .flexRow--global__home--brands {
+     display: flex;
+     height: 382px;
  }
 
+ .flexRow--_section-info {
+     display: flex;
+ }
+
+ .flexRowContent--_section-info {
+     width: 1170px;
+ }
+
+ .flexRow--global__home--recommended {
+     display: flex;
+     height: 180px;
+     margin-top: 3rem;
+ }
+
+ .flexRowContent--global__home--recommended {
+     width: 1170px;
+ }
+
+ /* seo */
+
  .flexColChild--home__seo--container {
-     height: 100%;
      width: 100%;
      margin-bottom: 70px;
  }
@@ -168,16 +190,49 @@
  /* formulario */
 
 
-  .flexRowContent--home__newsletter--description {
+ .flexRowContent--home__newsletter--description {
      display: flex;
      align-items: center;
      height: 6rem;
      background: white;
+     margin-left: 2rem;
+     height: 4rem;
  }
 
 
 
  .flexColChild--home__newsletter--subscribe {
      display: flex;
- } 
+ }
 
+ .flexRow--home___newsletter--main {
+     display: flex;
+ }
+
+ .flexRowContent--home___newsletter--main {
+     width: 1170px;
+     background: #f8f8f8;
+     height: 14rem;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     padding-top: 2rem;
+ }
+
+
+ .flexRowContent--home__newsletter--image-content {
+     background: black;
+     height: 62px;
+     width: 70px;
+     display: flex;
+     align-items: center;
+     margin-left: 1rem;
+ }
+
+ .flexCol--home__newsletter--subscribe {
+     width: 486px;
+ }
+
+ .flexRow--home__newsletter--description{
+    width: 700px;
+ }

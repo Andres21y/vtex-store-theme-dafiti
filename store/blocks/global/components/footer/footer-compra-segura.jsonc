@@ -12,10 +12,10 @@
         "title":"footer__comprasegura--container",
         "children": [
             "rich-text#comprasegura__description--one",
-            "image#comprasegura__image--blue",
-            "image#comprasegura__image--red",
+            "image#comprasegura__logo--certificado",
+            "image#comprasegura__logo--criptografia",
             "rich-text#comprasegura__description--two",
-            "image#comprasegura__image--blindado",
+            "image#comprasegura__logo--blindado",
             "rich-text#comprasegura__description--three"
           ],
           "props": {
@@ -28,7 +28,7 @@
         "props": {
             "text": "Compra Segura",
             "textAlignment": "CENTER",
-            "textPosition": "CENTER",
+            "textPosition": "LEFT",
             "font": "t-heading-6",
             "blockClass": "comprasegura__description--one"
         }
@@ -38,8 +38,8 @@
         "props": {
             "text": "Sitio seguro con criptografia (SSL) · Homologado por la USERTrust Network",
             "textAlignment": "CENTER",
-            "textPosition": "CENTER",
-            "font": "10px",
+            "textPosition": "LEFT",
+            "font": "t-heading-6",
             "blockClass": "comprasegura__description--two"
         }
     },
@@ -48,27 +48,36 @@
         "props": {
             "text": "Blindado contra robo de información y clonación de tarjetas",
             "textAlignment": "CENTER",
-            "textPosition": "CENTER",
-            "font": "10px",
+            "textPosition": "LEFT",
+            "font":"t-heading-6" ,
             "blockClass": "comprasegura__description--three"
         }
     },
-    "image#comprasegura__image--blue": {
+    "image#comprasegura__logo--certificado": {
+        "title":"footer__logo--certificado",
         "props": {
             "src": "assets/image/footer/dafiti-silver-e.png",
-            "maxHeight": 24
+            "maxHeight": 22,
+            "maxWidth":21,
+            "blockClass":"footer__logo--certificado"
         }
     },
-    "image#comprasegura__image--red": {
+    "image#comprasegura__logo--criptografia": {
+        "title":"footer__logo--criptografia",
         "props": {
             "src": "assets/image/footer/dafiti-logo-rojo.png",
-            "maxHeight": 24
+            "maxHeight": 22,
+            "maxWidth":33,
+            "blockClass":"footer__logo--criptografia"
         }
     },
-    "image#comprasegura__image--blindado": {
+    "image#comprasegura__logo--blindado": {
+        "title":"footer__logo--blindado",
         "props": {
             "src": "assets/image/footer/dafiti-sitio-blindado.png",
-            "maxHeight": 24
+            "maxHeight": 19,
+            "maxWidth":80,
+            "blockClass":"footer__logo--blindado"
         }
     }
 }

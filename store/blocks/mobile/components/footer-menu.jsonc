@@ -1,0 +1,273 @@
+{
+    "disclosure-layout-group#footer__disclousure--group": {
+        "title": "footer__disclousure--group",
+        "children": [
+            "flex-layout.row#footer__disclosure--container"
+        ],
+        "props": {
+            "blockClass": ""
+        }
+    },
+    "flex-layout.row#footer__disclosure--container": {
+        "title": "footer__disclousure--group",
+        "children": [
+            "flex-layout.col#footer__disclosure--container"
+        ],
+        "props": {
+            "blockClass": ""
+        }
+    },
+    "flex-layout.col#footer__disclosure--container": {
+        "title": "",
+        "children": [
+            "disclosure-layout#footer__disclousure--departamentos",
+            "disclosure-layout#footer__disclousure--about"
+            // "disclosure-layout#footer__disclousure--servicios",
+            // "disclosure-layout#footer__disclousure--novedades"
+        ],
+        "props": {
+            "blockClass": ""
+        }
+    },
+    "disclosure-layout#footer__disclousure--departamentos": {
+        "title": "",
+        "children": [
+            "disclosure-trigger#disclosure__departamentos--title",
+            "disclosure-content#disclosure__departamentos--childrens"
+        ],
+        "props": {
+            "blockClass": ""
+        }
+    },
+    "disclosure-trigger#disclosure__departamentos--title": {
+        "title": "",
+        "children": [
+            "rich-text#disclosure__departamentos--title",
+            "disclosure-state-indicator"
+        ],
+        "props": {
+            "blockClass": ""
+        }
+    },
+    "rich-text#disclosure__departamentos--title": {
+        "props": {
+            "text": "Departamentos"
+        }
+    },
+    "disclosure-state-indicator": {
+        "title": "disclosure__icon--down-up",
+        "props": {
+            "Show": "icon-caret#down",
+            "Hide": "icon-caret#up",
+            "blockClass": "footer__disclosure--indicator"
+        }
+    },
+    "icon-caret#down": {
+        "title": "disclosure__icon--down",
+        "props": {
+            "orientation": "down"
+        }
+    },
+    "icon-caret#up": {
+        "title": "disclosure__icon--up",
+        "props": {
+            "orientation": "up"
+        }
+    },
+    "disclosure-content#disclosure__departamentos--childrens": {
+        "title": "",
+        "children": [
+            "menu#disclosure__departamentos--childrens"
+        ],
+        "props": {
+            "blockClass": ""
+        }
+    },
+    "menu#disclosure__departamentos--childrens": {
+        "title": "disclosure__departamentos--menu",
+        "children": [
+            "menu-item#disclosure__departamentos--marcas",
+            "menu-item#disclosure__departamentos--mujer",
+            "menu-item#disclosure__departamentos--hombre",
+            "menu-item#disclosure__departamentos--niño"
+        ],
+        "props": {
+            "orientation": "vertical",
+            "blockClass": ""
+        }
+    },
+    "menu-item#disclosure__departamentos--marcas": {
+        "title": "",
+        "props": {
+            "id": "",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "tagTitle": "",
+                "text": "Marcas"
+            }
+        }
+    },
+    "menu-item#disclosure__departamentos--mujer": {
+        "title": "",
+        "props": {
+            "id": "",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "tagTitle": "",
+                "text": "Mujer"
+            },
+            "blockClass": ""
+        }
+    },
+    "menu-item#disclosure__departamentos--hombre": {
+        "title": "",
+        "props": {
+            "id": "",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "tagTitle": "",
+                "text": "Hombre"
+            }
+        }
+    },
+    "menu-item#disclosure__departamentos--niño": {
+        "title": "",
+        "props": {
+            "id": "",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "tagTitle": "",
+                "text": "Niño"
+            }
+        }
+    },
+    //------------------------------------------------------------
+    "disclosure-layout#footer__disclousure--about": {
+        "title": "",
+        "children": [
+            "disclosure-trigger#disclosure__about--title",
+            "disclosure-content#disclosure__about--childrens"
+        ],
+        "props": {
+            "blockClass": ""
+        }
+    },
+    "disclosure-trigger#disclosure__about--title": {
+        "title": "",
+        "children": [
+            "rich-text#disclosure__about--title",
+            "disclosure-state-indicator"
+        ],
+        "props": {
+            "blockClass": ""
+        }
+    },
+    "rich-text#disclosure__about--title": {
+        "props": {
+            "text": "Acerca de Dafiti"
+        }
+    },
+    "disclosure-content#disclosure__about--childrens": {
+        "title": "",
+        "children": [
+            "menu#disclosure__about--childrens"
+        ],
+        "props": {
+            "blockClass": ""
+        }
+    },
+    "menu#disclosure__about--childrens": {
+        "title": "disclosure__departamentos--menu",
+        "children": [
+            "menu-item#disclosure__about--nosotros",
+            "menu-item#disclosure__about--ternminos-condiciones",
+            "menu-item#disclosure__about--politica-privacidad",
+            "menu-item#disclosure__about--politica-datos"
+        ],
+        "props": {
+            "orientation": "vertical",
+            "blockClass": ""
+        }
+    },
+    "menu-item#disclosure__about--nosotros": {
+        "title": "",
+        "props": {
+            "id": "menu-item-nosotros",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "tagTitle": "Nosotros",
+                "text": "Nosotros"
+            }
+        }
+    },
+    "menu-item#disclosure__about--ternminos-condiciones": {
+        "title": "",
+        "props": {
+            "id": "menu-item-condiciones",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "tagTitle": "Términos y Condiciones",
+                "text": "Términos y Condiciones"
+            },
+            "blockClass": ""
+        }
+    },
+    "menu-item#disclosure__about--politica-privacidad": {
+        "title": "",
+        "props": {
+            "id": "menu-item-privacidad",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "tagTitle": "Política de Privacidad",
+                "text": "Política de Privacidad"
+            }
+        }
+    },
+    "menu-item#disclosure__about--politica-datos": {
+        "title": "",
+        "props": {
+            "id": "menu-item-datos",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "tagTitle": "Política de Datos",
+                "text": "Política de Datos"
+            }
+        }
+    }
+    // //------------------------------------------------------------
+    // "disclosure-layout#footer__disclousure--servicios": {
+    //     "title": "",
+    //     "children": [
+    //         "disclosure-trigger#"
+    //     ],
+    //     "props": {
+    //         "blockClass": ""
+    //     }
+    // },
+    // //------------------------------------------------------------
+    // "disclosure-layout#footer__disclousure--novedades": {
+    //     "title": "",
+    //     "children": [
+    //         "disclosure-trigger#"
+    //     ],
+    //     "props": {
+    //         "blockClass": ""
+    //     }
+    // }
+}
