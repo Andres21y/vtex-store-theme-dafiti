@@ -44,23 +44,23 @@
 }
 
 
-
+/* 
 .container {
     max-width: 95rem;
-    /* background: rebeccapurple; */
+    /* background: rebeccapurple; 
     display: flex;
     justify-content: center;
-}
+} */
 
 .imageElement--home__newsletter--image {
     background-color: black;
     max-height: 50px;
     min-height: 30px;
     border-radius: 12px;
-} 
+}
 
 .container--home__newsletter--main {
-    width:100%;
+    width: 100%;
 }
 
 .form--home__newsletter--main {
@@ -72,37 +72,37 @@
 
 .inputGroup--home__newsletter--main {
     width: 100%;
-    
 }
 
-.newsletter--home__newsletter--main{
+.newsletter--home__newsletter--main {
     width: 20rem;
 }
 
-.vtex-input-prefix__group{
+.vtex-input-prefix__group {
     background-color: red;
     border: none;
 }
 
-.headerRowContentContainer--mobile__megamenu{
+.headerRowContentContainer--mobile__megamenu {
     background-color: black;
 }
 
-.imageElement--desktop__footer--apps{
+.imageElement--desktop__footer--apps {
     width: 100%;
 }
 
-.buttonContainer{
+.buttonContainer {
     display: none;
 }
 
-.newsletter--desktop__footer--change{
-width: 30rem;
+.newsletter--desktop__footer--change {
+    width: 30rem;
 }
 
-.newsletter--desktop__footer--newsletter{
-width: 30rem;
+.newsletter--desktop__footer--newsletter {
+    width: 30rem;
 }
-.imageElement--home__trucking--dudas{
+
+.imageElement--home__trucking--dudas {
     width: 90%;
 }
