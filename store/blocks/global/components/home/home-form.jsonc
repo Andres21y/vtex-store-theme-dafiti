@@ -20,14 +20,14 @@
     "flex-layout.col#home__newsletter--container": {
         "title": "home__newsletter--container",
         "children": [
-            "flex-layout.row#home__newsletter--one",
+            "header-row#home__newsletter--one",
             "flex-layout.row#home__newsletter--two"
         ],
         "props": {
             "blockClass": "home__newsletter--container"
         }
     },
-    "flex-layout.row#home__newsletter--one": {
+    "header-row#home__newsletter--one": {
         "title": "home__newsletter--one",
         "children": [
             "flex-layout.row#home__newsletter--description",
@@ -70,20 +70,27 @@
     "flex-layout.row#home__newsletter--description": {
         "title": "home__newsletter--description",
         "children": [
-            "image#home__newsletter--image",
-            "newsletter#home__newsletter--main",
-            "rich-text#home__newsletter--woman",
-            "rich-text#home__newsletter--man"
+            "flex-layout.row#home__newsletter--image",
+            "newsletter#home__newsletter--main"
         ],
         "props": {
             "blockClass": "home__newsletter--description"
+        }
+    },
+    "flex-layout.row#home__newsletter--image":{
+        "title":"home__newsletter--image-content",
+        "children":[
+            "image#home__newsletter--image"
+        ],
+        "props": {
+            "blockClass": "home__newsletter--image-content"
         }
     },
     "image#home__newsletter--image":{
         "title":"home__newsletter--image",
         "props": {
             "src": "assets/image/home_block/form/dafiti-mesagge.webp",
-            "maxHeight": "50px",
+            "height": "22px",
             "blockClass":"home__newsletter--image"
         }
     },
@@ -94,24 +101,6 @@
             "hideLabel": true,
             "width": "60%",
             "blockClass": "home__newsletter--main"
-        }
-    },
-    "rich-text#home__newsletter--woman": {
-        "title": "newsletter__text--woman",
-        "props": {
-            "text": "soy mujer",
-            "textAlignment": "CENTER",
-            "textPosition": "CENTER",
-            "blockClass": "newsletter__text--woman"
-        }
-    },
-    "rich-text#home__newsletter--man": {
-        "title": "newsletter__text--man",
-        "props": {
-            "text": "soy hombre",
-            "textAlignment": "CENTER",
-            "textPosition": "CENTER",
-            "blockClass": "newsletter__text--man"
         }
     },
     "flex-layout.col#home__newsletter--subscribe": {
@@ -138,8 +127,8 @@
         "title": "newsletter__text--descriptions",
         "props": {
             "text": "Se el primero en enterarte de las últimas tendencias y todas las novedades que traemos para ti. Adicional, te damos un 15 Extra OFF* en tu primera compra",
-            "textAlignment": "CENTER",
-            "textPosition": "CENTER",
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
             "font": "t-heading-6",
             "blockClass": "newsletter__text--descriptions"
         }

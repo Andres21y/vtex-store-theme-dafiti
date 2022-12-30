@@ -14,7 +14,7 @@
           "text": "Los favoritos de la semana",
           "textAlignment": "CENTER",
           "textPosition": "CENTER",
-          "font": "t-heading-1",
+          "font": "t-heading-2",
           "blockClass": "home__recomended"
         }
       }

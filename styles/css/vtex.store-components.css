@@ -25,58 +25,7 @@
 }
 
 /* form */
-.form--home__newsletter--main {
-    display: block;
-    position: relative;
-    width: 700px;
-    float: left;
-    border: solid 1px #e6ebf1;
-    height: 6rem;
-}
 
-.buttonContainer--home__newsletter--main {
-    display: none;
-}
-
-.inputGroup--home__newsletter--main {
-    width: 100%;
-    height: 80px;
-}
-
-
-/* 
-.container {
-    max-width: 95rem;
-    /* background: rebeccapurple; 
-    display: flex;
-    justify-content: center;
-} */
-
-.imageElement--home__newsletter--image {
-    background-color: black;
-    max-height: 50px;
-    min-height: 30px;
-    border-radius: 12px;
-}
-
-.container--home__newsletter--main {
-    width: 100%;
-}
-
-.form--home__newsletter--main {
-    width: 700px;
-    display: flex;
-    align-items: center;
-    border: none;
-}
-
-.inputGroup--home__newsletter--main {
-    width: 100%;
-}
-
-.newsletter--home__newsletter--main {
-    width: 20rem;
-}
 
 .vtex-input-prefix__group {
     background-color: red;
@@ -95,14 +44,49 @@
     display: none;
 }
 
-.newsletter--desktop__footer--change {
-    width: 30rem;
-}
-
-.newsletter--desktop__footer--newsletter {
-    width: 30rem;
-}
-
 .imageElement--home__trucking--dudas {
     width: 90%;
+}
+
+.newsletter--desktop__footer--newsletter{
+    /* background-color: orange; */
+    /* height: 50px; */
+}
+/* .container--desktop__footer--newsletter{
+    height: 60px;
+    background-color: orange;
+
+} */
+
+
+.container--desktop__footer--newsletter{
+    height: 51px;
+    display: flex;
+    align-items: flex-start;
+    align-items: center;
+    padding: 0px;
+    width: 100%;
+    border-style: none;
+    border: none;
+}
+.form--desktop__footer--newsletter{
+ width: 100%;
+} 
+
+
+.label--desktop__footer--newsletter{
+    border: none;
+    border-style: none;
+}
+
+.imageElement--home__newsletter--image{
+    background-color: black;
+}
+
+.container--home__newsletter--main{
+    height: 70px;
+    padding-top: 0;
+    padding-bottom: 0;
+    /* background-color: orange; */
+    margin-left: 1rem;
 }

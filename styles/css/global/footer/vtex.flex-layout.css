@@ -1,15 +1,8 @@
+
 .flexCol--desktop__footer--copyright {
     height: 15px;
-    /* display: block; */
-    /* margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px; */
     margin-bottom: 3.5rem;
 }
-
-/* .flexCol--desktop__footer--copyright {
-} */
 
 .flexRowContent--desktop__footer--medios-pagos {
     display: flex;
@@ -31,6 +24,10 @@
     border-top: 1px solid #d5d5d5;
     padding-top: 1rem;
     padding-bottom: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    line-height: 11px;
+    color: #858585;
 }
 
 .flexRowContent--desktop__footer--departamentos {
@@ -39,31 +36,16 @@
     padding-bottom: 1rem;
 }
 
-.flexRowContent--desktop__footer--newsletter {
-    border-top: 1px solid #d5d5d5;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-}
-
-.flexRow--desktop__footer--newsletter {
-    height: 2rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
 .flexCol--footer__departamentos--acerca-dafiti {
     height: 4rem;
 }
 .flexCol--footer__departamentos--novedades{
     height: 4rem;
-
 }
 
 .flexCol--footer__marcas--two{
 width: 200px;
 }
-
 
 .flexRow--desktop__footer--departamentos{
     width: 960px;
@@ -88,4 +70,16 @@ width: 200px;
 .flexRow--desktop__footer--change{
     width: 960px;
 }
+
+
+.flexCol--desktop__footer--terminos{
+    height: 40px;
+}
+
+.flexCol--footer__departamentos--ailados{
+    height: 60px;
+    display: flex;
+    gap: 1rem;
+}
+
 

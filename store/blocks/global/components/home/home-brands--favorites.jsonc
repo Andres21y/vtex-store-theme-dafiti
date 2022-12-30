@@ -54,7 +54,8 @@
         "title":"home__brands--addidas",
         "props": {
             "src": "assets/image/marcas/dft-addidas.png",
-            "maxHeight": 100,
+            "height":120,
+            "weight":180,
             "blockClass": "home__brands--addidas"
         }
     },
@@ -62,7 +63,8 @@
         "title":"home_brands-skechers",
         "props": {
             "src": "assets/image/marcas/dft-skechers.png",
-            "maxHeight": 90,
+            "height":120,
+            "weight":180,
             "blockClass": "home__brands--skechers"
         }
     },
@@ -70,7 +72,8 @@
         "title":"home__brands--nike",
         "props": {
             "src": "assets/image/marcas/dft-nike.png",
-            "maxHeight": 84,
+            "height":120,
+            "weight":180,
             "blockClass": "home__brands--nike"
         }
     },
@@ -78,7 +81,8 @@
         "title":"home__brands--royal",
         "props": {
             "src": "assets/image/marcas/dft-royalcounty.png",
-            "maxHeight": 84,
+            "height":120,
+            "weight":180,
             "blockClass": "home__brands--royal"
         }
     },
@@ -86,7 +90,8 @@
         "title":"home__brands--lewis",
         "props": {
             "src": "assets/image/marcas/dft-levis.png",
-            "maxHeight": 84,
+            "height":120,
+            "weight":180,
             "blockClass": "home__brands--lewis"
         }
     },
@@ -94,7 +99,8 @@
         "title":"home__brands--reebook",
         "props": {
             "src": "assets/image/marcas/dft-reebok.png",
-            "maxHeight": 84,
+            "height":120,
+            "weight":180,
             "blockClass": "home__brands--reebook"
         }
     }
