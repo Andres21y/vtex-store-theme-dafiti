@@ -21,7 +21,7 @@
         },
         "blocks": [
             //"search-result-layout.desktop#desktop__home--search"
-             "search-result-layout.mobile#mobile__home--search"
+            "search-result-layout.mobile#mobile__home--search"
             // "search-not-found-layout"
         ]
     },
@@ -31,22 +31,48 @@
             "flex-layout.row#home__search--result-content"
         ]
     },
-    "flex-layout.row#home__search--result-content":{
-        "title":"home__search--result-content",
-        "children":[ "flex-layout.col#home__search--result"]        
-    },
-    "flex-layout.col#home__search--result":{
-        "title":"home__search--result",
-        "children":[ "search-content#search__result"]  
-    },
-    "search-content#search__result":{
-        "blocks":[
-            "gallery", "not-found"
+    "flex-layout.row#home__search--result-content": {
+        "title": "home__search--result-content",
+        "children": [
+            "flex-layout.col#home__search--result"
         ]
     },
-    "gallery":{
-        "blocks":[
+    "flex-layout.col#home__search--result": {
+        "title": "home__search--result",
+        "children": [
+            "search-content#search__result"
+        ]
+    },
+    "search-content#search__result": {
+        "blocks": [
+            "gallery",
+            "not-found"
+        ]
+    },
+    "gallery": {
+        "title": "",
+        "blocks": [
             "product-summary.shelf"
-        ]
+        ],
+        "props": {
+            "layouts": [
+              {
+                "name": "grid",
+                "component": "GridSummary",
+                "itemsPerRow": {
+                  "desktop": 4,
+                  "tablet": 2,
+                  "phone": 1
+                }
+              },
+              {
+                "name": "list",
+                "component": "ListSummary",
+                "itemsPerRow": 1
+              }
+            ],
+            "ListSummary": "product-summary.shelf",
+            "GridSummary": "product-summary.shelf"
+          }
     }
 }

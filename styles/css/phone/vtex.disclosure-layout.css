@@ -13,3 +13,7 @@
     background: #ececec;
 }
 
+
+.trigger--hidden {
+    border-top: 1px solid #bab7b7;
+}

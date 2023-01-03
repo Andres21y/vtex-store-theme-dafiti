@@ -62,23 +62,23 @@
         }
     },
     "disclosure-state-indicator": {
-        "title": "disclosure__icon--down-up",
+        "title": "disclosure__icon--right-down",
         "props": {
-            "Show": "icon-caret#down",
-            "Hide": "icon-caret#up",
+            "Show": "icon-caret#right",
+            "Hide": "icon-caret#down",
             "blockClass": "footer__disclosure--indicator"
+        }
+    },
+    "icon-caret#right": {
+        "title": "disclosure__icon--right",
+        "props": {
+            "orientation": "right"
         }
     },
     "icon-caret#down": {
         "title": "disclosure__icon--down",
         "props": {
             "orientation": "down"
-        }
-    },
-    "icon-caret#up": {
-        "title": "disclosure__icon--up",
-        "props": {
-            "orientation": "up"
         }
     },
     "disclosure-content#disclosure__departments--childrens": {
