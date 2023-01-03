@@ -25,6 +25,7 @@
             "stack-layout#main__section--man"
         ],
         "props": {
+            "preventHorizontalStretch":false,
             "blockClass": "home__content--one"
         }
     },

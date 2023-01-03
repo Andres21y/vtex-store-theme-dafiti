@@ -1,6 +1,6 @@
  @media (max-width: 660px) {
-    
-    .flexRowContent--global__home--preheader {
+
+     .flexRowContent--global__home--preheader {
          margin-top: 1rem;
      }
 
@@ -10,9 +10,10 @@
 
      .flexRowContent--home__content--one {
          display: flex;
-         flex-direction: column
+         flex-direction: column;
+         min-width: 320px;
      }
- 
+
 
      .flexRow--home__content--two {
          display: none;
@@ -25,4 +26,5 @@
      .flexRow--disclosure--container--content {
          width: 100%;
      }
+
  }
