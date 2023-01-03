@@ -4,7 +4,7 @@
     "children": [
       "flex-layout.row#global__home--preheader",
       "flex-layout.row#global__home--title",
-      "flex-layout.row#global__home--main",
+      "flex-layout.row#global__home--content",
       "flex-layout.row#global__home--brands",
       "flex-layout.row#global__home--trucking",
       "flex-layout.row#global__home--recommended",

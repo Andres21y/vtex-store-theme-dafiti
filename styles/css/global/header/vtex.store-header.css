@@ -152,3 +152,33 @@
 .headerStickyRow--footer__newsletter--content{
     width: 960px;
 }
+
+.headerRowBackground--home__newsletter--one{
+    background: #F8F8F8;
+}
+.headerRowContentContainer--footer__newsletter--content{
+    height: 1rem;
+    margin-top: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.headerRowContainer--desktop__footer--newsletter-content{
+    height: 2rem;
+}
+
+.headerRowContainer--footer__newsletter--content{
+    border-top: 1px solid #d5d5d5;
+}
+
+.headerRowBackground--mobile__menu--main{
+    background: black;
+}
+
+.headerRowContentContainer--mobile__search{
+    background: black;
+}
+.headerRowContentContainer--mobile__megamenu{
+    background: black;
+}

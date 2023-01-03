@@ -4,8 +4,6 @@
         "children": [
             "rich-text#footer__newsletter--description",
             "newsletter-form#desktop__footer--newsletter"
-            // "rich-text#footer__newsletter--mujer",
-            // "rich-text#footer__newsletter--hombre"
         ],
         "props": {
             "blockClass": "footer__newsletter--content"
@@ -31,10 +29,23 @@
     //     }
     // },
     "newsletter-form#desktop__footer--newsletter": {
+        "title": "desktop__footer--newsletter",
+        "children": [
+            "header-row#desktop__footer--newsletter-content"
+        ],
+        "props": {
+            "blockClass": "desktop__footer--newsletter"
+        }
+    },
+    "header-row#desktop__footer--newsletter-content": {
+        "title": "desktop__footer--newsletter-content",
         "children": [
             "newsletter#footer__newsletter--main",
             "newsletter-submit#desktop__footer--sumbit"
-        ]
+        ],
+        "props": {
+            "blockClass": "desktop__footer--newsletter-content"
+        }
     },
     "rich-text#footer__newsletter--mujer": {
         "title": "footer__newsletter--mujer",
@@ -76,15 +87,18 @@
         }
     },
     "newsletter#footer__newsletter--main": {
+        "title": "footer__newsletter--main",
         "props": {
-            "hideLabel":true,
-            "placeholder": "¡Suscríbete"
+            "hideLabel": true,
+            "placeholder": "¡Suscríbete",
+            "blockClass": "footer__newsletter--main"
         }
     },
-    "newsletter-submit#desktop__footer--sumbit":{
-        "props":{
-            "submitButtonLabel":"suscribete",
-            "blockClass":"desktop__footer--sumbit"
+    "newsletter-submit#desktop__footer--sumbit": {
+        "title": "desktop__footer--sumbit",
+        "props": {
+            "submitButtonLabel": "suscribete",
+            "blockClass": "desktop__footer--sumbit"
         }
     }
 }
