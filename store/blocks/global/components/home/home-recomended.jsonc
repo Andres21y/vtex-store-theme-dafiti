@@ -2,7 +2,7 @@
   "flex-layout.row#global__home--recommended": {
         "title": "global__home--recommended",
         "children": [
-          "rich-text#home__recomended"
+          "rich-text#home__recomended"          
         ],
         "props": {
             "blockClass": "global__home--recommended"
@@ -17,5 +17,5 @@
           "font": "t-heading-2",
           "blockClass": "home__recomended"
         }
-      }
+      }      
 }
