@@ -4,12 +4,11 @@
         "children":[
              "flex-layout.row#global__home--preheader",
              "flex-layout.row#global__home--title",
-             "flex-layout.row#global__home--main",
+             "flex-layout.row#global__home--content",
              "flex-layout.row#global__home--trucking",
              "flex-layout.row#global__home--recommended",
              "flex-layout.row#global__home--brands",
-             "flex-layout.row#global__home--seo",
-            "flex-layout.row#global__home--form"
+             "flex-layout.row#global__home--seo"
         ],
         "props": {
           "blockClass": "table__home--apps"

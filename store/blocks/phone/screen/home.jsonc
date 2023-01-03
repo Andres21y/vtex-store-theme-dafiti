@@ -3,7 +3,7 @@
         "title": "phone__home--apps",
         "children": [
             "flex-layout.row#global__home--preheader",
-            "flex-layout.row#global__home--main"
+            "flex-layout.row#global__home--content"
         ],
         "props": {
             "blockClass": "phone__home--apps"

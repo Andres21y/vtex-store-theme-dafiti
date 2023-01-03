@@ -1,104 +1,28 @@
- /* =================================== global home preheader */
  @media (max-width: 660px) {
-
-     .flexRow--global__home--title {
-         background-color: aqua;
-         width: 100%;
+    
+    .flexRowContent--global__home--preheader {
+         margin-top: 1rem;
      }
 
-     .flexRowContent--global__home--preheader {
-         margin-bottom: 2rem;
+     .flexRow--global__home--content {
+         margin-top: 1rem;
      }
 
-     .flexRowContent--home__main--one {
+     .flexRowContent--home__content--one {
          display: flex;
-         flex-direction: column;
+         flex-direction: column
      }
+ 
 
-     .flexRow--home__main--two {
+     .flexRow--home__content--two {
          display: none;
      }
 
-     .stretchChildrenWidth {
-         width: 0px;
+     .flexColChild--disclosure--container--content {
+         width: 100%;
      }
 
-     .flexCol--home__main--woman {
-         background-image: url("assets/image/home_block/section/dft-section-mujer.png");
-         background-repeat: no-repeat;
-         background-size: cover;
-         max-width: 500px;
-         max-height: 500px;
+     .flexRow--disclosure--container--content {
+         width: 100%;
      }
-
-     .flexCol--home__main--man {
-         background-repeat: no-repeat;
-         background-size: cover;
-         max-width: 500px;
-         max-height: 500px;
-     }
-
-     .flexRowContent--home__woman--categories {
-         display: block;
-         text-align: left;
-         padding: 50px;
-         font-size: 15px;
-         color: #fff;
-         line-height: 20px;
-         margin-top: 40px;
-         margin-left: 5px;
-     }
-
-     .flexRowContent--home__man--categories {
-         display: block;
-         text-align: right;
-         padding: 50px;
-         font-size: 15px;
-         color: #fff;
-         line-height: 20px;
-         margin-top: 40px;
-         margin-left: 10rem;
-         width: 60%;
-     }
-
-     .flexColChild--home__main--man {
-         height: 0px;
-     }
-
-     .flexColChild--home__unix--container {
-         position: relative;
-         max-height: 3.2rem;
-         margin-bottom: .5rem;
-     }
-
-     .flexCol--home__unix--container {
-         height: 6rem;
-     }
-
-     .flexRowContent--_section-info {
-         display: flex;
-         gap: 1rem;
-     }
-
-
-
-
-     .flexRowContent--home__newsletter--one {
-         display: flex;
-         flex-direction: column-reverse;
-         justify-content: center;
-         align-items: center;
-     }
-
-     .flexRow--home__newsletter--description {
-         display: flex;
-         position: relative;
-         justify-content: center;
-         align-items: center;
-         width: 1150px;
-         /* background-color: #ececec; */
-         height: 10rem;
-     }
-
-
  }

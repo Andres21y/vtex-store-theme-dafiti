@@ -5,53 +5,60 @@
             "flex-layout.row#footer__disclosure--container"
         ],
         "props": {
-            "blockClass": ""
+            "blockClass": "footer__disclousure--group"
         }
     },
     "flex-layout.row#footer__disclosure--container": {
-        "title": "footer__disclousure--group",
+        "title": "footer__disclosure--container",
         "children": [
-            "flex-layout.col#footer__disclosure--container"
+            "flex-layout.col#footer__disclosure--content"
         ],
         "props": {
-            "blockClass": ""
+            "blockClass": "disclosure--container--content"
         }
     },
-    "flex-layout.col#footer__disclosure--container": {
-        "title": "",
+    "flex-layout.col#footer__disclosure--content": {
+        "title": "disclosure--container--content",
         "children": [
-            "disclosure-layout#footer__disclousure--departamentos",
-            "disclosure-layout#footer__disclousure--about"
-            // "disclosure-layout#footer__disclousure--servicios",
-            // "disclosure-layout#footer__disclousure--novedades"
+            "disclosure-layout#footer__disclousure--departments",
+            "disclosure-layout#footer__disclousure--about",
+            "disclosure-layout#footer__disclousure--services",
+            "disclosure-layout#footer__disclousure--news",
+            "rich-text#footer__follow-us",
+            "social-networks#footer__social--networks",
+            "rich-text#footer__mark"
         ],
         "props": {
-            "blockClass": ""
+            "blockClass": "disclosure--container--content"
         }
     },
-    "disclosure-layout#footer__disclousure--departamentos": {
-        "title": "",
+    "disclosure-layout#footer__disclousure--departments": {
+        "title": "footer__disclousure--departments",
         "children": [
-            "disclosure-trigger#disclosure__departamentos--title",
-            "disclosure-content#disclosure__departamentos--childrens"
+            "disclosure-trigger#disclosure__departments--title",
+            "disclosure-content#disclosure__departments--childrens"
         ],
         "props": {
-            "blockClass": ""
+            "initialVisibility": "visible",
+            "animated": false,
+            "blockClass": "footer__disclousure--departments"
         }
     },
-    "disclosure-trigger#disclosure__departamentos--title": {
-        "title": "",
+    "disclosure-trigger#disclosure__departments--title": {
+        "title": "disclosure__departments--title",
         "children": [
-            "rich-text#disclosure__departamentos--title",
+            "rich-text#departments__title--content",
             "disclosure-state-indicator"
         ],
         "props": {
-            "blockClass": ""
+            "blockClass": "disclosure__departments--title"
         }
     },
-    "rich-text#disclosure__departamentos--title": {
+    "rich-text#departments__title--content": {
+        "title": "departments__title--content",
         "props": {
-            "text": "Departamentos"
+            "text": "Departamentos",
+            "blockClass": "departments__title--content"
         }
     },
     "disclosure-state-indicator": {
@@ -74,30 +81,30 @@
             "orientation": "up"
         }
     },
-    "disclosure-content#disclosure__departamentos--childrens": {
-        "title": "",
+    "disclosure-content#disclosure__departments--childrens": {
+        "title": "disclosure__departments--childrens",
         "children": [
-            "menu#disclosure__departamentos--childrens"
+            "menu#departments__childrens--content"
         ],
         "props": {
-            "blockClass": ""
+            "blockClass": "disclosure__departments--childrens"
         }
     },
-    "menu#disclosure__departamentos--childrens": {
-        "title": "disclosure__departamentos--menu",
+    "menu#departments__childrens--content": {
+        "title": "departments__childrens--content",
         "children": [
-            "menu-item#disclosure__departamentos--marcas",
-            "menu-item#disclosure__departamentos--mujer",
-            "menu-item#disclosure__departamentos--hombre",
-            "menu-item#disclosure__departamentos--niño"
+            "menu-item#disclosure__departments--brands",
+            "menu-item#disclosure__departments--woman",
+            "menu-item#disclosure__departments--man",
+            "menu-item#disclosure__departments--child"
         ],
         "props": {
             "orientation": "vertical",
-            "blockClass": ""
+            "blockClass": "departments__childrens--content"
         }
     },
-    "menu-item#disclosure__departamentos--marcas": {
-        "title": "",
+    "menu-item#disclosure__departments--brands": {
+        "title": "disclosure__departments--brands",
         "props": {
             "id": "",
             "type": "custom",
@@ -106,86 +113,91 @@
                 "href": "#",
                 "tagTitle": "",
                 "text": "Marcas"
-            }
+            },
+            "blockClass": "disclosure__departments--brands"
         }
     },
-    "menu-item#disclosure__departamentos--mujer": {
-        "title": "",
+    "menu-item#disclosure__departments--woman": {
+        "title": "disclosure__departments--woman",
         "props": {
             "id": "",
             "type": "custom",
             "itemProps": {
                 "type": "internal",
                 "href": "#",
-                "tagTitle": "",
+                "tagTitle": "woman",
                 "text": "Mujer"
             },
-            "blockClass": ""
+            "blockClass": "disclosure__departments--woman"
         }
     },
-    "menu-item#disclosure__departamentos--hombre": {
-        "title": "",
+    "menu-item#disclosure__departments--man": {
+        "title": "disclosure__departments--man",
         "props": {
             "id": "",
             "type": "custom",
             "itemProps": {
                 "type": "internal",
                 "href": "#",
-                "tagTitle": "",
+                "tagTitle": "man",
                 "text": "Hombre"
-            }
+            },
+            "blockClass": "disclosure__departments--man"
         }
     },
-    "menu-item#disclosure__departamentos--niño": {
-        "title": "",
+    "menu-item#disclosure__departments--child": {
+        "title": "disclosure__departments--child",
         "props": {
             "id": "",
             "type": "custom",
             "itemProps": {
                 "type": "internal",
                 "href": "#",
-                "tagTitle": "",
+                "tagTitle": "child",
                 "text": "Niño"
-            }
+            },
+            "blockClass": "disclosure__departments--child"
         }
     },
     //------------------------------------------------------------
     "disclosure-layout#footer__disclousure--about": {
-        "title": "",
+        "title": "footer__disclousure--about",
         "children": [
             "disclosure-trigger#disclosure__about--title",
             "disclosure-content#disclosure__about--childrens"
         ],
         "props": {
-            "blockClass": ""
+            "blockClass": "footer__disclousure--about"
         }
     },
     "disclosure-trigger#disclosure__about--title": {
-        "title": "",
+        "title": "disclosure__about--title",
         "children": [
-            "rich-text#disclosure__about--title",
+            "rich-text#about__title--content",
             "disclosure-state-indicator"
         ],
         "props": {
-            "blockClass": ""
+            "blockClass": "disclosure__about--title"
         }
     },
-    "rich-text#disclosure__about--title": {
+    "rich-text#about__title--content": {
+        "title": "about__title--content",
         "props": {
-            "text": "Acerca de Dafiti"
+            "text": "Acerca de Dafiti",
+            "blockClass": "about__title--content"
         }
     },
     "disclosure-content#disclosure__about--childrens": {
-        "title": "",
+        "title": "disclosure__about--childrens",
         "children": [
-            "menu#disclosure__about--childrens"
+            "menu#about__childrens--content"
         ],
         "props": {
-            "blockClass": ""
+            "blockClass": "disclosure__about--childrens"
         }
     },
-    "menu#disclosure__about--childrens": {
-        "title": "disclosure__departamentos--menu",
+    "menu#about__childrens--content": {
+        "title": "about__childrens--content",
         "children": [
             "menu-item#disclosure__about--nosotros",
             "menu-item#disclosure__about--ternminos-condiciones",
@@ -194,11 +206,11 @@
         ],
         "props": {
             "orientation": "vertical",
-            "blockClass": ""
+            "blockClass": "about__childrens--content"
         }
     },
     "menu-item#disclosure__about--nosotros": {
-        "title": "",
+        "title": "disclosure__about--nosotros",
         "props": {
             "id": "menu-item-nosotros",
             "type": "custom",
@@ -207,11 +219,12 @@
                 "href": "#",
                 "tagTitle": "Nosotros",
                 "text": "Nosotros"
-            }
+            },
+            "blockClass": "disclosure__about--nosotros"
         }
     },
     "menu-item#disclosure__about--ternminos-condiciones": {
-        "title": "",
+        "title": "disclosure__about--ternminos-condiciones",
         "props": {
             "id": "menu-item-condiciones",
             "type": "custom",
@@ -221,11 +234,11 @@
                 "tagTitle": "Términos y Condiciones",
                 "text": "Términos y Condiciones"
             },
-            "blockClass": ""
+            "blockClass": "disclosure__about--ternminos-condiciones"
         }
     },
     "menu-item#disclosure__about--politica-privacidad": {
-        "title": "",
+        "title": "disclosure__about--politica-privacidad",
         "props": {
             "id": "menu-item-privacidad",
             "type": "custom",
@@ -238,7 +251,7 @@
         }
     },
     "menu-item#disclosure__about--politica-datos": {
-        "title": "",
+        "title": "disclosure__about--politica-datos",
         "props": {
             "id": "menu-item-datos",
             "type": "custom",
@@ -249,25 +262,260 @@
                 "text": "Política de Datos"
             }
         }
+    },
+    //------------------------------------------------------------
+    "disclosure-layout#footer__disclousure--services": {
+        "title": "footer__disclousure--services",
+        "children": [
+            "disclosure-trigger#disclosure__services--title",
+            "disclosure-content#disclosure__services--childrens"
+        ],
+        "props": {
+            "blockClass": "footer__disclousure--services"
+        }
+    },
+    "disclosure-trigger#disclosure__services--title": {
+        "title": "disclosure__services--title",
+        "children": [
+            "rich-text#services__title--content",
+            "disclosure-state-indicator"
+        ],
+        "props": {
+            "blockClass": "disclosure__services--title"
+        }
+    },
+    "rich-text#services__title--content": {
+        "title": "services__title--content",
+        "props": {
+            "text": "Servicios",
+            "blockClass": "services__title--content"
+        }
+    },
+    "disclosure-content#disclosure__services--childrens": {
+        "title": "disclosure__services--childrens",
+        "children": [
+            "menu#services__childrens--content"
+        ],
+        "props": {
+            "blockClass": "disclosure__services--childrens"
+        }
+    },
+    "menu#services__childrens--content": {
+        "title": "disclosure__services--childrens",
+        "children": [
+            "menu-item#disclosure__services--experience",
+            "menu-item#disclosure__services--payments",
+            "menu-item#disclosure__services--warranty",
+            "menu-item#disclosure__services--contact"
+        ],
+        "props": {
+            "orientation": "vertical",
+            "blockClass": "disclosure__services--childrens"
+        }
+    },
+    "menu-item#disclosure__services--experience": {
+        "title": "disclosure__services--experience",
+        "props": {
+            "id": "menu-item-nosotros",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "tagTitle": "experiencia",
+                "text": "Experiencia"
+            },
+            "blockClass": "disclosure__services--experience"
+        }
+    },
+    "menu-item#disclosure__services--payments": {
+        "title": "disclosure__services--payments",
+        "props": {
+            "id": "menu-item-condiciones",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "tagTitle": "medios__de--pago",
+                "text": "Medios de Pago"
+            },
+            "blockClass": "disclosure__services--payments"
+        }
+    },
+    "menu-item#disclosure__services--warranty": {
+        "title": "disclosure__services--warranty",
+        "props": {
+            "id": "menu-item-privacidad",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "tagTitle": "garantía",
+                "text": "Garantía"
+            }
+        }
+    },
+    "menu-item#disclosure__services--contact": {
+        "title": "disclosure__services--contact",
+        "props": {
+            "id": "menu-item-datos",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "tagTitle": "contacto",
+                "text": "Contacto"
+            }
+        }
+    },
+    //------------------------------------------------------------
+    "disclosure-layout#footer__disclousure--news": {
+        "title": "footer__disclousure--news",
+        "children": [
+            "disclosure-trigger#disclosure__news--title",
+            "disclosure-content#disclosure__news--childrens"
+        ],
+        "props": {
+            "blockClass": "footer__disclousure--news"
+        }
+    },
+    "disclosure-trigger#disclosure__news--title": {
+        "title": "disclosure__news--title",
+        "children": [
+            "rich-text#news__title-content",
+            "disclosure-state-indicator"
+        ],
+        "props": {
+            "blockClass": "disclosure__news--title"
+        }
+    },
+    "rich-text#news__title-content": {
+        "title": "news__title-content",
+        "props": {
+            "text": "Novedades",
+            "blockClass": "news__title-content"
+        }
+    },
+    "disclosure-content#disclosure__news--childrens": {
+        "title": "disclosure__news--childrens",
+        "children": [
+            "menu#news__childrens--content"
+        ],
+        "props": {
+            "blockClass": "disclosure__news--childrens"
+        }
+    },
+    "menu#news__childrens--content": {
+        "title": "news__childrens--content",
+        "children": [
+            "menu-item#disclosure__news--black-friday",
+            "menu-item#disclosure__news--dia-sin-iva",
+            "menu-item#disclosure__news--cycerlunes",
+            "menu-item#disclosure__news--sneakers"
+        ],
+        "props": {
+            "orientation": "vertical",
+            "blockClass": "news__childrens--content"
+        }
+    },
+    "menu-item#disclosure__news--black-friday": {
+        "title": "disclosure__news--black-friday",
+        "props": {
+            "id": "menu-item-nosotros",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "tagTitle": "black-friday",
+                "text": "Black Friday"
+            },
+            "blockClass": "disclosure__news--black-friday"
+        }
+    },
+    "menu-item#disclosure__news--dia-sin-iva": {
+        "title": "disclosure__news--dia-sin-iva",
+        "props": {
+            "id": "menu-item-condiciones",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "tagTitle": "dia-sin-iva",
+                "text": "Dia Sin IVA"
+            },
+            "blockClass": "disclosure__news--dia-sin-iva"
+        }
+    },
+    "menu-item#disclosure__news--cycerlunes": {
+        "title": "disclosure__news--cycerlunes",
+        "props": {
+            "id": "menu-item-privacidad",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "tagTitle": "cycerlunes",
+                "text": "Cycerlunes"
+            },
+            "blockClass": "disclosure__news--cycerlunes"
+        }
+    },
+    "menu-item#disclosure__news--sneakers": {
+        "title": "disclosure__news--sneakers",
+        "props": {
+            "id": "menu-item-datos",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "tagTitle": "sneakers",
+                "text": "Sneakers"
+            },
+            "blockClass": "disclosure__news--sneakers"
+        }
+    },
+    "rich-text#footer__follow-us": {
+        "title": "footer__follow-us",
+        "props": {
+            "text": "SIGUENOS EN",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "font": "small",
+            "blockClass": "footer__follow-us"
+        }
+    },
+    "rich-text#footer__mark": {
+        "title": "footer__mark",
+        "props": {
+            "text": "© 2023 DAFITI S.A.S",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "font": "small",
+            "blockClass": "footer__mark"
+        }
+    },
+    "social-networks#footer__social--networks": {
+        "title": "footer__social--networks",
+        "props": {
+            "socialNetworks": [
+                {
+                    "url": "https://facebook.com/foo",
+                    "name": "Facebook"
+                },
+                {
+                    "url": "https://twitter.com/foo",
+                    "name": "Twitter"
+                },
+                {
+                    "url": "https://instagram.com/foo",
+                    "name": "Instagram"
+                },
+                {
+                    "url": "https://youtube.com/foo",
+                    "name": "Youtube"
+                }
+            ],
+            "showInColor": true,
+            "blockClass": "footer__social--networks"
+        }
     }
-    // //------------------------------------------------------------
-    // "disclosure-layout#footer__disclousure--servicios": {
-    //     "title": "",
-    //     "children": [
-    //         "disclosure-trigger#"
-    //     ],
-    //     "props": {
-    //         "blockClass": ""
-    //     }
-    // },
-    // //------------------------------------------------------------
-    // "disclosure-layout#footer__disclousure--novedades": {
-    //     "title": "",
-    //     "children": [
-    //         "disclosure-trigger#"
-    //     ],
-    //     "props": {
-    //         "blockClass": ""
-    //     }
-    // }
 }

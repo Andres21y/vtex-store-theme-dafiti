@@ -5,7 +5,7 @@
             "flex-layout.row#mobile-menu--container"
         ],
         "props": {
-            "blockClass":"mobile__menu--main"
+            "blockClass": "mobile__menu--main"
         }
     },
     "flex-layout.row#mobile-menu--container": {
@@ -14,7 +14,7 @@
             "flex-layout.col#mobile-menu--content"
         ],
         "props": {
-            "blockClass":"mobile__menu--container"
+            "blockClass": "mobile__menu--container"
         }
     },
     "flex-layout.col#mobile-menu--content": {
@@ -24,7 +24,7 @@
             "header-row#mobile__search"
         ],
         "props": {
-            "blockClass":"mobile__menu--content"
+            "blockClass": "mobile__menu--content"
         }
     },
     "header-row#mobile__megamenu": {
@@ -57,8 +57,8 @@
         "blocks": [
             "drawer-header#mobile__drawer--main"
         ],
-        "props":{
-            "blockClass":"mega__menu--drawer"
+        "props": {
+            "blockClass": "mega__menu--drawer"
         }
     },
     "mega-menu#mobile__mega--menu": {
@@ -67,7 +67,7 @@
             "defaultDepartmentActive": "...",
             "orientation": "vertical",
             "openOnly": "vertical",
-            "blockClass":"mobile__mega--menu"
+            "blockClass": "mobile__mega--menu"
         }
     },
     "drawer-header#mobile__drawer--main": {
@@ -75,8 +75,8 @@
         "children": [
             "flex-layout.row#drawer-header"
         ],
-        "props":{
-            "blockClass":"mobile__drawer--main"
+        "props": {
+            "blockClass": "mobile__drawer--main"
         }
     },
     "flex-layout.row#drawer-header": {
@@ -101,11 +101,11 @@
         "props": {
             "verticalAlign": "middle",
             "horizontalAlign": "right",
-            "blockClass":"drawer__close--button"
+            "blockClass": "drawer__close--button"
         }
     },
     "flex-layout.col#mega__menu--go-back-btn": {
-        "title":"mega__menu--go-back-btn",
+        "title": "mega__menu--go-back-btn",
         "children": [
             "mega-menu-go-back-btn"
         ],
@@ -113,22 +113,31 @@
             "verticalAlign": "middle",
             "horizontalAlign": "left",
             "paddingLeft": 4,
-            "blockClass":"mega__menu--go-back-btn"
+            "blockClass": "mega__menu--go-back-btn"
         }
+    },
+    "autocomplete-result-list.v2": {
+        "title": "autocomplete-result-list",
+        "blocks": [
+            "product-summary"
+        ]
     },
     "search-bar#mobile__menu--search": {
-        "title":"mobile__menu--search",
+        "title": "mobile__menu--search",
+        "blocks": [
+            "autocomplete-result-list.v2"
+        ],
         "props": {
             "openAutocompleteOnFocus": true,
-            "blockClass":"mobile__menu--search"
+            "blockClass": "mobile__menu--search"
         }
     },
-    "image#megamenu__logo--store":{
-        "title":"megamenu__logo--store",
-            "props": {
-              "src": "assets/image/header/dafiti__white.jpeg",
-              "maxHeight": 24,
-              "blockClass":"megamenu__logo--store"
-            }
+    "image#megamenu__logo--store": {
+        "title": "megamenu__logo--store",
+        "props": {
+            "src": "assets/image/header/dafiti__white.jpeg",
+            "maxHeight": 24,
+            "blockClass": "megamenu__logo--store"
+        }
     }
 }

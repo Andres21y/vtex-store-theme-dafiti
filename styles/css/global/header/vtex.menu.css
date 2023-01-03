@@ -1,4 +1,4 @@
-.menuContainerNav--menu__principal--departamentos{
+.menuContainerNav--menu__principal--departamentos {
     max-width: 90%;
     display: flex;
     justify-content: center;
@@ -160,15 +160,10 @@
     max-width: 95rem;
 }
 
-
-
-
-
-.styledLinkContainer--departamentos__categorias{
+.styledLinkContainer--departamentos__categorias {
     border-bottom: 1px solid #858585;
     margin-bottom: 1rem;
     width: 150px;
     display: flex;
     justify-content: center;
 }
-

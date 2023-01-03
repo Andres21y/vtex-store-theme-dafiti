@@ -1,5 +1,7 @@
  /* =================================== global home preheader */
-
+ .flexRowContent--global__home--content{
+    max-width: 1170px;
+ }
  .flexRow--global__home--preheader {
      margin: 0 auto;
      max-width: 100%;
@@ -8,7 +10,7 @@
  }
 
  .flexRowContent--global__home--preheader {
-     max-width: 100%;
+     max-width: 1170px;
      font-size: 11px;
      line-height: 1.6rem;
  }
@@ -58,7 +60,7 @@
      line-height: 29px;
      margin-top: 60px;
      margin-left: 7px;
-     width: 570px;
+     max-width: 570px;
  }
 
  .flexCol--man__categories--list {
