@@ -8,13 +8,11 @@
  }
 
  .flexRowContent--global__home--preheader {
-     width: 1170px;
      max-width: 100%;
      font-size: 11px;
      line-height: 1.6rem;
  }
 
- /* =================================== global home title */
  .flexRow--global__home--title {
      display: flex;
      justify-content: center;
@@ -39,49 +37,46 @@
      margin-bottom: 1rem;
  }
 
- /* =================================== Desktop home Main */
- .flexRow--global__home--main {
+ .flexRow--global__home--content {
      display: flex;
      position: relative;
      width: 100%;
      margin-bottom: 70px;
  }
 
- .flexRowContent--home__main--one {
+ .flexRowContent--home__content--one {
+     display: flex;
+     gap: 2rem;
+     margin-bottom: 2rem;
+ }
+ .flexCol--woman__categories--list {
+     display: block;
+     text-align: left;
+     padding: 50px;
+     font-size: 20px;
+     color: #fff;
+     line-height: 29px;
+     margin-top: 60px;
+     margin-left: 7px;
+     width: 570px;
+ }
+
+ .flexCol--man__categories--list {
+     display: block;
+     text-align: right;
+     padding: 50px;
+     font-size: 20px;
+     color: #fff;
+     line-height: 29px;
+     margin-top: 60px;
+     margin-right: 7px;
+ }
+ .flexRowContent--home__content--two {
      display: flex;
      justify-content: center;
-     gap: 2rem;
+     gap: 2.5rem;
  }
 
- .flexRowContent--global__home--main {
-     width: 100%;
-     width: 1170px;
- }
-
- .flexCol--home__main--container {
-     display: flex;
-     gap: 2rem;
- }
-
- /*-------------------------------------------one*/
- /* mujer */
-
- .flexCol--home__main--woman {
-     background-image: url("assets/image/home_block/section/dft-section-mujer.png");
-     background-repeat: no-repeat;
-     background-size: cover;
-     width: 570px;
-     height: 640px;
- }
-
- .flexCol--home__main--man {
-     background-image: url("assets/image/home_block/section/dft-section-hombre.png");
-     background-repeat: no-repeat;
-     background-size: cover;
-     height: 640px;
- }
-
- /* categotegories */
  .flexRow--home__man--categories {
      width: 100%;
  }
@@ -110,7 +105,14 @@
      margin-left: 7px;
  }
 
- /* ver mas */
+ .flexColChild--section__man--container {
+     margin-top: 1%;
+ }
+
+ .flexColChild--section__woman--container {
+     margin-top: 1%;
+ }
+
  .flexColChild--home__unix--container {
      height: 40%;
  }
@@ -131,16 +133,12 @@
      align-items: flex-end;
  }
 
-
- /* sneaker premuin  kids */
  .flexRowContent--home__main--two {
      display: flex;
      gap: 2rem;
      width: 100%;
  }
 
-
- /* brands */
  .flexRowContent--global__home--brands {
      width: 1170px;
      max-width: 100%;
@@ -155,7 +153,6 @@
      max-height: 15rem;
      position: relative;
  }
-
 
  .flexRow--global__home--brands {
      display: flex;
@@ -172,34 +169,27 @@
 
  .flexRow--global__home--recommended {
      display: flex;
-     height: 180px;
-     margin-top: 3rem;
+     height: 140px;
+     margin-top: 6rem;
  }
 
  .flexRowContent--global__home--recommended {
      width: 1170px;
  }
 
- /* seo */
-
  .flexColChild--home__seo--container {
      width: 100%;
      margin-bottom: 70px;
  }
 
- /* formulario */
-
-
  .flexRowContent--home__newsletter--description {
      display: flex;
      align-items: center;
      height: 6rem;
-     background: white;
      margin-left: 2rem;
      height: 4rem;
+     width: 11rem;
  }
-
-
 
  .flexColChild--home__newsletter--subscribe {
      display: flex;
@@ -210,15 +200,14 @@
  }
 
  .flexRowContent--home___newsletter--main {
+     height: 15rem;
      width: 1170px;
-     background: #f8f8f8;
-     height: 14rem;
      display: flex;
      align-items: center;
      justify-content: center;
+     background: #f8f8f8;
      padding-top: 2rem;
  }
-
 
  .flexRowContent--home__newsletter--image-content {
      background: black;
@@ -233,6 +222,14 @@
      width: 486px;
  }
 
- .flexRow--home__newsletter--description{
-    width: 700px;
+ .flexRow--home__newsletter--description {
+     width: 600px;
+ }
+
+ .flexRow--home__newsletter--image-content {
+     width: 1rem;
+ }
+
+ .flexCol--home__newsletter {
+     width: 90%;
  }

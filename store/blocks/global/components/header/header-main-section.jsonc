@@ -75,14 +75,5 @@
             "activeClassName": "icon__heart",
             "blockClass": "header__icon--heart"
         }
-   // }
-    // "minicart.v2": {
-    //     "props": {
-    //         // "variation":"popup"
-    //         "MinicartIcon": "icon-cart",
-    //         "itemCountMode":"total",
-    //         "quantityDisplay":"always",
-    //         "size":34
-    //     }
     }
 }
