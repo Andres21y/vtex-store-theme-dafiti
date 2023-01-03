@@ -20,9 +20,33 @@
             }
         },
         "blocks": [
-            //"search-result-layout.desktop#desktop__home--search"
+            "search-result-layout.desktop#desktop__home--search",
             "search-result-layout.mobile#mobile__home--search"
             // "search-not-found-layout"
+        ]
+    },
+    "search-result-layout.desktop#desktop__home--search":{
+        "title": "mobile__home--search",
+        "children": [
+            "flex-layout.row#home__search--result-content"
+        ]
+    },
+    "flex-layout.row#desktop__search--result-content": {
+        "title": "home__search--eresult-content",
+        "children": [
+            "flex-layout.col#home__search--result"
+        ]
+    },
+    "flex-layout.col#desktop__search--result": {
+        "title": "home__search--result",
+        "children": [
+            "search-content#search__result"
+        ]
+    },
+    "search-content#desktopsearch__result": {
+        "blocks": [
+            "gallery",
+            "not-found"
         ]
     },
     "search-result-layout.mobile#mobile__home--search": {
