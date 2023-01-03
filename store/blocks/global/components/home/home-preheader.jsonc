@@ -12,6 +12,7 @@
         "title":"home__preheader--image",
         "props": {
             "src": "assets/image/dft-tommy-banner.jpg",
+            "maxWidth":"100%",
             "blockClass": "home__preheader--image"
         }
     }

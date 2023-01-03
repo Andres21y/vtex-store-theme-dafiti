@@ -1,12 +1,7 @@
 @media (max-width: 1024px) {
-
-
     .flexRow--mobile__menu--container {
+        max-width: 1024px;
         width: 100%;
-        /* background-color: orange; */
-    }
 
-
-
-
+    } 
 }

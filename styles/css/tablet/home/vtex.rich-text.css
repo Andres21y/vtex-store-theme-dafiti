@@ -1,80 +1,10 @@
 @media (max-width: 1024px) {
-    .container--homemain__two--kids {
-        height: 15rem;
+    .paragraph--home__seo--two {
+        font-size: 16px;
+        width: 80%;
     }
 
-    .container--homemain__two--premiun {
-        height: 15rem;
+    .paragraph--home__seo--one {
+        font-size: 40px;
     }
-
-    .container--homemain__two--sneakers {
-        height: 15rem;
-    }
-
-    .wrapper--home__unix--bottom {
-        color: black;
-        width: 80px;
-        height: 1.5rem;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        font-weight: 15px;
-        font-size: 20px;
-    }
-
-    .paragraph--home__unix--name {
-        font-size: 24px;
-        font-weight: 400;
-        font-style: normal;
-        font-stretch: normal;
-        line-height: 1.23;
-        letter-spacing: -1.4px;
-        text-align: center;
-        color: #ffffff;
-        display: block;
-        text-transform: uppercase;
-        font-family: 'Poppins', sans-serif;
-        margin-top: 20px;
-    }
-
-
-    .paragraph--home__recomended {
-        margin: 64px auto 40px;
-        display: table;
-        white-space: nowrap;
-        font-family: Poppins-Regular, sans-serif;
-        color: #20281F;
-        font-size: 2rem;
-        font-weight: 400;
-    }
-    
-.strong--home__seo--one{
-    font-size: 2rem;
-    font-weight: 400;
-    text-decoration: underline;
-}
-
-
-    
-}
-.wrapper--home__seo--two{
-width: 90%;
-height: 9rem;
-}
-
-.strong--home__seo--three{
-font-size: 13px;
-}
-
-.paragraph--newsletter__text--descriptions{
-    font-size: 15px;
-}
-
-.wrapper--newsletter__text--descriptions{
-    width: 45rem;
-}
-
-.container--newsletter__text--descriptions{
-    position: relative;
-    width: 100%;
 }

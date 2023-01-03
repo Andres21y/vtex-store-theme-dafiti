@@ -1,0 +1,9 @@
+.newsletterForm--desktop__footer--newsletter {
+    height: 5rem;
+}
+
+.formSubmitContainer--desktop__footer--sumbit :global(.vtex-button) {
+    margin-top: 2rem;
+    background: rgb(100, 97, 97);
+    border: none;
+}
