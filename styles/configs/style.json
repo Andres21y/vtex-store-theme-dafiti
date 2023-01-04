@@ -131,7 +131,7 @@
     "text": {
       "action-primary": "#000",
       "action-secondary": "#eef3f7",
-      "link": "#000",
+      "link": "#000000",
       "emphasis": "#f71963",
       "disabled": "#979899",
       "success": "#8bc34a",

@@ -182,3 +182,17 @@
 .headerRowContentContainer--mobile__megamenu{
     background: black;
 }
+
+.headerRowContentContainer--home__newsletter--form{
+    height: 4rem;
+    width: 702px;
+}
+.headerStickyRow--home__newsletter--form{
+    display: block;
+    position: relative;
+    width: 650px;
+    float: left;
+    border: solid 1px #e6ebf1;
+    background: #fff;
+    margin-right: 1rem;
+}
