@@ -2,19 +2,10 @@
     "flex-layout.row#global__home--form": {
         "title": "home___newsletter--main",
         "children": [
-            "flex-layout.col#home__newsletter"
-        ],
-        "props": {
-            "blockClass": "home___newsletter--main"
-        }
-    },
-    "flex-layout.col#home__newsletter": {
-        "title": "home___newsletter",
-        "children": [
             "flex-layout.col#home__newsletter--container"
         ],
         "props": {
-            "blockClass": "home__newsletter"
+            "blockClass": "home___newsletter--main"
         }
     },
     "flex-layout.col#home__newsletter--container": {
@@ -27,80 +18,72 @@
             "blockClass": "home__newsletter--container"
         }
     },
+    /*---------------------------------------------------------------------------------*/
     "header-row#home__newsletter--one": {
         "title": "home__newsletter--one",
         "children": [
-            "flex-layout.row#home__newsletter--description",
+            "flex-layout.row#home__newsletter--image",
+            "newsletter-form#home__newsletter--main",
             "flex-layout.col#home__newsletter--subscribe"
         ],
         "props": {
             "blockClass": "home__newsletter--one"
         }
     },
-    "flex-layout.row#home__newsletter--two": {
-        "title": "home__newsletter--two",
+    "flex-layout.row#home__newsletter--image": {
+        "title": "home__newsletter--image-content",
         "children": [
-            "rich-text#home__newsletter--terms",
-            "rich-text#home__newsletter--policy"
-        ],
-        "props": {
-            "blockClass": "home__newsletter--two"
-        }
-    },
-    "rich-text#home__newsletter--terms": {
-        "title": "home__newsletter--terms",
-        "props": {
-            "text": "[Terminos y Condiciones](https://developers.vtex.com/vtex-developer-docs/docs/welcome)",
-            "textAlignment": "CENTER",
-            "textPosition": "CENTER",
-            "font": "t-heading-6",
-            "blockClass": "home__newsletter--terms"
-        }
-    },
-    "rich-text#home__newsletter--policy": {
-        "title": "home__newsletter--policy",
-        "props": {
-            "text": "[ | Política de Tratamiento de Datos](https://developers.vtex.com/vtex-developer-docs/docs/welcome)",
-            "textAlignment": "CENTER",
-            "textPosition": "CENTER",
-            "font": "t-heading-6",
-            "blockClass": "home__newsletter--policy"
-        }
-    },
-    "flex-layout.row#home__newsletter--description": {
-        "title": "home__newsletter--description",
-        "children": [
-            "flex-layout.row#home__newsletter--image",
-            "newsletter#home__newsletter--main"
-        ],
-        "props": {
-            "blockClass": "home__newsletter--description"
-        }
-    },
-    "flex-layout.row#home__newsletter--image":{
-        "title":"home__newsletter--image-content",
-        "children":[
             "image#home__newsletter--image"
         ],
         "props": {
             "blockClass": "home__newsletter--image-content"
         }
     },
-    "image#home__newsletter--image":{
-        "title":"home__newsletter--image",
+    "image#home__newsletter--image": {
+        "title": "home__newsletter--image",
         "props": {
             "src": "assets/image/home_block/form/dafiti-mesagge.webp",
-            "height": "22px",
-            "blockClass":"home__newsletter--image"
+            "height": 21,
+            "width": 30,
+            "blockClass": "home__newsletter--image"
         }
     },
-    "newsletter#home__newsletter--main": {
-        "title": "home__newsletter--main",
+    "newsletter-form#home__newsletter--main": {
+        "children": [
+            "header-row#home__newsletter--form"
+        ]
+    },
+    "header-row#home__newsletter--form": {
+        "title": "home__newsletter--form",
+        "children": [
+            "newsletter-input-email#home__newsletter--email",
+            "newsletter-submit#form__submit--woman",
+            "newsletter-submit#form__submit--man"
+        ],
         "props": {
-            "placeholder": "Escribe tu email aquí",
-            "hideLabel": true,
-            "width": "60%",
+            "blockClass": "home__newsletter--form"
+        }
+    },
+    "newsletter-input-email#home__newsletter--email": {
+        "title": "home__newsletter--email",
+        "props": {
+            "placeholderText": "Escribe tu email aquí",
+            "errorMessage": "Invalid email address",
             "blockClass": "home__newsletter--main"
+        }
+    },
+    "newsletter-submit#form__submit--man": {
+        "title": "form__submit--man",
+        "props": {
+            "submitButtonLabel": "Soy hombre",
+            "blockClass": "form__submit--man"
+        }
+    },
+    "newsletter-submit#form__submit--woman": {
+        "title": "form__submit--woman",
+        "props": {
+            "submitButtonLabel": "Soy mujer",
+            "blockClass": "form__submit--woman"
         }
     },
     "flex-layout.col#home__newsletter--subscribe": {
@@ -132,5 +115,31 @@
             "font": "t-heading-6",
             "blockClass": "newsletter__text--descriptions"
         }
+    },
+    /*---------------------------------------------------------------------------------*/
+    "flex-layout.row#home__newsletter--two": {
+        "title": "home__newsletter--two",
+        "children": [
+            "rich-text#home__newsletter--termspolicy"
+        ],
+        "props": {
+            "blockClass": "home__newsletter--two"
+        }
+    },
+    "rich-text#home__newsletter--termspolicy": {
+        "title": "home__newsletter--termspolicy",
+        "props": {
+            "text": "[Terminos y Condiciones](https://developers.vtex.com/vtex-developer-docs/docs/welcome) | [Política de Tratamiento de Datos](https://developers.vtex.com/vtex-developer-docs/docs/welcome)",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "font": "11px",
+            "blockClass": "home__newsletter--termspolicy"
+        }
     }
+
+    //  "home__newsletter"
+     
+
+
+   
 }
