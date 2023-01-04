@@ -1,6 +1,32 @@
 .newsletterForm--desktop__footer--newsletter {
     height: 5rem;
 }
+.emailInputContainer--home__newsletter--main :global(.vtex-input-prefix__group ) {
+    width: 320px;
+    height: 4rem;
+    border: none;
+}
+.formSubmitContainer--form__submit--man :global(.vtex-button) {
+    width: 145px !important;
+    height: 30px !important;
+    color: #9aa9b9 !important;
+    background: #e6ebf1 !important;
+    border: none !important;
+    font-size: 14px !important;
+    text-transform: none;
+}
+
+.formSubmitContainer--form__submit--woman :global(.vtex-button) {
+    width: 145px !important;
+    height: 30px !important;
+    color: #9aa9b9 !important;
+    background: #e6ebf1 !important;
+    border: none !important;
+    font-size: 14px !important;
+    margin-right: 10px !important;
+    text-transform: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
 
 .formSubmitContainer--desktop__footer--sumbit :global(.vtex-button) {
     margin-top: 2rem;

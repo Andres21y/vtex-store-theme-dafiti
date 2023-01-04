@@ -120,7 +120,11 @@
         "title": "autocomplete-result-list",
         "blocks": [
             "product-summary"
-        ]
+        ],
+        "props":{
+            "onClearInput":true,
+            "blockClass":"autocomplete-result-list"
+        }
     },
     "search-bar#mobile__menu--search": {
         "title": "mobile__menu--search",
