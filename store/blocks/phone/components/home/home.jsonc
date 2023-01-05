@@ -39,16 +39,6 @@
             "blockClass": "main__section--woman"
         }
     },
-    // "stack-layout#phone__home--main-two": {
-    //     "title": "main__section--woman",
-    //     "children": [
-    //         "image#main__section--woman-image",
-    //         "flex-layout.col#section__woman--container"
-    //     ],
-    //     "props": {
-    //         "blockClass": "main__section--woman"
-    //     }
-    // },
     "image#main__section--woman-image": {
         "title": "main__section--woman-image",
         "props": {
@@ -58,26 +48,7 @@
             "blockClass": "main__section--woman-image"
         }
     },
-    "flex-layout.col#section__woman--container": {
-        "title": "section__woman--container",
-        "children": [
-            "flex-layout.col#woman__categories--list",
-            "flex-layout.col#section__woman--footer"
-        ],
-        "props": {
-            "blockClass": "section__woman--container"
-        }
-    },
-    "flex-layout.col#section__woman--footer": {
-        "title": "section__woman--footer",
-        "children": [
-            "rich-text#home__container--woman-bottom",
-            "rich-text#home__container--woman-name"
-        ],
-        "props": {
-            "blockClass": "section__woman--footer"
-        }
-    },
+
     /*-----------------------------------------------------*/
     "stack-layout#main__section--man": {
         "title": "main__section--man",
@@ -96,124 +67,6 @@
             "height": 640,
             "maxWeight": 570,
             "blockClass": "main__section--man-image"
-        }
-    },
-    "flex-layout.col#section__man--container": {
-        "title": "section__man--container",
-        "children": [
-            "flex-layout.col#man__categories--list",
-            "flex-layout.col#section__man--footer"
-        ],
-        "props": {
-            "blockClass": "section__man--container"
-        }
-    },
-    "flex-layout.col#section__man--footer": {
-        "title": "section__man--footer",
-        "children": [
-            "rich-text#home__container--man-bottom",
-            "rich-text#home__container--man-name"
-        ],
-        "props": {
-            "blockClass": "section__man--footer"
-        }
-    },
-    "flex-layout.row#home__content--two": {
-        "title": "home__content--two",
-        "children": [
-            "stack-layout#main__section--sneaker",
-            "stack-layout#main__section--kids",
-            "stack-layout#main__section--premium"
-        ],
-        "props": {
-            "blockClass": "home__content--two"
-        }
-    },
-    "stack-layout#main__section--kids": {
-        "title": "main__section--kids",
-        "children": [
-            "image#home__content--two-kids",
-            "rich-text#content__two--kids"
-        ],
-        "props": {
-            "blockClass": "main__section--kids"
-        }
-    },
-    "stack-layout#main__section--premium": {
-        "title": "main__section--premium",
-        "children": [
-            "image#home__content--two-premium",
-            "rich-text#content__two--premium"
-        ],
-        "props": {
-            "blockClass": "main__section--premium"
-        }
-    },
-    "stack-layout#main__section--sneaker": {
-        "title": "main__section--sneaker",
-        "children": [
-            "image#home__content--two-sneakers",
-            "rich-text#content__two--sneakers"
-        ],
-        "props": {
-            "blockClass": "main__section--sneaker"
-        }
-    },
-    "image#home__content--two-kids": {
-        "title": "home__content--two-kids",
-        "props": {
-            "src": "assets/image/snaker-kids-premiun/dft-kids-red.png",
-            "height": 360,
-            "maxWeight": 370,
-            "blockClass": "home__content--two-images"
-        }
-    },
-    "image#home__content--two-premium": {
-        "title": "main__section--man-image",
-        "props": {
-            "src": "assets/image/snaker-kids-premiun/dft-premiun-red.png",
-            "height": 360,
-            "maxWeight": 370,
-            "blockClass": "home__content--two-images"
-        }
-    },
-    "image#home__content--two-sneakers": {
-        "title": "home__content--two-sneakers",
-        "props": {
-            "src": "assets/image/snaker-kids-premiun/dft-snaker-red.png",
-            "height": 360,
-            "maxWeight": 370,
-            "blockClass": "home__content--two-images"
-        }
-    },
-    "rich-text#content__two--sneakers": {
-        "title": "content__two--sneakers",
-        "props": {
-            "text": "SNEAKERS",
-            "textAlignment": "CENTER",
-            "textPosition": "CENTER",
-            "font": "t-heading-6",
-            "blockClass": "home__content--sections"
-        }
-    },
-    "rich-text#content__two--kids": {
-        "title": "content__two--kids",
-        "props": {
-            "text": "KIDS",
-            "textAlignment": "CENTER",
-            "textPosition": "CENTER",
-            "font": "t-heading-6",
-            "blockClass": "home__content--sections"
-        }
-    },
-    "rich-text#content__two--premium": {
-        "title": "content__two--premium",
-        "props": {
-            "text": "PREMIUM",
-            "textAlignment": "CENTER",
-            "textPosition": "CENTER",
-            "font": "t-heading-6",
-            "blockClass": "home__content--sections"
         }
     }
 }
