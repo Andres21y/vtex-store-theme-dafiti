@@ -94,3 +94,27 @@
     height: 62px;
     border: none;
 }
+
+ .autoCompleteOuterContainer--home__main--serchBar :global(.vtex-input-prefix__group) {
+    border: 1px solid #d7d7d7;
+    color: #000;
+    width: 100%;
+    height: 30px;
+    background: #f6f;
+} 
+
+.autoCompleteOuterContainer--home__main--serchBar :global(.vtex-input__suffix) {
+    background-color: black;
+    width: 4%;
+}
+
+.autoCompleteOuterContainer--home__main--serchBar :global(.vtex-styleguide) {
+    background-color: red;
+    color: red;
+}
+
+.resultsList--home__main--serchBar {
+    margin-top: 1.5px;
+    width: 90%;
+
+}

@@ -11,7 +11,7 @@
                 "tagTitle": "departamento_hogar",
                 "text": "Hogar"
             },
-            "blockClass":"menu__departamento--hogar"
+            "blockClass":"menu__principal--departments"
         },
         "blocks": [
             "vtex.menu@2.x:submenu#hogar__categorias"

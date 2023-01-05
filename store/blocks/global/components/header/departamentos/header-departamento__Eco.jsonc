@@ -11,7 +11,7 @@
                 "tagTitle": "departamento_eco",
                 "text": "ECO ♻"
             },
-            "blockClass": "menu__departamento--eco"
+            "blockClass": "menu__principal--departments"
         }
     }
 }

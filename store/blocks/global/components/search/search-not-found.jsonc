@@ -20,7 +20,7 @@
   "rich-text#not-found": {
     "title": "not-found",
     "props": {
-      "text": "DESAFORTUNADAMENTE NO OBTUVIMOS RESULTADOS PARA TU BÚSQUEDA ",
+      "text": "oops",
       "textPosition": "CENTER",
       "textAlignment": "CENTER",
       "blockClass": "not-found"

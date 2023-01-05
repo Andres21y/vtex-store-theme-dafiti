@@ -3,7 +3,9 @@
         "title": "header__main--container",
         "children": [
             "header-row#header__main--logo",
+            "header-spacer",
             "header-row#header__main--search",
+            "header-spacer",
             "header-row#header__main--login"
         ],
         "props": {

@@ -1,0 +1,72 @@
+{
+    "flex-layout.row#phone__home--content": {
+        "title": "phone__home--content",
+        "children": [
+            "flex-layout.col#phone__home--content-col"
+        ],
+        "props": {
+            "blockClass": "phone__home--content"
+        }
+    },
+    "flex-layout.col#phone__home--content-col": {
+        "title": "phone__home--content-col",
+        "children": [
+            "flex-layout.row#home__content--one",
+            "flex-layout.row#home__content--two"
+        ],
+        "props": {
+            "blockClass": "phone__home--content-col"
+        }
+    },
+    "flex-layout.row#home__content--one": {
+        "title": "home__content--one",
+        "children": [
+            "stack-layout#main__section--woman",
+            "stack-layout#main__section--man"
+        ],
+        "props": {
+            "preventHorizontalStretch": false,
+            "blockClass": "home__content--one"
+        }
+    },
+    "stack-layout#main__section--woman": {
+        "title": "main__section--woman",
+        "children": [
+            "image#main__section--woman-image",
+            "flex-layout.col#section__woman--container"
+        ],
+        "props": {
+            "blockClass": "main__section--woman"
+        }
+    },
+    "image#main__section--woman-image": {
+        "title": "main__section--woman-image",
+        "props": {
+            "src": "assets/image/mobile/dft-section-mujer.png",
+            "maxWeight": 570,
+            "height": 640,
+            "blockClass": "main__section--woman-image"
+        }
+    },
+
+    /*-----------------------------------------------------*/
+    "stack-layout#main__section--man": {
+        "title": "main__section--man",
+        "children": [
+            "image#main__section--man-image",
+            "flex-layout.col#section__man--container"
+        ],
+        "props": {
+            "blockClass": "main__section--man"
+        }
+    },
+    "image#main__section--man-image": {
+        "title": "main__section--man-image",
+        "props": {
+            "src": "assets/image/mobile/dft-section-hombre.png",
+            "height": 640,
+            "maxWeight": 570,
+            "blockClass": "main__section--man-image"
+        }
+    }
+}

@@ -11,7 +11,7 @@
                 "tagTitle": "departamento_niños",
                 "text": "Niños"
             },
-            "blockClass": "menu__departamento--niños"
+            "blockClass": "menu__principal--departments"
         },
         "blocks": [
             "vtex.menu@2.x:submenu#departamento__niños--categorias"

@@ -10,7 +10,11 @@
       "blockClass": "desktop__search--container",
       "hiddenFacets": {
         "priceRange": true
-      }
+      },
+      "preventRouteChange": true,
+      "thresholdForFacetSearch": 10,
+      "showProductsCount": false,
+      "showFacetQuantity": false
     }
   },
   "responsive-layout.desktop#desktop__search--responsive": {
