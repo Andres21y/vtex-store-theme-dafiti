@@ -1,117 +1,200 @@
 {
-  //content
   "flex-layout.row#desktop__search--content": {
     "title": "desktop__search--content",
     "children": [
-      "flex-layout.col#search__filter--container",
-      "flex-layout.col#search__results--container"
+      "flex-layout.col#search__content"
     ],
     "props": {
       "colGap": 8,
       "blockClass": "desktop__search--content"
     }
   },
-  // Sidebar Filters
+  "flex-layout.col#search__content": {
+    "title": "search__content",
+    "props": {
+      "width": "100%",
+      "blockClass": "search__content"
+    },
+    "children": [
+      "flex-layout.row#search__content--breadcrumb",
+      "flex-layout.row#search__container--content"
+    ]
+  },
+  "flex-layout.row#search__content--breadcrumb": {
+    "title": "search__content--breadcrumb",
+    "props": {
+      "width": "100%",
+      "blockClass": "search__content--breadcrumb"
+    },
+    "children": [
+      "breadcrumb.search"
+    ]
+  },
+  "breadcrumb.search": {
+    "title": "Breadcrumb",
+    "props": {
+      "showOnMobile": true
+    }
+  },
+  "flex-layout.row#search__container--content": {
+    "title": "search__container--content",
+    "props": {
+      "width": "100%",
+      "blockClass": "search__container--content"
+    },
+    "children": [
+      "flex-layout.col#search__filter--container",
+      "flex-layout.col#search__results--container"
+    ]
+  },
   "flex-layout.col#search__filter--container": {
     "title": "search__filter--container",
     "props": {
-      "width": "30%",
+      "width": "20%",
       "blockClass": "search__filter--container"
     },
     "children": [
-      "filter-navigator.v3#desktop"
+      "filter-navigator.v3#desktop__filter--navigator"
     ]
   },
-  "filter-navigator.v3#desktop": {
-    "title": "filter-navigator.v3-desktop",
+  "filter-navigator.v3#desktop__filter--navigator": {
+    "title": "desktop__filter--navigator",
     "props": {
-      "layout": "desktop"
+      "layout": "desktop",
+      "truncateFilters": true,
+      "showClearByFilter": true,
+      "fullWidthOnMobile": true,
+      "navigationTypeOnMobile": "collapsible",
+      "appliedFiltersOverview": "show",
+      "totalProductsOnMobile": "show",
+      "updateOnFilterSelectionOnMobile": true,
+      "priceRangeLayout": "inputAndSlider"
     }
   },
+  // "flex-layout.row#searchtitle": {
+  //   "title": "search titulo",
+  //   "children": [
+  //     "search-title.v2"
+  //   ]
+  // },
+  /*________________________________________________________________________________________________*/
   "flex-layout.col#search__results--container": {
     "title": "Ressearch__results--container",
     "props": {
-      "width": "67%",
+      "width": "80%",
       "blockClass": "search__results--container"
     },
     "children": [
-      "header-row#desktop__search--header",
       "header-row#desktop__search--title",
-      "search-content#global__search--results"
+      "flex-layout.row#desktop__search--filter",
+       "search-content#global__search--results"
     ]
   },
-    // Breadcrumb HEADER
-    "header-row#desktop__search--header": {
-      "title": "desktop__search--header",
-      "children": [
-        "breadcrumb.search",
-        "header-spacer",
-        "order-by.v2",
-        "header-spacer",
-        "gallery-layout-switcher"
-      ],
-      "props": {
-        "blockClass": "desktop__search--header"
-      }
-    },
-    "breadcrumb.search": {
-      "title": "Breadcrumb",
-      "props": {
-        "showOnMobile": true
-      }
-    },
-    "header-row#desktop__search--title": {
-      "title": "desktop__search--title",
-      "children": [
-        // "header-row#search__title--join",
-        // "header-spacer"
-        "total-products.v2"
-      ],
-      "props": {
-        "blockClass": "desktop__search--title"
-      }
-    },
-    "header-row#search__title--join": {
-      "title": "search__title--join",
-      "children": [
-        "rich-text#search__title--three",
-        "header-row#search__title--joindos",
-        "rich-text#search__title--two"
-      ],
-      "props": {
-        "blockClass": "search__title--join"
-      }
-    },
-    "header-row#search__title--joindos": {
-      "title": "search__title--joindos",
-      "children": [
-        "rich-text#search__title--one",
-        "search-title.v2",
-        "rich-text#search__title--one"
-      ],
-      "props": {
-        "blockClass": "search__title--joindos"
-      }
-    },
-    "rich-text#search__title--three": {
-      "title": "search__title--three",
-      "props": {
-        "blockClass": "search__title--rich",
-        "text": "resultados para"
-      }
-    },
-    "rich-text#search__title--two": {
-      "title": "search__title--two",
-      "props": {
-        "blockClass": "search__title--rich",
-        "text": "en **Bogota Tienda Domicilios:**"
-      }
-    },
-    "rich-text#search__title--one": {
-      "title": "search__title--one",
-      "props": {
-        "blockClass": "search__title--rich",
-        "text": "**''''**"
-      }
+  "header-row#desktop__search--title": {
+    "title": "desktop__search--title",
+    "children": [
+      "search-title.v2",
+      "total-products.v2"
+    ],
+    "props": {
+      "blockClass": "desktop__search--title"
     }
+  },
+  "flex-layout.row#desktop__search--filter": {
+    "title": "desktop__search--filter",
+    "children": [
+      "rich-text#desktop__search--orderby",
+      "gallery-layout-switcher",
+      "order-by.v2",
+      "icon#mpa-columns"
+    ],
+    "props": {
+      "horizontalAlign": "left",
+      "preventHorizontalStretch": true,
+      "blockClass": "desktop__search--filter"
+    }
+  },
+  "rich-text#desktop__search--orderby": {
+    "props": {
+      "blockClass": "desktop__search--orderby",
+      "font": "",
+      "htmlId": "",
+      "preventVerticalStretch": true,
+      "text": "Ordenar por:",
+      "textAlignment": "",
+      "textColor": "",
+      "textPosition": ""
+    }
+  },
+
+
+  "icon#mpa-columns":{
+    "props":{
+      "id": "mpa-columns"
+    }
+  },
+
+
+
+  /*________________________________________________________________________________________________*/
+  // "order-by.v2"
+  // "header-row#search__title--join",
+  // "header-spacer"
+  // "header-row#desktop__search--header",
+  // Breadcrumb HEADER
+  "header-row#desktop__search--header": {
+    "title": "desktop__search--header",
+    "children": [
+      // "header-spacer",
+      "order-by.v2",
+      // "header-spacer",
+      "gallery-layout-switcher"
+    ],
+    "props": {
+      "blockClass": "desktop__search--header"
+    }
+  },
+  "header-row#search__title--join": {
+    "title": "search__title--join",
+    "children": [
+      "rich-text#search__title--three",
+      "header-row#search__title--joindos",
+      "rich-text#search__title--two"
+    ],
+    "props": {
+      "blockClass": "search__title--join"
+    }
+  },
+  "header-row#search__title--joindos": {
+    "title": "search__title--joindos",
+    "children": [
+      "rich-text#search__title--one",
+      "search-title.v2",
+      "rich-text#search__title--one"
+    ],
+    "props": {
+      "blockClass": "search__title--joindos"
+    }
+  },
+  "rich-text#search__title--three": {
+    "title": "search__title--three",
+    "props": {
+      "blockClass": "search__title--rich",
+      "text": "resultados para"
+    }
+  },
+  "rich-text#search__title--two": {
+    "title": "search__title--two",
+    "props": {
+      "blockClass": "search__title--rich",
+      "text": "en **Bogota Tienda Domicilios:**"
+    }
+  },
+  "rich-text#search__title--one": {
+    "title": "search__title--one",
+    "props": {
+      "blockClass": "search__title--rich",
+      "text": "**''''**"
+    }
+  }
 }

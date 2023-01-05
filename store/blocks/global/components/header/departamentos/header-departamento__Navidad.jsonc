@@ -11,7 +11,7 @@
                 "tagTitle": "departamento_navidad",
                 "text": "navidad 🎁"
             },
-            "blockClass": "menuPrincipal__deptonavidad"
+            "blockClass": "menu__principal--departments"
         }
     }
 }

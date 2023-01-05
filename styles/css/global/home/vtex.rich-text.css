@@ -91,11 +91,11 @@
      align-items: center;
      gap: 2%;
      white-space: nowrap;
-     font-family: Poppins, sans-serif;
      color: #20281F;
      font-size: 2rem;
      font-weight: 600;
      width: 100%;
+     font-family: Poppins-regular;
  }
 
  .paragraph--home__brands--title::before {
@@ -122,9 +122,10 @@
 
  .paragraph--home__recomended {
      color: #20281F;
-     font-size: 1.7rem;
+     font-size: 25px;
      font-weight: 700;
      display: flex;
+     font-family: Poppins-regular;
  }
 
  .paragraph--home__recomended::before {
@@ -151,6 +152,7 @@
      font-size: 50px;
      font-weight: 700;
      color: #20281F;
+     font-family: Poppins-regular;
  }
 
   .container--home__seo--one{

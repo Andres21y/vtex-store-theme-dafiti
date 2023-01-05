@@ -11,7 +11,7 @@
                 "tagTitle": "departamento_deportes",
                 "text": "Deportes"
             },
-            "blockClass": "menu__departamento--deportes"
+            "blockClass": "menu__principal--departments"
         },
         "blocks": [
             "vtex.menu@2.x:submenu#deportes__categorias"

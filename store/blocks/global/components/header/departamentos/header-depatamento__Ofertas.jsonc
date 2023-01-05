@@ -11,7 +11,7 @@
                 "tagTitle": "departamento_ofertas",
                 "text": "Ofertas"
             },
-            "blockClass": "menu__departamento--ofertas"
+            "blockClass": "menu__principal--departments"
         }
     }
 }

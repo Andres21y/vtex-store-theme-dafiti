@@ -11,7 +11,7 @@
                 "tagTitle": "departamento_hombre",
                 "text": "Hombre"
             },
-            "blockClass": "menu__departamento--hombre"
+            "blockClass": "menu__principal--departments"
         },
         "blocks": [
             "vtex.menu@2.x:submenu#departamento__hombre--categorias"
