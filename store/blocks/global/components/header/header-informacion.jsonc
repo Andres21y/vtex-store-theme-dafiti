@@ -24,6 +24,7 @@
     "header-row#info__containertwo": {
         "title": "info__section--containertwo",
         "children": [
+            "header-spacer",
             "link#infosection__containertwo--contacto",
             "link#infosection__containertwo--servicio"
         ],
@@ -36,7 +37,7 @@
         "props": {
             "href": "/login?returnUrl={queryString.returnUrl}",
             "label": "Envíos gratis desde $179.900*",
-            "blockClass": "infosection__containerone--envio"
+            "blockClass": "infosection__container--links"
         }
     },
     "link#infosection__containerone--cambio": {
@@ -44,7 +45,7 @@
         "props": {
             "href": "/login?returnUrl={queryString.returnUrl}",
             "label": "90 Días de cambios GRATIS",
-            "blockClass": "infosection__containerone--cambio"
+            "blockClass": "infosection__container--links"
         }
     },
     "link#infosection__containerone--pedido": {
@@ -52,7 +53,7 @@
         "props": {
             "href": "/login?returnUrl={queryString.returnUrl}",
             "label": "Sigue tu pedido",
-            "blockClass": "infosection__containerone--pedido"
+            "blockClass": "infosection__container--links"
         }
     },
     "link#infosection__containerone--nuevo": {
@@ -60,7 +61,7 @@
         "props": {
             "href": "/login?returnUrl={queryString.returnUrl}",
             "label": "¡NUEVO! Centros de Experiencia",
-            "blockClass": "infosection__containerone--nuevo"
+            "blockClass": "infosection__container--links"
         }
     },
     "link#infosection__containertwo--contacto": {
@@ -68,7 +69,7 @@
         "props": {
             "href": "/login?returnUrl={queryString.returnUrl}",
             "label": "Conócenos",
-            "blockClass": "infosection__containertwo--contacto"
+            "blockClass": "infosection__container--links"
         }
     },
     "link#infosection__containertwo--servicio": {
@@ -76,7 +77,7 @@
         "props": {
             "href": "/login?returnUrl={queryString.returnUrl}",
             "label": " Servicio al Cliente",
-            "blockClass": "infosection__containertwo--servicio"
+            "blockClass": "infosection__container--links"
         }
     }
 }

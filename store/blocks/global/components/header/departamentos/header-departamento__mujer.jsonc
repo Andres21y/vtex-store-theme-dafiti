@@ -11,7 +11,7 @@
                 "tagTitle": "departamento_mujer",
                 "text": "Mujer"
             },
-            "blockClass": "menu__departamento--mujer"
+            "blockClass": "menu__principal--departments"
         },
         "blocks": [
             "vtex.menu@2.x:submenu#departamento__mujer--categorias"

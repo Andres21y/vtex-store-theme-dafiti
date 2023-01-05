@@ -11,7 +11,7 @@
                 "tagTitle": "departamento_belleza",
                 "text": "Belleza"
             },
-            "blockClass": "menuPrincipal__deptoBelleza"
+            "blockClass": "menu__principal--departments"
         },
         "blocks": [
             "vtex.menu@2.x:submenu#belleza__categorias"

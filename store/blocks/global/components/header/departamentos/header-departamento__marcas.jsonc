@@ -11,7 +11,7 @@
                 "tagTitle": "departamento_marca",
                 "text": "Marca"
             },
-            "blockClass": "menu__departamento--marcas"
+            "blockClass": "menu__principal--departments"
         },
         "blocks": [
             "vtex.menu@2.x:submenu#departamento__marca--categorias"

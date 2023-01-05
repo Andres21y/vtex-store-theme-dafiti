@@ -1,21 +1,21 @@
 {
-    "flex-layout.row#global__home--content": {
-        "title": "global__home--content",
+    "flex-layout.row#phone__home--content": {
+        "title": "phone__home--content",
         "children": [
-            "flex-layout.col#global__home--content-col"
+            "flex-layout.col#phone__home--content-col"
         ],
         "props": {
-            "blockClass": "global__home--content"
+            "blockClass": "phone__home--content"
         }
     },
-    "flex-layout.col#global__home--content-col": {
-        "title": "global__home--content-col",
+    "flex-layout.col#phone__home--content-col": {
+        "title": "phone__home--content-col",
         "children": [
             "flex-layout.row#home__content--one",
             "flex-layout.row#home__content--two"
         ],
         "props": {
-            "blockClass": "global__home--content-col"
+            "blockClass": "phone__home--content-col"
         }
     },
     "flex-layout.row#home__content--one": {
@@ -39,7 +39,7 @@
             "blockClass": "main__section--woman"
         }
     },
-    // "stack-layout#global__home--main-two": {
+    // "stack-layout#phone__home--main-two": {
     //     "title": "main__section--woman",
     //     "children": [
     //         "image#main__section--woman-image",
@@ -52,7 +52,7 @@
     "image#main__section--woman-image": {
         "title": "main__section--woman-image",
         "props": {
-            "src": "assets/image/home_block/section/dft-section-mujer.png",
+            "src": "assets/image/mobile/dft-section-mujer.png",
             "maxWeight": 570,
             "height": 640,
             "blockClass": "main__section--woman-image"
@@ -92,7 +92,7 @@
     "image#main__section--man-image": {
         "title": "main__section--man-image",
         "props": {
-            "src": "assets/image/home_block/section/dft-section-hombre.png",
+            "src": "assets/image/mobile/dft-section-hombre.png",
             "height": 640,
             "maxWeight": 570,
             "blockClass": "main__section--man-image"

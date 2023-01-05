@@ -1,74 +1,9 @@
 /*---------------------------------links section informations*/
-
-.link--infoSection__containerOne--envio {
-    text-decoration: none;
-    color: black;
-    font-size: 11px;
+.link--infosection__container--links {
+margin-right: 1rem;
+background: #ececec;
 }
 
-.link--infoSection__containerOne--cambio {
-    text-decoration: none;
-    color: black;
-    font-size: 11px;
-}
-
-.link--infoSection__containerOne--pedido {
-    text-decoration: none;
-    color: black;
-    font-size: 11px;
-}
-
-.link--infoSection__containerOne--nuevo {
-    text-decoration: none;
-    color: black;
-    font-size: 11px;
-}
-
-.link--infoSection__containerOne--envio:hover {
+.label--infosection__container--links:hover {
     text-decoration: underline;
-    color: black;
-    font-size: 11px;
-}
-
-.link--infoSection__containerOne--cambio:hover {
-    text-decoration: underline;
-
-    color: black;
-    font-size: 11px;
-}
-
-.link--infoSection__containerOne--pedido:hover {
-    text-decoration: underline;
-
-    color: black;
-    font-size: 11px;
-}
-
-.link--infoSection__containerOne--nuevo:hover {
-    text-decoration: underline;
-
-    color: black;
-    font-size: 11px;
-}
-
-
-.link--infoSection__containerTwo--contacto{
-    text-decoration: none;
-    color: #858585;
-    font-size: 11px;
-}
-.link--infoSection__containerTwo--contacto:hover{
-    text-decoration: underline;
-    color: #858585;
-    font-size: 11px;
-}
-.link--infoSection__containerTwo--servicio{
-    text-decoration: none;
-    color: #858585;
-    font-size: 11px;
-}
-.link--infoSection__containerTwo--servicio:hover{
-    text-decoration: underline;
-    color: #858585;
-    font-size: 11px;
 }
