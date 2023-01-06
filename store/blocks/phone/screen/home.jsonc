@@ -2,7 +2,7 @@
     "responsive-layout.phone#phone__home--apps": {
         "title": "phone__home--apps",
         "children": [
-            "flex-layout.row#global__home--preheader",
+            // "flex-layout.row#global__home--preheader",
             "flex-layout.row#phone__home--content"
         ],
         "props": {

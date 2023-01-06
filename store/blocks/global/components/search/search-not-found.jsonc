@@ -11,7 +11,8 @@
   "flex-layout.row#not__found--title": {
     "title": "not__found--title",
     "children": [
-      "rich-text#not-found"
+      "rich-text#not-found",
+      "flex-layout.col#not__found--mas-buscado"
     ],
     "props": {
       "paddingTop": 8
@@ -20,10 +21,29 @@
   "rich-text#not-found": {
     "title": "not-found",
     "props": {
-      "text": "oops",
-      "textPosition": "CENTER",
-      "textAlignment": "CENTER",
+      "text": "DESAFORTUNADAMENTE NO OBTUVIMOS RESULTADOS PARA TU BÚSQUEDA \n\n ¡Por favor intentalo nuevamente!  \n\n**Tips para la búsqueda** \n * Revisa tu ortografía para ver si tuviste errores de digitación, por ejemplo Boats en lugar de Botas. \n * Prueba buscando un término similar o sinónimo.\n * Intenta de nuevo, buscando únicamente una palabra.\n * Intenta de nuevo, buscando términos más genéricos -puedes filtrar los resultados después.",
+      "textPosition": "TOP",
+      "textAlignment": "LEFT",
       "blockClass": "not-found"
+    }
+  },
+  "flex-layout.col#not__found--mas-buscado": {
+    "title": "not__found--mas-buscado",
+    "children": [
+      "rich-text#mas__buscado",
+      "shelf"
+    ],
+    "props": {
+      "paddingTop": 8
+    }
+  },
+  "rich-text#mas__buscado": {
+    "title": "mas__buscado",
+    "props": {
+      "text": "TÉRMINOS MÁS BUSCADOS",
+      "textPosition": "CENTER",
+      "textAlignment": "LEFT",
+      "blockClass": "mas__buscado"
     }
   }
 }

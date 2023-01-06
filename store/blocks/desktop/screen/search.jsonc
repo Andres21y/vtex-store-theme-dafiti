@@ -14,7 +14,8 @@
       "preventRouteChange": true,
       "thresholdForFacetSearch": 10,
       "showProductsCount": false,
-      "showFacetQuantity": false
+      "showFacetQuantity": false,
+      "pagination": "show-more"
     }
   },
   "responsive-layout.desktop#desktop__search--responsive": {
