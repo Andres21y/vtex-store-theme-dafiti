@@ -5,18 +5,23 @@
       "flex-layout.col#search__content"
     ],
     "props": {
-      "colGap": 8,
+      // "colGap": 8,
+      "width": "80%",
+      "marginTop": 5,
+      "marginBottom": 10,
       "blockClass": "desktop__search--content"
     }
   },
   "flex-layout.col#search__content": {
     "title": "search__content",
     "props": {
-      "width": "100%",
+      "width": "90%",
+      "marginLeft": 10,
       "blockClass": "search__content"
     },
     "children": [
       "flex-layout.row#search__content--breadcrumb",
+      "flex-layout.row#search__content--banner",
       "flex-layout.row#search__container--content"
     ]
   },
@@ -30,6 +35,55 @@
       "breadcrumb.search"
     ]
   },
+  "flex-layout.row#search__content--banner": {
+    "title": "search__content--banner",
+    "props": {
+      "fullWidth": true,
+      "width": "100%",
+      "blockClass": "search__content--banner"
+    },
+    "children": [
+      "stack-layout#search__banner--plp"
+    ]
+  },
+  "stack-layout#search__banner--plp": {
+    "title": "search__banner--plp",
+    "children": [
+      "image#search__banner--plp",
+      "flex-layout.col#banner__plp--descriptons"
+    ],
+    "props": {
+      "blockClass": "search__banner--plp"
+    }
+  },
+  "flex-layout.col#banner__plp--descriptons": {
+    "title": "banner__plp--descriptons",
+  "props": {
+    "horizontalAlign":"right",
+    "blockClass": ""
+    // "colSizing": "auto"
+  },
+  "children": [
+    "search-title.v2",
+    "rich-text#search__description--image"
+  ]
+},
+  "image#search__banner--plp": {
+    "title": "search__banner--plp",
+    "props": {
+      "minWidth": "100%",
+      "src": "assets/image/plp/dafiti__banner--plp.webp"
+    }
+  },
+  "rich-text#search__description--image": {
+    "title": "search__description--image",
+    "props": {
+      "blockClass": "",
+      "preventVerticalStretch": "",
+      "text": "¡La prenda que nunca falla! Marca tu estilo con todas las \n opciones de polos que tenemos para ti y úsala en todas tus \n ocasiones.",
+      "textAlignment": "CENTER"
+    }
+  },
   "breadcrumb.search": {
     "title": "Breadcrumb",
     "props": {
@@ -39,7 +93,8 @@
   "flex-layout.row#search__container--content": {
     "title": "search__container--content",
     "props": {
-      "width": "100%",
+      "fullWidth": true,
+
       "blockClass": "search__container--content"
     },
     "children": [
@@ -54,6 +109,7 @@
       "blockClass": "search__filter--container"
     },
     "children": [
+      "flex-layout.row#searchtitle",
       "filter-navigator.v3#desktop__filter--navigator"
     ]
   },
@@ -71,13 +127,13 @@
       "priceRangeLayout": "inputAndSlider"
     }
   },
-  // "flex-layout.row#searchtitle": {
-  //   "title": "search titulo",
-  //   "children": [
-  //     "search-title.v2"
-  //   ]
-  // },
-  /*________________________________________________________________________________________________*/
+  "flex-layout.row#searchtitle": {
+    "title": "search titulo",
+    "children": [
+      "search-title.v2"
+    ]
+  },
+  /*_____________________________________________________________________________________________*/
   "flex-layout.col#search__results--container": {
     "title": "Ressearch__results--container",
     "props": {
@@ -86,115 +142,20 @@
     },
     "children": [
       "header-row#desktop__search--title",
-      "flex-layout.row#desktop__search--filter",
-       "search-content#global__search--results"
+      "search-content#global__search--results"
     ]
   },
   "header-row#desktop__search--title": {
     "title": "desktop__search--title",
     "children": [
-      "search-title.v2",
-      "total-products.v2"
+      "total-products.v2",
+      "order-by.v2",
+      "header-spacer",
+      "gallery-layout-switcher",
+      "header-spacer"
     ],
     "props": {
       "blockClass": "desktop__search--title"
-    }
-  },
-  "flex-layout.row#desktop__search--filter": {
-    "title": "desktop__search--filter",
-    "children": [
-      "rich-text#desktop__search--orderby",
-      "gallery-layout-switcher",
-      "order-by.v2",
-      "icon#mpa-columns"
-    ],
-    "props": {
-      "horizontalAlign": "left",
-      "preventHorizontalStretch": true,
-      "blockClass": "desktop__search--filter"
-    }
-  },
-  "rich-text#desktop__search--orderby": {
-    "props": {
-      "blockClass": "desktop__search--orderby",
-      "font": "",
-      "htmlId": "",
-      "preventVerticalStretch": true,
-      "text": "Ordenar por:",
-      "textAlignment": "",
-      "textColor": "",
-      "textPosition": ""
-    }
-  },
-
-
-  "icon#mpa-columns":{
-    "props":{
-      "id": "mpa-columns"
-    }
-  },
-
-
-
-  /*________________________________________________________________________________________________*/
-  // "order-by.v2"
-  // "header-row#search__title--join",
-  // "header-spacer"
-  // "header-row#desktop__search--header",
-  // Breadcrumb HEADER
-  "header-row#desktop__search--header": {
-    "title": "desktop__search--header",
-    "children": [
-      // "header-spacer",
-      "order-by.v2",
-      // "header-spacer",
-      "gallery-layout-switcher"
-    ],
-    "props": {
-      "blockClass": "desktop__search--header"
-    }
-  },
-  "header-row#search__title--join": {
-    "title": "search__title--join",
-    "children": [
-      "rich-text#search__title--three",
-      "header-row#search__title--joindos",
-      "rich-text#search__title--two"
-    ],
-    "props": {
-      "blockClass": "search__title--join"
-    }
-  },
-  "header-row#search__title--joindos": {
-    "title": "search__title--joindos",
-    "children": [
-      "rich-text#search__title--one",
-      "search-title.v2",
-      "rich-text#search__title--one"
-    ],
-    "props": {
-      "blockClass": "search__title--joindos"
-    }
-  },
-  "rich-text#search__title--three": {
-    "title": "search__title--three",
-    "props": {
-      "blockClass": "search__title--rich",
-      "text": "resultados para"
-    }
-  },
-  "rich-text#search__title--two": {
-    "title": "search__title--two",
-    "props": {
-      "blockClass": "search__title--rich",
-      "text": "en **Bogota Tienda Domicilios:**"
-    }
-  },
-  "rich-text#search__title--one": {
-    "title": "search__title--one",
-    "props": {
-      "blockClass": "search__title--rich",
-      "text": "**''''**"
     }
   }
 }

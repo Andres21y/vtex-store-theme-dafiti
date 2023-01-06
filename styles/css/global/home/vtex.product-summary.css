@@ -1,0 +1,15 @@
+.element--search__gallery--grid:hover {
+    border: 1px solid #ececec;
+}
+
+.element--search__gallery--grid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.element--search__gallery--grid :global(.vtex-button) {
+    width: 174px;
+    font-size: 10px;
+}

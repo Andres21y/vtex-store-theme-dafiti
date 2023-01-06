@@ -29,25 +29,6 @@
             "blockClass": "minicart__base--content"
         }
     },
-    "flex-layout.row#minicart__footer--row": {
-        "title": "minicart__footer--row",
-        "props": {
-            "blockClass": "minicart__footer-row"
-        },
-        "children": [
-            "flex-layout.col#minicart__footer"
-        ]
-    },
-    "flex-layout.col#minicart__footer": {
-        "title": "minicart__footer",
-        "children": [
-            "minicart-summary",
-            "minicart-checkout-button"
-        ],
-        "props": {
-            "blockClass": "minicart__footer"
-        }
-    },
     "minicart-product-list": {
         "title": "minicart__product--list",
         "blocks": [
@@ -95,6 +76,25 @@
             "blockClass": "minicart__quantity--selector"
         }
     },
+    "flex-layout.row#minicart__footer--row": {
+        "title": "minicart__footer--row",
+        "props": {
+            "blockClass": "minicart__footer-row"
+        },
+        "children": [
+            "flex-layout.col#minicart__footer"
+        ]
+    },
+    "flex-layout.col#minicart__footer": {
+        "title": "minicart__footer",
+        "children": [
+            "minicart-summary",
+            "minicart-checkout-button"
+        ],
+        "props": {
+            "blockClass": "minicart__footer"
+        }
+    },    
     "minicart-summary": {
         "title": "minicart__summary",
         "blocks": [
@@ -153,7 +153,6 @@
     "flex-layout.col#minicart__empty--state": {
         "title": "minicart__empty--state",
         "children": [
-            // "icon-cart#minicart-empty-icon",
             "icon-cart#minicart__icon--empty-state",
             "rich-text#minicart-default-empty-state"
         ],
@@ -171,13 +170,6 @@
             "blockClass": "minicart__icon--empty-state"
         }
     },
-    // "icon-cart#minicart-empty-icon": {
-    //     "title":"",
-    //     "props": {
-    //         "size": 100,
-    //         "blockClass": "minicart-empty-state"
-    //     }
-    // },
     "rich-text#minicart-default-empty-state": {
         "title": "minicart-default-empty-state",
         "props": {
