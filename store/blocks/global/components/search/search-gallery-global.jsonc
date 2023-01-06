@@ -46,7 +46,7 @@
     },
     "children": [
       "icon-grid",
-      "responsive-layout.desktop#textOptionGrid"
+      "responsive-layout.desktop#text__option--grid"
     ]
   },
   "gallery-layout-option#list": {
@@ -56,17 +56,17 @@
     },
     "children": [
       "icon-inline-grid",
-      "responsive-layout.desktop#textOptionList"
+      "responsive-layout.desktop#text__option--list"
     ]
   },
-  "responsive-layout.desktop#textOptionGrid": {
-    "title": "responsive-layout.desktop-textOptionGrid",
+  "responsive-layout.desktop#text__option--grid": {
+    "title": "responsive-layout.desktop-text__option--grid",
     "children": [
       "rich-text#option-grid"
     ]
   },
-  "responsive-layout.desktop#textOptionList": {
-    "title": "responsive-layout.desktop-textOptionList",
+  "responsive-layout.desktop#text__option--list": {
+    "title": "responsive-layout.desktop-text__option--list",
     "children": [
       "rich-text#option-list"
     ]

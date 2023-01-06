@@ -34,6 +34,7 @@
             "header-spacer",
             "image#megamenu__logo--store",
             "header-spacer",
+            "login",
             "minicart.v2"
         ],
         "props": {
