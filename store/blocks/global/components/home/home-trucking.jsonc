@@ -6,6 +6,8 @@
             "image#home__trucking--conoce"
         ],
         "props": {
+            "fullWidth": true,
+            "horizontalAlign": "center",
             "blockClass": "_section-info"
         }
     },
@@ -13,7 +15,7 @@
         "title":"home__trucking--dudas",
         "props": {
             "src": "assets/image/section-info/dft-dudas o devoluciones.png",
-            "link":"https://www.youtube.com/", 
+            "link":"#", 
             "blockClass": "home__trucking--dudas"
         }
     },
@@ -21,7 +23,7 @@
         "title":"home__trucking--conoce",
         "props": {
             "src": "assets/image/section-info/dft-conoce servicios.png",
-            "link":"https://www.youtube.com/", 
+            "link":"#", 
             "blockClass": "home__trucking--conoce"
         }
     }

@@ -2171,7 +2171,7 @@
     "link#footer__acerca--nosotros": {
         "title": "footer__acerca--nosotros",
         "props": {
-            "href": "#",
+            "href": "/atencion-al-cliente",
             "label": "Nosotros",
             "blockClass": "footer__mix--styles"
         }

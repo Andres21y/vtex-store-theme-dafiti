@@ -1,0 +1,19 @@
+{
+    "responsive-layout.desktop#desktop__about--us": {
+        "title": "desktop__about--us",
+        "children": [
+            "flex-layout.row#about__us--container"
+        ]
+    },
+    "flex-layout.row#about__us--container": {
+        "title": "about__us--container",
+        "children": [
+            "flex-layout.col#about__us--menu",
+            "flex-layout.col#about__us--descriptions"
+        ],
+        "props": {
+            "preserveLayoutOnMobile": true,
+            "blockClass": "about__main"
+        }
+    }
+}

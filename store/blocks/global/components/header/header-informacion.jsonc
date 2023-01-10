@@ -12,6 +12,7 @@
     "header-row#info__containerone": {
         "title": "info__section--containerone",
         "children": [
+            "icon#car",
             "link#infosection__containerone--envio",
             "link#infosection__containerone--cambio",
             "link#infosection__containerone--pedido",
@@ -19,6 +20,12 @@
         ],
         "props": {
             "blockClass": "info__section--containerone"
+        }
+    },
+    "icon#car":{
+        "props":{
+            "id":"car",
+            "size": 24
         }
     },
     "header-row#info__containertwo": {

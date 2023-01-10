@@ -1,0 +1,11 @@
+{
+    "flex-layout.row#product__container": {
+        "title": "desktop__product--page",
+        "children": [
+            "flex-layout.row#product__information"
+        ],
+        "props": {
+            "blockClass": "desktop__product--page"
+        }
+    }
+}

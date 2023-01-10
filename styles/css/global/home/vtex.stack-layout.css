@@ -2,10 +2,20 @@
     width: 570px;
 }
 
-.stackItem--main__section--man--section__man--container{
+.stackItem--main__section--man--section__man--container {
     width: 100%;
 }
-.stackItem--main__section--woman--section__woman--container{
-    width: 100%;
 
+.stackItem--main__section--woman--section__woman--container {
+    width: 100%;
+}
+
+.stackItem--search__gallery--image :global(.vtex-button) {
+    background-color: rgb(233, 236, 236);
+    border-radius: 50%;
+    width: 21%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 117px;
 }

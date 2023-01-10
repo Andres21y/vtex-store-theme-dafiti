@@ -1,0 +1,18 @@
+{
+    "store.custom#about-us": {
+        "title": "pagina de acerca de nosotros",
+        "blocks": [
+            // "responsive-layout.desktop#desktop__about--us"
+            "rich-text#tr"
+        ]
+    },
+    "rich-text#tr": {
+        "props": {
+            "blockClass": "",
+            "font": "",
+            "htmlId": "",
+            "preventVerticalStretch": true,
+            "text": "holis"
+        }
+    }
+}

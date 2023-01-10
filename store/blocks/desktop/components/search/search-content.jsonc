@@ -39,27 +39,55 @@
     "title": "search__content--banner",
     "props": {
       "fullWidth": true,
-      "width": "100%",
+      "horizontalAlign": "right",
+      "marginBottom":2,
       "blockClass": "search__content--banner"
     },
     "children": [
-      "stack-layout#search__banner--plp"
+      //  "stack-layout#search__banner--plp"     ,
+      //  "flex-layout.row#banner__plp--descriptons"
+      "info-card"
     ]
+  },
+  "info-card": {
+    "props": {
+      "id": "info-card-example",
+      "isFullModeStyle": true,
+      "textPosition": "right",
+      "imageUrl": "assets/image/plp/dafiti-wacth.webp",
+      "blockClass": "info-card-example",
+      "textAlignment": "center"
+    }
   },
   "stack-layout#search__banner--plp": {
     "title": "search__banner--plp",
     "children": [
-      "image#search__banner--plp",
-      "flex-layout.col#banner__plp--descriptons"
+      "image#search__banner--plp"
     ],
     "props": {
       "blockClass": "search__banner--plp"
     }
   },
+  "flex-layout.row#banner__plp--descriptons": {
+
+  "props": {
+    "fullWidth": false,
+    // "rowGap":10,
+    "colGap":10,
+    "border":"all"
+  },
+  "children": [
+    "flex-layout.col#banner__plp--descriptons"
+  ]
+},
   "flex-layout.col#banner__plp--descriptons": {
     "title": "banner__plp--descriptons",
   "props": {
-    "horizontalAlign":"right",
+    "horizontalAlign":"center",
+    "marginLeft":10,
+    "border":"all",
+    "width":"100%",
+    "rowGap":10,
     "blockClass": ""
     // "colSizing": "auto"
   },
@@ -105,7 +133,14 @@
   "flex-layout.col#search__filter--container": {
     "title": "search__filter--container",
     "props": {
-      "width": "20%",
+      "width": "30%",
+      "verticalAlign": "top",
+      "border":"all",
+      "borderWidth":1,
+      "paddingLeft":2,
+      "paddingRight":4,
+      "preventVerticalStretch": true,
+      "borderColor": "gray",
       "blockClass": "search__filter--container"
     },
     "children": [
@@ -137,7 +172,7 @@
   "flex-layout.col#search__results--container": {
     "title": "Ressearch__results--container",
     "props": {
-      "width": "80%",
+      "width": "70%",
       "blockClass": "search__results--container"
     },
     "children": [

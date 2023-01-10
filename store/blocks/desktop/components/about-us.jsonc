@@ -1,0 +1,254 @@
+{
+    "flex-layout.col#about__us--menu": {
+        "children": [
+             "link.product#nosotros",
+            "rich-text#item__nosotros",
+            "rich-text#item__centros",
+            "rich-text#item__protocolo",
+            "rich-text#item__registro",
+            "rich-text#ite__compra",
+            "rich-text#item__cupones",
+            "rich-text#item__envios",
+            "rich-text#item__medios-pago",
+            "rich-text#item__cambios-dev",
+            "rich-text#item__garantías",
+            "rich-text#item__tiendas",
+            "rich-text#item__contactanos",
+            "rich-text#item__dafiti-prime",
+            "rich-text#item__credito-addi",
+            "rich-text#item__alianza-banco"
+        ],
+        "props": {
+            "width": "30%",
+            "verticalAlign": "top",
+            "blockClass": "about__menu--main"
+        }
+    },
+    "link.product#nosotros": {
+        "props": {
+            "href": "https://andrescordoba--itgloberspartnercl.myvtex.com/atencion-al-cliente",
+            "label": "Nosotros",
+            "displayMode":"button",
+            "blockClass": "link-example"
+        }
+    },
+    "rich-text#item__nosotros": {
+      "title":"",
+        "props": {
+            "text": "[Nosotros](/sobre-nosotros)",
+            "blockClass": "item__nosotros"
+        }
+    },
+    "rich-text#item__centros": {
+      "title":"",
+        "props": {
+            "text": "Centros de Experiencia ☆",
+            "blockClass": "item__centros"
+        }
+    },
+    "rich-text#item__protocolo": {
+      "title":"",
+        "props": {
+            "text": "Protocolo de Bioseguridad",
+            "blockClass": "all__items-abuot"
+        }
+    },
+    "rich-text#item__registro": {
+      "title":"",
+        "props": {
+            "text": "Registro",
+            "blockClass": "all__items-abuot"
+        }
+    },
+    "rich-text#ite__compra": {
+      "title":"",
+        "props": {
+            "text": "Compra",
+            "blockClass": "all__items-abuot"
+        }
+    },
+    "rich-text#item__cupones": {
+      "title":"",
+        "props": {
+            "text": "Cupones",
+            "blockClass": "all__items-abuot"
+        }
+    },
+    "rich-text#item__envios": {
+      "title":"",
+        "props": {
+            "text": "Envios y Transportes",
+            "blockClass": "all__items-abuot"
+        }
+    },
+    "rich-text#item__medios-pago": {
+      "title":"",
+        "props": {
+            "text": "Medios de pago",
+            "blockClass": "all__items-abuot"
+        }
+    },
+    "rich-text#item__cambios-dev": {
+      "title":"",
+        "props": {
+            "text": "[Cambios o Devoluciones](/guia-de-cambio)",
+            "blockClass": "all__items-abuot"
+        }
+    },
+    "rich-text#item__garantías": {
+      "title":"",
+        "props": {
+            "text": "Garantías",
+            "blockClass": "all__items-abuot"
+        }
+    },
+    "rich-text#item__tiendas": {
+      "title":"",
+        "props": {
+            "text": "Tiendas asociadas",
+            "blockClass": "all__items-abuot"
+        }
+    },
+    "rich-text#item__contactanos": {
+      "title":"",
+        "props": {
+            "text": "Contáctanos",
+            "blockClass": "all__items-abuot"
+        }
+    },
+    "rich-text#item__dafiti-prime": {
+      "title":"",
+        "props": {
+            "text": "Dafiti Prime",
+            "blockClass": "all__items-abuot"
+        }
+    },
+    "rich-text#item__credito-addi": {
+      "title":"",
+        "props": {
+            "text": "Crédito ADDI",
+            "blockClass": "all__items-abuot"
+        }
+    },
+    "rich-text#item__alianza-banco": {
+      "title":"",
+        "props": {
+            "text": "Alianza Banco de Bogotá",
+            "blockClass": "all__items-abuot"
+        }
+    },
+    /*-----------------------------------------------------------------descriptions*/
+    "flex-layout.col#about__us--descriptions": {
+        "children": [
+            "rich-text#about__title",
+            "rich-text#about__descriptions--what",
+            "rich-text#about__descriptions--one",
+            "rich-text#about__descriptions--which",
+            "rich-text#about__descriptions--two",
+            "rich-text#about__descriptions--three",
+            "rich-text#about__descriptions--four",
+            "rich-text#about__descriptions--five",
+            "rich-text#about__descriptions--six",
+            "rich-text#about__descriptions--sevent",
+            "rich-text#about__descriptions-eight",
+            "rich-text#about__descriptions--nine",
+            "rich-text#about__descriptions--ten",
+            "rich-text#about__descriptions--newsletter",
+            "rich-text#about__descriptions--info"
+          ],
+          "props": {
+            "verticalAlign": "top",
+            "blockClass": "about__text-main"
+          }
+        },
+        "rich-text#about__title": {
+          "props": {
+            "text": "## NOSOTROS",
+            "blockClass": "item__we"
+          }
+        },
+        "rich-text#about__descriptions--what": {
+          "props": {
+            "text": "¿Qué es Dafiti?",
+            "blockClass": ""
+          }
+        },
+        "rich-text#about__descriptions--one": {
+          "props": {
+            "text": " Dafiti.com.co es un sitio de moda online, donde encontrarás las mejores marcas de zapatos, vestuario, deportes y accesorios. <br/> <br/>  Te contamos algunas cosas sobre nosotros: <br/> \n- En Dafiti podrás encontrar más de 100.000 productos y más de 700 marcas reconocidas a nivel local y mundial. <br/><br/> \n- Realizamos entregas a más de 1.100 ciudades y municipios de Colombia. <br/><br/> \n- Tu costo de envío es GRATIS*, si tu pedido es por un valor superior a $179.900 sin importar la ciudad de entrega o si son productos vendidos y entregados por Dafiti o por tiendas asociadas. <br/><br/> \n- ¡Compra tranquilo! si el producto no es lo que esperabas, no te quedó o simplemente quieres probar otro que te gustó mucho más, tenemos 90 DÍAS de cambios y devoluciones SIN COSTO. <br/><br/> \n- Manejamos múltiples medios de pago para ti. Anímate, puedes pagar con tarjetas de crédito o débito PSE. Si lo prefieres puedes hacer tu pedido y pagarlo CONTRAENTREGA, o si tienes un punto Baloto puedes realizar allí tu pago. Fácil ¿Verdad? <br/><br/> \n- Contamos con servicios de entrega especiales para que tu pedido llegue al siguiente día o el mismo día, dependiendo de la zona en la cual vives.",
+            "blockClass": ""
+          }    
+        },
+        "rich-text#about__descriptions--which": {
+          "props": {
+            "text": "¿Cuál es la politica de privacidad de Dafiti?",
+            "blockClass": ""
+          }
+        },
+        "rich-text#about__descriptions--two": {
+          "props": {
+            "text": "Puedes encontrar nuestra política de privacidad aquí y nuestro aviso de privacidad aquí",
+            "blockClass": ""
+          }
+        },
+        "rich-text#about__descriptions--three": {
+          "props": {
+            "text": "¿Cuáles son los términos y condiciones generales de Dafiti?",
+            "blockClass": ""
+          }
+        },
+        "rich-text#about__descriptions--four": {
+          "props": {
+            "text": "Puedes encontrar nuestros términos y condiciones generales aquí",
+            "blockClass": ""
+          }
+        },
+        "rich-text#about__descriptions--five": {
+          "props": {
+            "text": "¿Cómo protegen mis datos?",
+            "blockClass": ""
+          }
+        },
+        "rich-text#about__descriptions--six": {
+          "props": {
+            "text": "Para proteger todos tus datos, Dafiti cuenta con importantes sistemas de seguridad. <br/> <br/> **Certificado de Seguridad SSL**. Este certificado garantiza que todos tus datos personales tales como dirección de envío, los detalles de tarjetas de crédito e historial de pedidos no serán divulgados. Esta tecnología también impide el acceso a la información por parte de terceros. <br/><br/> **Certificado de Site Blindado**. Esto demuestra que nuestro sitio es seguro a través de evaluaciones en tiempo real de posibles vulnerabilidades. <br/> <br/>Puedes encontrar nuestra política de datos aquí",
+            "blockClass": ""
+          }
+        },
+        "rich-text#about__descriptions--sevent": {
+          "props": {
+            "text": "Intercambio de información",
+            "blockClass": ""
+          }
+        },
+        "rich-text#about__descriptions-eight": {
+          "props": {
+            "text": "Dafiti no venderá ni transferirá tus datos a terceros. Esta información será utilizada sólo internamente, con el fin de generar estadísticas, para poder tener una mejor comprensión del perfil de nuestros usuarios y perfeccionar de esta forma los productos y servicios ofrecidos en nuestro sitio.",
+            "blockClass": ""
+          }
+        },
+        "rich-text#about__descriptions--nine": {
+          "props": {
+            "text": "Propiedad de la información.",
+            "blockClass": ""
+          }
+        },
+        "rich-text#about__descriptions--ten": {
+          "props": {
+            "text": "Toda la información de este sitio es propiedad de Dafiti.com.co, por lo tanto, no se puede modificar, copiar, extraer o utilizar de otra manera sin el consentimiento expreso previo y por escrito. Por lo tanto, al acceder a www.dafiti.com.co, el usuario es consciente de que el mal uso de esta información puede resultar en sanciones civiles y penales.",
+            "blockClass": ""
+          }
+        },
+        "rich-text#about__descriptions--newsletter": {
+          "props": {
+            "text": "Newsletter de ofertas y servicios.",
+            "blockClass": ""
+          }
+        },
+        "rich-text#about__descriptions--info": {
+          "props": {
+            "text": "El envío de e-mails será realizado sólo con tu consentimiento y podrás desactivar esta opción en cualquier momento. Dafiti contará con un plazo de hasta 3 días hábiles para poder procesar tu solicitud de cancelación. <br/> <br/>  Dafiti está en contra del envío de e-mails sin autorización previa del receptor (spam). Conoce cómo activar y desactivar la suscripción al newsletter aquí.",
+            "blockClass": ""
+          }
+        }
+}
