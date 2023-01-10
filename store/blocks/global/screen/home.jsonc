@@ -5,10 +5,37 @@
             "responsive-layout.desktop#desktop__home--apps",
             "responsive-layout.tablet#table__home--apps",
             "responsive-layout.phone#phone__home--apps",
-            "shelf"
+            "flex-layout.row#product__shelf--test"
         ],
         "props": {
             "blockClass": "store__home--container"
         }
+    },
+    "flex-layout.row#product__shelf--test": {
+        "title": "product__shelf--test",
+        "props": {
+            "blockClass": "product__self--test",
+            "horizontalAlign": "center",
+            "fullWidth": true
+        },
+        "children": [
+            "flex-layout.col#product__shelf--test-col"
+        ]
+    },
+    "flex-layout.col#product__shelf--test-col": {
+        "title": "product__shelf--test-col",
+        "props": {
+            "blockClass": "",
+            "colSizing": "auto",
+            "width":"85%",
+            // "border":"all",
+            "horizontalAlign": "left",
+            "preserveLayoutOnMobile": false,
+            "preventHorizontalStretch": false,
+            "preventVerticalStretch": false
+        },
+        "children": [
+            "shelf"
+        ]
     }
 }

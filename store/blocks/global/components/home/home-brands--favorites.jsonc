@@ -5,6 +5,8 @@
             "flex-layout.col#home__brands"
         ],
         "props": {
+            "fullWidth": true,
+            "preventHorizontalStretch": true,
             "blockClass": "global__home--brands"
         }
     },
@@ -15,6 +17,8 @@
             "slider-layout#home__brands--carousel"
         ],
         "props": {
+            "width":"100%",
+            "preventVerticalStretch": true,
             "blockClass": "home__brands"
         }
     },
@@ -37,7 +41,7 @@
             "centerMode": "center",
             "navigationStep": 1,
             "showPaginationDots": "never",
-            "fullWidth": false,
+            "fullWidth": true,
             "blockClass": "home__brands--carousel"
         },
         "children": [
@@ -50,6 +54,7 @@
             "image"
         ]
     },
+    
     "image#home__brands--addidas": {
         "title":"home__brands--addidas",
         "props": {

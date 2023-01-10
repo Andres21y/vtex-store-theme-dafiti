@@ -27,4 +27,9 @@
          width: 100%;
      }
 
+.flexCol--xphone__home--content-col{
+    width:clamp(300px,40%,500px);
+}
+
+
  }

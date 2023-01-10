@@ -1,72 +1,109 @@
 {
     "flex-layout.row#phone__home--content": {
-        "title": "phone__home--content",
+        "title": "home__content",
         "children": [
             "flex-layout.col#phone__home--content-col"
         ],
         "props": {
-            "blockClass": "phone__home--content"
+            "fullWidth": false,
+            "preserveLayoutOnMobile": true,
+            "blockClass": "xphone__home--content"
         }
     },
     "flex-layout.col#phone__home--content-col": {
         "title": "phone__home--content-col",
         "children": [
-            "flex-layout.row#home__content--one",
-            "flex-layout.row#home__content--two"
+            "flex-layout.row#phone__content--one",
+            "flex-layout.row#phone__content--two"
         ],
         "props": {
-            "blockClass": "phone__home--content-col"
+            "verticalAlign": "middle",
+            "preventVerticalStretch": false,
+            "blockClass": "xphone__home--content"
         }
     },
-    "flex-layout.row#home__content--one": {
-        "title": "home__content--one",
+    "flex-layout.row#phone__content--one": {
+        "title": "phone__home--content-col",
         "children": [
-            "stack-layout#main__section--woman",
-            "stack-layout#main__section--man"
+            "image#phone__woman--image",
+            "image#phone__man--image"
         ],
         "props": {
-            "preventHorizontalStretch": false,
-            "blockClass": "home__content--one"
+            "fullWidth": false,
+            "preserveLayoutOnMobile": true,
+            "blockClass": "xphone__home--content"
         }
     },
-    "stack-layout#main__section--woman": {
-        "title": "main__section--woman",
+    "flex-layout.row#phone__content--two": {
+        "title": "phone__home--content-col",
         "children": [
-            "image#main__section--woman-image",
-            "flex-layout.col#section__woman--container"
+            "image#phone__sports--image",
+            "image#phone__kids--image"
         ],
         "props": {
-            "blockClass": "main__section--woman"
+            "fullWidth": false,
+            "preserveLayoutOnMobile": true,
+            "blockClass": "xphone__home--content"
         }
     },
-    "image#main__section--woman-image": {
-        "title": "main__section--woman-image",
+    "image#phone__woman--image": {
+        "title": "phone__main__section--woman-image",
         "props": {
-            "src": "assets/image/mobile/dft-section-mujer.png",
-            "maxWeight": 570,
-            "height": 640,
-            "blockClass": "main__section--woman-image"
+            "alt": "woman-image",
+            "src": "assets/image/phone/dafiti-phone-woman.png",
+            "link": {
+                "attributeNofollow": true,
+                "newTab": true,
+                "url": "/"
+            },
+            "width": 500,
+            "height": 450,
+            "blockClass": "phone__main__section--woman-image"
         }
     },
-
-    /*-----------------------------------------------------*/
-    "stack-layout#main__section--man": {
-        "title": "main__section--man",
-        "children": [
-            "image#main__section--man-image",
-            "flex-layout.col#section__man--container"
-        ],
-        "props": {
-            "blockClass": "main__section--man"
-        }
-    },
-    "image#main__section--man-image": {
+    "image#phone__man--image": {
         "title": "main__section--man-image",
         "props": {
-            "src": "assets/image/mobile/dft-section-hombre.png",
-            "height": 640,
-            "maxWeight": 570,
-            "blockClass": "main__section--man-image"
+            "alt": "man--image",
+            "src": "assets/image/phone/dafiti-phone-man.png",
+            "link": {
+                "attributeNofollow": true,
+                "newTab": true,
+                "url": "/"
+            },
+            "height": 450,
+            "width": 500,
+            "blockClass": "phone__main__section--woman-image"
+        }
+    },
+    "image#phone__sports--image": {
+        "title": "phone__main__section--woman-image",
+        "props": {
+            "alt": "woman-image",
+            "src": "assets/image/phone/dafiti-phone-sports.png",
+            "link": {
+                "attributeNofollow": true,
+                "newTab": true,
+                "url": "/"
+            },
+            "width": 500,
+            "height": 450,
+            "blockClass": "phone__main__section--woman-image"
+        }
+    },
+    "image#phone__kids--image": {
+        "title": "main__section--man-image",
+        "props": {
+            "alt": "man--image",
+            "src": "assets/image/phone/dafiti-phone-kids.png",
+            "link": {
+                "attributeNofollow": true,
+                "newTab": true,
+                "url": "/"
+            },
+            "height": 450,
+            "width": 500,
+            "blockClass": "phone__main__section--woman-image"
         }
     }
 }

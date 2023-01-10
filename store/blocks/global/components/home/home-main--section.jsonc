@@ -39,21 +39,11 @@
             "blockClass": "main__section--woman"
         }
     },
-    // "stack-layout#global__home--main-two": {
-    //     "title": "main__section--woman",
-    //     "children": [
-    //         "image#main__section--woman-image",
-    //         "flex-layout.col#section__woman--container"
-    //     ],
-    //     "props": {
-    //         "blockClass": "main__section--woman"
-    //     }
-    // },
     "image#main__section--woman-image": {
         "title": "main__section--woman-image",
         "props": {
             "src": "assets/image/home_block/section/dft-section-mujer.png",
-            "maxWeight": 570,
+            "maxWidth": 570,
             "height": 640,
             "blockClass": "main__section--woman-image"
         }
@@ -94,7 +84,7 @@
         "props": {
             "src": "assets/image/home_block/section/dft-section-hombre.png",
             "height": 640,
-            "maxWeight": 570,
+            "maxWidth": 570,
             "blockClass": "main__section--man-image"
         }
     },

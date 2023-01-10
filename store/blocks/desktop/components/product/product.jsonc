@@ -1,0 +1,159 @@
+{
+    "flex-layout.row#product__information": {
+        "title": "general__product--info",
+        "props": {
+            "blockClass": "general__product--info"
+        },
+        "children": [
+            "flex-layout.col#product__info--image",
+            "flex-layout.col#product__info--descriptions"
+        ]
+    },
+    "flex-layout.col#product__info--image": {
+        "title": "product__info--image",
+        "props": {
+            "blockClass": "product__info--image"
+        },
+        "children": [
+            "product-images#product__info"
+        ]
+    },
+    "product-images#product__info": {
+        "props": {
+            "thumbnailVisibility": "visible"
+        }
+    },
+    "flex-layout.col#product__info--descriptions": {
+        "title": "product__info--descriptions",
+        "props": {
+            "marginRight": 7,
+            "marginLeft": 5,
+            "width": "35%",
+            //"border": "all",
+            "preventVerticalStretch": false,
+            "blockClass": "product__info--descriptions"
+        },
+        "children": [
+            "vtex.store-components:product-name",
+            // "product-identifier.product",
+            "header-row#selling__by",
+            "product-price",
+            "product-quantity",
+            "sku-selector",
+            "flex-layout.row#product__info--btns",
+            "image#pago__contra--entrega"
+        ]
+    },
+    "header-row#selling__by": {
+        "title": "selling__by--container",
+        "props": {
+            "blockClass": "selling__by--container"
+        },
+        "children": [
+            "rich-text#selling__by",
+            "vtex.store-components:product-brand"
+        ]
+    },
+    "flex-layout.row#product__info--btns": {
+        "title": "product__info--btns-row",
+        "props": {
+            "blockClass": "product__info--btns-row",
+            "marginBottom": 8
+        },
+        "children": [
+            "flex-layout.col#product__info--btns-col"
+        ]
+    },
+    "flex-layout.col#product__info--btns-col": {
+        "title": "product__info--btns",
+        "props": {
+            "blockClass": "product__info--btns",
+            "colSizing": "auto",
+            "rowGap": 5
+        },
+        "children": [
+            "add-to-cart-button",
+            "flex-layout.row#quick__purchase",
+            "flex-layout.row#wishlist__btn--content"
+        ]
+    },
+    "flex-layout.row#quick__purchase": {
+        "title": "quick__purchase",
+        "children": [
+            "rich-text#quick__purchase"
+        ],
+        "props": {
+            "border": "all",
+            "borderColor": "orange",
+            "blockClass": "quick__purchase"
+        }
+    },
+    "rich-text#quick__purchase": {
+        "title": "quick__purchase",
+        "props": {
+            "blockClass": "quick__purchase",
+            "font": "",
+            "htmlId": "",
+            "preventVerticalStretch": "",
+            "text": "Compra rápida",
+            "textAlignment": "CENTER",
+            "textColor": "",
+            "textPosition": "CENTER"
+        }
+    },
+    "flex-layout.row#wishlist__btn--content": {
+        "title": "wishlist__btn--content",
+        "children": [
+            "add-to-list-btn",
+            "rich-text#add-to-cart-btn"
+        ],
+        "props": {
+            "border": "all",
+            "borderColor": "gray",
+            "colJustify": "left",
+            "horizontalAlign": "center",
+            "colSizing": "auto",
+            "blockClass": "wishlist__btn--content"
+        }
+    },
+
+    "icon#heart-full": {
+        "props": {
+            "id": "heart-full",
+            "size": 22
+        }
+    },
+    "image#pago__contra--entrega": {
+        "title": "pago__contra--entregha",
+        "props": {
+            "src": "assets/image/pdp/dafiti_contra-entrega.webp",
+            "blockClass": "pago__contra--entrega"
+        }
+    },
+    "rich-text#selling__by": {
+        "title": "selling__by",
+        "props": {
+            "blockClass": "selling__by",
+            "font": "",
+            "htmlId": "",
+            "preventVerticalStretch": true,
+            "text": "Vendido y entregado por > ",
+            "textAlignment": "LEFT",
+            "textColor": "",
+            "textPosition": "LEFT"
+        }
+    },
+    "rich-text#add-to-cart-btn": {
+        "title": "selling__by",
+        "props": {
+            "blockClass": "selling__by",
+            "font": "12",
+            "htmlId": "",
+            "preventVerticalStretch": "",
+            "text": "agregar a favoritos",
+            "textAlignment": "CENTER",
+            "textColor": "",
+            "textPosition": "LEFT"
+        }
+    }
+}
