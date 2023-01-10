@@ -155,9 +155,9 @@
      font-family: Poppins-regular;
  }
 
-  .container--home__seo--one{
-    height: 2rem;
-} 
+ .container--home__seo--one {
+     height: 2rem;
+ }
 
  .wrapper--home__seo--one {
      height: 2rem;
@@ -179,43 +179,14 @@
      font-family: Arial, Helvetica, sans-serif;
  }
 
- /* .container--home__newsletter--terms {
-     display: flex;
-     justify-content: flex-end;
- } */
-
- /* .container--home__newsletter--policy {
-     display: flex;
-     justify-content: flex-start;
- } */
-
- /* .link--home__newsletter--terms {
-     text-decoration: none;
-     margin-right: .5rem;
-     color: #000;
- } */
-
- /* .link--home__newsletter--policy {
-     text-decoration: none;
-     color: #000;
- } */
+ .container--home__newsletter--terms:hover {
+     text-decoration: underline;
+ }
 
  .container--newsletter__text--subscribe {
      height: 34px;
      font-weight: 700;
  }
-
- /* .paragraph--home__newsletter--terms {
-     font-size: 11px;
-     color: #333;
-     font-family: Arial, Helvetica, sans-serif;
- } */
-
- /* .paragraph--home__newsletter--policy {
-     font-size: 11px;
-     color: #333;
-     font-family: Arial, Helvetica, sans-serif;
- } */
 
  .wrapper--home__seo--two {
      display: flex;
@@ -225,15 +196,34 @@
  .paragraph--newsletter__text--descriptions {
      font-size: 11px;
      font-family: Arial, Helvetica, sans-serif;
-     width:380px;
+     width: 380px;
  }
 
- .link--home__newsletter--termspolicy{
-    text-decoration: none;
-    color: #000;
-    font-size: 11px;
-    font-family: Arial, Helvetica, sans-serif;
+ .link--home__newsletter--termspolicy {
+     text-decoration: none;
+     color: #000;
+     font-size: 11px;
+     font-family: Arial, Helvetica, sans-serif;
  }
- .container--home__newsletter--termspolicy{
-    height: 30px;
+
+ .container--home__newsletter--termspolicy {
+     height: 30px;
+ }
+
+ /*btns pdp*/
+ .paragraph--quick__purchase {
+     color: #3cbdaf;
+     font-weight: 700px;
+ }
+
+ .paragraph--quick__purchase:hover {
+     color: #4ECDAF;
+ }
+
+ .paragraph--selling__by {
+     color: #858585;
+ }
+
+ .paragraph--selling__by:hover {
+     color: black;
  }

@@ -40,10 +40,14 @@
     },
     "search-bar#home__main--serchBar": {
         "title": "home__main--serchBar",
+        "blocks": [
+            "autocomplete-result-list.v2"
+        ],
         "props": {
             "placeholder": "Busca por producto, marca, categoria ...",
             "blockClass": "home__main--serchBar",
-            "openAutocompleteOnFocus": true
+            "openAutocompleteOnFocus": true,
+            "submitOnIconClick":true
         }
     },
     "header-row#header__main--login": {
